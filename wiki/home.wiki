@@ -46,7 +46,7 @@ To access your Keybindings;
 
 = Reporting Bugs =
 
-Before reporting a bug please check [http://code.google.com/p/arkinventory/issues/list] to see if the bug you are about to report has already been reported (or dealt with).
+Before reporting a bug please check the [http://code.google.com/p/arkinventory/issues/list issues list] to see if the bug you are about to report has already been reported (or dealt with).
 
 After checking that your bug hasn't been reported you can [http://code.google.com/p/arkinventory/issues/entry create a new issue].
 
