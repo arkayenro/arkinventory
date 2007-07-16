@@ -1,0 +1,519 @@
+#summary ArkInventory home page.
+
+= About =
+
+AI's display windows are built from "virtual bars", you assign categories (either the default ones or ones you create via rules) to bars so that items in that category are displayed on the specific bars you want. There is no limit to the number of bars you can have inside a window but obviously you only have so much screen real estate before it becomes "too many".
+
+
+AI uses several methods to assign a default category to an item such as what professions you have, tooltip scanning, basic type/subtype and PeriodicTable. You then assign those categories to a virtual bar.
+
+
+As the default categories are not perfect, nor will they be correct for the way some people play, you can over-ride them by creating a rule that matches either a single or multiple items.
+
+
+
+''Please note that while AI can show the Bank and Bags for your alts, it's only a visual display, it highly likely won't be progressing into that area as there are already existing mods out there that do a much better job at managing alt inventories, like Sanity2.''
+
+= Alternate Download Locations =
+
+  * Wow Ace: [http://www.wowace.com/files/ArkInventory/ArkInventory.zip Latest version] or [http://www.wowace.com/files/ArkInventory Select a version]
+  * [http://www.wowinterface.com/downloads/info6488/ WoW Interface]
+  * [http://wow.curse-gaming.com/en/files/details/5539/arkinventory/ Curse Gaming]
+  * [http://ui.worldofwar.net/ui.php?id=4504 IncGamers (World of Warcraft UI)]
+
+= Keybindings =
+
+You shouldn't have to use these as AI will toggle via F12 (the default backpack open) or any other key you have assigned to open the backpack (so long as the Blizzard Bag/Bank frames are being hidden) but they're there in the event you want to map them elsewhere.
+
+
+AI has five keybindings available;
+
+  * Bags - ''toggles the display of your bag contents''
+  * Bank - ''toggles the display of your bank contents''
+  * Keyring - ''toggles the display of your keyring contents''
+  * Edit Mode - ''toggles edit mode for all displayed windows, if no windows are displayed then the bag is also opened'' 
+  * Compress - ''Compresses and restacks your bags (keybinding action does not do the Bank or Keyring)'' 
+
+
+To access your Keybindings;
+
+  * Press ESCAPE to bring up the blizzard menu.
+  * click on Key Bindings.
+  * scroll down to ArkInventory.
+  * bind the keys you want to use (or unbind if required). 
+
+
+
+= Reporting Bugs =
+
+Before reporting a bug please check [http://www.wowace.com/trac/query?group=status&verbose=1&summary=%7EArkInventory&order=priority bugtracker] to see if the bug you are about to report has already been reported (or dealt with).
+
+After checking that your bug hasn't been reported you can [http://www.wowace.com/trac/newticket create a new ticket].
+
+
+When entering a ticket please make sure that you include the following;
+
+  * the "short summary" must start with "ArkInventory: ".
+  * the AI version number (not the svn revision number). AI won't have mid version releases, except betas, and those will have beta version numbers.
+  * the version of WoW.
+  * what language (if not english).
+  * a screenshot for visual bugs (if you can't explain it clearly).
+  * the error message(s) (if you have an error mod installed then the entire stack trace would be even better).
+
+= Version History =
+
+If you really want to see what got changed in each revision there is a ReadMe.txt file included that has all those details.
+
+
+
+= To Do List =
+
+Currently empty, or at least nothing major. ReadMe.txt may have some entries.
+
+
+
+= Screenshots =
+
+== The Bag ==
+[[Image:ArkInventory-Bag-Changer.jpg]]
+  * Title frame: consists of the main icon, clicking on which will bring up the main menu, then the current characters name is displayed (in green for online and red for offline), lastly followed by several smaller icons which allow you to toggle the other display windows (as well as the current one), the close icon is obvious - this frame can be hidden if not required
+
+  * Container frame: where your bars and items are displayed
+
+  * Bag Changer frame: allows you to move, swap, add or remove a bag (it mirrors the same functionality that the Blizzard frame has) - note that while you have this frame displayed the instant sort option is forcibly enabled to cater for a lack of API functionality that can tell me when you've moved a bag, it has to be done the hard way, when at the bank this frame will only display when you are online (ie your own bank) it will also show a purchase button if there are any available slots left to purchase. when you move the mouse over one of the bags it will highlight all the slots in that bag (you can change the colour if you need to). this frame can be hidden if not required
+
+  * Status frame: is for showing how many empty slots you have remaining, if you only have normal bags you'll only have a single xx/yy (where xx is the number of empty slots and yy is the total number of slots), if you have profession, ammo or soulshard bags you will also see xx/yy variants for each type of bag, it also has the standard gold frame - this frame can be hidden if not required
+
+
+
+== The Keyring ==
+[[Image:ArkInventory-Keyring.jpg]]
+  * It would appear we have 32 keyring slots even though the default Blizzard container only ever shows the smallest number of slots possible (rounded up to a factor of 4).
+
+  * Note that their may be internal code that restricts the number of keyring slots you can actually access but as the Blizzard API is currently telling AI that there are 32 slots that's what it displays.
+
+
+== The Bank (in offline mode) ==
+[[Image:ArkInventory-Bank-Offline.jpg]]
+  * The character name will be shown in red (instead of green) and the item icons are faded when you are viewing a bag, bank or keyring in offline mode.
+
+  * The item fading is an option that you can turn off if you want to see them at their normally displayed (alpha) level
+
+
+
+
+= Rules =
+
+What are rules? Rules let you to categorise your items exactly the way you want to by allowing you to use various bits of item data to write a formula that will match that item (and others like it).
+
+
+Once you have your rule created you simply assign it to the bar of your choice so that the items that match the rule will are displayed on that bar.
+
+
+Rules are global, that is every profile can see every rule you create, they can be enabled or disabled per profile and are set to disabled by default when you create a new profile.
+
+
+[[Image:ArkInventory-Rules-View.jpg]]
+
+
+== Basics ==
+
+*Rule*: the number assigned to this rule. you cannot modify this value. rule numbers are assigned sequentially.
+
+
+*Enabled*: tick this if you want the rule to be used. disabled rules are ignored. default value is ticked.
+
+
+*Order*: rules are processed in ascending numerical order based on this value. default value is 0. if you find that another rule keeps picking up an item you want elsewhere then you would create another rule with a lower order to place it in the proper location. rules with the same order number are processed in a potentially random sequence (or at least one that cannot be known beforehand) so only reuse the same order number if the rules would not have any overlapping items.
+
+
+*Description*: a description of the rule.
+
+
+*Formula*: a formula that defines which items match a rule, defaults to false. note: getting into this field can be a bit tricky, you have to click on existing text, or in the event of a blank value then just to the right of the formula label and directly under the description text.
+
+
+[[Image:ArkInventory-Rules-Edit.jpg]]
+
+
+
+
+== Rule Functions ==
+
+  * all function names are case insensitive (forced to lowercase)
+  * do not place a space(s) between the function name and the leading bracket, eg `pt( ... )` good, `pt ( ... )` bad
+  * the logic operatives *`and`*, *`or`*, *`not`* _must_ be in lower case or they will generate an error
+  * the arguments passed to a function are normally case insensitive (converted to lower case for matching purposes), unless that function specifically requires an exact case match (eg PT)
+  * leading and trailing spaces are trimmed from all arguments
+  * rules are validated before being saved so you cannot save an invalid rule
+  * if for some reason a rule becomes damaged (most likely because of code changes) it will be flagged as damaged and not used until corrected and saved
+  * nearly all the rules can take multiple arguments separated by commas, in those cases it functions as an explicit or. eg `name( scroll, elixir, potion )` is equivalent to `name( scroll ) or name( elixir ) or name( potion )`
+
+
+
+
+=== soulbound() ===
+checks if an item is soulbound.
+
+
+*Remarks*
+
+  * sb() can be used as an alias
+  * takes no arguments, any arguments passed are ignored
+
+
+*Examples*
+
+`soulbound()`
+
+`not soulbound()`
+
+
+
+
+=== name( arg, arg, ..., arg ) ===
+checks if the value in arg is contained within the item name
+
+
+*Args*
+
+`arg: string` (localised)
+
+
+*Remarks*
+
+  * case insensitive comparison
+  * leading and trailing spaces are removed from arguments
+  * quotes are not required
+  * if no argument is passed will return false
+  * lua string patterns are usable 
+
+
+*Examples*
+
+`name( elixir, potion )`
+
+`name( scroll of )`
+
+
+
+
+=== id( arg, arg, ..., arg ) ===
+matches an items (ArkInventory) id
+
+
+*Args*
+
+`arg: item id`
+
+
+*Remarks*
+
+  * item id's are in the format item_id:item_suffix_id:enchant_id and will match on the left most part
+  * the item id can be found on the debug info menu 
+
+
+*Examples*
+
+`id( 1, 2, 3, 4, 5 )`
+
+`id( 1, 23:34 )`
+
+`id( 12:1:12, 54 )`
+
+
+
+
+=== type( arg, arg, ..., arg ) ===
+matches an items type
+
+
+*Args*
+
+`arg: string` (localised, case insensitive)
+
+
+*Remarks*
+
+  * the item type value can be found on the debug info menu for that item
+
+
+*Examples*
+
+`type( armor )`
+
+`type( gem )`
+
+`type( recipe )`
+
+
+
+
+=== subtype( arg, arg, ..., arg ) ===
+matches an items subtype
+
+
+*Args*
+
+`arg: string` (localised, case insensitive)
+
+
+*Remarks*
+
+  * the item subtype can be found on the debug info menu 
+
+
+*Examples*
+
+`itemtype( armor ) and subtype( leather )`
+
+`itemtype( gem ) and subtype( yellow )`
+
+
+
+
+=== equip( arg, arg, ..., arg ) ===
+matches an items equip location
+
+
+*Args*
+
+`arg: string`
+
+
+*Remarks*
+
+  * the item equip location can be found on the debug info menu
+  * if no arguments are passed then it will return "true" if the item can be equipped 
+
+
+*Examples*
+
+`equip( trinket ) and soulbound()`
+
+`equip( finger )`
+
+`equip()`
+
+
+
+
+=== empty() ===
+matches an empty slot
+
+
+*Remarks*
+
+  * takes no arguments, any arguments passed in are ignored
+
+
+*Examples*
+
+`empty()`
+
+`not empty()`
+
+==== pt( arg, arg, ..., arg ) ====
+matches items in pt sets
+
+
+*Args*
+
+`arg: string` (PT set name, case sensitive) 
+
+
+*Remarks*
+
+  * PT set names are case sensitive 
+
+
+*Examples*
+
+`pt( Tradeskill.Mat.ByProfession.Alchemy, Tradeskill.Mat.ByType.Mote, Tradeskill.Mat.ByType.Primal, Tradeskill.Tool.Alchemy )`
+
+
+
+
+=== tooltip( arg, arg, ..., arg ) ===
+checks if the value in arg is contained within the tooltip text
+
+
+*Args*
+
+`arg: string` (localised, case insensitive) 
+
+
+*Remarks*
+
+  * tt() can be used as an alias
+  * does not check within the item name
+  * only checks the basic WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one
+  * case insensitive comparison
+  * leading and trailing spaces are removed from arguments
+  * quotes are not required
+  * if no argument is passed will return false
+  * lua string patterns are usable 
+
+
+*Examples*
+
+`tooltip( spell damage )`
+
+`tooltip( gain %d+ stamina )`
+
+
+
+
+=== quality( arg, arg, ..., arg ) ===
+checks if the value in arg matches the items quality
+
+
+*Args*
+
+`arg: string` (localised, case insensitive)
+`arg: number`
+
+
+*Remarks*
+
+  * 0 = Poor (grey)
+  * 1 = Common (white)
+  * 2 = Uncommon (green)
+  * 3 = Rare (blue)
+  * 4 = Epic (purple)
+  * 5 = Legendary (orange)
+  * 6 = Artifact (red?) 
+
+
+*Examples*
+
+`quality( poor )`
+
+`quality( 5, 6 )`
+
+
+
+
+=== itemlevel( min, max ) ===
+checks if the itemlevel of an item is equal to or between the min and max arguments passed
+
+
+*Args*
+
+`min: number`
+
+`max: number`
+
+
+*Remarks*
+
+  * ilvl() can be used as an alias
+  * when passed a single argument the function checks for an exact level match 
+
+
+*Examples*
+
+`itemlevel( 115 )`
+
+`ilvl( 90-100 )`
+
+
+
+
+=== ireq( min, max ) ===
+checks if the level required to use an item is equal to or between the min and max arguments passed
+
+
+*Args*
+
+`min: number`
+
+`max: number`
+
+
+*Remarks*
+
+  * when passed a single argument the function checks for an exact level match 
+
+
+*Examples*
+
+`ireq( 70 )`
+
+`ireq( 61-69 )`
+
+
+
+
+=== outfit( arg, arg, ..., arg ) ===
+matches items in sets from outfit type mods, eg Outfitter, ClosetGnome, ItemRack
+
+
+*Args*
+
+`arg: string` (set name, case insensitive) 
+
+
+*Remarks*
+
+  * case insensitive comparison
+  * if passed no arguments will return true if the item is in any set
+  * dynamically chooses depending on which outfit mod is active
+  * ItemRack is currently functional using the 2.0 beta of ItemRack
+  * after changing the set an item belongs to in the outfit mod you will need to use the reload menu option in ArkInventory to have it update to the new category 
+
+
+*Examples*
+
+`outfit( arcane resist )`
+
+`outfit( fishing )`
+
+`outfit()`
+
+
+
+
+== String Matching ==
+
+because the rule formulas are being interpreted via LUA there are some things you need to be aware of when trying to match strings, ie from name() and tooltip()
+
+
+there are a few "magic" characters, these are `^$()%.[]*+-?` if you want to search for one of these characters you must "escape" it or it won't match (and could do something totally different), you do this by putting a `%` in front of it.
+
+
+eg; if looking for an item with `"Mana-Etched"` in it's name you would need to enter `"mana%-etched"` to find it.
+
+
+there are also several "character classes", these are used match a single character from it's class
+
+  * `x`: (where `x` is not one of the magic characters `^$()%.[]*+-?)` represents the character `x` itself.
+  * `.`: (a dot) represents all characters.
+  * `%a`: represents all letters.
+  * `%d`: represents all digits.
+  * `%p`: represents all punctuation characters.
+  * `%s`: represents all space characters.
+  * `%w`: represents all alphanumeric characters.
+  * `%x`: represents all hexadecimal digits.
+  * `%x`: (where `x` is any non-alphanumeric character) represents the character `x`. This is the standard way to escape the magic characters. Any punctuation character (even the non magic) can be preceded by a `%` when used to represent itself in a pattern. 
+
+
+as mentioned before, the above will only match on a single character, when you need to match more than one character you add one of the following symbols directly after the class;
+
+  * `*` matches 0 or more repetitions of characters in the class. These repetition items will always match the longest possible sequence;
+  * `+` matches 1 or more repetitions of characters in the class. These repetition items will always match the longest possible sequence;
+  * `-` matches 0 or more repetitions of characters in the class. Unlike `*`, these repetition items will always match the shortest possible sequence;
+  *  `?` matches 0 or 1 occurrence of a character in the class; 
+
+
+you can make these patterns as simple or as complex as you need to match the specific piece of text you're after.
+
+
+if you need more information you should google "lua string pattern" as there is a wealth of information already out there that goes into minute detail that would easily fill this page up by itself.
+
+
+
+
+== Example Rules ==
+
+see [[ArkInventory/Rules]]
