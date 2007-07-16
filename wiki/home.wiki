@@ -46,9 +46,9 @@ To access your Keybindings;
 
 = Reporting Bugs =
 
-Before reporting a bug please check [http://www.wowace.com/trac/query?group=status&verbose=1&summary=%7EArkInventory&order=priority bugtracker] to see if the bug you are about to report has already been reported (or dealt with).
+Before reporting a bug please check [http://code.google.com/p/arkinventory/issues/list] to see if the bug you are about to report has already been reported (or dealt with).
 
-After checking that your bug hasn't been reported you can [http://www.wowace.com/trac/newticket create a new ticket].
+After checking that your bug hasn't been reported you can [http://code.google.com/p/arkinventory/issues/entry create a new issue].
 
 
 When entering a ticket please make sure that you include the following;
