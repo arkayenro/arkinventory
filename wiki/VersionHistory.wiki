@@ -1,0 +1,384 @@
+2.06 (12-JUL-2007)
+	* info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
+	* fixed - an issue with item id's not being built properly during bag scans
+	* fixed - an issue with the conversion code
+	* fixed - new item text, centered text, should be able to swap same id items without them being tagged as new
+
+
+2.05 (11-JUL-2007)
+	* added - "clear this bar" - an edit mode option to remove all categories from a bar
+	* fixed - menu option to clear cached data for a chararacter wasn't showing up
+	* changed - xml elememts on rule frame - hopefully will stop opening the rules window from crashing macs
+	* added - new item status text
+	* changed - number of rows in rules window increased from ten to twelve
+	* added - rule menu option to hide disabled rules
+	* fixed - error in sort code
+	
+
+2.04 (08-JUL-2007)
+	* fixed - RULE_PATTERN_ITEMNUMBER issue with conversion code
+	* added - chinese translation (thanks candykiss)
+
+	
+2.03 (05-JUL-2007)
+	* updated - closetgnome outfit() code
+	* added - rule function ilvl()
+	* added - rule function ireq()
+	* added - rule function sb() alias for soulbound()
+	* added - rule function tt() alias for tooltip()
+
+
+2.02 (02-JUL-2007)
+	* fixed - disabling a rule via shift+clicking will now update the window
+	* changed - include category in sort will now sort by rule order then rule number
+	* fixed - closetgnome outfit() code
+	
+
+2.01 (02-JUL-2007)
+	* fixed - conversion of negative items
+	
+
+2.00 (02-JUL-2007)
+	* fixed - itemrack outfit code (note you need to use the v2.0 beta of item rack)
+	* added - shift clicking on a rule toggles enabled/diabled
+
+
+2.00 (30-JUN-2007) (beta-2007-JUN-30-12-00)
+	! warning - beta users will lose any rules they had, you can restore your 1.45 file and it will convert to the new format (if you know what youre doing you can edit the savedvariable file and move the rule data to the account location - make a backup)
+	* fixed - rules are now global and can be enabled/disabled per profile, default is disabled
+	* fixed - options to remember bank and alt data are now global and have been reset to default
+	* fixed - options to auto open/close are now global and have been reset to default
+	* fixed - options to hide the frames are now global and have been reset to default
+	* fixed - fade offline option moved from item to offline menu, now global and has been reset to default
+	* fixed - changing profiles will now work properly
+	
+
+2.00 (28-JUN-2007) (beta-2007-JUN-28-21-45)
+	* fixed - bank items not updating their icons when moved out
+	* added - items can be added to existing (enabled, undamaged) rules when in edit mode by clicking on the item and choosing "add to rule" - note that it's currently possible to have that rule open in edit mode so if save it then your edit mode item changes will not be there any longer
+	* added - bag highlighting, when you mouse over a bag the slots in that bag are highlighted
+	* added - menu option (under window) to change the bag highlighting colour
+	* info - removed the exclamation marks from all the text
+
+
+2.00 (25-JUN-2007) (beta-2007-JUN-25-22-00)
+	* info - a lot of text has exclamation marks at the start - they're just temporary so i know which ones have been setup for translation
+	* fixed - empty slot background icon
+	* added - empty slot border colouring
+	* changed - empty slot background colouring
+	* changed - empty slot menu moved to main menu
+	* fixed - items in hidden categories now show up in edit mode
+	* fixed - bank and keyring items were picking up backpack items
+	* fixed - compress and restack, would start but then stop after the first item merge
+	
+
+2.00 (24-JUN-2007) (beta-2007-JUN-24-02-00)
+	* fixed - equip location sorting (will only effect equipable items now)
+	* changed - hardcoded in xml - bags, bars and items as a workaround for the grey problem. items above the hardcoded limits will still be autocreated in code but these *will* be susceptable to the issue until blizzard can fix it
+	* changed - slightly increased the thickness of the item borders
+
+
+2.00 (21-JUN-2007) (beta-2007-JUN-21-20-30)
+	* fixed - error in conversion code for item id's
+	* fixed - closetgnome outfit code
+	* fixed - error in all non english locales
+	
+
+2.00 (20-JUN-2007) (beta-2007-JUN-20-22-45)
+	* fixed - error in conversion code (only impacted new or cleaned installs)
+	* fixed - rule function name()
+	* added - rules are now validated before being saved
+	* changed - item() is now id() - existing rules will just get damaged and stop working until you edit and change them to use the new function name
+	* changed - itemtype() is now type() - existing rules will just get damaged and stop working until you edit and change them to use the new function name
+	* changed - itemsub() is now subtype() - existing rules will just get damaged and stop working until you edit and change them to use the new function name
+	* changed - rule description length increased from 20 to 80 characters
+	
+
+2.00 (18-JUN-2007) (beta-2007-JUN-18-21-15)
+	* fixed - closetgnome outfit code
+	* fixed - tooltip code (causing default categories to not work)
+	* fixed - default categories - class (translators may need to update WOW_TOOLTIP_CLASS)
+	* fixed - default categories - skill (translators may need to update WOW_TOOLTIP_REQUIRES)
+	* changed - switched to blizzards strtrim function
+
+
+2.00 (18-JUN-2007) (beta-2007-JUN-18-18-45)
+	* fixed - issue where disabled rules would become enabled after a reload
+	* fixed - default categories were wrong because of the new tooltip code
+	* fixed - rule function soulbound()
+	* fixed - rule function tooltip()
+	* added - closetgnome linked to outfit()
+	
+
+2.00 (17-JUN-2007) (beta-2007-JUN-17-20-45)
+	* removed - bagnum(), slotnum() and container() rule functions - until i can sort out a way to make them useable (they slow everything down too much)
+	* fixed - rule function tooltip()
+	* fixed - rule function equip()
+	* added - rule function quality()
+	* added - rule function outfit()
+	* added - outfitter linked to outfit()
+	* added - option to enable/disable a rule
+	* added - a rule will be flagged as damaged and no longer used if there is an error with it
+	* changed - rule dialog box layout updated
+	* removed - gratuity library
+
+	
+2.00 (17-JUN-2007) (beta-2007-JUN-17-??-??)
+	* changed - debug menu, formatted the information the way it's required by the rules
+	* fixed - rule function item()
+	
+
+2.00 (16-JUN-2007) (beta-2007-JUN-16-12-30)
+	* fixed - container() should now work properly in rules
+	* fixed - german translation file
+
+	
+2.00 (16-JUN-2007) (beta-2007-JUN-16-00-30)
+	* info - all cached item data is erased - you will need to login to each character for AI to pick it up again
+	* added - rules for category management
+	* fixed - skinning and leatherworking spanish translations
+	
+	
+1.45 (08-JUN-2007)
+	* fixed - bar frames/borders will display in edit mode when hidden
+	* fixed - PT set information on the debug window, will no longer generate an error when an item is not in any PT sets
+
+	
+1.44 (07-JUN-2007)
+	* added - option on debug menu to see which PT sets an item is in
+	
+
+1.43 (07-JUN-2007)
+	* fixed - player skills were only being read from the first character to logon which effected default categorisation, they are now read every time a skill or profession changed (including at logon)
+	* added - option to hide the bar frames (to help get around the issue where DHUD appears to be pushing their frame levels too far up and my bar frames are ending up above the item frames)
+
+	an alternate fix you can try - but will probably come back up if you have DHUD still loaded
+	
+	load up your character and open your bags, bank and keyring (doesnt matter if they're offline) and then enter the following into the chat window (one line at a time - copy and paste it)
+
+	/script ARKINV_MainFrame1:SetFrameLevel( 3 )
+	/script ARKINV_MainFrame2:SetFrameLevel( 3 )
+	/script ARKINV_MainFrame3:SetFrameLevel( 3 )
+
+	logout, log back in
+
+	
+1.42 (06-JUN-2007)
+	* fixed - sorting (offline bug)
+	* fixed - tooltips for empty offline items were showing values
+	
+
+1.41 (05-JUN-2007)
+	* fixed - custom PT categories
+	* fixed - soul shard categorisation
+	* changed - categorisation, custom categories are checked first then PT categories second
+	* fixed - potential problem with restack code
+	* added - restack now puts items into empty special slots, eg bullets in a normal slot will get moved into an empty ammo slot (if one is available)
+	* removed - soulbound equipment subcategories - use the sort>include location option to sort them properly
+
+	
+1.40 (04-JUN-2007)
+	* added - icon to restack on main window
+	* added - ability to include equipment location/type in sort (default is true)
+	* added - ability to use reversed names in sort (default is false)
+	* changed - default value for rarity sort is now true
+	* changed - default value for instant sort is now false
+	* added - ability to use PT categories as "custom" categories.  Custom PT categories have first priority when items are being categorised.
+	* added - keybinding for restacking bags
+	* changed - edit mode, bar tags are larger
+	* changed - various xml layout changes
+	* added - korean translation (thanks fenlis)
+	
+
+1.39 (01-JUN-2007)
+	* added - item restacking
+
+	
+1.38 (31-MAY-2007)
+	* added - shift click to link in chat for offline items
+	* added - control click to dress up with offline items
+
+	
+1.37 (30-MAY-2007)
+	* removed - shift click to link in chat for offline items - brought back oringinal security issues
+
+	
+1.36 (29-MAY-2007)
+	* added - shift click to link in chat now works for offline items
+	
+
+1.35 (27-MAY-2007)
+	* updated - using PeriodicTable 3.0 (hopefully it's embedded properly)
+	* fixed - offline, bank and keyring tooltips are back (cooldown timer based tooltips may not update while open)
+	* fixed - TW locale (removed PT translations - they shouldnt be in there)
+
+	
+1.34 (21-MAY-2007)
+	* updated - TOC to 2.1
+	* added - traditional chinese translation (thanks mcc/chuanhsing)
+
+	
+1.33
+	* updated - french translation (thanks Dutorien)
+
+	
+1.32 (13-FEB-2007)
+	* added - spanish translations (thanks shiftos)
+	* fixed - riding skill name in french translation
+	* added - compact mode for bars - ensures a fixed number of bars per row by compacting empty bars out
+
+	
+1.31 (12-FEB-2007)
+	* added - option for internal bar padding
+	* added - option for window padding
+	* fixed - cooldown timers are back
+	* added - toggle icons for edit, refresh, bag change on main window
+	* added - tooltip text to icons so you can tell what they do
+	* changed - if the blizzard frames are not hidden then AI will not appear at all. use keybindings to bring up AI when blizzard frames are active.  auto-open options are ignored but auto-close options are still used.  will probably have to move this to the parent menu so it's more obvious now.
+	* added - option to set bar anchor corner
+	* addded - default category caching - should speed things up hopefully (thanks Miles)
+	* updated - DE translations (thanks Maischter)
+	* added - FR translations
+	* fixed - bars that had a category assigned but no items would not always appear in edit mode
+
+	
+1.30 (not released - betas only)
+	* fixed - clicking on a bag (in the blizzard bag frame) will now toggle AI - it was being ignored previously
+	* unfixed - clicking on a bag is back to being ignored, it was annoying when you clicked on a bag in the AI changer frame it would close AI, not fun
+	* changed - the way item buttons are created, stops various stack split and drag'n'drop issues from happening
+	* added - windows won't stay offscreen if you move them there (it will if you are on an edge and go into edit mode - no idea why, the frame just wont move for some reason)
+	* added - most options are now set per window, with an option to use common settings (enabled by default)
+	* fixed - a menu issue when moving a category via the item menu, would snap back to it's original bar after you moved it and used the menu again
+	* changed - minimum bars reduced to 1
+
+
+1.29 (07-JAN-2007)
+	* fixed - issue when closing the bank, you cant reopen it until you get out of range and then come back
+	* added - instant sort option so if you dont want things automatically being moved around while the window is open you can turn it off
+	* changed - frame title layout
+	* removed - option menu icon
+	* added - option menu to main icon
+	* added - bag change frame (note, if this frame is visible, instant sort is forcibly enabled so as to cater for issues that can arise when swapping bags and not updating the window, hide the frame when you don't need it so that instant sort can be disabled)
+	* fixed - issue with keybinding for edit mode when at the bank
+
+
+1.28 (04-JAN-07)
+	* fixed - mis-spelt first aid category
+	* added - more default item categories
+	* added - you can hide the header frame as well now
+	* added - bank frame hides now
+	* added - window widths are now unique, you can have the bank at 18 wide and the bag at 10
+
+
+1.27 (01-JAN-2007)
+	* fixed - incorrect bars and items could end up displayed if you were looking at a window and erased the cache, or when you switched to an alt with no data
+	* added - displays faction in title and alt dropdown (requires you to login to each character for it to update)
+	* added - the alt dropdown list is now sorted
+	* fixed - issue with no data showing for alts, you will have to log back into those alts for their data to get cached again then it should be ok
+	* fixed - internal item id wasnt picking up the item suffix
+	* fixed - empty slots in offline mode could sometimes show a tooltip for the active users bags/slot instead
+	* added - can "restore" deleted custom categories (they come back as just the number so you'll need to rename them afterwards)
+	* added - more default categories - via periodic table - i still don't like it though :)
+	* fixed - choosing categories in other languages should now work
+	* added - options to display the main window borders and change their colours as well
+	* added - option to hide original blizzard bag frames
+
+
+1.26 (29 DEC 2006)
+
+	*** item format has changed, added suffix and soubound, it should convert items for you, soulbound items will need to be recategorised
+	*** item format has changed, added enchant, it should convert items for you, enchanted items will need to be recategorised
+	*** cache layout has changed - please use "/arkinv cache erase confirm" to erase all cached data - it wont erase your options
+	* added - ability to hide categories
+	* added - ability to globally override hidden categories so they get displayed
+	* added - option to stop keeping offline data, sanity this is not, nor is it trying to be
+	* added - status display now shows different slot types not just empty/total
+	* updated - changed toc to allow for working without the embedded libraries
+	* added - separate windows for each container (bag, keyring, bank - that can be active at the same time)
+	* added - keybindings to toggle bag, key, bank windows
+	*** warning, opening the windows for the first time in a session will spike memory usage in a big way
+	* lots of bug fixes but lots of code changes as well
+	* fixed - ammo categorisation into bullets/arrows, didn't realise they were treated differently
+	* added - some more default categorisations (need to find a way to get a players professions to make it better)
+	* added - adding / renaming / deleting custom categories
+	*** removed the default 9 custom categories
+	
+
+1.24 (25 DEC 2006)
+
+	* modified the bar edit menus so when chosing which categories you want to assign it colours those already assigned to other bars (and displays the bar it's currently assigned to)
+	* added window background colour choice, including opacity
+	* added opactity back as a user configurable option for bar backgrounds
+	* added options to auto open/close at bank, auction house, trade, merchant, mailbox
+	* added rarity coloured borders and the backdrop icon, enabled the menu for it
+	* fixed a bug in empty item clumping, also moved the menu from window to item
+	* fixed a bug with opacity resetting when you go to change it
+	* fixed a bug with moving bags from bag slots directly to the bank and vice versa
+
+	
+1.23 (24 DEC 2006)
+
+    * added window scaling in options menu
+    * added choice of slot backgrounds, icon or coloured
+    * fixed a problem with categories and soulbound items in edit mode - still affects items in offline mode but not much i can do as you dont have any access to the actual item to see if it's soulbound
+    * fixed a problem with items in bank slots losing tooltips when online
+    * added a SOULBOUND EQUIPMENT category to diffentiate between equipment picked up and stuff bound to you. items wont go into this category until you are online with the character
+    * added an item option to desaturate offline items (they fade to gray) - on by default
+    * added keybinding to toggling open/close
+
+
+1.21 (22 DEC 2006)
+
+    * bag | key | bank display added
+    * location changes done via clicking on the small bag | key | bank icons next to the main icon
+    * "offline" viewing of alt bag | bank | key added
+    * change alts via the dropdown at the start of the name
+    * /arkinv cache erase confirm - added to erase all cached data (not your options, just the item data for all characters)
+
+
+1.20 (20 DEC 2006)
+
+    * bug fixed for when at the bank - it would screw up all the bags - definitely fixed it this time
+
+
+1.19 (20 DEC 2006)
+
+    * bug fixed for when at the bank - it would screw up all the bags
+    * bug fixed when resetting an items category back to it's default
+	* bug fixed with default item categories
+    * added more item default categories
+
+
+1.18 (19 DEC 2006)
+
+    * updated toc file - no other changes from 1.17
+
+
+1.17 (19 DEC 2006)
+
+	* edit mode working
+    * menus for options, edit, bar, item menus added
+    * category to bar assignment
+    * item to category assignment
+    * some default categorisation of items (needs to be worked on)
+    * /arkinv db reset confirm (chat command to reset all options back to defaults - erases all item and bar customisation you have done)
+	* autofit code changed to work a lot better
+
+
+1.13 (14 DEC 2006)
+
+    * Ace2 is now embedded
+    * some options are now configurable via the command line - use /ARKINV or /AI
+    * coloured empty slots are done - but not configurable yet (herb/green, ammo/orange, soul/purple and enchant/blue)
+    * window defaults to 3 bars per row, 12 columns wide
+    * default bars - ammo and empty ammo slots are grouped in bar6, all other empty slots are grouped in bar4, quest items in bar3 and everything else in bar1
+
+
+
+1.10 (Initial Release)
+
+    * Requires Ace2 (i didn't embed it)
+    * does not hook the bag hook - it was made to work side by side with the bodgy conversion i did on enginventory to get that to work under BtS - you will need to create a macro with /arkinv gui and put that on an action to call this one
+    * there are no user configurable options as yet
+    * items are sorted by empty slots first then by item name in order of stack size
+    * unlimited number of bars (there are practical limits though before your screen becomes full)
