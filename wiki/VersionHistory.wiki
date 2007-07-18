@@ -1,3 +1,7 @@
+*WORKING CODE*
+  * changed - recoded tab and shift+tab to work in all fields when editing a rule
+
+
 *2.06 (12-JUL-2007)*
   * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
   * fixed - an issue with item id's not being built properly during bag scans
