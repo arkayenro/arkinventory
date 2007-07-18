@@ -1,0 +1,71 @@
+= Example Rules =
+
+== items with resistances on them ==
+
+`tooltip( %+%d+ %a+ resist )`
+
+  * `%+` = match a plus (`+`) character
+  * `%d+` = match 1 or more digits (numbers)
+  * `<space>` = matches a space
+  * `%a+` = match 1 or more letters (in this case the type of resistance)
+  * `<space>` = matches a space
+  * `resist` = match the actual text resist 
+
+
+== items that are part of a set ==
+
+`tooltip( %sset: )`
+
+  * `%s` = matches a space (we use this because leading spaces are removed from arguments and we want to make sure we don't get a word that ends in set)
+  * `set:` = match the actual text set:
+
+
+== gems ==
+
+all gems
+{{{
+type( gem )
+}}}
+
+all cut gems
+{{{
+type( gem ) and tooltip( socket )
+}}}
+
+all uncut gems
+{{{
+type( gem ) and not tooltip( socket )
+}}}
+
+all red or blue gems
+{{{
+type( gem ) and subtype( blue, red )
+}}}
+
+
+== equipment/ armor / outfits ==
+
+anything that can be worn (equipped)
+{{{
+equip()
+}}}
+
+soulbound equipment
+{{{
+equip() and soulbound()
+}}}
+
+all cloth armor
+{{{
+type( armor ) and subtype( cloth )
+}}}
+
+outfits from other mods
+{{{
+outfit( fishing )
+}}}
+
+{{{
+outfit( healing )
+}}}
+
