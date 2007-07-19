@@ -1,4 +1,7 @@
 *WORKING CODE*
+  * ...
+
+*2.07 (19-JUL-2007)*
   * changed - recoded tab and shift+tab to work in all fields when editing a rule
   * changed - sort order is now totally user customisable
   * fixed - spanish translation for Herbalism skill
@@ -378,3 +381,4 @@
   * there are no user configurable options as yet
   * items are sorted by empty slots first then by item name in order of stack size
   * unlimited number of bars (there are practical limits though before your screen becomes full)
+
