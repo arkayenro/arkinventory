@@ -2,6 +2,7 @@
   * changed - recoded tab and shift+tab to work in all fields when editing a rule
   * changed - sort order is now totally user customisable
   * fixed - spanish translation for Herbalism skill
+  * fixed - items will now categorise properly after changing profiles
 
 *2.06 (12-JUL-2007)*
   * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
