@@ -1,3 +1,6 @@
+*2.07a (23-JUL-2007)*
+  * fixed - macs should no longer crash when opening the rules window
+
 *2.07 (19-JUL-2007)*
   * changed - recoded tab and shift+tab to work in all fields when editing a rule
   * changed - sort order is now totally user customisable
