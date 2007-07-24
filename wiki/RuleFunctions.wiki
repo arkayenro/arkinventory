@@ -1,0 +1,336 @@
+#labels Featured
+=Rule Functions=
+
+  * all function names are case insensitive (forced to lowercase)
+  * do not place a space(s) between the function name and the leading bracket, eg `pt( ... )` good, `pt ( ... )` bad
+  * the logic operatives *`and`*, *`or`*, *`not`* _must_ be in lower case or they will generate an error
+  * the arguments passed to a function are normally case insensitive (converted to lower case for matching purposes), unless that function specifically requires an exact case match (eg PT)
+  * leading and trailing spaces are trimmed from all arguments
+  * rules are validated before being saved so you cannot save an invalid rule
+  * if for some reason a rule becomes damaged (most likely because of code changes) it will be flagged as damaged and not used until corrected and saved
+  * nearly all the rules can take multiple arguments separated by commas, in those cases it functions as an explicit or. eg `name( scroll, elixir, potion )` is equivalent to `name( scroll ) or name( elixir ) or name( potion )`
+
+
+
+
+==soulbound()==
+checks if an item is soulbound.
+
+
+*Remarks*
+
+  * sb() can be used as an alias
+  * takes no arguments, any arguments passed are ignored
+
+
+*Examples*
+
+`soulbound()`
+
+`not soulbound()`
+
+
+
+
+==name( arg, arg, ..., arg )==
+checks if the value in arg is contained within the item name
+
+
+*Args*
+
+`arg: string` (localised)
+
+
+*Remarks*
+
+  * case insensitive comparison
+  * leading and trailing spaces are removed from arguments
+  * quotes are not required
+  * if no argument is passed will return false
+  * lua string patterns are usable 
+
+
+*Examples*
+
+`name( elixir, potion )`
+
+`name( scroll of )`
+
+
+
+
+==id( arg, arg, ..., arg )==
+matches an items (ArkInventory) id
+
+
+*Args*
+
+`arg: item id`
+
+
+*Remarks*
+
+  * item id's are in the format item_id:item_suffix_id:enchant_id and will match on the left most part
+  * the item id can be found on the debug info menu 
+
+
+*Examples*
+
+`id( 1, 2, 3, 4, 5 )`
+
+`id( 1, 23:34 )`
+
+`id( 12:1:12, 54 )`
+
+
+
+
+==type( arg, arg, ..., arg )==
+matches an items type
+
+
+*Args*
+
+`arg: string` (localised, case insensitive)
+
+
+*Remarks*
+
+  * the item type value can be found on the debug info menu for that item
+
+
+*Examples*
+
+`type( armor )`
+
+`type( gem )`
+
+`type( recipe )`
+
+
+
+
+==subtype( arg, arg, ..., arg )==
+matches an items subtype
+
+
+*Args*
+
+`arg: string` (localised, case insensitive)
+
+
+*Remarks*
+
+  * the item subtype can be found on the debug info menu 
+
+
+*Examples*
+
+`itemtype( armor ) and subtype( leather )`
+
+`itemtype( gem ) and subtype( yellow )`
+
+
+
+
+==equip( arg, arg, ..., arg )==
+matches an items equip location
+
+
+*Args*
+
+`arg: string`
+
+
+*Remarks*
+
+  * the item equip location can be found on the debug info menu
+  * if no arguments are passed then it will return "true" if the item can be equipped 
+
+
+*Examples*
+
+`equip( trinket ) and soulbound()`
+
+`equip( finger )`
+
+`equip()`
+
+
+
+
+==empty()==
+matches an empty slot
+
+
+*Remarks*
+
+  * takes no arguments, any arguments passed in are ignored
+
+
+*Examples*
+
+`empty()`
+
+`not empty()`
+
+
+
+==pt( arg, arg, ..., arg )==
+matches items in pt sets
+
+
+*Args*
+
+`arg: string` (PT set name, case sensitive) 
+
+
+*Remarks*
+
+  * PT set names are case sensitive 
+
+
+*Examples*
+
+`pt( Tradeskill.Mat.ByProfession.Alchemy, Tradeskill.Mat.ByType.Mote, Tradeskill.Mat.ByType.Primal, Tradeskill.Tool.Alchemy )`
+
+
+
+
+==tooltip( arg, arg, ..., arg )==
+checks if the value in arg is contained within the tooltip text
+
+
+*Args*
+
+`arg: string` (localised, case insensitive) 
+
+
+*Remarks*
+
+  * tt() can be used as an alias
+  * does not check within the item name
+  * only checks the basic WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one
+  * case insensitive comparison
+  * leading and trailing spaces are removed from arguments
+  * quotes are not required
+  * if no argument is passed will return false
+  * lua string patterns are usable 
+
+
+*Examples*
+
+`tooltip( spell damage )`
+
+`tooltip( gain %d+ stamina )`
+
+
+
+
+==quality( arg, arg, ..., arg )==
+checks if the value in arg matches the items quality
+
+
+*Args*
+
+`arg: string` (localised, case insensitive)
+`arg: number`
+
+
+*Remarks*
+
+  * 0 = Poor (grey)
+  * 1 = Common (white)
+  * 2 = Uncommon (green)
+  * 3 = Rare (blue)
+  * 4 = Epic (purple)
+  * 5 = Legendary (orange)
+  * 6 = Artifact (red?) 
+
+
+*Examples*
+
+`quality( poor )`
+
+`quality( 5, 6 )`
+
+
+
+
+==itemlevel( min, max )==
+checks if the itemlevel of an item is equal to or between the min and max arguments passed
+
+
+*Args*
+
+`min: number`
+
+`max: number`
+
+
+*Remarks*
+
+  * ilvl() can be used as an alias
+  * when passed a single argument the function checks for an exact level match 
+
+
+*Examples*
+
+`itemlevel( 115 )`
+
+`ilvl( 90-100 )`
+
+
+
+
+==ireq( min, max )==
+checks if the level required to use an item is equal to or between the min and max arguments passed
+
+
+*Args*
+
+`min: number`
+
+`max: number`
+
+
+*Remarks*
+
+  * when passed a single argument the function checks for an exact level match 
+
+
+*Examples*
+
+`ireq( 70 )`
+
+`ireq( 61-69 )`
+
+
+
+
+==outfit( arg, arg, ..., arg )==
+matches items in sets from outfit type mods, eg Outfitter, ClosetGnome, ItemRack
+
+
+*Args*
+
+`arg: string` (set name, case insensitive) 
+
+
+*Remarks*
+
+  * case insensitive comparison
+  * if passed no arguments will return true if the item is in any set
+  * dynamically chooses depending on which outfit mod is active
+  * ItemRack is currently functional using the 2.0 beta of ItemRack
+  * after changing the set an item belongs to in the outfit mod you will need to use the reload menu option in ArkInventory to have it update to the new category 
+
+
+*Examples*
+
+`outfit( arcane resist )`
+
+`outfit( fishing )`
+
+`outfit()`
+
