@@ -2,7 +2,9 @@
 *WORKING CODE*
   * changed - instant sort is no longer forced on when the bag changer frame is open - but it's still slow to do anything while this frame open (due to lack of events for bag changes)
   * changed - sped up the majority of the colour/display options
-  * fixed - bag changer functionality works a bit better, you can drop things onto the backpack icon or bank icon and the item will be placed into the backpack or bank (if there's space)
+  * fixed - player bag changer functionality works a bit better, you can drop things onto the backpack icon and the item will be placed into the backpack (if there's space)
+  * fixed - bank bag changer functionality works a bit better, you can drop things onto the bank icon and the item will be placed into the bank (one of those 28 "bank" slots) (if there's space)
+  * added - clicking on a bag (in the blizzard bag frame) will now toggle AI (when the blizzard frames are set to hidden)
 
 *2.07a (23-JUL-2007)*
   * fixed - macs should no longer crash when opening the rules window (thanks go to 'ShinyToaster' for finding the error in the xml)
