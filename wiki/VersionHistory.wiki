@@ -5,7 +5,7 @@
   * fixed - bag changer functionality works a bit better, you can drop things onto the backpack icon or bank icon and the item will be placed into the backpack or bank (if theres space)
 
 *2.07a (23-JUL-2007)*
-  * fixed - macs should no longer crash when opening the rules window
+  * fixed - macs should no longer crash when opening the rules window (thanks go to 'ShinyToaster' for finding the error in the xml)
 
 *2.07 (19-JUL-2007)*
   * changed - recoded tab and shift+tab to work in all fields when editing a rule
