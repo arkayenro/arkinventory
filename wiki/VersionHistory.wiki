@@ -1,3 +1,9 @@
+#labels Featured
+*WORKING CODE*
+  * changed - instant sort is no longer forced on when the bag changer frame is open - but it's still slow to do anything while this frame open (due to lack of events for bag changes)
+  * changed - sped up the majority of the colour/display options
+  * fixed - bag changer functionality works a bit better, you can drop things onto the backpack icon or bank icon and the item will be placed into the backpack or bank (if theres space)
+
 *2.07a (23-JUL-2007)*
   * fixed - macs should no longer crash when opening the rules window
 
