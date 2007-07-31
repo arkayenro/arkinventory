@@ -7,6 +7,7 @@
   * fixed - bank bag changer functionality works a bit better, you can drop things onto the bank icon and the item will be placed into the bank (one of those 28 "bank" slots) (if there's space)
   * fixed - scanning tooltip should now build a complete tooltip when processing rules
   * added - clicking on a bag (in the blizzard bag frame) will now toggle AI (when the blizzard frames are set to hidden)
+  * restored - you can assign items to system categories - these take precedence over rules
 
 *2.07a (23-JUL-2007)*
   * fixed - macs should no longer crash when opening the rules window (thanks go to 'ShinyToaster' for finding the error in the xml)
