@@ -3,7 +3,7 @@
   * changed - instant sort is no longer forced on when the bag changer frame is open - but it's still slow to do anything while this frame open (due to lack of events for bag changes)
   * changed - sped up the majority of the colour/display options
   * changed - sorting options are now coloured to make it more obvious which options have been included and which ones haven't.  the tooltip text has also been updated as well.
-  * changed - rules view now shows 15 rules
+  * changed - rules view increased to display 15 rows
   * changed - soulbound checking should work better for all languages
   * fixed - player bag changer functionality works a bit better, you can drop things onto the backpack icon and the item will be placed into the backpack (if there's space)
   * fixed - bank bag changer functionality works a bit better, you can drop things onto the "bank" icon and the item will be placed into the bank (one of the 28 bank slots) (if there's space)
