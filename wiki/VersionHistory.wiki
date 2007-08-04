@@ -1,5 +1,5 @@
 #labels Featured
-*WORKING CODE*
+*2.08 (05-AUG-2007)*
   * changed - instant sort is no longer forced on when the bag changer frame is open - but it's still slow to do anything while this frame open (due to lack of events for bag changes)
   * changed - sped up the majority of the colour/display options
   * changed - sorting options are now coloured to make it more obvious which options have been included and which ones haven't.  the tooltip text has also been updated as well.
@@ -10,6 +10,7 @@
   * fixed - scanning tooltip should now build a complete tooltip when processing rules
   * added - clicking on a bag (in the blizzard bag frame) will now toggle AI (when the blizzard frames are set to hidden)
   * restored - you can assign items to system categories - takes precedence over rules
+  * info - keybindings may need to be redone
 
 *2.07a (23-JUL-2007)*
   * fixed - macs should no longer crash when opening the rules window (thanks go to 'ShinyToaster' for finding the error in the xml)
