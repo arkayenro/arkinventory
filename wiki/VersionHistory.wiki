@@ -1,4 +1,9 @@
 #labels Featured
+*2.08a (06-AUG-2007)*
+  * fixed - instant sorting
+  * fixed - edit mode key binding
+  * fixed - rules, no longer need to be enabled/disabled to work
+
 *2.08 (05-AUG-2007)*
   * changed - instant sort is no longer forced on when the bag changer frame is open - but it's still slow to do anything while this frame open (due to lack of events for bag changes)
   * changed - sped up the majority of the colour/display options
