@@ -1,4 +1,8 @@
 #labels Featured
+*2.08b (07-AUG-2007)*
+  * fixed - potential rule issue
+  * fixed - localisation problem with sorting menu text
+
 *2.08a (06-AUG-2007)*
   * fixed - instant sorting
   * fixed - edit mode key binding
