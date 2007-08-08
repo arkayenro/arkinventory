@@ -1,9 +1,11 @@
+#labels Featured
 = Example Rules =
 
 == items with resistances on them ==
 
-`tooltip( %+%d+ %a+ resist )`
-
+{{{
+tooltip( %+%d+ %a+ resist )
+}}}
   * `%+` = match a plus (`+`) character
   * `%d+` = match 1 or more digits (numbers)
   * `<space>` = matches a space
@@ -14,7 +16,9 @@
 
 == items that are part of a set ==
 
-`tooltip( %sset: )`
+{{{
+tooltip( %sset: )
+}}}
 
   * `%s` = matches a space (we use this because leading spaces are removed from arguments and we want to make sure we don't get a word that ends in set)
   * `set:` = match the actual text set:
