@@ -1,4 +1,9 @@
 #labels Featured
+*WORKING CODE*
+ * added - bag changer now can be used offline to see what bags your alts have
+ * fixed - potential issue when changing profiles, previous characters items could be left displayed
+ * fixed - issue when clearing the cache and then opening the bank window
+
 *2.08c (08-AUG-2007)*
   * fixed - game tooltip issues (compare tooltip and compare/inspect icons)
 
