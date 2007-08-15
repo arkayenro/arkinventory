@@ -3,6 +3,7 @@
  * added - bag changer now can be used offline to see what bags your alts have
  * fixed - potential issue when changing profiles, previous characters items could be left displayed
  * fixed - issue when clearing the cache and then opening the bank window
+ * changed - offline cache is now cleared via PLAYER_LEAVING_WORLD and not PLAYER_LOGOUT - potential fix for an issue where the cache was being incorrectly cleared on logout
 
 *2.08c (08-AUG-2007)*
   * fixed - game tooltip issues (compare tooltip and compare/inspect icons)
