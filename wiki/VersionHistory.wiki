@@ -1,15 +1,18 @@
 #labels Featured
 *2.10 (WORKING CODE)*
- * fixed - cosmetic issue with the cursor when a merchant is open and the window is in edit mode
 
+
+*2.09a (23-AUG-2007)*
+ * fixed - cosmetic issue with the cursor when a merchant window is open and the AI window is in edit mode
+ * fixed - issue with outfitter being called before it's initialised
  
 *2.09 (22-AUG-2007)*
  * added - bag changer now can be used offline to see what bags your alts have
  * fixed - potential issue when changing profiles, previous characters items could be left displayed
  * fixed - issue when clearing the cache and then opening the bank window
  * changed - offline cache is now cleared via PLAYER_LEAVING_WORLD and not PLAYER_LOGOUT - potential fix for an issue where the cache was being incorrectly cleared on logout
- 
- 
+  
+
 *2.08c (08-AUG-2007)*
   * fixed - game tooltip issues (compare tooltip and compare/inspect icons)
 
@@ -35,7 +38,7 @@
   * restored - you can assign items to system categories - takes precedence over rules
   * info - keybindings may need to be redone
 
-  
+
 *2.07a (23-JUL-2007)*
   * fixed - macs should no longer crash when opening the rules window (thanks go to 'ShinyToaster' for finding the error in the xml)
 
@@ -45,14 +48,14 @@
   * fixed - spanish translation for the herbalism skill
   * fixed - items will now categorise properly after changing profiles
 
-  
+
 *2.06 (12-JUL-2007)*
   * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
   * fixed - an issue with item id's not being built properly during bag scans
   * fixed - an issue with the conversion code
   * fixed - new item text, centred text, should be able to swap same id items without them being tagged as new
 
-
+  
 *2.05 (11-JUL-2007)*
   * added - "clear this bar" - an edit mode option to remove all categories from a bar
   * fixed - menu option to clear cached data for a character wasn't showing up
