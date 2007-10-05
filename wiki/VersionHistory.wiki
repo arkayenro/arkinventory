@@ -8,6 +8,7 @@
  * reverted - hardcoded xml elements are back in, blizzard didnt fix the background issue
 
 *2.10a (never existed)*
+
  
 *2.10 (26-SEP-2007)*
  * changed - various code and xml changes for 2.2
