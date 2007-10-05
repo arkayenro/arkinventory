@@ -1,6 +1,16 @@
 #labels Featured
-*2.10 (WORKING CODE)*
+*2.10c (05-OCT-2007)*
+ * added - chat links now work for the bags in the bag changer window
+ * fixed - korean locale issue
 
+*2.10b (28-SEP-2007)*
+ * fixed - added logic checking around a possible error
+ * reverted - hardcoded xml elements are back in, blizzard didnt fix the background issue
+
+*2.10a (never existed)*
+ 
+*2.10 (26-SEP-2007)*
+ * changed - various code and xml changes for 2.2
 
 *2.09a (23-AUG-2007)*
  * fixed - cosmetic issue with the cursor when a merchant window is open and the AI window is in edit mode
