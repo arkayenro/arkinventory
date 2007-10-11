@@ -1,4 +1,8 @@
 #labels Featured
+*2.10e (11-OCT-2007)*
+ * fixed - display issue when bags are opened for the first time (and scaled)
+ * added - debug output to trace an issue where bags are not updating
+ 
 *2.10d (08-OCT-2007)*
  * changed - minimum window width set to 400 (reduced from 500)
  * fixed - possible error during conversion of data from pre 1.3 versions
