@@ -1,4 +1,7 @@
 #labels Featured
+*2.10f (13-OCT-2007)*
+ * fixed - error when changing gear or bags, will now also generate an error when an invalid bag id is passed in
+
 *2.10e (11-OCT-2007)*
  * fixed - display issue when bags are opened for the first time (and scaled)
  * added - debug output to trace an issue where bags are not updating
