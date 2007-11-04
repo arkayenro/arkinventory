@@ -1,4 +1,10 @@
 #labels Featured
+*2.10g (03-NOV-2007)*
+ * added - more debug code
+ * added - more localisation text
+ * changed - hard coded font name changed to internal game font reference
+ * changed - uses embeds.xml for embedded libraries
+
 *2.10f (13-OCT-2007)*
  * fixed - error when changing gear or bags, will now also generate an error when an invalid bag id is passed in
 
