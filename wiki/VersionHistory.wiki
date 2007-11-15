@@ -1,4 +1,13 @@
 #labels Featured
+*2.11 (15-NOV-2007)*
+ * updated - TOC to 2.3
+ * fixed - display issue where window width was ignored
+ * fixed - display issue where a single item in the first bar of a row would have extra space
+ * changed - window settings management
+ * removed - hardcoded xml elements - will use less up front memory but be slower to load the first time
+ * added - guild bank (it's slow and just has basic item functionality)
+ * added - window anchor point
+
 *2.10g (03-NOV-2007)*
  * added - more debug code
  * added - more localisation text
@@ -6,14 +15,14 @@
  * changed - uses embeds.xml for embedded libraries
 
 *2.10f (13-OCT-2007)*
- * fixed - error when changing gear or bags, will now also generate an error when an invalid bag id is passed in
+ * fixed - error when changing gear or bags, will generate an error when an invalid bag id is passed in
 
 *2.10e (11-OCT-2007)*
- * fixed - display issue when bags are opened for the first time (and scaled)
+ * fixed - display issue when bags are opened for the first time (and the window is scaled)
  * added - debug output to trace an issue where bags are not updating
  
 *2.10d (08-OCT-2007)*
- * changed - minimum window width set to 400 (reduced from 500)
+ * changed - minimum window width set to 400 (reduced from 500) - purchase button will overlap the last two slots
  * fixed - possible error during conversion of data from pre 1.3 versions
  * fixed - error when changing gear or bags
 
