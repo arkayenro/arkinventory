@@ -1,5 +1,9 @@
 #labels Featured
-*2.12 (17-NOV-2007)*
+*2.12b (17-NOV-2007)*
+ * fixed - issue with upgrade, hid all the ai windows
+ * changed - some localisations and their menu options
+
+*2.12a (17-NOV-2007)*
  * fixed - frame anchor bug
  * fixed - frame anchor point will now stay in place when the windows are rescaled
  * fixed - window will now stay in place when the anchor point is changed
