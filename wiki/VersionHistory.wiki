@@ -1,6 +1,6 @@
 #labels Featured
 *2.12b (17-NOV-2007)*
- * fixed - issue with upgrade, hid all the ai windows
+ * fixed - issue with upgrade, it was hiding all the ai windows
  * changed - some localisations and their menu options
 
 *2.12a (17-NOV-2007)*
