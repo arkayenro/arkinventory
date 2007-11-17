@@ -1,4 +1,15 @@
 #labels Featured
+*2.12 (17-NOV-2007)*
+ * fixed - frame anchor bug
+ * fixed - frame anchor point will now stay in place when the windows are rescaled
+ * fixed - window will now stay in place when the anchor point is changed
+ * fixed - guild bank, if you have view but not deposit access items will now fade and you won't be able to click on them (deposit access allows you to move items around on the tab but not remove them)
+ * changed - you can now hide each blizzard frame seperately - old hidden frame values have been erased so you will need to change them if required
+ * changed - handling of blizzard api hooks, most of the open functions are now toggle functions
+ * added - partial gm functionality for guild banks - vault tab right click options are now available to change the icon and name, change only appear on the next item update (should be instant, still trying to figure out why)
+ * added - total guild gold, available guild gold, deposit and withdrawl buttons (in the guild bank changer frame)
+ * added - workaround/fix for "everything going black" - will recalculate all frame levels for all elements when the window is greater than 126.  may cause a 1-5 second lag spike when it does the fix (which will only occur when you open the window)
+
 *2.11a (15-NOV-2007)*
  * fixed - display issue where everything would stop updating after zoning
 
