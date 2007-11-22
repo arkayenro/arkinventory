@@ -1,4 +1,10 @@
 #labels Featured
+*2.12d (22-NOV-2007)*
+ * changed - header, bag changer and status frame hiding is no longer global, it is now a per settings option under "menu > window > hide frames"
+ * changed - "menu > hidden frames" changed to "menu > hide blizzard"
+ * fixed - error when changing gear, should ignore those item locks now
+ * added - "menu > items > anchor"
+
 *2.12c (19-NOV-2007)*
  * added - /ai misc alert { disable | short | long } - defaults to long
  * added - class:level text to switch character menu.  will only update on login of each character
