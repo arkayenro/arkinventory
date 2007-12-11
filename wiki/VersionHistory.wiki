@@ -1,5 +1,5 @@
 #labels Featured
-*2.20a (working code)*
+*2.20a (beta / working code)*
  * fixed - error: attempt to index local 'b' (a nil value)
  * fixed - issue with skills when you opened the skill window and collapsed a heading, AI would not be able to see any of your skills under that heading which could then place items in the wrong category
  * fixed - display issue where right clicking an item to wear it would leave the old item (now in your bag) appearing as if it were locked (greyed out)
