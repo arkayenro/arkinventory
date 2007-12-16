@@ -19,6 +19,7 @@
  * changed - switch character menu now includes guild banks
  * changed - ammo slots now have a different empty slot icon to make them more obvious
  * changed - status window now shows the currently displayed characters gold (guild bank status always shows total guild bank gold)
+ * changed - sortkey (internal data) no longer saved into saved variables file
  * added - "menu > window > anchor > lock position", you can now stop each window from being moved
  * added - waterfall menu (can be assigned a keybinding), not complete
  * added - "menu > tooltip > enabled", enable/disable tooltips - enabled by default
@@ -27,6 +28,7 @@
  * added - edit mode: "menu > bar > move this bar up", swaps categories on this bar with the one above
  * added - edit mode: "menu > bar > move this bar down", swaps categories on this bar with the one below
  * added - bags slot count to bag icon in changer window
+ * added - ability to hide or show the contents of a bag via right click menu on the bag in the bag changer window.  hidden bags are tinted red. this is a per character setting.
  * upgraded - periodictable library to 3.1 (copied the item search code from 3.0 so it can display what sets an item is in - may not work as well)
  * info - all offline data has been erased - you will need to login to each character for AI to pick it up again
  * info - you may need to logout/login or do a /RL after a profile is upgraded (if it errors when opening a window)
