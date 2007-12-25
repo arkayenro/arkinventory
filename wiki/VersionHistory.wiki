@@ -1,9 +1,26 @@
 #labels Featured
-*2.24b (12-DEC-2007)*
+*2.24e (25-DEC-2007)*
+ * fixed - display issue with backback not showing number of slots when first starting wow
+ * fixed - clicking on a blizzard bag icon wouldn't open or toggle the window
+ * changed - all references of getglobal() to getfenv()[] to remove some taint issues
+ * changed - tooltip now shows the vendor price for the (partial) stack, not the single item vendor price
+ * changed - tooltip item counts, guild banks are now shown first then characters
+ * changed - tooltip item counts no longer include guild bank items in totals
+ * added - keybinding for rules window
+ * added - keybinding for search window
+ * added - support for GetSellValue() function - should use any other mod that stores vendor pricing (eg sellfish, informant)
+ 
+*2.24d (21-DEC-2007)*
+ * fixed - issue with wow global variable ITEM_MIN_SKILL having a different parameter layout for german client
+ 
+*2.24c (21-DEC-2007)*
+ * incorrect version uploaded
+ 
+*2.24b (20-DEC-2007)*
  * fixed - error in DE translation file
  * fixed - included waterfall library
  * added - search function (requires tooltip count to be enabled) (not fully complete)
- 
+
 *2.24a (12-DEC-2007)*
  * fixed - error: attempt to index local 'b' (a nil value)
  * fixed - issue with skills when you opened the skill window and collapsed a heading, AI would not be able to see any of your skills under that heading which could then place items in the wrong category
