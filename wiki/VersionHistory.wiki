@@ -1,4 +1,9 @@
 #labels Featured
+*2.24f (01-JAN-2008)*
+ * fixed - vendor price tooltip issue
+ * fixed - rule changes were not being applied until an item was moved and the window refreshed, they're now instant
+ * added - vendor and item count info added to tooltip for clicked links
+
 *2.24e (25-DEC-2007)*
  * fixed - display issue with backback not showing number of slots when first starting wow
  * fixed - clicking on a blizzard bag icon wouldn't open or toggle the window
