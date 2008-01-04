@@ -1,4 +1,8 @@
 #labels Featured
+*2.24g (04-JAN-2008)*
+ * fixed - issue with clearing the item cache
+ * added - item (stat) level to sorting options
+ 
 *2.24f (01-JAN-2008)*
  * fixed - vendor price tooltip issue
  * fixed - rule changes were not being applied until an item was moved and the window refreshed, they're now instant
