@@ -1,4 +1,10 @@
 #labels Featured
+*2.25a (06-JAN-2008)*
+ * fixed - nil realm issue
+ * added - item borders, option to hide/show
+ * added - item borders, option to change texture
+ * added - item borders, option to change scale
+
 *2.24g (04-JAN-2008)*
  * fixed - issue with clearing the item cache
  * added - item (stat) level to sorting options
