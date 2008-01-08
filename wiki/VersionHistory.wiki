@@ -1,4 +1,9 @@
 #labels Featured
+*2.25b (08-JAN-2008)*
+ * fixed - nil realm issue
+ * fixed - nil bag issue
+ * fixed - issue with clearing the item cache
+
 *2.25a (06-JAN-2008)*
  * fixed - nil realm issue
  * added - item borders, option to hide/show
