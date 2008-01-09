@@ -1,4 +1,7 @@
 #labels Featured
+*2.26b (09-JAN-2008)*
+ * fixed - TOC issue
+
 *2.26a (09-JAN-2008)*
  * fixed - moneyFrame issue for tooltip
  * removed - waterfall menu (keeping two menus systems in sync was a pain, i'll fix it properly when/if a new menu system comes out)
