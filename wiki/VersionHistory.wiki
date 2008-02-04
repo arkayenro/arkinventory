@@ -1,4 +1,21 @@
 #labels Featured
+*2.26d (04-FEB-2008)*
+ * fixed - cleaned up fonts in xml
+ * fixed - nil bag errors
+ * fixed - zero padded the rule numbers so they sort "numerically" in the menus
+ * fixed - issue with 2.08 upgrade code, nil category
+ * fixed - layout issue where everything collapsed into a single bar (still happens occasionally in guild bank)
+ * fixed - search menu text in keybindings menu wasnt set
+ * fixed - openallbags will now toggle properly
+ * changed - outfit code for itemrack 2.1 (previous versions will no longer work)
+ * changed - guild bank will now only show a single tab
+ * changed - layout of title bar icons and added search
+ * added - empty bag slot counts to bag icons via menu > empty > show count
+ * added - font colour options for empty bag slot counts
+ * added - font option for all text
+ * added - font, scale and border options to rules window
+ * added - font, scale and border options to search window
+
 *2.26b (09-JAN-2008)*
  * fixed - TOC issue
 
