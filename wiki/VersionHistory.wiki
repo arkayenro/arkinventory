@@ -1,4 +1,16 @@
 #labels Featured
+*2.27.01 (27-MAR-2008)*
+ * fixed - error in line 2701: attempt to compare nil with number
+ * fixed - font style for new item indicators
+ * fixed - issue with bar labels being placed incorrectly
+ * fixed - search frame, focus is now set to filter field
+ * changed - toc updated to 20400
+ * changed - (restack and) compress uses the new blizzard api to figure out if an item can go in a profession bag
+ * added - rule function bag( bag_number )
+ * added - rule function vpo( copper ) - vendor price over ( >= ) a specific copper amount (per current stack size)
+ * added - rule function vpu( copper ) - vendor price under ( <= ) a specific copper amount (per current stack size)
+ * added - unknown category (for when you dont have item data cached), moving an item to another slot or clicking on menu > actions > reload should update the data from the server
+
 *2.26d (04-FEB-2008)*
  * fixed - cleaned up fonts in xml
  * fixed - nil bag errors
