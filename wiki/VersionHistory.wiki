@@ -1,4 +1,25 @@
 #labels Featured
+*2.27.03 (10-APR-2008)*
+ * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
+ * added - emblem font
+ * added - wearing window
+ * added - mailbox window
+ * added - keybindings for mailbox and wearing
+ * fixed - warning message from guild bank when you dont have view access to the current tab but another alt does (and it tried to scan it)
+ * fixed - tooltips for items on unviewable tabs
+ * fixed - dressup and compare abilities on guild bank items
+ * fixed - issue with wearing data
+ * fixed - issue with debug info
+ * fixed - issue with generic scanning code
+ * fixed - bag tooltips now go under the icons so they don't overlap any item icons above them
+ * changed - libsharedmedia (font/texture library) from version 2 to 3
+ * changed - guild bank data retrieval from server
+ * changed - search window will now search as each character is entered
+ * changed - search window width increased slightly
+ * changed - rule window will now search as each character is entered
+ * changed - title window layout
+ * changed - window width, minimum from 8 to 6, maximum from 32 to 40
+
 *2.27.01 (27-MAR-2008)*
  * fixed - error in line 2701: attempt to compare nil with number
  * fixed - font style for new item indicators
