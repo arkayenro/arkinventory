@@ -3,15 +3,16 @@
  * fixed - locale files
 
 *2.27.04 (05-MAY-2008)*
+ * added - guild bank item and money logs (via right click menu on tab icons)
+ * added - remaining daily withdrawals shown on guild bank tab tooltip
+ * added - monitor option to completely disable monitoring changes at a location
  * fixed - issue with offline data cleanup routine
  * fixed - data is now purged when you leave the mailbox, bank and vault if you dont have them set for offline
  * fixed - issue when using standalone libraries
- * changed - status menu replaces (combines) the monitor (new), offline, and hide blizzard menus
+ * changed - status menu replaces/combines the monitor (new), offline, and hide blizzard menus
  * changed - monitor, offline and hide blizzard options are set per character
  * changed - menu now includes the switch character and location options if the title frame is hidden
  * changed - bucket timer increased to 0.5 seconds (item changes/moves wont update for that long)
- * added - guild bank item and money logs (via right click menu on tab icons)
- * added - remaining daily withdrawals shown on guild bank tab tooltip
 
 *2.27.03 (10-APR-2008)*
  * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
