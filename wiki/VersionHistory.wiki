@@ -1,4 +1,9 @@
 #labels Featured
+*2.27.06 (15-MAY-2008)*
+ * fixed - issue when moving hidden categories to another bar
+ * fixed - issue with saved window positions when scaled
+ * fixed - issue with empty slots not being re-categorised when changing "clumping" mode
+
 *2.27.05 (06-MAY-2008)*
  * fixed - locale files
 
