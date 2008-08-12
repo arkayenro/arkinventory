@@ -1,4 +1,9 @@
 #labels Featured
+*3.00.02 (12-AUG-2008)*
+ * fixed - search window, scrolling frame
+ * fixed - rules window, scrolling frame
+ * fixed - rules window, rule formula entry
+
 *3.00.01 (12-AUG-2008) BETA WotLK*
  * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
  * info - locale files disabled until text is completed
