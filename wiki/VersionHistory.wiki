@@ -1,4 +1,27 @@
 #labels Featured
+*3.00.01 (12-AUG-2008) BETA WotLK*
+ * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
+ * info - locale files disabled until text is completed
+ * fixed - ES locale file
+ * fixed - DE locale file
+ * fixed - issue getting a "you are not in a guild" error message (usually on logout)
+ * fixed - issue with vault item tooltips
+ * fixed - issue with socketing window
+ * fixed - display issue when empty slots were manually assigned to another category
+ * fixed - items can be dropped onto the bank "bag" icon
+ * added - custom categories
+ * added - new rule function: usable() - if an item can be used/worn by the user
+ * added - un-usable items can now be tinted red if desired via menu > items > tint unusable
+ * added - restack will now function against the current tab for the guild bank (it's slow though)
+ * added - RU locale file
+ * added - options menu via blizzard addon interface (work in progress)
+ * added - /ai config
+ * changed - database structure
+ * changed - reduced memory usage during scanning
+ * changed - empty slots only have a default category, they can no longer be assgined to a system or custom category or a rule
+ * changed - restack will sequentially process all locations (instead of having a seperate button for each location)
+ * removed - rule function: empty()
+
 *2.27.06 (15-MAY-2008)*
  * fixed - issue when moving hidden categories to another bar
  * fixed - issue with saved window positions when scaled
@@ -413,6 +436,7 @@
 *1.45 (08-JUN-2007)*
   * fixed - bar frames/borders will display in edit mode when hidden
   * fixed - PT set information on the debug window, will no longer generate an error when an item is not in any PT sets
+
 
 	
 *1.44 (07-JUN-2007)*
