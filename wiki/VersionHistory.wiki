@@ -1,5 +1,5 @@
 #labels Featured
-*3.00.02 (12-AUG-2008)*
+*3.00.02 (12-AUG-2008) BETA WotLK*
  * fixed - search window, scrolling frame
  * fixed - rules window, scrolling frame
  * fixed - rules window, rule formula entry
