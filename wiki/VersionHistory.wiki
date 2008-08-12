@@ -16,6 +16,7 @@
  * added - RU locale file
  * added - options menu via blizzard addon interface (work in progress)
  * added - /ai config
+ * added - /restack
  * changed - database structure
  * changed - reduced memory usage during scanning
  * changed - empty slots only have a default category, they can no longer be assgined to a system or custom category or a rule
