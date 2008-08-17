@@ -1,4 +1,12 @@
 #labels Featured
+*3.00.04 (17-AUG-2008) BETA WotLK*
+ * added - skill > inscription category
+ * fixed - bar functions > remove, clear
+ * changed - default category assignment code altered slightly (most soulbound items should now categorise under their normal category)
+ * changed - MOUNT category converted to SKILL > RIDING
+ * changed - most libraries are now ace3
+ * removed - FrameLevel bug fix code made user configurable, disabled by default
+
 *3.00.03 (13-AUG-2008) BETA WotLK*
  * info - locale files are back in but the text is not completed
  * fixed - MoneyFrame self parameters
