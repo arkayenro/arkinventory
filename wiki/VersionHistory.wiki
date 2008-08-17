@@ -1,4 +1,10 @@
 #labels Featured
+*2.27.09 (17-AUG-2008)*
+ * fixed - RU locale issue causing bag slots to be red (unknown)
+
+*2.27.08 (14-AUG-2008)*
+ * fixed - category issue for non soulbould items that require the riding skill
+
 *2.27.07 (13-AUG-2008)*
  * added - RU locale
 
