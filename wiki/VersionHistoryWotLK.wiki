@@ -1,4 +1,14 @@
 #labels Featured
+*3.00.06 (19-AUG-2008) BETA WotLK*
+ * fixed - outfit() function for itemrack compatibility
+ * fixed - upgrade code error
+ * fixed - issue with bar labels not being deleted when you delete a bar
+ * changed - /restack is now /ai restack (until i can figure out how to put it back)
+ * changed - menu system (nearly complete)
+ 
+*3.00.05 (18-AUG-2008) BETA WotLK*
+ * changed - menu system
+
 *3.00.04 (17-AUG-2008) BETA WotLK*
  * added - skill > inscription category
  * fixed - bar functions > remove, clear
