@@ -1,4 +1,9 @@
 #labels Featured
+*3.01.00 (20-AUG-2008) BETA*
+ * fixed - issue with gold amount not displaying properly if you had gold coins but the silver coins were zero
+ * fixed - issue with guild bank display not updating correctly when changing between modes
+ * changed - TOC lowered to 20400 and code changed to work with the live servers
+ 
 *3.00.06 (19-AUG-2008) BETA WotLK*
  * fixed - outfit() function for itemrack compatibility
  * fixed - upgrade code error
