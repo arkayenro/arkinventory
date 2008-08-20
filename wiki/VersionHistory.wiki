@@ -1,17 +1,4 @@
 #labels Featured
-*todo*
- * check - /ai gui reset still works
- * bug: swapping a larger bag with a smaller bag can leave some items highlighted
- * mail items expiry date/time
- 
-
- 
-*known issues*
- * moving an item from one guild bank tab to another will leave a ghost item behind until you view that tab again (it also increases the tooltip count for that ghost item).
- * instant sorting not working
- * add custom category creation options to bar menu
- 
-
 *3.01.00 (20-AUG-2008) BETA*
  * fixed - issue with gold amount not displaying properly if you had gold coins but the silver coins were zero
  * fixed - issue with guild bank display not updating correctly when changing between modes
