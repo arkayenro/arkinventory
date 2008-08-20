@@ -1,4 +1,4 @@
-#labels Featured
+#labels Deprecated
 *3.01.00 (20-AUG-2008) BETA*
  * fixed - issue with gold amount not displaying properly if you had gold coins but the silver coins were zero
  * fixed - issue with guild bank display not updating correctly when changing between modes
