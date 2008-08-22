@@ -3,6 +3,7 @@
  * fixed - issue with guild bank when you dont have any tabs purchased
  * fixed - instant sorting now works again
  * fixed - issue with vendor amount not displaying properly for some values
+ * added - tooltip option to display item count just for the current character
 
 *3.01.00 (20-AUG-2008) BETA*
  * fixed - issue with gold amount not displaying properly if you had gold coins but the silver coins were zero
