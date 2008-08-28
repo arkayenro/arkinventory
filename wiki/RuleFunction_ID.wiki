@@ -1,6 +1,6 @@
 = id( search1, ..., searchN ) =
 
-Checks if any of the supplied arguments match an item's !ArkInventory ID
+Checks if any of the supplied arguments match (or partially match) an item's !ArkInventory ID
 
 
 == Arguments ==
