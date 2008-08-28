@@ -14,33 +14,7 @@
 
 == Functions ==
   * [RuleFunction_Soulbound soulbound()]
-
-
-
-==name( arg, arg, ..., arg )==
-checks if the value in arg is contained within the item name
-
-
-*Args*
-
-`arg: string` (localised)
-
-
-*Remarks*
-
-  * case insensitive comparison
-  * leading and trailing spaces are removed from arguments
-  * quotes are not required
-  * if no argument is passed will return false
-  * lua string patterns are usable 
-
-
-*Examples*
-
-`name( elixir, potion )`
-
-`name( scroll of )`
-
+  * [RuleFunction_Name name( arg1, ..., argN )]
 
 
 
