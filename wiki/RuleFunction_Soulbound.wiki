@@ -2,7 +2,6 @@
 
 Checks if an item is soulbound
 
-
 == Alias ==
 
 sb()
@@ -10,9 +9,6 @@ sb()
 == Arguments ==
 
 None, any arguments passed are ignored
-
-
-
 
 == Examples ==
 
