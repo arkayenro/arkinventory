@@ -15,80 +15,9 @@
 == Functions ==
   * [RuleFunction_Soulbound soulbound()]
   * [RuleFunction_Name name( arg1, ..., argN )]
-
-
-
-==id( arg, arg, ..., arg )==
-matches an items (!ArkInventory) id
-
-
-*Args*
-
-`arg: item id`
-
-
-*Remarks*
-
-  * item id's are in the format item_id:item_suffix_id:enchant_id and will match on the left most part
-  * the item id can be found on the debug info menu 
-
-
-*Examples*
-
-`id( 1, 2, 3, 4, 5 )`
-
-`id( 1, 23:34 )`
-
-`id( 12:1:12, 54 )`
-
-
-
-
-==type( arg, arg, ..., arg )==
-matches an items type
-
-
-*Args*
-
-`arg: string` (localised, case insensitive)
-
-
-*Remarks*
-
-  * the item type value can be found on the debug info menu for that item
-
-
-*Examples*
-
-`type( armor )`
-
-`type( gem )`
-
-`type( recipe )`
-
-
-
-
-==subtype( arg, arg, ..., arg )==
-matches an items subtype
-
-
-*Args*
-
-`arg: string` (localised, case insensitive)
-
-
-*Remarks*
-
-  * the item subtype can be found on the debug info menu 
-
-
-*Examples*
-
-`itemtype( armor ) and subtype( leather )`
-
-`itemtype( gem ) and subtype( yellow )`
-
+  * [RuleFunction_ID id( arg1, ..., argN )]
+  * [RuleFunction_ItemType type( arg1, ..., argN )]
+  * [RuleFunction_ItemSubType subtype( arg1, ..., argN )]
 
 
 
