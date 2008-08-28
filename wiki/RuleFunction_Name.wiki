@@ -1,18 +1,14 @@
-= name( search1, ..., searchN ) =
+= name( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments are contained within the item's name
 
 
 == Arguments ==
 
-  * search1...N = string(s) to search for
+  * arg1...N = string(s) to search for
 
 == Remarks ==
-  * case insensitive comparison
-  * leading and trailing spaces are removed from arguments
-  * quotes are not required
-  * if no argument is passed will return false
-  * lua string patterns are usable 
+  * lua string patterns can be used
 
 == Examples ==
 
