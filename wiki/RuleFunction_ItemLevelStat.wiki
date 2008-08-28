@@ -1,6 +1,6 @@
 = itemlevel( min, max ) =
 
-Checks if the itemlevel (iLvl) of an item is equal to or between the min and max arguments
+Checks if the itemlevel (iLevel) of an item is equal to or between the min and max arguments
 
 == Alias ==
 `ilvl()`
@@ -9,8 +9,8 @@ Checks if the itemlevel (iLvl) of an item is equal to or between the min and max
 
 == Arguments ==
 
-  * min = 
-  * max = 
+  * min = minimum iLevel to search for
+  * max = maximum iLevel to search for
 
 == Remarks ==
   * the iLevel can be found on the debug info menu for that item
