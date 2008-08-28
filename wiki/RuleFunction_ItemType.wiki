@@ -1,21 +1,21 @@
-= type( search1, ..., searchN ) =
+= type( arg1, ..., argN ) =
 
-Checks if any of the supplied arguments are contained within the item's name
+Checks if any of the supplied arguments matches an items in-game type
 
 
 == Arguments ==
 
-  * search1...N - string to search for
+  * arg1...N - string to match
 
 == Remarks ==
-  * case insensitive comparison
-  * leading and trailing spaces are removed from arguments
-  * quotes are not required
-  * if no argument is passed will return false
-  * lua string patterns are usable 
+  * the item type value can be found on the debug info menu for that item
 
 == Examples ==
 
-`name( elixir, potion )`
+`type( armor, weapon )`
 
-`name( scroll of )`
+`type( gem )`
+
+`type( recipe )`
+
+
