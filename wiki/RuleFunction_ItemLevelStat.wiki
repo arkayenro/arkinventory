@@ -1,0 +1,21 @@
+= itemtype( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments matches an items in-game type
+
+== Alias ==
+type()
+
+== Arguments ==
+
+  * arg1...N = string(s) to match
+
+== Remarks ==
+  * the item type value can be found on the debug info menu for that item
+
+== Examples ==
+
+`type( armor, weapon )`
+
+`type( gem )`
+
+`type( recipe )`
