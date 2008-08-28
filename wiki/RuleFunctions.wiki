@@ -28,11 +28,11 @@
   * [RuleFunction_Outfit outfit( set1, ..., setN )]
 
 to be done
-	clr=Rule.Execute.CharacterLevelRange,
-	vpu=Rule.Execute.ItemVendorPriceUnder,
-	vpo=Rule.Execute.ItemVendorPriceOver,
-	bag=Rule.Execute.BagNumber,
-	loc=Rule.Execute.BagNumber,
-	use=Rule.Execute.Useable,
-	useable=Rule.Execute.Useable,
-	usable=Rule.Execute.Useable,
+  * clr=Rule.Execute.CharacterLevelRange,
+  * vpu=Rule.Execute.ItemVendorPriceUnder,
+  * vpo=Rule.Execute.ItemVendorPriceOver,
+  * bag=Rule.Execute.BagNumber,
+  * loc=Rule.Execute.BagNumber,
+  * use=Rule.Execute.Useable,
+  * useable=Rule.Execute.Useable,
+  * usable=Rule.Execute.Useable,
