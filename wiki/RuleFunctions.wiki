@@ -16,75 +16,14 @@
   * [RuleFunction_Soulbound soulbound()]
   * [RuleFunction_Name name( arg1, ..., argN )]
   * [RuleFunction_ItemID id( arg1, ..., argN )]
-  * [RuleFunction_ItemType type( arg1, ..., argN )]
+  * [RuleFunction_ItemType itemtype( arg1, ..., argN )]
   * [RuleFunction_ItemSubType subtype( arg1, ..., argN )]
   * [RuleFunction_Equip equip( arg1, ..., argN )]
   * [RuleFunction_Empty empty()]
-  * [RuleFunction_PeriodicTable pt( set1, ..., setN )]
+  * [RuleFunction_PeriodicTable periodictable( set1, ..., setN )]
   * [RuleFunction_Tooltip tooltip( arg1, ..., argN )]
-
-
-
-
-
-
-
-
-
-==quality( arg, arg, ..., arg )==
-checks if the value in arg matches the items quality
-
-
-*Args*
-
-`arg: string` (localised, case insensitive)
-`arg: number`
-
-
-*Remarks*
-
-  * 0 = Poor (grey)
-  * 1 = Common (white)
-  * 2 = Uncommon (green)
-  * 3 = Rare (blue)
-  * 4 = Epic (purple)
-  * 5 = Legendary (orange)
-  * 6 = Artifact (red?) 
-
-
-*Examples*
-
-`quality( poor )`
-
-`quality( 5, 6 )`
-
-
-
-
-==itemlevel( min, max )==
-checks if the itemlevel of an item is equal to or between the min and max arguments passed
-
-
-*Args*
-
-`min: number`
-
-`max: number`
-
-
-*Remarks*
-
-  * ilvl() can be used as an alias
-  * when passed a single argument the function checks for an exact level match 
-
-
-*Examples*
-
-`itemlevel( 115 )`
-
-`ilvl( 90-100 )`
-
-
+  * [RuleFunction_ItemQuality quality( arg1, ..., argN )]
+  * [RuleFunction_ItemLevelStat itemlevel( min, max )]
 
 
 ==ireq( min, max )==
