@@ -1,21 +1,23 @@
-= itemtype( arg1, ..., argN ) =
+= itemlevel( min, max ) =
 
-Checks if any of the supplied arguments matches an items in-game type
+Checks if the itemlevel (iLvl) of an item is equal to or between the min and max arguments
 
 == Alias ==
-type()
+`ilvl()`
+
+`statlevel()`
 
 == Arguments ==
 
-  * arg1...N = string(s) to match
+  * min = 
+  * max = 
 
 == Remarks ==
-  * the item type value can be found on the debug info menu for that item
+  * the iLevel can be found on the debug info menu for that item
+  * when only the min argument is passed then the function checks for an exact level match 
 
 == Examples ==
 
-`type( armor, weapon )`
+`itemlevel( 115 )`
 
-`type( gem )`
-
-`type( recipe )`
+`ilvl( 90-100 )`
