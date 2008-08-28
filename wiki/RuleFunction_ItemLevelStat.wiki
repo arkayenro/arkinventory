@@ -20,4 +20,4 @@ Checks if the itemlevel (iLevel) of an item is equal to or between the min and m
 
 `itemlevel( 115 )`
 
-`ilvl( 90-100 )`
+`ilvl( 90, 100 )`
