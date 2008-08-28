@@ -16,6 +16,6 @@ Checks if the level to use an item is equal to or between the min and max argume
 
 == Examples ==
 
-`itemlevel( 115 )`
+`ireq( 70 )`
 
-`ilvl( 90, 100 )`
+`ireq( 61-69 )`
