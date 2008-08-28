@@ -1,13 +1,21 @@
-#summary One-sentence summary of this page.
+= type( search1, ..., searchN ) =
 
-= Introduction =
-
-Add your content here.
+Checks if any of the supplied arguments are contained within the item's name
 
 
-= Details =
+== Arguments ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * search1...N - string to search for
+
+== Remarks ==
+  * case insensitive comparison
+  * leading and trailing spaces are removed from arguments
+  * quotes are not required
+  * if no argument is passed will return false
+  * lua string patterns are usable 
+
+== Examples ==
+
+`name( elixir, potion )`
+
+`name( scroll of )`
