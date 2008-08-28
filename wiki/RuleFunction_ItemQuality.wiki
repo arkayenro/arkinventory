@@ -1,0 +1,24 @@
+= quality( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments match an items quality
+
+== Arguments ==
+
+ * arg1..N [numeric] = xxxxxxxx
+
+== Remarks ==
+  * 0 = Poor (grey)
+  * 1 = Common (white)
+  * 2 = Uncommon (green)
+  * 3 = Rare (blue)
+  * 4 = Epic (purple)
+  * 5 = Legendary (orange)
+  * 6 = Artifact (red)
+
+  * you can use either the numeric value or the text value as an argument
+
+== Examples ==
+
+`quality( poor )`
+
+`quality( 5, 6 )`
