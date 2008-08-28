@@ -1,0 +1,17 @@
+= subtype( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments matches an items in-game subtype
+
+
+== Arguments ==
+
+  * arg1...N = string(s) to match
+
+== Remarks ==
+  * the item subtype value can be found on the debug info menu for that item
+
+== Examples ==
+
+`itemtype( armor ) and subtype( leather )`
+
+`itemtype( gem ) and subtype( yellow )`
