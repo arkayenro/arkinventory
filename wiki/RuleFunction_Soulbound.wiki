@@ -1,0 +1,21 @@
+= soulbound() =
+
+Checks if an item is soulbound
+
+
+== Alias ==
+
+sb()
+
+== Arguments ==
+
+None - any arguments passed are ignored
+
+
+
+
+== Examples ==
+
+`soulbound()`
+
+`not soulbound()`
