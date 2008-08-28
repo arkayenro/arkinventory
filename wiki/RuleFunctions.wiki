@@ -21,38 +21,12 @@
   * [RuleFunction_Equip equip( arg1, ..., argN )]
   * [RuleFunction_Empty empty()]
   * [RuleFunction_PeriodicTable pt( set1, ..., setN )]
+  * [RuleFunction_Tooltip tooltip( arg1, ..., argN )]
 
 
 
 
 
-
-==tooltip( arg, arg, ..., arg )==
-checks if the value in arg is contained within the tooltip text
-
-
-*Args*
-
-`arg: string` (localised, case insensitive) 
-
-
-*Remarks*
-
-  * tt() can be used as an alias
-  * does not check within the item name
-  * only checks the basic WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one
-  * case insensitive comparison
-  * leading and trailing spaces are removed from arguments
-  * quotes are not required
-  * if no argument is passed will return false
-  * lua string patterns are usable 
-
-
-*Examples*
-
-`tooltip( spell damage )`
-
-`tooltip( gain %d+ stamina )`
 
 
 
