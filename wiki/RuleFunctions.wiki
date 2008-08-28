@@ -24,30 +24,7 @@
   * [RuleFunction_Tooltip tooltip( arg1, ..., argN )]
   * [RuleFunction_ItemQuality quality( arg1, ..., argN )]
   * [RuleFunction_ItemLevelStat itemlevel( min, max )]
-
-
-==ireq( min, max )==
-checks if the level required to use an item is equal to or between the min and max arguments passed
-
-
-*Args*
-
-`min: number`
-
-`max: number`
-
-
-*Remarks*
-
-  * when passed a single argument the function checks for an exact level match 
-
-
-*Examples*
-
-`ireq( 70 )`
-
-`ireq( 61-69 )`
-
+  * [RuleFunction_ItemLevelUse ireq( min, max )]
 
 
 
