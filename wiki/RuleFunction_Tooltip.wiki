@@ -1,17 +1,26 @@
-= tooltip() =
+= tooltip( arg1, ..., argN ) =
 
-Checks if an item is soulbound
+Checks if an item is in any of the supplied !PeriodicTable sets
 
 == Alias ==
 
-sb()
+tt()
 
 == Arguments ==
 
 None, any arguments passed are ignored
 
+== Remarks ==
+  * does not check within the item name
+  * only checks the basic WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one, also does not check tooltip text from created items (eg recipes) that is normally added on updates
+  * case insensitive comparison
+  * leading and trailing spaces are removed from arguments
+  * quotes are not required
+  * if no argument is passed will return false
+  * lua string patterns are usable 
+
 == Examples ==
 
-`soulbound()`
+`tooltip( spell damage )`
 
-`not soulbound()`
+`tooltip( gain %d+ stamina )`
