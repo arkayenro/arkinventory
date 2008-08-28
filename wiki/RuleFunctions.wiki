@@ -15,46 +15,14 @@
 == Functions ==
   * [RuleFunction_Soulbound soulbound()]
   * [RuleFunction_Name name( arg1, ..., argN )]
-  * [RuleFunction_ID id( arg1, ..., argN )]
+  * [RuleFunction_ItemID id( arg1, ..., argN )]
   * [RuleFunction_ItemType type( arg1, ..., argN )]
   * [RuleFunction_ItemSubType subtype( arg1, ..., argN )]
   * [RuleFunction_Equip equip( arg1, ..., argN )]
+  * [RuleFunction_Empty empty()]
+  * [RuleFunction_PeriodicTable pt( set1, ..., setN )]
 
 
-==empty()==
-matches an empty slot
-
-
-*Remarks*
-
-  * takes no arguments, any arguments passed in are ignored
-
-
-*Examples*
-
-`empty()`
-
-`not empty()`
-
-
-
-==pt( arg, arg, ..., arg )==
-matches items in pt sets
-
-
-*Args*
-
-`arg: string` (PT set name, case sensitive) 
-
-
-*Remarks*
-
-  * PT set names are case sensitive 
-
-
-*Examples*
-
-`pt( Tradeskill.Mat.ByProfession.Alchemy, Tradeskill.Mat.ByType.Mote, Tradeskill.Mat.ByType.Primal, Tradeskill.Tool.Alchemy )`
 
 
 
