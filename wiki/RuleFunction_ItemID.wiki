@@ -1,0 +1,21 @@
+= id( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments match (or partially match) an item's !ArkInventory ID
+
+
+== Arguments ==
+
+  * arg1...N = string(s) to match
+
+== Remarks ==
+  * item id's are in the format `item:suffix:enchant:jewel1:jewel2:jewel3:jewel4`
+  * partial matches can made
+  * the item id can be found on the debug info menu
+
+== Examples ==
+
+`id( 1, 2, 3, 4, 5 )`
+
+`id( 1, 23:34 )`
+
+`id( 12:1:0:0:0:23, 54 )`
