@@ -4,7 +4,7 @@ Checks if any of the supplied arguments match an items quality
 
 == Arguments ==
 
- * arg1..N [numeric] = xxxxxxxx
+ * arg1..N = quality to match (numeric or string)
 
 == Remarks ==
   * 0 = Poor (grey)
