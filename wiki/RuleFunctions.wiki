@@ -1,5 +1,7 @@
 #labels Featured
-=Rule Functions=
+= Rule Functions =
+
+== Basics ==
 
   * all function names are case insensitive (forced to lowercase)
   * do not place a space(s) between the function name and the leading bracket, eg `pt( ... )` good, `pt ( ... )` bad
@@ -10,41 +12,13 @@
   * if for some reason a rule becomes damaged (most likely because of code changes) it will be flagged as damaged and not used until corrected and saved
   * nearly all the rules can take multiple arguments separated by commas, in those cases it functions as an explicit or. eg `name( scroll, elixir, potion )` is equivalent to `name( scroll ) or name( elixir ) or name( potion )`
 
-
-
 == Functions ==
   * [RuleFunction_Soulbound soulbound()]
   * [RuleFunction_Name name( arg1, ..., argN )]
   * [RuleFunction_ID id( arg1, ..., argN )]
   * [RuleFunction_ItemType type( arg1, ..., argN )]
   * [RuleFunction_ItemSubType subtype( arg1, ..., argN )]
-
-
-
-==equip( arg, arg, ..., arg )==
-matches an items equip location
-
-
-*Args*
-
-`arg: string`
-
-
-*Remarks*
-
-  * the item equip location can be found on the debug info menu
-  * if no arguments are passed then it will return "true" if the item can be equipped 
-
-
-*Examples*
-
-`equip( trinket ) and soulbound()`
-
-`equip( finger )`
-
-`equip()`
-
-
+  * [RuleFunction_Equip equip( arg1, ..., argN )]
 
 
 ==empty()==
