@@ -1,0 +1,21 @@
+= ireq( min, max ) =
+
+Checks if the level to use an item is equal to or between the min and max arguments
+
+== Alias ==
+`uselvl()`
+
+== Arguments ==
+
+  * min = minimum level to search for
+  * max = maximum level to search for
+
+== Remarks ==
+  * the level can be found on the debug info menu for that item (or in the tooltip)
+  * when only the min argument is passed then the function checks for an exact level match 
+
+== Examples ==
+
+`itemlevel( 115 )`
+
+`ilvl( 90, 100 )`
