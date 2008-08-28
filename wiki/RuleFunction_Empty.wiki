@@ -1,0 +1,13 @@
+= empty() =
+
+Checks if an item is empty
+
+== Arguments ==
+
+None, any arguments passed are ignored
+
+== Examples ==
+
+`empty()`
+
+`not empty()`
