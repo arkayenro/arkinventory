@@ -1,21 +1,21 @@
-= name() =
+= name( search1, ..., searchN ) =
 
-Checks if an item is soulbound
+Checks if any of the supplied arguments are contained within the item's name
 
-
-== Alias ==
-
-sb()
 
 == Arguments ==
 
-None - any arguments passed are ignored
+  * search1...N - string to search for
 
-
-
+== Remarks ==
+  * case insensitive comparison
+  * leading and trailing spaces are removed from arguments
+  * quotes are not required
+  * if no argument is passed will return false
+  * lua string patterns are usable 
 
 == Examples ==
 
-`soulbound()`
+`name( elixir, potion )`
 
-`not soulbound()`
+`name( scroll of )`
