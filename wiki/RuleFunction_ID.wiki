@@ -1,0 +1,20 @@
+= id( search1, ..., searchN ) =
+
+Checks if any of the supplied arguments match an item's !ArkInventory ID
+
+
+== Arguments ==
+
+  * search1...N - (partial) ID string to search for
+
+== Remarks ==
+  * item id's are in the format item_id:item_suffix_id:enchant_id and will match on the left most part
+  * the item id can be found on the debug info menu 
+
+== Examples ==
+
+`id( 1, 2, 3, 4, 5 )`
+
+`id( 1, 23:34 )`
+
+`id( 12:1:12, 54 )`
