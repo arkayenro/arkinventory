@@ -1,7 +1,9 @@
-= type( arg1, ..., argN ) =
+= itemtype( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments matches an items in-game type
 
+== Alias ==
+type()
 
 == Arguments ==
 
