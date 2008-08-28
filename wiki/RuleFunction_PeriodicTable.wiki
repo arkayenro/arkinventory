@@ -1,7 +1,10 @@
-= pt( set1, ..., setN ) =
+= periodictable( set1, ..., setN ) =
 
 Checks if an item is in any of the supplied !PeriodicTable sets
 
+
+== Alias ==
+pt()
 
 == Arguments ==
   * set1...N = !PeriodicTable set(s) to check
