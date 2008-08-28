@@ -1,6 +1,6 @@
 = tooltip( arg1, ..., argN ) =
 
-Checks if an item is in any of the supplied !PeriodicTable sets
+Checks if any of the supplied arguments are contained within an items tooltip text
 
 == Alias ==
 
