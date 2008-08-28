@@ -5,7 +5,7 @@ Checks if any of the supplied arguments matches an items in-game type
 
 == Arguments ==
 
-  * arg1...N - string to match
+  * arg1...N = string to match
 
 == Remarks ==
   * the item type value can be found on the debug info menu for that item
@@ -17,5 +17,3 @@ Checks if any of the supplied arguments matches an items in-game type
 `type( gem )`
 
 `type( recipe )`
-
-
