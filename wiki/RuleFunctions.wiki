@@ -12,23 +12,8 @@
 
 
 
-
-==soulbound()==
-checks if an item is soulbound.
-
-
-*Remarks*
-
-  * sb() can be used as an alias
-  * takes no arguments, any arguments passed are ignored
-
-
-*Examples*
-
-`soulbound()`
-
-`not soulbound()`
-
+== Functions ==
+  * [RuleFunction_Soulbound soulbound()]
 
 
 
@@ -60,7 +45,7 @@ checks if the value in arg is contained within the item name
 
 
 ==id( arg, arg, ..., arg )==
-matches an items (ArkInventory) id
+matches an items (!ArkInventory) id
 
 
 *Args*
@@ -333,4 +318,3 @@ matches items in sets from outfit type mods, eg Outfitter, ClosetGnome, ItemRack
 `outfit( fishing )`
 
 `outfit()`
-
