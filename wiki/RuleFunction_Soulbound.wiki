@@ -9,7 +9,7 @@ sb()
 
 == Arguments ==
 
-None - any arguments passed are ignored
+None, any arguments passed are ignored
 
 
 
