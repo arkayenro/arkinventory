@@ -8,8 +8,9 @@ Checks if any of the supplied arguments match an item's !ArkInventory ID
   * search1...N - (partial) ID string to search for
 
 == Remarks ==
-  * item id's are in the format item_id:item_suffix_id:enchant_id and will match on the left most part
-  * the item id can be found on the debug info menu 
+  * item id's are in the format `item:suffix:enchant:jewel1:jewel2:jewel3:jewel4`
+  * partial matches can made
+  * the item id can be found on the debug info menu
 
 == Examples ==
 
@@ -17,4 +18,4 @@ Checks if any of the supplied arguments match an item's !ArkInventory ID
 
 `id( 1, 23:34 )`
 
-`id( 12:1:12, 54 )`
+`id( 12:1:0:0:0:23, 54 )`
