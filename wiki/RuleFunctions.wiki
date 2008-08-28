@@ -25,31 +25,14 @@
   * [RuleFunction_ItemQuality quality( arg1, ..., argN )]
   * [RuleFunction_ItemLevelStat itemlevel( min, max )]
   * [RuleFunction_ItemLevelUse ireq( min, max )]
+  * [RuleFunction_Outfit outfit( set1, ..., setN )]
 
-
-
-==outfit( arg, arg, ..., arg )==
-matches items in sets from outfit type mods, eg Outfitter, ClosetGnome, ItemRack
-
-
-*Args*
-
-`arg: string` (set name, case insensitive) 
-
-
-*Remarks*
-
-  * case insensitive comparison
-  * if passed no arguments will return true if the item is in any set
-  * dynamically chooses depending on which outfit mod is active
-  * ItemRack is currently functional using the 2.0 beta of ItemRack
-  * after changing the set an item belongs to in the outfit mod you will need to use the reload menu option in ArkInventory to have it update to the new category 
-
-
-*Examples*
-
-`outfit( arcane resist )`
-
-`outfit( fishing )`
-
-`outfit()`
+to be done
+	clr=Rule.Execute.CharacterLevelRange,
+	vpu=Rule.Execute.ItemVendorPriceUnder,
+	vpo=Rule.Execute.ItemVendorPriceOver,
+	bag=Rule.Execute.BagNumber,
+	loc=Rule.Execute.BagNumber,
+	use=Rule.Execute.Useable,
+	useable=Rule.Execute.Useable,
+	usable=Rule.Execute.Useable,
