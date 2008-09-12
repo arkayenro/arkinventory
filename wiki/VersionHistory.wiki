@@ -1,4 +1,28 @@
 #labels Featured
+*3.01.04 (xx-xxx-2008) BETA*
+ * fixed - issue with empty slot colours in options menu
+ * fixed - issue with offline items being tinted red
+ * fixed - issue with the default character for the guild bank window
+ * fixed - empty tooltip line option was adding two lines
+ * fixed - RU locale file (engineering skill)
+ * fixed - issue with guild bank showing as offline when it wasnt
+ * fixed - issue with guild bank restack permission check (you only need view and deposit to restack)
+ * changed - quality() rule funtion to allow for level 7 / heirloom (bound to account) items
+
+*3.01.03 (26-AUG-2008) BETA*
+ * fixed - removed duplicate entries in some locale files
+ * fixed - usable rule function
+ * fixed - item tinting works again
+ * fixed - inscription empty slot colour
+ * fixed - tooltip issue for empty slots when adding an empty line was enabled
+ * added - categories for battle and guardian elixirs
+ 
+*3.01.02 (24-AUG-2008) BETA*
+ * changed - cleaned up categories and locales
+ * changed - search, rules, location and switch character icons on menu
+ * fixed - localisation issue on bar and item menus
+ * fixed - guild bank when in edit mode now only displays items from the current tab
+
 *3.01.01 (21-AUG-2008) BETA*
  * fixed - issue with guild bank when you dont have any tabs purchased
  * fixed - instant sorting now works again
