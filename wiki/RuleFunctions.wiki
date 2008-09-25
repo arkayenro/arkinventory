@@ -13,19 +13,21 @@
   * nearly all the rules can take multiple arguments separated by commas, in those cases it functions as an explicit or. eg `name( scroll, elixir, potion )` is equivalent to `name( scroll ) or name( elixir ) or name( potion )`
 
 == Functions ==
-  * [RuleFunction_Soulbound soulbound()]
+  * [RuleFunction_Soulbound soulbound( )]
   * [RuleFunction_Name name( arg1, ..., argN )]
   * [RuleFunction_ItemID id( arg1, ..., argN )]
   * [RuleFunction_ItemType itemtype( arg1, ..., argN )]
   * [RuleFunction_ItemSubType subtype( arg1, ..., argN )]
   * [RuleFunction_Equip equip( arg1, ..., argN )]
-  * [RuleFunction_Empty empty()]
+  * [RuleFunction_Empty empty( )]
   * [RuleFunction_PeriodicTable periodictable( set1, ..., setN )]
   * [RuleFunction_Tooltip tooltip( arg1, ..., argN )]
   * [RuleFunction_ItemQuality quality( arg1, ..., argN )]
   * [RuleFunction_ItemLevelStat itemlevel( min, max )]
   * [RuleFunction_ItemLevelUse ireq( min, max )]
   * [RuleFunction_Outfit outfit( set1, ..., setN )]
+  * [RuleFunction_ItemCount count( arg )]
+  * [RuleFunction_ItemStacks stacks( )]
 
 to be done
   * clr=Rule.Execute.CharacterLevelRange,
