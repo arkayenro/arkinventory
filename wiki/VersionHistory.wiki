@@ -1,5 +1,5 @@
 #labels Featured
-*3.01.04 (xx-xxx-2008) BETA*
+*3.01.04 (25-SEP-2008) BETA*
  * fixed - issue with empty slot colours in options menu
  * fixed - issue with offline items being tinted red
  * fixed - issue with the default character for the guild bank window
@@ -8,6 +8,8 @@
  * fixed - issue with guild bank showing as offline when it wasnt
  * fixed - issue with guild bank restack permission check (you only need view and deposit to restack)
  * changed - quality() rule funtion to allow for level 7 / heirloom (bound to account) items
+ * added - rule function stacks()
+ * added - rule function count()
 
 *3.01.03 (26-AUG-2008) BETA*
  * fixed - removed duplicate entries in some locale files
