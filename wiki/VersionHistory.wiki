@@ -1,4 +1,7 @@
 #labels Featured
+*3.01.05 (26-SEP-2008) BETA*
+ * fixed - issue with mailbox item counts
+
 *3.01.04 (25-SEP-2008) BETA*
  * fixed - issue with empty slot colours in options menu
  * fixed - issue with offline items being tinted red
