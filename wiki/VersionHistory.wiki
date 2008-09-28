@@ -1,4 +1,10 @@
 #labels Featured
+*3.01.06 (28-SEP-2008) BETA*
+ * fixed - issue with status window not updating consistently
+ * fixed - issue wth stacks() rule function
+ * changed - repuation items are now checked for after most other categories
+ * changed - deafult category assignment has been removed from the saved variables and uses an internal cache instead
+ 
 *3.01.05 (26-SEP-2008) BETA*
  * fixed - issue with mailbox item counts
 
