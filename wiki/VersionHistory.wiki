@@ -1,4 +1,9 @@
 #labels Featured
+*3.01.07 (14-OCT-2008) BETA*
+ * fixed - issue with option menu
+ * fixed - issue with rules and search window scrolling
+ * added - category: consumable > food & drink (for combined health/mana foods & drinks)
+
 *3.01.06 (28-SEP-2008) BETA*
  * fixed - issue with status window not updating consistently
  * fixed - issue wth stacks() rule function
