@@ -1,4 +1,17 @@
 #labels Featured
+*3.01.09 (17-OCT-2008)*
+ * fixed - ruRU locale issue
+ * fixed - issue with settings for empty slot colours showing internal bag types
+ * fixed - issue with settings for hiding the bag changer frame for windows that dont have a changer frame
+ * fixed - profile issues
+ * fixed - issue with switch character menu
+ * changed - switch character menu reduced to two levels to make it easier to use
+
+*3.01.08 (15-OCT-2008)*
+ * fixed - issue with dropping BoE bags onto changer slots, should now prompt to confirm binding
+ * fixed - issue with empty slots not changing categories when changing the clumping setting
+ * changed - TOC set to 30000
+
 *3.01.07 (14-OCT-2008) BETA*
  * fixed - issue with option menu
  * fixed - issue with rules and search window scrolling
