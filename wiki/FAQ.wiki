@@ -4,7 +4,9 @@
 ----
 *Why are all the items are greyed out (actually whatever colour you've selected for your background)*
 
-There's a bug in the Blizzard !CreateFrame API that causes foreground items to get placed below the background.  To fix it open the AI Configuration, on the System page (near the bottom) are a list of workarounds.  Find the !FrameLevel workaround and enable it.
+There's a bug in the Blizzard !CreateFrame API that's causing the !FrameLevel for some of the elements to wrap around once they reach a certain level and they end up below the backgrounds level.  To fix it open the AI Configuration, on the System page (near the bottom) are a list of workarounds.  Find the !FrameLevel workaround and enable it.
+
+If you don't want to enable the fix (which is graphically intensive as it has to reset the !FrameLevel of all the AI elements every time they hit a certain level) you can reload the UI to see if that fixes it (it'll only be temporary though, it'll happen again)
 ----
 *Why aren't tooltips showing up when I mouse over an item?*
 
