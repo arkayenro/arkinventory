@@ -18,6 +18,10 @@ Either you've turned the tooltips off or it's the !FrameLevel bug (see above for
 
 Most likely caused by the !FrameLevel bug, see above for solution.
 ----
+*The AI windows are behind all my other UI windows (including unit frames).*
+
+Try moving the window, if that doesn't help then it's most likely caused by the !FrameLevel bug, see above for solution.
+----
 *What order are things processed in?*
 
 Custom Categories > System Categories > Rules
