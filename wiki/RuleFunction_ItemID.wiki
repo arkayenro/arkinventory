@@ -8,9 +8,9 @@ Checks if any of the supplied arguments match (or partially match) an item's !Ar
   * arg1...N = string(s) to match
 
 == Remarks ==
-  * item id's are in the format `item:suffix:enchant:jewel1:jewel2:jewel3:jewel4`
+  * the complete item id can be found on the debug info menu
   * partial matches can made
-  * the item id can be found on the debug info menu
+  * does not work on spells (learnt pets and mounts)
 
 == Examples ==
 
