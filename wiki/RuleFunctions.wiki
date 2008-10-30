@@ -9,7 +9,7 @@
   * the arguments passed to a function are normally case insensitive (converted to lower case for matching purposes), unless that function specifically requires an exact case match (eg PT)
   * leading and trailing spaces are trimmed from all arguments
   * rules are validated before being saved so you cannot save an invalid rule
-  * if for some reason a rule becomes damaged (most likely because of code changes) it will be flagged as damaged and not used until corrected and saved
+  * if for some reason a rule becomes damaged (most likely because of code changes) it will be flagged as damaged and not be used until it's manually corrected and resaved
   * nearly all the rules can take multiple arguments separated by commas, in those cases it functions as an explicit or. eg `name( scroll, elixir, potion )` is equivalent to `name( scroll ) or name( elixir ) or name( potion )`
 
 == Functions ==
