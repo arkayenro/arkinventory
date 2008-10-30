@@ -1,6 +1,6 @@
 = empty() =
 
-Checks if an item is empty
+Checks if a slot is empty
 
 == Arguments ==
 
