@@ -32,3 +32,12 @@ it's an issue with the menu library i use, if your mouse has a scroll wheel you 
 
 all sub menus are screen clamped so they shouldn't be affected by this issue, unless they are larger than your screen is.
 ----
+*I used to be able to assign items to rules from the menu, now i can't, why not?*
+
+because i added custom categories back in.  custom categories are like very simple rules that only take item id's, and as such are much faster to process than a rule is.
+
+you can still add items to rules you just have to do it manually if you want to continue doing it that way.
+----
+
+
+
