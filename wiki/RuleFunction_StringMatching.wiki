@@ -9,7 +9,7 @@ eg; if looking for an item with "Mana-Etched" or "Giantstalker's" in an items na
 
 there are also several "character classes", these are used match a single character from it's class
 
-  * `∆`: (where "∆" is not one of the magic characters `^$()%.[]*+-?)` matches the character "`∆`" itself.
+  * `∆`: (where "`∆`" is not one of the magic characters `^$()%.[]*+-?)` matches the character "`∆`" itself.
   * `%∆`: (where "`∆`" is any non-alphanumeric character) represents the character "`∆`". This is the standard way to escape the magic characters. Any punctuation character (even the non magic) can be preceded by a `%` when used to represent itself in a pattern. 
 
   * `.`: (a fullstop/period/dot) represents any character (will match anything).
