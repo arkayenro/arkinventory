@@ -14,7 +14,7 @@ tt()
   * does not check within the item name
   * only checks the basic WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one, also does not check tooltip text from created items (eg recipes) that is normally added on updates
   * if no argument is passed will return false
-  * lua string patterns are usable 
+  * lua string patterns are usable, see http://code.google.com/p/arkinventory/wiki/RuleFunction_StringMatching
 
 == Examples ==
 
