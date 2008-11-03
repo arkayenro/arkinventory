@@ -8,7 +8,7 @@ Checks if any of the supplied arguments are contained within the item's name
   * arg1...N = string(s) to search for
 
 == Remarks ==
-  * lua string patterns can be used
+  * lua string patterns can be used, see http://code.google.com/p/arkinventory/wiki/RuleFunction_StringMatching
 
 == Examples ==
 
