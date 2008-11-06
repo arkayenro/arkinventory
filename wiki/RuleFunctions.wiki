@@ -28,6 +28,7 @@
   * [RuleFunction_Outfit outfit( set1, ..., setN )]
   * [RuleFunction_ItemCount count( arg )]
   * [RuleFunction_ItemStacks stacks( )]
+  * [RuleFunction_Bag bag( arg1, ..., argN )]
 
 to be done
   * clr=Rule.Execute.CharacterLevelRange,
@@ -36,7 +37,7 @@ to be done
 
   * vpo=Rule.Execute.ItemVendorPriceOver,
 
-  * bag=Rule.Execute.BagNumber,
+
 
   * use=Rule.Execute.Useable,
   * useable=Rule.Execute.Useable,
