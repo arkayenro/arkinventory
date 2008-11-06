@@ -1,0 +1,17 @@
+= bag( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments match the bag number an item is in.
+
+
+== Arguments ==
+
+  * arg1...N = bag number
+
+== Remarks ==
+  * bag numbers are not the blizzard code, they are just the position the bag is in, ie from 1 to x (where is is the total number of bags for that location)
+
+== Examples ==
+
+`bag( 1 )`
+
+`bag( 1, 2, 7 )`
