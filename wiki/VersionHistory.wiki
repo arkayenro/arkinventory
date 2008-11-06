@@ -1,4 +1,39 @@
 #labels Featured
+*3.02.03 (06-NOV-2008) BETA*
+ * fixed - issue with clearing search text when hiding the search frame
+ * fixed - issue with the config option for hiding the title frame
+ * fixed - issue with guild bank not always updating on first open
+ * fixed - issue with guild bank not updating when trying to access tabs your alts are not authorised to access
+ * fixed - issue with /ai db erase confirm
+ * changed - frameStrata on all main frames set to HIGH
+ * changed - rule function bag() parameter is now numeric only, which bag number an item is in
+ * updated - frFR, zhCN locales
+ * added - rule function location(), alias loc()
+ * removed - loc alias for rule function bag()
+
+*3.02.02 (04-NOV-2008) BETA*
+ * fixed - added validation to all range values in config menu
+ * fixed - item counts on other tooltips
+ * added - search frame
+ 
+*3.02.01 (03-NOV-2008) BETA*
+ * fixed - issue with tooltip update not passing self reference
+ * fixed - itemrack outfit issue (needs testing)
+ * fixed - issue with empty slots staying white (when assigned a colour)
+ * fixed - issue with mail items not having a quality border
+ * fixed - issue with item categories not changing when profile is changed
+ * fixed - issue with item anchor in config menu
+ * fixed - issue with window not updating if "sort on window open" option was disabled
+ * fixed - restored the sorting options for reversed names and ascending/descending sort
+ * fixed - issue with override option in config menu not hooking/unhooking on change
+ * fixed - issue with bank staying offline
+ * fixed - empty slots not being categorised properly issue
+ * updated - ruRU, deDE, zhTW locales
+ * added - pet/mount location
+ * added - token location
+ * added - option to use class colours in tooltip item counts
+ * added - custom category management to config menu
+
 *3.01.09 (17-OCT-2008)*
  * fixed - ruRU locale issue
  * fixed - issue with settings for empty slot colours showing internal bag types
