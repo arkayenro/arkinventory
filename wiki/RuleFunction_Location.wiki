@@ -1,0 +1,32 @@
+= location( arg1, ..., argN ) =
+
+Allows for customising a rule so it only works for a specific location.  Checks if any of the supplied arguments match the location an item is in.
+
+== Arguments ==
+
+  * arg1...N = location
+
+== Alias ==
+
+  * loc()
+
+== Remarks ==
+
+  * matched on lower case for string values
+
+  * Bag = `1`, `bag`, or localised string
+  * Keyring = `2`, `keyring`, `key`, or localised string
+  * Bank = `3`, `bank`, or localised string
+  * Guild Bank = `4`, `guild bank`, `vault`, or localised string
+  * Mail = `5`, `mail`, or localised string
+  * Wearing = `6`, `wearing`, `gear`, or localised string
+  * Pet = `7`, `pet`, `mount`, or localised string
+  * Token = `8`, `token`, or localised string
+
+== Examples ==
+
+`loc( bag )`
+
+`loc( 5 )`
+
+`loc( sac )`  (french)
