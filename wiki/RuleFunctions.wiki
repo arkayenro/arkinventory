@@ -29,6 +29,7 @@
   * [RuleFunction_ItemCount count( arg )]
   * [RuleFunction_ItemStacks stacks( )]
   * [RuleFunction_Bag bag( arg1, ..., argN )]
+  * [RuleFunction_Location location( arg1, ..., argN )]
 
 to be done
   * clr=Rule.Execute.CharacterLevelRange,
