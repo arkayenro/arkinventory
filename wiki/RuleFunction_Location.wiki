@@ -14,19 +14,19 @@ Allows for customising a rule so it only works for a specific location.  Checks 
 
   * matched on lower case for string values
 
-  * Bag = `1`, `bag`, or localised string
-  * Keyring = `2`, `keyring`, `key`, or localised string
-  * Bank = `3`, `bank`, or localised string
-  * Guild Bank = `4`, `guild bank`, `vault`, or localised string
-  * Mail = `5`, `mail`, or localised string
-  * Wearing = `6`, `wearing`, `gear`, or localised string
-  * Pet = `7`, `pet`, `mount`, or localised string
-  * Token = `8`, `token`, or localised string
+  * Bag = `bag`, or localised string
+  * Keyring = `keyring`, `key`, or localised string
+  * Bank = `bank`, or localised string
+  * Guild Bank = `guild bank`, `vault`, or localised string
+  * Mail = `mail`, or localised string
+  * Wearing = `wearing`, `gear`, or localised string
+  * Pet = `pet`, `mount`, or localised string
+  * Token = `token`, or localised string
 
 == Examples ==
 
 `loc( bag )`
 
-`loc( 5 )`
+`loc( gear )`
 
 `loc( sac )`  (french)
