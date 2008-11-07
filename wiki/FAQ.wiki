@@ -2,7 +2,7 @@
 = Frequently Asked Questions =
 
 ----
-*Why are all the items are greyed out (actually whatever colour you've selected for your background)*
+==Why are all the items are greyed out (actually whatever colour you've selected for your background)==
 
 There's a bug in the Blizzard !CreateFrame API that's causing the !FrameLevel for some of the elements to wrap around once they reach a certain level and they end up below the backgrounds level.
 
@@ -10,30 +10,30 @@ To fix it open the AI Configuration, on the System page (near the bottom) are a 
 
 If you don't want to enable the fix (which is graphically intensive as it has to reset the !FrameLevel of all the AI elements every time they hit a certain level) you can reload the UI to see if that fixes it (it'll only be temporary though, it'll happen again)
 ----
-*Why aren't tooltips showing up when I mouse over an item?*
+==Why aren't tooltips showing up when I mouse over an item?==
 
 Either you've turned the tooltips off or it's the !FrameLevel bug (see above for solution)
 ----
-*Nothing happens when you click on an item.*
+==Nothing happens when you click on an item.==
 
 Most likely caused by the !FrameLevel bug, see above for solution.
 ----
-*The AI windows are behind all my other UI windows (including unit frames).*
+==The AI windows are behind all my other UI windows (including unit frames).==
 
 Try moving the window, if that doesn't help then it's most likely caused by the !FrameLevel bug, see above for solution.
 ----
-*How are items allocated?*
+==How are items allocated?==
 
 Assigned to a Custom Category? > Assigned to a System Category? > Assigned to a Rule? > Default Category
 
 ----
-*The first menu choice has gone off the screen so i can't click on the menu choice i want?*
+==The first menu choice has gone off the screen so i can't click on the menu choice i want?==
 
 it's an issue with the menu library i use, if your mouse has a scroll wheel you can scroll that to get the menu to scroll up until it's fully on screen.
 
 all sub menus are screen clamped so they shouldn't be affected by this issue, unless they are larger than your screen is.
 ----
-*I used to be able to assign items to rules from the menu, now i can't, why not?*
+==I used to be able to assign items to rules from the menu, now i can't, why not?==
 
 because i added custom categories back in.  custom categories are like very simple rules that only take item id's, and as such are much faster to process than a rule is.
 
@@ -41,4 +41,4 @@ you can still add items to rules you just have to do it manually if you want to 
 ----
 
 
-*Please don't post comments on this page, if you have a problem please lodge it as an Issue.
+==Please don't post comments on this page, if you have a problem please lodge it as an Issue.==
