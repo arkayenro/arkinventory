@@ -40,3 +40,5 @@ because i added custom categories back in.  custom categories are like very simp
 you can still add items to rules you just have to do it manually if you want to continue doing it that way.
 ----
 
+
+*Please don't post comments on this page, if you have a problem please lodge it as an Issue.
