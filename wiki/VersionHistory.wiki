@@ -1,4 +1,14 @@
 #labels Featured
+*3.02.04 (10-NOV-2008) BETA*
+ * fixed - issue with setting options showing what a location was using, not the actual setting
+ * fixed - issue with upgrading category assignments prior to 3.02.01
+ * fixed - issue with token icons not displaying
+ * fixed - issue with restacking the bank
+ * changed - all references (in xml files) to 'this' changed to 'self'
+ * changed - reverted frame strata setting
+ * changed - libs moved to externals directory
+ * added - libdatabroker object
+
 *3.02.03 (06-NOV-2008) BETA*
  * fixed - issue with clearing search text when hiding the search frame
  * fixed - issue with the config option for hiding the title frame
