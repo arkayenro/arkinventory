@@ -1,4 +1,10 @@
 #labels Featured
+*3.02.05 (12-NOV-2008)*
+ * fixed - issue with framelevel workaround not kicking in when you change the value
+ * fixed - click menu for ldb object now opens above or below object
+ * fixed - issue with comparison tooltips if built via other mods
+ * updated - frFR and koKR locales
+
 *3.02.04 (10-NOV-2008) BETA*
  * fixed - issue with setting options showing what a location was using, not the actual setting
  * fixed - issue with upgrading category assignments prior to 3.02.01
