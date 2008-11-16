@@ -1,4 +1,9 @@
 #labels Featured
+*3.02.06 (16-NOV-2008)*
+ * fixed - issue with guild bank not always updating on first open
+ * fixed - issue with guild bank not marking a newly purchased tab as active
+ * updated - ruRU locale
+
 *3.02.05 (12-NOV-2008)*
  * fixed - issue with framelevel workaround not kicking in when you change the value
  * fixed - click menu for ldb object now opens above or below object
