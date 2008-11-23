@@ -1,4 +1,10 @@
 #labels Featured
+*3.02.07 (23-NOV-2008)*
+ * fixed - lag related issue with unuseable tint being applied incorrectly after disenchanting an item
+ * fixed - frFR locale
+ * fixed - lag and memory issues on search window, scrolling should be significantly faster
+ * added - item age (replaces new indicator) - may have issues with the age resetting
+
 *3.02.06 (16-NOV-2008)*
  * fixed - issue with guild bank not always updating on first open
  * fixed - issue with guild bank not marking a newly purchased tab as active
