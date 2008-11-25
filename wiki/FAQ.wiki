@@ -41,9 +41,9 @@ you can still add items to rules you just have to do it manually if you want to 
 ----
 ==Item ??? isn't in the right category, please fix it==
 
-default categorisation are a guide and depend upon blizzard using the correct category for the item or periodictable having that item in it's tables.
+an items default category is just a guide and depends upon blizzard using the correct category for the item or periodictable having that item in it's tables.
 
-if either of those aren't done/right then theres not really a lot i can do about it.
+if either of those aren't right/done then theres not really a lot i can do about it.
 
 you on the other hand can just categorise it yourself, that being the whole point of categories.
 
