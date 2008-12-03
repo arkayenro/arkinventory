@@ -9,6 +9,7 @@ Checks if any of the supplied arguments match the bag number an item is in.
 
 == Remarks ==
   * bag numbers are not the blizzard code, they are just the position the bag is in, ie from 1 to x (where is is the total number of bags for that location)
+  * if you use the same settings for two locations, eg bag and bank you will need to include the location() function in the rule as well if you want to differentiate between locations.
 
 == Examples ==
 
