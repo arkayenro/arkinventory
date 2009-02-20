@@ -1,4 +1,14 @@
 #labels Featured
+*3.02.09 (20-FEB-2009)*
+ * fixed - issue with search window not displaying item name when the wow item cache is reset (eg after a game patch)
+ * fixed - empty inscription slot type added to menu
+ * fixed - empty unknown slot type code
+ 
+*3.02.08 (xx-NOV-2008)*
+ * fixed - issue when enabled if the blizzard windows were already open, they will now be closed when AI is enabled
+ * fixed - issue with debug info causing an error for key slots
+ * fixed locale zhTW
+
 *3.02.07 (23-NOV-2008)*
  * fixed - lag related issue with unuseable tint being applied incorrectly after disenchanting an item
  * fixed - frFR locale
