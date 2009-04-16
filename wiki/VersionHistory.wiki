@@ -1,4 +1,12 @@
 #labels Featured
+*3.02.10 (16-MAR-2009)*
+ * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
+ * fixed - issue with bags having a "no entry" image across them (caused by gearmanager changes)
+ * updated - deDE locale
+ * updated - toc to 30100
+ * changed - player data is now kept per factionrealm instead of globally
+ * changed - tradeskill scanning method
+
 *3.02.09 (20-FEB-2009)*
  * fixed - issue with search window not displaying item name when the wow item cache is reset (eg after a game patch)
  * fixed - empty inscription slot type added to menu
