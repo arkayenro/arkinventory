@@ -1,6 +1,10 @@
 #labels Featured
-*3.02.10 (16-MAR-2009)*
+*3.02.11 (18-APR-2009)*
  * info - all cached item data has been cleared - you will need to login to each character for AI to rebuild their data
+ * fixed - issue with internal player id's causing options and saved data to not work correctly, along with lots of other stuff
+ * added - mouseover a gold will now popup a list all gold for all characters (guild banks not included)
+
+*3.02.10 (16-APR-2009)*
  * fixed - issue with bags having a "no entry" image across them (caused by gearmanager changes)
  * updated - deDE locale
  * updated - toc to 30100
