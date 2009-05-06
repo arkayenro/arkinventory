@@ -1,4 +1,10 @@
 #labels Featured
+*3.02.13 (06-MAY-2009)*
+ * updated - TW locale for soulshard bags
+ * fixed - issue with restacking when you had the same type of profession bag in your inventory as well as already in a bag slot
+ * fixed - issue with tooltips for tokens not adding item counts (you will need to log into each character to update them)
+ * fixed - issue with tooltips not adding item counts when hovering over currencies at merchants (honor and arena points still dont work)
+
 *3.02.12 (28-APR-2009)*
  * fixed - (potentially) issue with font sizing caused by "not a number" and exceedingly small values < 1
  * updated - ES locale for inscription
