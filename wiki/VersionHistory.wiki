@@ -1,4 +1,7 @@
 #labels Featured
+*3.02.14 (13-MAY-2009)*
+ * fixed - potential issue for characters with no skills as well as issues where skills werent being scanned on load
+
 *3.02.13 (06-MAY-2009)*
  * updated - TW locale for soulshard bags
  * fixed - issue with restacking when you had the same type of profession bag in your inventory as well as already in a bag slot
