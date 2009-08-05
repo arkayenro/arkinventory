@@ -1,4 +1,28 @@
 #labels Featured
+*3.02.17 (05-AUG-2009)*
+ * changed - auto open options for mail and vendor disabled due to blizzard auto opening them anyway
+ * changed - libdatabroker object for bag was renamed
+ * changed - search text is now cleared after closing and re-opening the same window
+ * changed - vault restacking is also now significantly slower but shouldnt generate any errors
+ * changed - GetSellValue( ) support changed to blizzard api
+ * fixed - issue with guild bank and patch 3.2
+ * possibly fixed - restacking issue where it occasionally got stuck in an infinite loop
+ * updated - all locales to version 3
+ * updated - ruRU, zhCN locales, copied translations from esES to esMX to use as a starting point
+ * added - libdatabroker objects for ammo, money and currency
+ * removed - tooltip option for ilvl (now a blizzard option)
+ * removed - tooltip option for vendor price (now a blizzard option)
+
+*3.02.16 (24-JUN-2009)*
+ * updated - ES locale for enchanting bags
+ * fixed - potential issue for characters with no skills
+ * changed - framelevel bugfix option is now enabled by default, notification set to silent
+ * added - esMX locale (although it's empty and needs a translator)
+
+*3.02.15 (28-MAY-2009)*
+ * fixed - issue with incorrect custom tooltip data being added to comparison tooltips (eg, the same data for the main tooltip was being added to the comparison ones)
+ * changed - outfit() rule now supports blizzard equipment manager, outfitter and itemrack addons have priority (if installed) - poor quality items are ignored as the trash category has a higher priority
+
 *3.02.14 (13-MAY-2009)*
  * fixed - potential issue for characters with no skills as well as issues where skills werent being scanned on load
 
