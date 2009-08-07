@@ -1,4 +1,11 @@
 #labels Featured
+*3.02.18 (08-AUG-2009)*
+ * changed - pets and mounts now have seperate windows and keybindings
+ * note - pet, mount and token data has been erased, you will need to login to each character at least once to update it
+ * added - libdatabroker objects for pets and mounts
+ * added - options to alter the display of empty slot status (under settings > empty slots)
+ * fixed - comparison tooltip conflict
+
 *3.02.17 (05-AUG-2009)*
  * changed - auto open options for mail and vendor disabled due to blizzard auto opening them anyway
  * changed - libdatabroker object for bag was renamed
