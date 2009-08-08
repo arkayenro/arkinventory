@@ -1,4 +1,8 @@
 #labels Featured
+*3.02.20 (09-AUG-2009)*
+ * fixed - included withdrawal allowance on current vault tab tooltip
+ * fixed - several issues caused by splitting up the pet and mount windows
+ 
 *3.02.19 (08-AUG-2009)*
  * fixed - !EraseSavedData( ) function was leaving some data intact causing issues when attempting to view another characters data
  * note - all data has been erased, you will need to login to each character at least once to update it
