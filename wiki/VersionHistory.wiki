@@ -1,6 +1,6 @@
 #labels Featured
 *3.02.19 (08-AUG-2009)*
- * fixed - EraseSavedData( ) function was leaving some data intact causing issues when attempting to view another characters data
+ * fixed - !EraseSavedData( ) function was leaving some data intact causing issues when attempting to view another characters data
  * note - all data has been erased, you will need to login to each character at least once to update it
 
 *3.02.18 (08-AUG-2009)*
