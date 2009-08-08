@@ -15,7 +15,7 @@
  * changed - libdatabroker object for bag was renamed
  * changed - search text is now cleared after closing and re-opening the same window
  * changed - vault restacking is also now significantly slower but shouldnt generate any errors
- * changed - GetSellValue( ) support changed to blizzard api
+ * changed - !GetSellValue( ) support changed to blizzard api
  * fixed - issue with guild bank and patch 3.2
  * possibly fixed - restacking issue where it occasionally got stuck in an infinite loop
  * updated - all locales to version 3
