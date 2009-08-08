@@ -1,22 +1,43 @@
 = LDB (!LibDataBroker) Objects =
 
+!ArkInventory comes with several LDB objects that you can chose to enable.
 
 
 
 == Bags ==
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Bags.jpg
+object: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Bags.jpg
 
 == Money ==
 
+object: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Money.jpg
+
+tooltip: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Money-Tooltip.jpg
 
 == Currency ==
 
+no tracking: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Currency-None.jpg  tracking: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Currency-Selected.jpg
 
-== Pets ==
+right click menu: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Currency-Menu.jpg
 
+== Pets & Mounts ==
 
-== Mounts ==
-
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Pet.jpg
 
 == Ammo ==
+
+object: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Ammo.jpg
+
+the icon will be the ammo's icon.  in the event you have no ammo the weapons icon will be used, in the event you have no ranged weapon equipped the empty ranged slot icon will be used.
+
+ranged weapons that don't require ammo, eg wands or thrown, will only display durability (where applicable)
+
+
+menu: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Ammo-Menu.jpg
+
+choose to include durability in the text or not
+
+
+out of ammo: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Ammo-Empty.jpg
+
+if item durability gets to 0 it will display broken in red as well
