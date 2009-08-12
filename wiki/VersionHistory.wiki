@@ -1,4 +1,14 @@
 #labels Featured
+*3.02.21 (13-AUG-2009)*
+ * fixed - item counts will now be added to reference comparison tooltips (eg, clicking on an item link opens the reference tooltip, holding down the shift key while over that tooltip will open the comparison tooltips)
+ * fixed - tooltip not hiding properly for ldb money object
+ * fixed - saved data was not being erased on logout even when the save option was disabled
+ * fixed - guild bank gold amount is now displayed on money tooltip
+ * fixed - money tooltip will now use class colours if enabled
+ * fixed - options for auto-opening the bag at the mailbox and merchant have been re-enabled and work correctly now
+ * fixed - koKR translation for soulshard bags
+ * added - option to scale tooltips - scale will be game wide
+ 
 *3.02.20 (09-AUG-2009)*
  * fixed - included withdrawal allowance on current vault tab tooltip
  * fixed - several issues caused by splitting up the pet and mount windows
