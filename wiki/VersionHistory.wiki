@@ -1,4 +1,7 @@
 #labels Featured
+*3.02.22 (15-AUG-2009)*
+ * fixed - option for tooltip scaling can now be entirely disabled
+
 *3.02.21 (13-AUG-2009)*
  * fixed - item counts will now be added to reference comparison tooltips (eg, clicking on an item link opens the reference tooltip, holding down the shift key while over that tooltip will open the comparison tooltips)
  * fixed - tooltip not hiding properly for ldb money object
