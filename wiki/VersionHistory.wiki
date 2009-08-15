@@ -1,5 +1,5 @@
 #labels Featured
-*3.02.22 (15-AUG-2009)*
+*3.02.23 (15-AUG-2009)*
  * fixed - option for tooltip scaling can now be entirely disabled
 
 *3.02.21 (13-AUG-2009)*
