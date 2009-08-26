@@ -1,6 +1,8 @@
 = LDB (!LibDataBroker) Objects =
 
-!ArkInventory comes with several LDB objects that you can chose to enable.
+!ArkInventory comes with several LDB objects that you can chose to enable via your LDB display mod that you use.
+
+(note that !ArkInventory doesnt have any config options to enable or disable these LDB objects because that is supposed to be in your display mods options).
 
 
 
