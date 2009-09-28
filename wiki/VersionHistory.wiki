@@ -1,4 +1,15 @@
 #labels Featured
+*3.02.24 (28-SEP-2009)*
+ * fixed - some partially erased data could cause issues, its now erased completely on startup if found
+ * fixed - zhTW franslation for gem bags
+ * changed - all references to getfenv( ) changed to _G
+ * changed - bag right click menus moved to above the bag so they dont overlap with the tootip under the bag
+ * changed - consolidated redundant translations
+ * added - tooltip item counts option for guild banks to show which tabs the item is in, default is enabled
+ * added - option to disable purge notifications when not saving location data
+ * added - system > glyph category
+ * added - item border option to allow for selecting a cutoff rarity for rarity coloured borders (ie only colour epic items and above)
+
 *3.02.23 (15-AUG-2009)*
  * fixed - option for tooltip scaling can now be entirely disabled
 
