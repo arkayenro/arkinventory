@@ -1,4 +1,19 @@
 #labels Featured
+*3.02.26 (04-NOV-2009)*
+ * fixed - border style issue due to renamed textures
+ * fixed - tooltips are now scaled back to normal (100%) when you disable tooltip scaling
+ * changed - settings config option changed to tab style to make the choices more obvious
+ * added - background colour options for the search and rules windows
+
+*3.02.25 (03-NOV-2009)*
+ * added - 6 solid border styles, Tooltip 1/2/3 and Square 1/2/3 for better visibility
+ * added - AddonLoader support, defaulting to always:delayed
+ * fixed - potential issue when using a font that was loaded after this mod was loaded
+ * fixed - removed extra blank line on tooltip item counts when item is only in a guild bank
+ * changed - ace-oo library removed
+ * changed - config options table changed to reduce memory footprint
+ * changed - function ArkInventory.ObjectCountGet( search_id, just_me, ignore_vaults ) - added 3rd parameter to ignore guild banks when requesting item counts
+
 *3.02.24 (28-SEP-2009)*
  * fixed - some partially erased data could cause issues, its now erased completely on startup if found
  * fixed - zhTW franslation for gem bags
