@@ -48,7 +48,9 @@ an items default category is just a guide and depends upon blizzard using the co
 if either of those aren't right/done then there's not really a lot i can do about it.
 
 you on the other hand can just categorise it yourself, that being the whole point of categories.
-
+---
+==How do I erase old data I dont want anymore?==
+see http://code.google.com/p/arkinventory/wiki/UserGuide_EraseData
 
 ----
 ==Please don't post comments on this page, if you have a problem please lodge it as an Issue.==
