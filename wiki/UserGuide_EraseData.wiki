@@ -6,7 +6,7 @@ to erase the data for a toon;
   * mouse over the toon you wish to erase the data for
   * chose either erase bag data or erase all data
 
-if you wish to erase data for a different area, eg the bank, you will need to open the bank window first.
+if you wish to just erase data for a specific area, eg the bank, you will need to open the that specific areas window first.
 
 if you wish to erase vault data you will need to open the vault window first.
 
