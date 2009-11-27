@@ -1,4 +1,12 @@
 #labels Featured
+*3.02.27 (28-NOV-2009)*
+ * fixed - items should now reassign properly when you modify an outfit (if the outfit mod is using the blizzard equipment manager as its back end)
+ * fixed - corrected the ruRU translation for mining bags
+ * fixed - taint issue when using class colours
+ * changed - data now stored at realm level so you can see what you have on the other faction - all data has been erased, please login to each character to update its data
+ * changed - function ArkInventory.ObjectCountGet( search_id, just_me, ignore_vaults, ignore_other_faction ) - added 4rd parameter to ignore the opposite faction when requesting item counts
+ * changed - tooltip options rearranged
+
 *3.02.26 (04-NOV-2009)*
  * fixed - border style issue due to renamed textures
  * fixed - tooltips are now scaled back to normal (100%) when you disable tooltip scaling
