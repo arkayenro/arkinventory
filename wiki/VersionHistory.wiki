@@ -1,4 +1,7 @@
 #labels Featured
+*3.02.28 (xx-xxx-xxxx)*
+ * changed - equipped bags are now included in item counts
+
 *3.02.27 (28-NOV-2009)*
  * fixed - items should now reassign properly when you modify an outfit (if the outfit mod is using the blizzard equipment manager as its back end)
  * fixed - corrected the ruRU translation for mining bags
