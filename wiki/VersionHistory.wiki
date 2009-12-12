@@ -1,6 +1,8 @@
 #labels Featured
-*3.02.28 (xx-xxx-xxxx)*
+*3.02.28 (12-DEC-2009)*
  * changed - equipped bags are now included in item counts
+ * changed - esES translation for leatherworking bags
+ * changed - toc to 3.3
 
 *3.02.27 (28-NOV-2009)*
  * fixed - items should now reassign properly when you modify an outfit (if the outfit mod is using the blizzard equipment manager as its back end)
