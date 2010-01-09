@@ -1,4 +1,8 @@
 #labels Featured
+*3.02.29 (09-JAN-2010)*
+ * fixed - added more logic checks around the gold information on money tooltips to remove porential errors
+ * added - config option to change internal 'bucket' timers - how often the window updates when there are changes, default is 0.5 seconds
+ 
 *3.02.28 (12-DEC-2009)*
  * changed - equipped bags are now included in item counts
  * changed - esES translation for leatherworking bags
