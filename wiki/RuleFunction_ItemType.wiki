@@ -7,10 +7,11 @@ type()
 
 == Arguments ==
 
-  * arg1...N = string(s) to match (in the clients language)
+  * arg1...N = string(s) to match
 
 == Remarks ==
-  * the item type value can be found on the debug info menu for that item
+  * must be in the clients language
+  * can be found on the debug info menu for that item
 
 == Examples ==
 
