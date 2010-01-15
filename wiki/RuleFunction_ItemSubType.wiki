@@ -8,7 +8,8 @@ Checks if any of the supplied arguments matches an items in-game subtype
   * arg1...N = string(s) to match
 
 == Remarks ==
-  * the item subtype value can be found on the debug info menu for that item
+  * must be in the clients language
+  * can be found on the debug info menu for that item
 
 == Examples ==
 
