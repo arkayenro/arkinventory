@@ -10,7 +10,7 @@ type()
   * arg1...N = string(s) to match
 
 == Remarks ==
-  * must be in the clients language
+  * args must be in the clients language
   * can be found on the debug info menu for that item
 
 == Examples ==
