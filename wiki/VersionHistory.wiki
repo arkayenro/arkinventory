@@ -8,13 +8,15 @@
  * changed - item counts now recognize learnt pets and mounts being the same as the item they are learnt from (note this is a manually maintained table, see companion.xls, so may not be 100% complete or accurate)
  * changed - LDB mount object - will only allow choices from a list of mounts it knows about (see companion.xls) so some of your mounts may not be available. if your mount isnt listed you can email me with its name/spell id and i'll add it
  * changed - LDB mount object - can now select a ground and a flying mount
- * changed - LDB mount object - random option now selects a mount based on whether an area is flyable or not and will fall back to ground mounts in flyable areas if you have no flying mounts
+ * changed - LDB mount object - random option now selects a mount based on whether the area you are in is flyable or not, and will fall back to a random ground mount in flyable areas if you dont have any valid flying mounts
  * changed - LDB mount object - random option will never select mounts with requirements, such as the standard AQ mounts, even if you meet those requirements
  * changed - LDB pet object - will only allow choices from a list of pets it knows about (see companion.xls) so some of your pets may not be available. if your pet isnt listed you can email me with its name/spell id and i'll add it
  * changed - LDB pet object - random option will never summon pets that need reagents, like snowballs, even if you have the required reagent
+ * changed - borders now use sharedmedia - all borders have been reset to blizzard tooltip
  * added - config option for how much space/padding to allocate for bar names, default is 12
- * added - LDB mount object - option for minimum mount speeds when random is selected
+ * added - LDB mount object - option for minimum mount speed when random is selected
  * added - keybindings for pet and mount summons
+ * fixed - issue where deleting an entire stack or learning a pattern/recipe wasnt updating its item count
 
 *3.02.29 (09-JAN-2010)*
  * fixed - added more logic checks around the gold information on money tooltips to remove porential errors
