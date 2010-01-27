@@ -1,6 +1,6 @@
 = Categories =
 
-== Hiding (or displaying) a category ==
+== Hiding (or displaying) a category (or rule) ==
 
 When you assign a category to a bar its displayed by default.
 
