@@ -1,6 +1,6 @@
 = Categories =
 
-== Hiding (or displaying) a category (or rule) ==
+== Hiding (or displaying) a system or custom category or rule ==
 
 When you assign a category to a bar its displayed by default.
 
@@ -10,8 +10,10 @@ If you want to hide a category from normal view (they always display in edit mod
 
   * Click on the bar where the category is assigned
 
-  * Mouse over the category in question (you'll note that its either green or red)
+  * Under `Categories assigned`, Mouse over the category type to bring up a list of categories.  You'll note that the categories are coloured either green (display) or red (hide)
 
-  * From the sub menu chose either Hide (category will go red), or Display (category will go green)
+  * Mouse over the category you want to alter to bring up the next menu
 
-  * Exit edit mode and your category will now be either hidden or displayed depending on the choice you made.
+  * From that menu click `Hide` to toggle the categories hidden status
+
+  * Exit Edit mode and your category will now be either hidden or displayed depending on the choice you made.
