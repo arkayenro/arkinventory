@@ -1,3 +1,5 @@
 *_Under Construction_*
 
 = Manual =
+
+[ManualOptions Configuration Options]
