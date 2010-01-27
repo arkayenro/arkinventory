@@ -10,7 +10,7 @@ To fix it open the AI Configuration, on the System page (near the bottom) are a 
 
 If you don't want to enable the fix (which is graphically intensive as it has to reset the !FrameLevel of all the AI elements every time they hit a certain level) you can reload the UI to see if that fixes it (it'll only be temporary though, it'll happen again)
 ----
-==The rules i'm making aren't working properly==
+==The rules I'm making aren't working properly==
 
 see [RuleFunctions Rule Functions]
 ----
