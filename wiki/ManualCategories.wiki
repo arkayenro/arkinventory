@@ -1,0 +1,17 @@
+= Categories =
+
+== Hiding (or displaying) a category ==
+
+When you assign a category to a bar its displayed by default.
+
+If you want to hide a category from normal view (they always display in edit mode) you need to set the category mode to hidden.
+
+  * Enter edit mode
+
+  * Click on the bar where the category is assigned
+
+  * Mouse over the category in question (you'll note that its either green or red)
+
+  * From the sub menu chose either Hide (category will go red), or Display (category will go green)
+
+  * Exit edit mode and your category will now be either hidden or displayed depending on the choice you made.
