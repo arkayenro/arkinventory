@@ -1,26 +1,28 @@
 #labels Featured
-*3.02.30 (xx-xxx-2010) Working Code*
+*3.02.30 (29-JAN-2010) BETA 18-57*
  * changed - bar names are no longer displayed by default
  * changed - bar names are now on the inside of the bar and will swap between top and bottom depending on item anchor point
- * changed - sorting is now done through sort methods, you create a sort method and then assign it as a window default (sort of like rules), you can then assign a specific sort method to a bar so it sorts differently from the rest of the window
+ * changed - sorting is now done through sort methods, you create a sort method and then assign it as a window default (sort of like rules), you can then assign a different sort method to a bar so it sorts differently from the rest of the window
  * changed - bar movement menu options moved to bar menu (for less clicking)
  * changed - bar movement - reduced to 2 options, "move" and "move > complete"
  * changed - item counts now recognize learnt pets and mounts being the same as the item they are learnt from (note this is a manually maintained table, see companion.xls, so may not be 100% complete or accurate)
- * changed - LDB mount object - will only allow choices from a list of mounts it knows about (see companion.xls) so some of your mounts may not be available. if your mount isnt listed you can email me with its name/spell id and i'll add it
+ * changed - LDB mount object - will only allow choices from a list of mounts it knows about so some of your mounts may not be available. if your mount isnt listed you can raise a ticket with its name/spell id and i'll add it
  * changed - LDB mount object - can now select a ground and a flying mount
  * changed - LDB mount object - random option now selects a mount based on whether the area you are in is flyable or not, and will fall back to a random ground mount in flyable areas if you dont have any valid flying mounts
  * changed - LDB mount object - random option will never select mounts with requirements, such as the standard AQ mounts, even if you meet those requirements
- * changed - LDB pet object - will only allow choices from a list of pets it knows about (see companion.xls) so some of your pets may not be available. if your pet isnt listed you can email me with its name/spell id and i'll add it
+ * changed - LDB pet object - will only allow choices from a list of pets it knows about so some of your pets may not be available. if your pet isnt listed you can raise a ticket with its name/spell id and i'll add it
  * changed - LDB pet object - random option will never summon pets that need reagents, like snowballs, even if you have the required reagent
  * changed - borders now use sharedmedia - all borders have been reset to blizzard tooltip
+ * changed - backgrounds now use sharedmedia
  * added - config option for how much space/padding to allocate for bar names, default is 12
  * added - LDB mount object - option for minimum mount speed when random is selected
  * added - keybindings for pet and mount summons
- * added - support for tracked currencies
+ * added - support for tracked currencies, set via the standard blizzard interface
  * fixed - issue where deleting an entire stack or learning a pattern/recipe wasnt updating its item count
  * fixed - honor points should now use the proper faction icon
  * fixed - arena points should now use the proper icon
-
+ * removed - conversion of old data structures prior to v3 is no longer possible.  if you have a version that old then you will need to delete your arkinventory saved variables file
+  
 *3.02.29 (09-JAN-2010)*
  * fixed - added more logic checks around the gold information on money tooltips to remove porential errors
  * added - config option to change internal 'bucket' timers - how often the window updates when there are changes, default is 0.5 seconds
