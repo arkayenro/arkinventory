@@ -1,4 +1,8 @@
 #labels Featured
+*3.02.31 (30-JAN-2010) BETA 10-46*
+ * fixed - status bar not unhiding
+ * fixed - rules issues
+ 
 *3.02.30 (29-JAN-2010) BETA 18-57*
  * changed - bar names are no longer displayed by default
  * changed - bar names are now on the inside of the bar and will swap between top and bottom depending on item anchor point
