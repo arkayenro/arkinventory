@@ -1,0 +1,55 @@
+#summary Basic Walkthrough - The basics of setting up ArkInventory for first time users
+
+= Basic Walkthrough =
+
+This is your basic walkthough, it's enough to get you going but not enough to so you know everything there is to know about !ArkInventory (theres just way too much stuff for that and you'll probably never need to use it anyway)
+
+----
+*_Work In Progress / Under Construction_*
+----
+
+Out of the box your bags will look like one really big bag.  Not very helpful per se, but hey, it's all in one bag now.
+
+(screenshot)
+
+So where to start.
+
+Sorting.  It's usually the first thing people want to change.  We've got one big bag with all our items all over the place, it's just a big mess.  We can't find anything if it's not sorted, can we.  Well there is that pesky search bar just sitting there waiting for some input that might just help :)
+
+Actually the first thing you need to know is how to open the config screen, because thats where most of the settings are changed;
+
+ * Press *Escape* to bring up the blizzard menu
+ * Click on *Interface* (or is it addons) to bring up the blizzard configuration menu
+ * Click on the Addons tab to show all addons that can be configured via this method
+ * Find !ArkInventory in the list and click on that, its main config screen should now be on the right hand side of the window
+ * there should be a Configuration Menu button there, click on that to open the "real" !ArkInventory config screen
+
+Now thats all a bit long and tedious so there is a way to make a shortcut.
+
+(explain how to create a keybinding and the menu shortcut?)
+
+Back to sorting.  Sorting in ArkInventory is done via Sort Methods.  You can has as many or as few Sort Methods as you need to sort your items the way you want.
+
+You create a Sort Method (explain how, the whole thing)
+
+Once you have a sort method you need to tell the bag to use it as its default sorting, otherwise its going to just stay in the global default bag/slot sort order.
+
+(explain settings > bag > sorting > default)
+
+While were here, we can also change the Borders, Backgrounds, and colours used.
+
+(window>border, background, bar border, background, colour, item border, rarity, empty slots)
+
+Thats the basics done, you can leave it like that, as one big bag if you like, it's nice and basic.  or you could put your items into groups so they're a bit easier to find and manage?
+
+(keep going or split page?)
+
+(groups are categories) (edit mode)
+
+(bar layout, bar>category assignment, bar movement, category reassignment)
+
+(item categories, item>category assignment, custom categories)
+
+Rules, you've heard about them, think they're too complex and don't want to use them? well guess what?  thats perfectly fine, you don't have to use rules at all unless you have some very specific groupings you want to create that can't be handled by either the system or custom categories.
+
+If you really want to figure out how to use the rules have a look at this (need link for that) page.
