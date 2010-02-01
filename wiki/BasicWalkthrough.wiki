@@ -10,7 +10,7 @@ This is your basic walkthough, it's enough to get you going but not enough to so
 
 Out of the box your bags will look like one really big bag.  Not very helpful per se, but hey, it's all in one bag now.
 
-(screenshot)
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Bags.jpg
 
 So where to start.
 
@@ -19,10 +19,10 @@ Sorting.  It's usually the first thing people want to change.  We've got one big
 Actually the first thing you need to know is how to open the config screen, because thats where most of the settings are changed;
 
  * Press *Escape* to bring up the blizzard menu
- * Click on *Interface* (or is it addons) to bring up the blizzard configuration menu
- * Click on the Addons tab to show all addons that can be configured via this method
- * Find !ArkInventory in the list and click on that, its main config screen should now be on the right hand side of the window
- * there should be a Configuration Menu button there, click on that to open the "real" !ArkInventory config screen
+ * Click on *Interface* to bring up the blizzard configuration menu
+ * Click on the *Addons* tab to show all addons that can be configured via this method
+ * Find !ArkInventory in the list and click on that, its blizzard config screen should now be on the right hand side of the window
+ * click on the *Config* button to open the !ArkInventory config screen
 
 Now thats all a bit long and tedious so there is a way to make a shortcut.
 
