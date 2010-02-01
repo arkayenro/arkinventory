@@ -1,20 +1,20 @@
-#summary Basic Walkthrough - The basics of setting up ArkInventory for first time users
+#summary Basic Walk-through - The basics of setting up ArkInventory for first time users
 
-= Basic Walkthrough =
+= Basic Walk-through =
 
-This is your basic walkthough, it's enough to get you going but not enough to so you know everything there is to know about !ArkInventory (theres just way too much stuff for that and you'll probably never need to use it anyway)
+This is your basic walk-though, it's enough to get you going but not enough to so you know everything there is to know about !ArkInventory (theres just way too much stuff for that and you'll probably never need to use it anyway)
 
 ----
 *_Work In Progress / Under Construction_*
 ----
 
-Out of the box your bags will look like one really big bag.  Not very helpful per se, but hey, it's all in one bag now.
+Out of the box your bags will look like this, one really big bag.
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Bag-Initial.jpg
 
-So where to start.
+Not very helpful per se, so where to start.
 
-Sorting.  It's usually the first thing people want to change.  We've got one big bag with all our items all over the place, it's just a big mess.  We can't find anything if it's not sorted, can we.  Well there is that pesky search bar just sitting there waiting for some input that might just help :)
+Sorting.  It's usually the first thing people want to change.  We've got one big bag with all our items all over the place, it's just a big mess.  We can't find anything if it's not sorted, now can we.  Well there is that pesky search bar just sitting there waiting for some input that might just help :)
 
 Actually the first thing you need to know is how to open the config screen, because thats where most of the settings are changed;
 
@@ -22,13 +22,21 @@ Actually the first thing you need to know is how to open the config screen, beca
  * Click on *Interface* to bring up the blizzard configuration menu
  * Click on the *Addons* tab to show all addons that can be configured via this method
  * Find !ArkInventory in the list and click on that, its blizzard config screen should now be on the right hand side of the window
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Options-Main.jpg
+
  * click on the *Config* button to open the !ArkInventory config screen
 
-Now thats all a bit long and tedious so there is a way to make a shortcut.
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Options-Addon.jpg
 
-(explain how to create a keybinding and the menu shortcut?)
 
-Back to sorting.  Sorting in ArkInventory is done via Sort Methods.  You can has as many or as few Sort Methods as you need to sort your items the way you want.
+Now thats all a bit long and tedious but there is a shorter way.
+
+Click on the !ArkInventory location icon (top left), the click on Config
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Menu-Config.jpg
+
+Back to sorting.  Sorting in !ArkInventory is done via sort methods.  You can has as many or as few sort methods as you need to sort your items the way you want.
 
 You create a Sort Method (explain how, the whole thing)
 
