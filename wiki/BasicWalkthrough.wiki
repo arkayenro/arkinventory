@@ -82,22 +82,15 @@ Now open the bag and see the difference
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Bag-Initial2.jpg
 
+Thats the basics done.
 
 
-While were here, we can also change the Borders, Backgrounds, and colours used.
+There were other options you would have seen during this setup, your best bet is to just play with those settings and see if you like the results.  Most aren't hard to put back to their default, only the colours are a bit difficult but you can get close enough with those that it doesnt really matter.
 
-(window>border, background, bar border, background, colour, item border, rarity, empty slots)
+----
 
-Thats the basics done, you can leave it like that, as one big bag if you like, it's nice and basic.  or you could put your items into groups so they're a bit easier to find and manage?
+One thing you do need to know about if you want to go any further and that is how the settings options work.
 
-(keep going or split page?)
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Options-Control.jpg
 
-(groups are categories) (edit mode)
-
-(bar layout, bar>category assignment, bar movement, category reassignment)
-
-(item categories, item>category assignment, custom categories)
-
-Rules, you've heard about them, think they're too complex and don't want to use them? well guess what?  thats perfectly fine, you don't have to use rules at all unless you have some very specific groupings you want to create that can't be handled by either the system or custom categories.
-
-If you really want to figure out how to use the rules have a look at this (need link for that) page.
+You can see in this image that the bag controls are set to use the bag settings - all the location controls default to using their own settings, but they don't have to.  If you want your bank to use the same settings as your bag then you can just change the settings option for it to bag and it'll end up looking the same
