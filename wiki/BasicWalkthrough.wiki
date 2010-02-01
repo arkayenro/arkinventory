@@ -10,7 +10,7 @@ This is your basic walkthough, it's enough to get you going but not enough to so
 
 Out of the box your bags will look like one really big bag.  Not very helpful per se, but hey, it's all in one bag now.
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Bags.jpg
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Bag-Initial.jpg
 
 So where to start.
 
