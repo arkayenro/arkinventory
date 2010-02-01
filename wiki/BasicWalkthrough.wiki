@@ -54,15 +54,35 @@ Here you see the system default sort method of Bag/Slot, it's disabled so you ca
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods-UserDefined-New.jpg
 
+As you can see, all the options are in red, this means they aren't being used.  We need to enable them first and then we can put them in the order we want.
+
+ * Tick the box for the options you want enabled, in my case that's rarity, category, equip location and name
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods-UserDefined-Setup1.jpg
+
+ * Once they're enabled we can move them up and down via the buttons
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods-UserDefined-Setup2.jpg
+
+Now we have our sort method created we need to tell the bag to use it as its default sorting, otherwise it's just going to stay the way it is.
+
+ * Click on Settings
+
+ * You should already be on the Bag tab
+
+ * Expand the Window option, if it's not already expanded
+
+ * Click on Sorting
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethod-Assign.jpg
+
+ * Click on the Style dropdown and select the sort method we just created
+
+Now open the bag and see the difference
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Bag-Initial2.jpg
 
 
-
-
-
-
-Once you have a sort method you need to tell the bag to use it as its default sorting, otherwise its going to just stay in the global default bag/slot sort order.
-
-(explain settings > bag > sorting > default)
 
 While were here, we can also change the Borders, Backgrounds, and colours used.
 
