@@ -36,9 +36,29 @@ Click on the !ArkInventory location icon (top left), the click on Config
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Menu-Config.jpg
 
-Back to sorting.  Sorting in !ArkInventory is done via sort methods.  You can has as many or as few sort methods as you need to sort your items the way you want.
+Back to sorting.
 
-You create a Sort Method (explain how, the whole thing)
+Sorting in !ArkInventory is done via sort methods.  You can have as many or as few sort methods as you need to sort your items the way you want.
+
+To create a Sort Method;
+ * Open the config
+ * Click on Sort Methods
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods.jpg
+
+Here you see the system default sort method of Bag/Slot, it's disabled so you cant change anything for this method.
+
+ * In the Add sort method entry field, enter a name for your sort method, we'll use *Standard*, and either press *Enter* or click on *Okay*, and you'll end up with a new sort method.
+
+ * Click on your new sort method
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods-UserDefined-New.jpg
+
+
+
+
+
+
 
 Once you have a sort method you need to tell the bag to use it as its default sorting, otherwise its going to just stay in the global default bag/slot sort order.
 
