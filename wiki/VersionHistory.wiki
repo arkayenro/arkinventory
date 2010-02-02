@@ -1,7 +1,13 @@
 #labels Featured
+*3.02.33 (02-FEB-2010) BETA 21-42*
+ * added - fix corrupted categories caused by earlier betas
+
+*3.02.32 (02-FEB-2010) BETA 20-55*
+ * fixed - issue with conversion of custom categories
+
 *3.02.31 (30-JAN-2010) BETA 10-46*
  * fixed - status bar not unhiding
- * fixed - rules issues
+ * fixed - rule conversion issues
  
 *3.02.30 (29-JAN-2010) BETA 18-57*
  * changed - bar names are no longer displayed by default
