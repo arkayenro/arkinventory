@@ -4,10 +4,12 @@ to erase the data for a toon;
   * open the bag window
   * click on the Switch Character icon
   * mouse over the toon you wish to erase the data for
-  * chose either erase bag data or erase all data
+  * click on either erase bag data or erase all data
 
-if you wish to just erase data for a specific area, eg the bank, you will need to open that specific locations window first.
+if you wish to just erase data for a specific location, eg the bank, you will need to open that specific locations window first.
 
 if you wish to erase vault data you will need to open the vault window first.
 
-you can erase data in offline mode, you do not have to be logged into that particular toon.
+you can erase data in offline mode.
+
+you do not have to be logged into that particular toon to erase their data.
