@@ -1,4 +1,8 @@
 #labels Featured
+*3.02.34 (09-FEB-2010) BETA 23-37*
+ * fixed - openallbags (shift+b) should now work more like the blizzard version (it's not exactly the same but it is more logical)
+ * fixed - EraseSavedData( ) function was leaving some data intact, specifically guild bank gold
+
 *3.02.33 (02-FEB-2010) BETA 21-42*
  * added - fix corrupted categories caused by earlier betas
 
