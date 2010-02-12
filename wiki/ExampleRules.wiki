@@ -40,11 +40,13 @@ tooltip( %+%d+ %a+ resist )
 == items that are part of a set ==
 
 {{{
-tooltip( %sset: )
+tooltip( %sset:, set name )
 }}}
 
   * `%s` = matches a space (we use this because leading spaces are removed from arguments and we want to make sure we don't get a word that ends in set)
   * `set:` = match the actual text set:
+  * `,` = delimiter, we also want to search for something else
+  * `set name` = the name of the actual set we want
 
 
 == gems ==
