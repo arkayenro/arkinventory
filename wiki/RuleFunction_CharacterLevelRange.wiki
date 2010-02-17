@@ -1,0 +1,24 @@
+= CharacterLevelRange( arg1, arg2 ) =
+
+Checks if an item is usable by a character arg1 levels below, or arg2 levels above your current level.
+
+== Alias ==
+
+clr( )
+
+== Arguments ==
+
+arg1 = numeric, number of levels below
+arg2 = numeric, number of levels above
+
+
+== Notes ==
+
+If only one parameter is specified it will be used for both arguments
+
+
+== Examples ==
+
+`clr( 2, 5 )`
+
+`clr( 5 )`
