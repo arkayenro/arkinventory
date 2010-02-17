@@ -1,4 +1,4 @@
-= !CharacterLevelRange( arg1, arg2 ) =
+= characterlevelrange( arg1, arg2 ) =
 
 Checks if an item is usable by a character arg1 levels below, or arg2 levels above your current level.
 
