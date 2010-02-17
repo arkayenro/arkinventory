@@ -7,16 +7,16 @@ Checks if any of the supplied arguments match an items quality
  * arg1..N = quality to match (numeric or string)
 
 == Remarks ==
-  * 0 = Poor (grey)
-  * 1 = Common (white)
-  * 2 = Uncommon (green)
-  * 3 = Rare (blue)
-  * 4 = Epic (purple)
-  * 5 = Legendary (orange)
-  * 6 = Artifact (red)
-  * 7 = Heirloom (gold) (bind to account)
+  * 0 / Poor (grey)
+  * 1 / Common (white)
+  * 2 / Uncommon (green)
+  * 3 / Rare (blue)
+  * 4 / Epic (purple)
+  * 5 / Legendary (orange)
+  * 6 / Artifact (red)
+  * 7 / Heirloom (gold)
 
-  * you can use either the numeric value or the text value as an argument
+  * you can use either the numeric value or the (localised) text value as an argument
 
 == Examples ==
 
