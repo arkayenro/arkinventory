@@ -18,39 +18,39 @@
 
 == Functions ==
 
-  * [RuleFunction_Soulbound soulbound( )]
+  * [RuleFunction_Soulbound Soulbound]
 
-  * [RuleFunction_Name name( arg1, ..., argN )]
+  * [RuleFunction_Name Item Name]
 
-  * [RuleFunction_ItemID id( arg1, ..., argN )]
+  * [RuleFunction_ItemID Item Id]
 
-  * [RuleFunction_ItemType itemtype( arg1, ..., argN )]
+  * [RuleFunction_ItemType Item Type]
 
-  * [RuleFunction_ItemSubType subtype( arg1, ..., argN )]
+  * [RuleFunction_ItemSubType Item Sub-Type]
 
-  * [RuleFunction_Equip equip( arg1, ..., argN )]
+  * [RuleFunction_Equip Equip]
 
-  * [RuleFunction_PeriodicTable periodictable( set1, ..., setN )]
+  * [RuleFunction_PeriodicTable Periodic Table]
 
-  * [RuleFunction_Tooltip tooltip( arg1, ..., argN )]
+  * [RuleFunction_Tooltip Tooltip]
 
-  * [RuleFunction_ItemQuality quality( arg1, ..., argN )]
+  * [RuleFunction_ItemQuality Quality]
 
-  * [RuleFunction_ItemLevelStat ilvl( min, max )]
+  * [RuleFunction_ItemLevelStat Item Internal Level (ilvl)]
 
-  * [RuleFunction_ItemLevelUse ireq( min, max )]
+  * [RuleFunction_ItemLevelUse Item Use Level]
 
-  * [RuleFunction_Outfit outfit( set1, ..., setN )]
+  * [RuleFunction_Outfit Outfit]
 
-  * [RuleFunction_ItemCount count( arg )]
+  * [RuleFunction_ItemCount Count]
 
-  * [RuleFunction_ItemStacks stacks( )]
+  * [RuleFunction_ItemStacks Stacks]
 
-  * [RuleFunction_Bag bag( arg1, ..., argN )]
+  * [RuleFunction_Bag Bag]
 
-  * [RuleFunction_Location location( arg1, ..., argN )]
+  * [RuleFunction_Location Location]
 
-  * [RuleFunction_CharacterLevelRange clr( arg1, arg2 )]
+  * [RuleFunction_CharacterLevelRange Character Level Range]
 
 
 
