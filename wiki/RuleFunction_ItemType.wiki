@@ -1,22 +1,25 @@
-= itemtype( arg1, ..., argN ) =
+= type( arg1, ..., argN ) =
 
-Checks if any of the supplied arguments matches an items in-game type
+Checks if any of the supplied arguments matches an items type
 
 == Alias ==
-type()
+
+  * `itemtype`
 
 == Arguments ==
 
-  * arg1...N = string(s) to match
+  * arg1...N (string) = item type
 
 == Remarks ==
+
   * args must be in the clients language
-  * can be found on the debug info menu for that item
+
+  * an items type can be found on the debug info menu for that item
 
 == Examples ==
 
-`type( armor, weapon )`
+  * `type( "armor", "weapon" )`
 
-`type( gem )`
+  * `type( "gem" )`
 
-`type( recipe )`
+  * `type( "recipe" )`
