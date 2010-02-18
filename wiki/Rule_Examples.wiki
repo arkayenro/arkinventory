@@ -1,13 +1,96 @@
-#summary One-sentence summary of this page.
+#summary Example Rules
 
-= Introduction =
+= General =
 
-Add your content here.
+Ensure you have read [RuleFunction Rule Functions] before starting.
+
+= Example Rules =
+
+== items with resistances on them ==
+
+{{{
+tooltip( "%+%d+ %a+ resist" )
+}}}
+  * `%+` = match a plus (`+`) character
+  * `%d+` = match 1 or more digits (numbers)
+  * `<space>` = match actual text - <space>
+  * `%a+` = match 1 or more letters (ie a single word, in this case the type of resistance)
+  * `<space>` = match actual text - <space>
+  * `resist` = match actual text - resist 
 
 
-= Details =
+== items that are part of a set ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+{{{
+tooltip( "%sset:" )
+}}}
+
+  * `%s` = matches a space (we use this because leading spaces are removed from arguments and we want to make sure we don't get a word that ends in set)
+  * `set:` = match actual text - set:
+
+note that this will match any item that is in a set, which is a bit pointless by itself, so you'll need to be more specific.
+
+{{{
+ tooltip( "%sset:" ) and tooltip( "garona's battlegear" )
+}}}
+
+if your set name is unique then you can just search on that by itself.
+
+== gems ==
+
+all gems
+{{{
+type( "gem" )
+}}}
+
+all cut gems
+{{{
+type( "gem" ) and tooltip( "socket" )
+}}}
+
+all uncut gems
+{{{
+type( "gem" ) and not tooltip( "socket" )
+}}}
+
+all red or blue gems (both cut and uncut)
+{{{
+type( "gem" ) and subtype( "blue", "red" )
+}}}
+
+
+== equipment/ armor / outfits ==
+
+anything that can be worn by a character (ignoring restrictions)
+{{{
+equip( )
+}}}
+
+soulbound equipment
+{{{
+equip( ) and soulbound( )
+}}}
+
+boe's
+{{{
+equip( ) and not soulbound( )
+}}}
+
+cloth armor
+{{{
+type( "armor" ) and subtype( "cloth" )
+}}}
+
+equipment in an outfit
+{{{
+outfit( "fishing" )
+}}}
+
+{{{
+outfit( "healing" )
+}}}
+
+equipment that isn't in an outfit
+{{{
+equip( ) and not outfit( )
+}}}
