@@ -4,7 +4,7 @@ Checks if any of the supplied arguments are contained within the item's name
 
 == Arguments ==
 
-  * arg1...N (string) pattern to search for
+  * arg1...N (string) = pattern to search for
 
 == Remarks ==
 
