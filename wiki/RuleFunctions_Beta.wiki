@@ -20,15 +20,15 @@
 
   * [RuleFunction_Soulbound Soulbound]
 
-  * [RuleFunction_Name Item Name]
+  * [RuleFunction_Name Name]
 
-  * [RuleFunction_ItemID Item Id]
+  * [RuleFunction_ItemID Id]
 
-  * [RuleFunction_ItemType Item Type]
+  * [RuleFunction_ItemType Type]
 
-  * [RuleFunction_ItemSubType Item Sub-Type]
+  * [RuleFunction_ItemSubType Sub Type]
 
-  * [RuleFunction_Equip Equip]
+  * [RuleFunction_Equip Equip Location]
 
   * [RuleFunction_PeriodicTable Periodic Table]
 
@@ -36,9 +36,9 @@
 
   * [RuleFunction_ItemQuality Quality]
 
-  * [RuleFunction_ItemLevelStat Item Internal Level (ilvl)]
+  * [RuleFunction_ItemLevelStat Internal Level (ilvl)]
 
-  * [RuleFunction_ItemLevelUse Item Use Level]
+  * [RuleFunction_ItemLevelUse Use Level]
 
   * [RuleFunction_Outfit Outfit]
 
