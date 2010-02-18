@@ -52,17 +52,14 @@
 
   * [RuleFunction_CharacterLevelRange Character Level Range]
 
+  * Vendor Price Under
+
+  * Vendor Price Over
+
+  * Usable
+
 
 
 == Example Rules ==
 
 Some example rules can be found [ExampleRules here]
-
-
-
-==to be done==
-  * vpu=Rule.Execute.ItemVendorPriceUnder
-  * vpo=Rule.Execute.ItemVendorPriceOver
-  * use=Rule.Execute.Useable
-  * useable=Rule.Execute.Useable
-  * usable=Rule.Execute.Useable
