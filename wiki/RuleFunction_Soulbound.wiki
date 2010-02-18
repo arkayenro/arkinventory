@@ -1,17 +1,17 @@
-= soulbound() =
+= soulbound( ) =
 
 Checks if an item is soulbound
 
 == Alias ==
 
-sb()
+  * `sb`
 
 == Arguments ==
 
-None, any arguments passed are ignored
+  * None - any arguments passed are ignored
 
 == Examples ==
 
-`soulbound()`
+  * `equip( ) and sb( ) and not outfit( )`
 
-`not soulbound()`
+  * `equip( ) and not sb( )`
