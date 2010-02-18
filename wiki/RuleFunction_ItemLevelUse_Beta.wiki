@@ -1,4 +1,4 @@
-#Rule Function: ItemLevelUse
+#summary Rule Function: ItemLevelUse
 
 = ireq( min, max ) =
 
