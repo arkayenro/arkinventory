@@ -1,5 +1,25 @@
 = Rule Functions =
 
+rule formulas essentially equate logically to either true or false depending on the functions and arguments you give.  false means an item didn't match, true means it did and will be assigned to that rule.
+
+the default rule formula starts out as *`false`*, you don't actually need to keep that in your own rule formula, it's just a place holder so that a "blank" rule has a value but doesn't actually match any item and will return false.
+
+don't forget that there are system categories for the basic stuff, ie trash, skills, class, which you can specifically assign an item to, so don't create a rule for the basic stuff unless absolutely necessary.
+
+when creating a rule formula, try to keep it as simple and short as possible, eg;
+
+{{{
+type( "armor" ) and subtype( "cloth" ) or subtype( "leather" ) or subtype( "mail" )
+}}}
+
+this does 3 separate calls to the subtype function.  you should always try and compress any same function or comparisons down to a single function call where possible. eg;
+
+{{{
+type( "armor" ) and subtype( "cloth","leather","mail" )
+}}}
+
+this would be quicker (although that particular function is pretty fast anyway), but some functions, like outfit( ), are fairly intensive so calling them as little as possible is good.
+
 == Basics ==
 
   * function names are case sensitive, they need to be lowercase
