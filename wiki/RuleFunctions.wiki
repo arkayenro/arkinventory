@@ -19,7 +19,6 @@
   * [RuleFunction_ItemType itemtype( arg1, ..., argN )]
   * [RuleFunction_ItemSubType subtype( arg1, ..., argN )]
   * [RuleFunction_Equip equip( arg1, ..., argN )]
-  * [RuleFunction_Empty empty( )]
   * [RuleFunction_PeriodicTable periodictable( set1, ..., setN )]
   * [RuleFunction_Tooltip tooltip( arg1, ..., argN )]
   * [RuleFunction_ItemQuality quality( arg1, ..., argN )]
@@ -30,6 +29,7 @@
   * [RuleFunction_ItemStacks stacks( )]
   * [RuleFunction_Bag bag( arg1, ..., argN )]
   * [RuleFunction_Location location( arg1, ..., argN )]
+  * [RuleFunction_CharacterLevelRange characterlevelrange( arg1, arg2 )]
 
 == Example Rules ==
 
@@ -38,7 +38,6 @@ Some example rules can be found [ExampleRules here]
 
 
 ==to be done==
-  * clr=Rule.Execute.CharacterLevelRange
   * vpu=Rule.Execute.ItemVendorPriceUnder
   * vpo=Rule.Execute.ItemVendorPriceOver
   * use=Rule.Execute.Useable
