@@ -1,13 +1,33 @@
-#summary One-sentence summary of this page.
+= quality( arg1, ..., argN ) =
 
-= Introduction =
+Checks if any of the supplied arguments match an items quality
 
-Add your content here.
+== Arguments ==
 
+ * arg1..N (numeric or string) = quality
 
-= Details =
+== Remarks ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * 0 / Poor (grey)
+
+  * 1 / Common (white)
+
+  * 2 / Uncommon (green)
+
+  * 3 / Rare (blue)
+
+  * 4 / Epic (purple)
+
+  * 5 / Legendary (orange)
+
+  * 6 / Artifact (red)
+
+  * 7 / Heirloom (gold)
+
+  * you can use either the numeric value or the (localised) text value as an argument
+
+== Examples ==
+
+  * `quality( "poor" )`
+
+  * `quality( 5, 6 )`
