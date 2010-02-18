@@ -1,4 +1,9 @@
 #labels Featured
+*3.02.35 (xx-xxx-2010) BETA xx-xx*
+ * fixed - invalid code in options table for /rules/border/offset
+ * changed - default order for rules changed from 0 to 100
+ * changed - rule function arguments are now specified differently, this will cause some of your rules to break and some to not work exactly how you intended.  string arguments now need to be quoted, eg name( "eternal", "shard" )
+
 *3.02.34 (09-FEB-2010) BETA 23-37*
  * fixed - openallbags (shift+b) should now work more like the blizzard version (it's not exactly the same but it is more logical)
  * fixed - EraseSavedData( ) function was leaving some data intact, specifically guild bank gold
