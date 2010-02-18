@@ -1,4 +1,6 @@
+#summary Sample Rule
 #labels Featured
+
 = General =
 
 rule formulas essentially equate logically to either true or false depending on the functions and arguments you give.  false means an item didn't match, true means it did and will be assigned to that rule.
