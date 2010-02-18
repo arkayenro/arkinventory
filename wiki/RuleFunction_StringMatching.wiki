@@ -1,6 +1,6 @@
 == String Matching ==
 
-because the rule formulas are being interpreted via LUA there are some things you need to be aware of when trying to match strings, ie from `name()` and `tooltip()`
+because the rule formulas are being interpreted via Lua there are some things you need to be aware of when trying to match strings, ie from `name()` and `tooltip()`
 
 
 there are a few "magic" characters, these are `^$()%.[]*+-?` if you want to search for one of these characters you must "escape" it or it won't match (and could do something totally different), you do this by putting a % in front of it.  the same usually applies for any non alpha or numeric character.
