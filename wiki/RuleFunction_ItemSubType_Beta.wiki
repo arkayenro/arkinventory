@@ -1,13 +1,19 @@
-#summary One-sentence summary of this page.
+= subtype( arg1, ..., argN ) =
 
-= Introduction =
+Checks if any of the supplied arguments matches an items in-game subtype
 
-Add your content here.
+== Arguments ==
 
+  * arg1...N (string) = subtype
 
-= Details =
+== Remarks ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * arg values must be in the clients language
+
+  * an items subtype can be found on the debug info menu for that item
+
+== Examples ==
+
+  * `type( "armor" ) and subtype( "leather" )`
+
+  * `type( "gem" ) and subtype( "yellow" )`
