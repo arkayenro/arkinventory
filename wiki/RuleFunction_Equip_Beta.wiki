@@ -11,7 +11,7 @@ Checks if any of the supplied arguments matches an items equip location
 
   * an items equip location can be found on the debug info menu for that item
 
-  * if no arguments are passed then it will return "true" if the item can be equipped (does not take into account class, skill or level restrictions)
+  * if no arguments are passed then it will return "true" if an item can be equipped (does not take into account class, skill or level restrictions)
 
 == Examples ==
 
