@@ -10,9 +10,7 @@
 
   * leading and trailing spaces are trimmed from all arguments
 
-  * rules are validated before being saved, you cannot save an invalid rule
-
-  * code changes can cause a rule to become damaged, it that happens it will be flagged as damaged and will not be used until it's manually corrected and resaved
+  * code changes can cause a rule to become "damaged", it that happens it will be flagged as damaged and will not be used until it is corrected and resaved
 
   * where a rule takes multiple arguments it functions as an explicit or. eg `name( "scroll", "elixir", "potion" )` is equivalent to `name( "scroll" ) or name( "elixir" ) or name( "potion" )`
 
