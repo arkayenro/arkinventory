@@ -4,7 +4,7 @@ Checks if any of the supplied arguments match (or partially match) an item's !Ar
 
 == Arguments ==
 
-  * arg1...N = numeric or string
+  * arg1...N (numeric or string)
 
 == Remarks ==
 
@@ -20,8 +20,8 @@ Checks if any of the supplied arguments match (or partially match) an item's !Ar
 
 == Examples ==
 
-`id( 1, 2, 3, 4, 5 )`
+  * `id( 1, 2, 3, 4, 5 )`
 
-`id( 1, "23:0:0" )`
+  * `id( 1, "23:0:0" )`
 
-`id( "12:1:0:0:0:3", 54 )`
+  * `id( "12:1:0:0:0:3", 54 )`
