@@ -16,7 +16,7 @@
 
 == Functions ==
 
-  * [RuleFunction_Soulbound Soulbound]
+  * [RuleFunction_Soulbound_Beta Soulbound]
 
   * [RuleFunction_Name Name]
 
@@ -28,9 +28,9 @@
 
   * [RuleFunction_EquipLocation Equip Location]
 
-  * [RuleFunction_PeriodicTable Periodic Table]
+  * [RuleFunction_PeriodicTable_Beta Periodic Table]
 
-  * [RuleFunction_Tooltip Tooltip]
+  * [RuleFunction_Tooltip_Beta Tooltip]
 
   * [RuleFunction_Quality Quality]
 
@@ -38,15 +38,15 @@
 
   * [RuleFunction_UseLevel Use Level]
 
-  * [RuleFunction_Outfit Outfit]
+  * [RuleFunction_Outfit_Beta Outfit]
 
   * [RuleFunction_Count Count]
 
   * [RuleFunction_Stacks Stacks]
 
-  * [RuleFunction_Bag Bag]
+  * [RuleFunction_Bag_Beta Bag]
 
-  * [RuleFunction_Location Location]
+  * [RuleFunction_Location_Beta Location]
 
   * [RuleFunction_CharacterLevelRange Character Level Range]
 
