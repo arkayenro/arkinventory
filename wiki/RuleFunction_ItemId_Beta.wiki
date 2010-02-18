@@ -1,10 +1,6 @@
-= itemid( arg1, ..., argN ) =
+= id( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments match (or partially match) an item's !ArkInventory ID
-
-== Alias ==
-
-id
 
 == Arguments ==
 
