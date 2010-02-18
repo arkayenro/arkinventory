@@ -11,11 +11,11 @@ arg2 = numeric, number of levels above the current characters level
 
 == Notes ==
 
-If only the first argument is specified then it will be used for both arguments
+If only the first argument is specified then it will be used for both arguments.  eg, `clr( 5 )` is equivalent to `clr( 5, 5 )`
 
 
 == Examples ==
 
 `clr( 2, 5 )`
 
-`clr( 5 )` is equivalent to `clr( 5, 5 )`
+`clr( 5 )`
