@@ -4,7 +4,7 @@ Checks if the number of items in a stack is greater than or equal to arg
 
 == Alias ==
 
-count( )
+count
 
 == Arguments ==
 
