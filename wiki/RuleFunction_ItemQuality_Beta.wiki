@@ -8,7 +8,11 @@ Checks if any of the supplied arguments match an items quality
 
 == Remarks ==
 
-  * you can use either the numeric value or the localised text value as an argument
+  * you can use either the numeric or text value as an argument
+
+  * text values must be in the clients language
+
+== Notes ==
 
   * 0 or "Poor" = grey
 
