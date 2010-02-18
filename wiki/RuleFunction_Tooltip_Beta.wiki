@@ -14,7 +14,7 @@ Checks if any of the supplied arguments are contained within an items tooltip te
 
   * does not check within the item name, use `name( )` if required
 
-  * only checks the standard WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one, also does not check tooltip text from created items (eg recipes) that is normally added on updates
+  * can only scan the standard WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one, also does not check tooltip text from created items (eg recipes) that is normally added on updates
 
   * Lua string patterns are usable, see [RuleFunction_StringMatching string matching]
 
