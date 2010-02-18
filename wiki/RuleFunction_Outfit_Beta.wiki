@@ -18,7 +18,7 @@ Matches items in sets from outfit mods, eg Outfitter, !ItemRack, Blizzard !Equip
 
 == Issues ==
 
-  * after changing the set an item belongs to in the outfit mod you will need to use the reload menu option in !ArkInventory to have it update to the new category
+  * after changing the set an item belongs to in the outfit mod you may need to use the reload menu option in !ArkInventory to have it update to the new category
 
 == Examples ==
 
