@@ -1,0 +1,26 @@
+= itemid( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments match (or partially match) an item's !ArkInventory ID
+
+== Alias ==
+
+id
+
+== Arguments ==
+
+  * arg1...N = numeric or string
+
+== Remarks ==
+  * the complete item id can be found on the debug info menu
+  * partial matches can made
+  * if argument is numeric it will only match on item id itself
+  * use a string to specify suffix, enchants and gems
+  * does not work on spells (learnt pets and mounts)
+
+== Examples ==
+
+`id( 1, 2, 3, 4, 5 )`
+
+`id( 1, "23:0:0" )`
+
+`id( "12:1:0:0:0:3", 54 )`
