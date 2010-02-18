@@ -1,5 +1,3 @@
-#summary Rule Function: ItemLevelUse
-
 = ireq( min, max ) =
 
 Checks if the level to use an item is equal to or between the min and max arguments
