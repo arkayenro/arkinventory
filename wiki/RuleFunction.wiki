@@ -1,0 +1,63 @@
+= Rule Functions =
+
+== Basics ==
+
+  * function names are case sensitive, they need to be lowercase
+
+  * the Lua logic operators *`and`*, *`or`*, *`not`* need to be in lowercase
+
+  * the arguments passed to a function are normally case insensitive (converted to lower case for matching purposes), unless that function specifically requires an exact case match (eg periodictable)
+
+  * leading and trailing spaces are trimmed from all arguments
+
+  * rules are validated before being saved, you cannot save an invalid rule
+
+  * code changes can cause a rule to become damaged, it that happens it will be flagged as damaged and will not be used until it's manually corrected and resaved
+
+  * where a rule takes multiple arguments it functions as an explicit or. eg `name( "scroll", "elixir", "potion" )` is equivalent to `name( "scroll" ) or name( "elixir" ) or name( "potion" )`
+
+== Functions ==
+
+  * [RuleFunction_Soulbound Soulbound]
+
+  * [RuleFunction_Name Name]
+
+  * [RuleFunction_ItemID Id]
+
+  * [RuleFunction_ItemType Type]
+
+  * [RuleFunction_ItemSubType Sub Type]
+
+  * [RuleFunction_Equip Equip Location]
+
+  * [RuleFunction_PeriodicTable Periodic Table]
+
+  * [RuleFunction_Tooltip Tooltip]
+
+  * [RuleFunction_ItemQuality Quality]
+
+  * [RuleFunction_ItemLevelStat Internal Level (ilvl)]
+
+  * [RuleFunction_ItemLevelUse Use Level]
+
+  * [RuleFunction_Outfit Outfit]
+
+  * [RuleFunction_Count Count]
+
+  * [RuleFunction_ItemStacks Stacks]
+
+  * [RuleFunction_Bag Bag]
+
+  * [RuleFunction_Location Location]
+
+  * [RuleFunction_CharacterLevelRange Character Level Range]
+
+  * [RuleFunction_ItemVendorPriceUnder Vendor Price Under]
+
+  * [RuleFunction_ItemVendorPriceOver Vendor Price Over]
+
+  * [RuleFunction_Usable Usable]
+
+== Example Rules ==
+
+Some example rules can be found [ExampleRules here]
