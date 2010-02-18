@@ -11,11 +11,17 @@ Ensure you have read [RuleFunction Rule Functions] before starting.
 {{{
 tooltip( "%+%d+ %a+ resist" )
 }}}
+
   * `%+` = match a plus (`+`) character
+
   * `%d+` = match 1 or more digits (numbers)
+
   * `<space>` = match actual text - a space
+
   * `%a+` = match 1 or more letters (ie a single word, in this case the type of resistance)
+
   * `<space>` = match actual text - a space
+
   * `resist` = match actual text - resist 
 
 
@@ -26,6 +32,7 @@ tooltip( "%sset:" )
 }}}
 
   * `%s` = matches a space (we use this because leading spaces are removed from arguments and we want to make sure we don't get a word that ends in set)
+
   * `set:` = match actual text - set:
 
 note that this will match any item that is in a set, which is a bit pointless by itself, so you'll need to be more specific.
