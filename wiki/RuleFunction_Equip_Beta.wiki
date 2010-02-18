@@ -1,0 +1,20 @@
+= equip( "arg1", ..., "argN" ) =
+
+Checks if any of the supplied arguments matches an items equip location
+
+
+== Arguments ==
+
+  * "arg1...N" = string, locations to match, must be quoted
+
+== Remarks ==
+  * the item equip location can be found on the debug info menu for that item
+  * if no arguments are passed then it will return "true" if the item can be equipped (does not take into account class, skill or level restrictions)
+
+== Examples ==
+
+`equip( "trinket" ) and soulbound()`
+
+`equip( "finger" )`
+
+`equip( )`
