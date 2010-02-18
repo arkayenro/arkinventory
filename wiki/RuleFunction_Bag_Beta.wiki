@@ -5,14 +5,15 @@ Checks if any of the supplied arguments match the bag number an item is in.
 
 == Arguments ==
 
-  * arg1...N = numeric, bag position
+  * arg1...N (numeric)
 
 == Remarks ==
   * bag numbers are not the blizzard ids, they are just the position the bag is in, ie from 1 to x (where is is the total number of bags for that location)
+
   * if you use the same settings for two locations, eg bag and bank you will need to include the `location( )` function in the rule as well if you want to differentiate between locations.
 
 == Examples ==
 
-`bag( 1 ) and location( "vault" )`
+  * `bag( 1 ) and loc( "vault" )`
 
-`bag( 1, 2, 7 )`
+  * `bag( 1, 2, 7 )`
