@@ -1,4 +1,4 @@
-#summary Sample Rule
+#summary Example Rules
 #labels Featured
 
 = General =
