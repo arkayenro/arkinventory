@@ -52,13 +52,11 @@
 
   * [RuleFunction_CharacterLevelRange Character Level Range]
 
-  * Vendor Price Under
+  * [RuleFunction_ItemVendorPriceUnder Vendor Price Under]
 
-  * Vendor Price Over
+  * [RuleFunction_ItemVendorPriceOver Vendor Price Over]
 
-  * Usable
-
-
+  * [RuleFunction_Usable Usable]
 
 == Example Rules ==
 
