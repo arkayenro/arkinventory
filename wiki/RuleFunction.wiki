@@ -22,29 +22,29 @@
 
   * [RuleFunction_Name Name]
 
-  * [RuleFunction_ItemID Id]
+  * [RuleFunction_Id Id]
 
-  * [RuleFunction_ItemType Type]
+  * [RuleFunction_Type Type]
 
-  * [RuleFunction_ItemSubType Sub Type]
+  * [RuleFunction_SubType Sub Type]
 
-  * [RuleFunction_Equip Equip Location]
+  * [RuleFunction_EquipLocation Equip Location]
 
   * [RuleFunction_PeriodicTable Periodic Table]
 
   * [RuleFunction_Tooltip Tooltip]
 
-  * [RuleFunction_ItemQuality Quality]
+  * [RuleFunction_Quality Quality]
 
-  * [RuleFunction_ItemLevelStat Internal Level (ilvl)]
+  * [RuleFunction_InternalLevel Internal Level (ilvl)]
 
-  * [RuleFunction_ItemLevelUse Use Level]
+  * [RuleFunction_UseLevel Use Level]
 
   * [RuleFunction_Outfit Outfit]
 
   * [RuleFunction_Count Count]
 
-  * [RuleFunction_ItemStacks Stacks]
+  * [RuleFunction_Stacks Stacks]
 
   * [RuleFunction_Bag Bag]
 
@@ -52,9 +52,9 @@
 
   * [RuleFunction_CharacterLevelRange Character Level Range]
 
-  * [RuleFunction_ItemVendorPriceUnder Vendor Price Under]
+  * [RuleFunction_VendorPriceUnder Vendor Price Under]
 
-  * [RuleFunction_ItemVendorPriceOver Vendor Price Over]
+  * [RuleFunction_VendorPriceOver Vendor Price Over]
 
   * [RuleFunction_Usable Usable]
 
