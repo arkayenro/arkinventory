@@ -16,7 +16,7 @@
 
 == Functions ==
 
-  * [RuleFunction_Soulbound_Beta Soulbound]
+  * [RuleFunction_Soulbound Soulbound]
 
   * [RuleFunction_Name Name]
 
