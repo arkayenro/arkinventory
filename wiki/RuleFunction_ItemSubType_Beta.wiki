@@ -8,7 +8,7 @@ Checks if any of the supplied arguments matches an items in-game subtype
 
 == Remarks ==
 
-  * arg values must be in the clients language
+  * values must be in the clients language
 
   * an items subtype can be found on the debug info menu for that item
 
