@@ -5,7 +5,7 @@ Checks if any of the supplied arguments matches an items equip location
 
 == Arguments ==
 
-  * arg1...N = string, locations to match
+  * arg1...N (string) = equip location names
 
 == Remarks ==
 
@@ -15,8 +15,8 @@ Checks if any of the supplied arguments matches an items equip location
 
 == Examples ==
 
-`equip( "trinket" ) and soulbound( )`
+  * `equip( "trinket" ) and soulbound( )`
 
-`equip( "finger" )`
+  * `equip( "finger" )`
 
-`equip( )`
+  * `equip( )`
