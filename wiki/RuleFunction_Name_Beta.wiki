@@ -8,7 +8,7 @@ Checks if any of the supplied arguments are contained within the item's name
 
 == Remarks ==
 
-  * [RuleFunction_StringMatching string patterns] can be used
+  * [StringMatching string patterns] can be used
 
 == Examples ==
 
