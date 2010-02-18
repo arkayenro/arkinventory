@@ -13,9 +13,9 @@ tooltip( "%+%d+ %a+ resist" )
 }}}
   * `%+` = match a plus (`+`) character
   * `%d+` = match 1 or more digits (numbers)
-  * `<space>` = match actual text - <space>
+  * `<space>` = match actual text - a space
   * `%a+` = match 1 or more letters (ie a single word, in this case the type of resistance)
-  * `<space>` = match actual text - <space>
+  * `<space>` = match actual text - a space
   * `resist` = match actual text - resist 
 
 
