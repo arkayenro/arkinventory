@@ -1,0 +1,17 @@
+= name( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments are contained within the item's name
+
+== Arguments ==
+
+  * arg1...N (string) pattern to search for
+
+== Remarks ==
+
+  * [RuleFunction_StringMatching string patterns] can be used
+
+== Examples ==
+
+  * `name( "elixir", "potion" )`
+
+  * `name( "scroll of" )`
