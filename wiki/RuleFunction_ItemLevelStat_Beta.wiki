@@ -10,9 +10,9 @@ Checks if the iLevel of an item is equal to or between the min and max arguments
 
 == Arguments ==
 
-  * min = numeric, minimum iLevel
+  * min (numeric) = minimum iLevel
 
-  * max = numeric, maximum iLevel
+  * max (numeric) = maximum iLevel
 
 == Remarks ==
 
