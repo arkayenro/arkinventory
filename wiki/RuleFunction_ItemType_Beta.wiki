@@ -1,13 +1,25 @@
-#summary One-sentence summary of this page.
+= type( arg1, ..., argN ) =
 
-= Introduction =
+Checks if any of the supplied arguments matches an items type
 
-Add your content here.
+== Alias ==
 
+  * `itemtype`
 
-= Details =
+== Arguments ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * arg1...N (string) = item type
+
+== Remarks ==
+
+  * args must be in the clients language
+
+  * an items type can be found on the debug info menu for that item
+
+== Examples ==
+
+  * `type( "armor", "weapon" )`
+
+  * `type( "gem" )`
+
+  * `type( "recipe" )`
