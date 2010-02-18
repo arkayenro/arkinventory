@@ -4,7 +4,7 @@ Checks if an item is usable by a character arg1 levels below, or arg2 levels abo
 
 == Alias ==
 
-clr( )
+clr
 
 == Arguments ==
 
