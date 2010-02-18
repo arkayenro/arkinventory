@@ -10,11 +10,9 @@ Checks if any of the supplied arguments match (or partially match) an item's !Ar
 
   * the complete item id can be found on the debug info menu
 
-  * partial matches can made
+  * partial matches can made, use a string to specify suffix, enchants and gems
 
   * if argument is numeric it will only match on item id itself
-
-  * use a string to specify suffix, enchants and gems
 
   * does not work on spells (pets and mounts)
 
