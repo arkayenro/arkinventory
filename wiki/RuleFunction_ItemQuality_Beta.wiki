@@ -4,27 +4,27 @@ Checks if any of the supplied arguments match an items quality
 
 == Arguments ==
 
- * arg1..N (numeric or string) = quality
+ * arg1..N (numeric or string) = item quality
 
 == Remarks ==
 
-  * 0 / Poor (grey)
+  * you can use either the numeric value or the localised text value as an argument
 
-  * 1 / Common (white)
+  * 0 or "Poor" = grey
 
-  * 2 / Uncommon (green)
+  * 1 or "Common" = white
 
-  * 3 / Rare (blue)
+  * 2 or "Uncommon" = green
 
-  * 4 / Epic (purple)
+  * 3 or "Rare" = blue
 
-  * 5 / Legendary (orange)
+  * 4 or "Epic" = purple
 
-  * 6 / Artifact (red)
+  * 5 or "Legendary" = orange
 
-  * 7 / Heirloom (gold)
+  * 6 or "Artifact" = red
 
-  * you can use either the numeric value or the (localised) text value as an argument
+  * 7 or "Heirloom" = gold
 
 == Examples ==
 
