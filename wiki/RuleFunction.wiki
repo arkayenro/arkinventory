@@ -1,10 +1,12 @@
 = Rule Functions =
 
-rule formulas essentially equate logically to either true or false depending on the functions and arguments you give.  false means an item didn't match, true means it did and will be assigned to that rule.
+== General ==
 
-the default rule formula starts out as *`false`*, you don't actually need to keep that in your own rule formula, it's just a place holder so that a "blank" rule has a value but doesn't actually match any item and will return false.
+rule formulas essentially equate to either true or false depending on the functions and arguments you give.  false means an item didn't match, true means it did and will be assigned to that rule.
 
-don't forget that there are system categories for the basic stuff, ie trash, skills, class, which you can specifically assign an item to, so don't create a rule for the basic stuff unless absolutely necessary.
+the default formula starts out as *`false`*, you don't need to keep that in your own rule formula, it's just a place holder so that a "blank" rule can be saved but wont match any item.
+
+don't forget that there are system categories for the basic stuff, ie trash, skills, class, etc, which you can specifically assign an item to, so you shouldn't create a rule for the basic stuff unless you have a very specific reason.
 
 when creating a rule formula, try to keep it as simple and short as possible, eg;
 
