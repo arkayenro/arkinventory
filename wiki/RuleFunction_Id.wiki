@@ -1,0 +1,3 @@
+#summary Rule Function > Item Id
+
+= id( arg1, ..., argN ) =
