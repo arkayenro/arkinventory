@@ -1,3 +1,5 @@
+#summary Rule Function > Location
+
 = location( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments match the location an item is in.
