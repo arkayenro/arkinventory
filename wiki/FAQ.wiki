@@ -54,7 +54,7 @@ if either of those aren't right/done then there's not really a lot i can do abou
 you on the other hand can just categorise it yourself, that being the whole point of categories.
 ----
 ==How do I erase old data I dont want anymore?==
-see [UserGuide_EraseData User Guide - Erase Data]
+see [UserGuide_HowTo_EraseData How To > Erase Data]
 
 ----
 ==Please don't post comments on this page, if you have a problem please lodge it as an Issue.==
