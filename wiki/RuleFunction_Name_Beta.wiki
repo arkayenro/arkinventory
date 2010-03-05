@@ -1,3 +1,5 @@
+#summary Rule Function > Item Name
+
 = name( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments are contained within the item's name
