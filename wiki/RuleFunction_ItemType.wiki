@@ -14,14 +14,14 @@ Checks if any of the supplied arguments matches an items type
 
 == Remarks ==
 
-  * args must be in the clients language
+  * arg must be in the clients language
 
   * an items type can be found on the debug info menu for that item
 
 == Examples ==
 
-  * `type( armor, weapon )`
+  * `type( "armor", "weapon" )`
 
-  * `type( gem )`
+  * `type( "gem" )`
 
-  * `type( recipe )`
+  * `type( "recipe" )`
