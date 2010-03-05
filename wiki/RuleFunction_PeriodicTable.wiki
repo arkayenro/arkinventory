@@ -1,4 +1,4 @@
-#summary Rule Function > Periodic Table
+#summary Rule Functions > Periodic Table
 
 = periodictable( set1, ..., setN ) =
 
