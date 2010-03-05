@@ -1,3 +1,5 @@
+#summary Rule Function > Item Count
+
 = count( arg ) =
 
 Checks if the number of item in a stack is greater than or equal to the value passed
