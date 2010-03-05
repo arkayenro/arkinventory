@@ -1,3 +1,5 @@
+#summary Rule Function > Overview
+
 = Rule Functions =
 
 == General ==
