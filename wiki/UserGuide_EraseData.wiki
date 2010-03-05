@@ -1,3 +1,5 @@
+#summary User Guide - Erase Data
+
 = User Guide: How to erase old/unwanted data =
 
 to erase the data for a toon (bank in this case);
