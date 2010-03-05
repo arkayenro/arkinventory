@@ -1,4 +1,4 @@
-#summary Rule Function > Outfit
+#summary Rule Functions > Outfit
 
 = outfit( set1, ..., setN ) =
 
