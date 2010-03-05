@@ -12,7 +12,7 @@ If you don't want to enable the fix (which is graphically intensive as it has to
 ----
 ==The rules I'm making aren't working properly==
 
-see [RuleFunctions Rule Functions] and [ExampleRules Example Rules]
+see [RuleFunction Rule Functions] and [Rule_Example Example Rules]
 ----
 == This new version has screwed up my sorting.  Fix it ==
 
