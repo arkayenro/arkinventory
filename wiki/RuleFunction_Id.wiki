@@ -1,5 +1,3 @@
-#summary Rule Function > Item Id
-
 = id( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments match (or partially match) an item's !ArkInventory ID
