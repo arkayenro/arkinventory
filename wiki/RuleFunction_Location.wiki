@@ -36,7 +36,7 @@ Allows for customising a rule so it only works for a specific location.
 
   * Mount = `"mount"`, or localised string
 
-  * Token = `"token"`, or "currency" or localised string
+  * Token = `"token"`, or `"currency"` or localised string
 
 == Examples ==
 
