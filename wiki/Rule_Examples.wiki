@@ -67,7 +67,7 @@ type( "gem" ) and subtype( "blue", "red" )
 }}}
 
 
-== equipment/ armor / outfits ==
+== equipment / armor / outfits ==
 
 anything that can be worn by a character (ignoring restrictions)
 {{{
