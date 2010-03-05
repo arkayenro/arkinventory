@@ -14,7 +14,7 @@ If you don't want to enable the fix (which is graphically intensive as it has to
 
 see [RuleFunctions Rule Functions] and [ExampleRules Example Rules]
 ----
-== This new version screw up my sorting.  Fix it ==
+== This new version has screwed up my sorting.  Fix it ==
 
 see [UserGuide_HowTo_Sorting How To > Sorting]
 ----
