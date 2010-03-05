@@ -1,3 +1,5 @@
+#summary Rule Function > Item Quality
+
 = quality( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments match an items quality
