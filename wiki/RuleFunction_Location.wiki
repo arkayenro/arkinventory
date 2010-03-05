@@ -1,32 +1,47 @@
+#summary Rule Function > Location
+
 = location( arg1, ..., argN ) =
 
-Allows for customising a rule so it only works for a specific location.  Checks if any of the supplied arguments match the location an item is in.
+Checks if any of the supplied arguments match the location an item is in.
 
-== Arguments ==
-
-  * arg1...N = location
+Allows for customising a rule so it only works for a specific location.
 
 == Alias ==
 
-  * loc()
+  * `loc`
+
+== Arguments ==
+
+  * arg1...N (string) = location
 
 == Remarks ==
 
-  * matched on lower case for string values
+  * use localised text for non english clients
 
-  * Bag = `bag`, or localised string
-  * Keyring = `keyring`, `key`, or localised string
-  * Bank = `bank`, or localised string
-  * Guild Bank = `guild bank`, `vault`, or localised string
-  * Mail = `mail`, or localised string
-  * Wearing = `wearing`, `gear`, or localised string
-  * Pet = `pet`, `mount`, or localised string
-  * Token = `token`, or localised string
+== Notes ==
+
+  * Bag = `"bag"`, or localised string
+
+  * Keyring = `"keyring"`, `"key"`, or localised string
+
+  * Bank = `"bank"`, or localised string
+
+  * Guild Bank = `"guild bank"`, `"vault"`, or localised string
+
+  * Mail = `"mail"`, or localised string
+
+  * Wearing = `"wearing"`, `"gear"`, or localised string
+
+  * Pet = `"pet"` or localised string
+
+  * Mount = `"mount"`, or localised string
+
+  * Token = `"token"`, or "currency" or localised string
 
 == Examples ==
 
-`loc( bag )`
+  * `loc( "bag" )`
 
-`loc( gear )`
+  * `loc( "gear" )`
 
-`loc( sac )`  (french)
+  * `loc( "sac" )`  (french)
