@@ -1,4 +1,4 @@
-#summary Rule Function > Item Type
+#summary Rule Functions > Item Type
 
 = type( arg1, ..., argN ) =
 
