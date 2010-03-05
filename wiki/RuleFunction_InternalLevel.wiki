@@ -1,5 +1,3 @@
-#summary Rule Function > iLevel Range
-
 = ilvl( min, max ) =
 
 Checks if the iLevel of an item is equal to or between the min and max arguments
