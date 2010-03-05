@@ -1,3 +1,5 @@
+#summary Rule Function > Item SubType
+
 = subtype( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments matches an items in-game subtype
