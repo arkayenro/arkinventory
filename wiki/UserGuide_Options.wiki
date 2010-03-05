@@ -1,4 +1,4 @@
-#summary User Guide - Options
+#summary User Guide > Options
 
 = Options =
 
