@@ -1,12 +1,14 @@
 #labels Featured
-*3.02.35 (xx-xxx-2010) BETA xx-xx*
+*3.02.35 (05-MAR-2010)*
  * fixed - invalid code in options table for /rules/border/offset
+ * fixed - dragging an item while the cursor is in target mode (blue glowing hand) would cause a blocked action warning.  dragging is now disabled while in target mode.
  * changed - default order for rules changed from 0 to 100
  * changed - rule function arguments are now specified differently, this will cause some of your rules to break and some to not work exactly how you intended.  string arguments now need to be quoted, eg name( "eternal", "shard" )
 
 *3.02.34 (09-FEB-2010) BETA 23-37*
- * fixed - openallbags (shift+b) should now work more like the blizzard version (it's not exactly the same but it is more logical)
+ * fixed - openallbags (shift+b) should now work more like the blizzard version when you're only overriding one of the bag or bank (it's not exactly the same but it is more logical)
  * fixed - EraseSavedData( ) function was leaving some data intact, specifically guild bank gold
+ * changed - consolidated the addon options table some more
 
 *3.02.33 (02-FEB-2010) BETA 21-42*
  * added - fix corrupted categories caused by earlier betas
@@ -17,11 +19,11 @@
 *3.02.31 (30-JAN-2010) BETA 10-46*
  * fixed - status bar not unhiding
  * fixed - rule conversion issues
- 
+
 *3.02.30 (29-JAN-2010) BETA 18-57*
  * changed - bar names are no longer displayed by default
  * changed - bar names are now on the inside of the bar and will swap between top and bottom depending on item anchor point
- * changed - sorting is now done through sort methods, you create a sort method and then assign it as a window default (sort of like rules), you can then assign a different sort method to a bar so it sorts differently from the rest of the window
+ * changed - sorting is now done through sort methods, all sorting has been reverted to bag/slot.  you will need to create a sort method and then assign that as a windows default sorting method.  you can also assign a different sort method to a bar so it sorts differently from the rest of the window
  * changed - bar movement menu options moved to bar menu (for less clicking)
  * changed - bar movement - reduced to 2 options, "move" and "move > complete"
  * changed - item counts now recognize learnt pets and mounts being the same as the item they are learnt from (note this is a manually maintained table, see companion.xls, so may not be 100% complete or accurate)
@@ -33,6 +35,7 @@
  * changed - LDB pet object - random option will never summon pets that need reagents, like snowballs, even if you have the required reagent
  * changed - borders now use sharedmedia - all borders have been reset to blizzard tooltip
  * changed - backgrounds now use sharedmedia
+ * changed - all damaged rules are flagged as undamaged on login and rechecked, you will get warned about any invalid rules and they will be marked as damaged for that session
  * added - config option for how much space/padding to allocate for bar names, default is 12
  * added - LDB mount object - option for minimum mount speed when random is selected
  * added - keybindings for pet and mount summons
@@ -43,9 +46,9 @@
  * removed - conversion of old data structures prior to v3 is no longer possible.  if you have a version that old then you will need to delete your arkinventory saved variables file
   
 *3.02.29 (09-JAN-2010)*
- * fixed - added more logic checks around the gold information on money tooltips to remove porential errors
+ * fixed - added more logic checks around the gold information on money tooltips to remove potential errors
  * added - config option to change internal 'bucket' timers - how often the window updates when there are changes, default is 0.5 seconds
- 
+
 *3.02.28 (12-DEC-2009)*
  * changed - equipped bags are now included in item counts
  * changed - esES translation for leatherworking bags
@@ -77,7 +80,7 @@
 *3.02.24 (28-SEP-2009)*
  * fixed - some partially erased data could cause issues, its now erased completely on startup if found
  * fixed - zhTW franslation for gem bags
- * changed - all references to getfenv( ) changed to _G
+ * changed - all references of getfenv( ) changed to _G
  * changed - bag right click menus moved to above the bag so they dont overlap with the tootip under the bag
  * changed - consolidated redundant translations
  * added - tooltip item counts option for guild banks to show which tabs the item is in, default is enabled
@@ -103,7 +106,7 @@
  * fixed - several issues caused by splitting up the pet and mount windows
  
 *3.02.19 (08-AUG-2009)*
- * fixed - !EraseSavedData( ) function was leaving some data intact causing issues when attempting to view another characters data
+ * fixed - EraseSavedData( ) function was leaving some data intact causing issues when attempting to view another characters data
  * note - all data has been erased, you will need to login to each character at least once to update it
 
 *3.02.18 (08-AUG-2009)*
@@ -112,13 +115,13 @@
  * added - libdatabroker objects for pets and mounts
  * added - options to alter the display of empty slot status (under settings > empty slots)
  * fixed - comparison tooltip conflict
-
+ 
 *3.02.17 (05-AUG-2009)*
  * changed - auto open options for mail and vendor disabled due to blizzard auto opening them anyway
  * changed - libdatabroker object for bag was renamed
  * changed - search text is now cleared after closing and re-opening the same window
  * changed - vault restacking is also now significantly slower but shouldnt generate any errors
- * changed - !GetSellValue( ) support changed to blizzard api
+ * changed - GetSellValue( ) support changed to blizzard api
  * fixed - issue with guild bank and patch 3.2
  * possibly fixed - restacking issue where it occasionally got stuck in an infinite loop
  * updated - all locales to version 3
@@ -135,16 +138,16 @@
 
 *3.02.15 (28-MAY-2009)*
  * fixed - issue with incorrect custom tooltip data being added to comparison tooltips (eg, the same data for the main tooltip was being added to the comparison ones)
- * changed - outfit() rule now supports blizzard equipment manager, outfitter and itemrack addons have priority (if installed) - poor quality items are ignored as the trash category has a higher priority
+ * changed - outfit( ) rule now supports blizzard equipment manager, outfitter and itemrack addons have priority (if installed) - poor quality items are ignored as the trash category has a higher priority
 
 *3.02.14 (13-MAY-2009)*
- * fixed - potential issue for characters with no skills as well as issues where skills werent being scanned on load
+ * fixed - potential issue for characters with no skills as well as issues where a players skills werent being scanned on load
 
 *3.02.13 (06-MAY-2009)*
  * updated - TW locale for soulshard bags
- * fixed - issue with restacking when you had the same type of profession bag in your inventory as well as already in a bag slot
+ * fixed - issue with restacking when you had the same type of profession bag in your inventory as well as already equipped in a bag slot
  * fixed - issue with tooltips for tokens not adding item counts (you will need to log into each character to update them)
- * fixed - issue with tooltips not adding item counts when hovering over currencies at merchants (honor and arena points still dont work)
+ * fixed - issue with tooltips not adding item counts when hovering over currencies at merchants (honor and arena points still wont work)
 
 *3.02.12 (28-APR-2009)*
  * fixed - (potentially) issue with font sizing caused by "not a number" and exceedingly small values < 1
@@ -157,10 +160,10 @@
  * added - mouseover a gold will now popup a list all gold for all characters (guild banks not included)
 
 *3.02.10 (16-APR-2009)*
- * fixed - issue with bags having a "no entry" image across them (caused by gearmanager changes)
+ * fixed - issue with bags having a "no entry" image across them (caused by blizzard equipmentmanager changes)
  * updated - deDE locale
  * updated - toc to 30100
- * changed - player data is now kept per factionrealm instead of globally
+ * changed - player data is now stored per faction/realm instead of globally (ie you will only be able to see data for alts from the same realm and faction)
  * changed - tradeskill scanning method
 
 *3.02.09 (20-FEB-2009)*
@@ -171,7 +174,7 @@
 *3.02.08 (xx-NOV-2008)*
  * fixed - issue when enabled if the blizzard windows were already open, they will now be closed when AI is enabled
  * fixed - issue with debug info causing an error for key slots
- * fixed locale zhTW
+ * fixed - locale zhTW
 
 *3.02.07 (23-NOV-2008)*
  * fixed - lag related issue with unuseable tint being applied incorrectly after disenchanting an item
@@ -197,20 +200,20 @@
  * fixed - issue with restacking the bank
  * changed - all references (in xml files) to 'this' changed to 'self'
  * changed - reverted frame strata setting
- * changed - libs moved to externals directory
+ * changed - all external libs moved from the libs\ to the externals\ directory
  * added - libdatabroker object
-
+  
 *3.02.03 (06-NOV-2008) BETA*
  * fixed - issue with clearing search text when hiding the search frame
  * fixed - issue with the config option for hiding the title frame
  * fixed - issue with guild bank not always updating on first open
  * fixed - issue with guild bank not updating when trying to access tabs your alts are not authorised to access
- * fixed - issue with /ai db erase confirm
+ * fixed - issue with /ai db reset confirm
  * changed - frameStrata on all main frames set to HIGH
- * changed - rule function bag() parameter is now numeric only, which bag number an item is in
+ * changed - rule function bag( ) parameter is now numeric only, which bag number an item is in
  * updated - frFR, zhCN locales
- * added - rule function location(), alias loc()
- * removed - loc alias for rule function bag()
+ * added - rule function location( ), alias loc( )
+ * removed - loc alias for rule function bag( )
 
 *3.02.02 (04-NOV-2008) BETA*
  * fixed - added validation to all range values in config menu
@@ -252,10 +255,10 @@
  * fixed - issue with option menu
  * fixed - issue with rules and search window scrolling
  * added - category: consumable > food & drink (for combined health/mana foods & drinks)
-
+ 
 *3.01.06 (28-SEP-2008) BETA*
  * fixed - issue with status window not updating consistently
- * fixed - issue wth stacks() rule function
+ * fixed - issue wth stacks( ) rule function
  * changed - repuation items are now checked for after most other categories
  * changed - deafult category assignment has been removed from the saved variables and uses an internal cache instead
  
@@ -270,10 +273,10 @@
  * fixed - RU locale file (engineering skill)
  * fixed - issue with guild bank showing as offline when it wasnt
  * fixed - issue with guild bank restack permission check (you only need view and deposit to restack)
- * changed - quality() rule funtion to allow for level 7 / heirloom (bound to account) items
- * added - rule function stacks()
- * added - rule function count()
-
+ * changed - quality( ) rule funtion to allow for level 7 / heirloom (bound to account) items
+ * added - rule function stacks( )
+ * added - rule function count( )
+ 
 *3.01.03 (26-AUG-2008) BETA*
  * fixed - removed duplicate entries in some locale files
  * fixed - usable rule function
@@ -287,20 +290,20 @@
  * changed - search, rules, location and switch character icons on menu
  * fixed - localisation issue on bar and item menus
  * fixed - guild bank when in edit mode now only displays items from the current tab
-
+ 
 *3.01.01 (21-AUG-2008) BETA*
  * fixed - issue with guild bank when you dont have any tabs purchased
  * fixed - instant sorting now works again
  * fixed - issue with vendor amount not displaying properly for some values
  * added - tooltip option to display item count just for the current character
-
+ 
 *3.01.00 (20-AUG-2008) BETA*
  * fixed - issue with gold amount not displaying properly if you had gold coins but the silver coins were zero
  * fixed - issue with guild bank display not updating correctly when changing between modes
  * changed - TOC lowered to 20400 and code changed to work with the live servers
  
 *3.00.06 (19-AUG-2008) BETA WotLK*
- * fixed - outfit() function for itemrack compatibility
+ * fixed - outfit( ) function for itemrack compatibility
  * fixed - upgrade code error
  * fixed - issue with bar labels not being deleted when you delete a bar
  * changed - /restack is now /ai restack (until i can figure out how to put it back)
@@ -340,7 +343,7 @@
  * fixed - display issue when empty slots were manually assigned to another category
  * fixed - items can be dropped onto the bank "bag" icon
  * added - custom categories
- * added - new rule function: usable() - if an item can be used/worn by the user
+ * added - new rule function: usable( ) - if an item can be used/worn by the user
  * added - un-usable items can now be tinted red if desired via menu > items > tint unusable
  * added - restack will now function against the current tab for the guild bank (it's slow though)
  * added - RU locale file
@@ -351,7 +354,7 @@
  * changed - reduced memory usage during scanning
  * changed - empty slots only have a default category, they can no longer be assigned to a system or custom category or a rule
  * changed - restack will sequentially process all locations (instead of having a seperate button for each location)
- * removed - rule function: empty()
+ * removed - rule function: empty( )
 
 *2.27.09 (17-AUG-2008)*
  * fixed - RU locale issue causing bag slots to be red (unknown)
@@ -461,13 +464,13 @@
 *2.24e (25-DEC-2007)*
  * fixed - display issue with backback not showing number of slots when first starting wow
  * fixed - clicking on a blizzard bag icon wouldn't open or toggle the window
- * changed - all references of getglobal() to getfenv()[] to remove some taint issues
+ * changed - all references of getglobal( ) to getfenv( )[] to remove some taint issues
  * changed - tooltip now shows the vendor price for the (partial) stack, not the single item vendor price
  * changed - tooltip item counts, guild banks are now shown first then characters
  * changed - tooltip item counts no longer include guild bank items in totals
  * added - keybinding for rules window
  * added - keybinding for search window
- * added - support for GetSellValue() function - should use any other mod that stores vendor pricing (eg sellfish, informant)
+ * added - support for GetSellValue( ) function - should use any other mod that stores vendor pricing (eg sellfish, informant)
  
 *2.24d (21-DEC-2007)*
  * fixed - issue with wow global variable ITEM_MIN_SKILL having a different parameter layout for german client
@@ -650,16 +653,16 @@
   * added - chinese translation (thanks candykiss)
 
 *2.03 (05-JUL-2007)*
-  * updated - closetgnome outfit() code
-  * added - rule function ilvl()
-  * added - rule function ireq()
-  * added - rule function sb() alias for soulbound()
-  * added - rule function tt() alias for tooltip()
+  * updated - closetgnome outfit( ) code
+  * added - rule function ilvl( )
+  * added - rule function ireq( )
+  * added - rule function sb( ) alias for soulbound( )
+  * added - rule function tt( ) alias for tooltip( )
 
 *2.02 (02-JUL-2007)*
   * fixed - disabling a rule via shift+clicking will now update the window
   * changed - include category in sort will now sort by rule order then rule number
-  * fixed - closetgnome outfit() code
+  * fixed - closetgnome outfit( ) code
 
 *2.01 (02-JUL-2007)*
   * fixed - conversion of negative items
@@ -706,11 +709,11 @@
 
 *2.00 (20-JUN-2007) (beta-2007-JUN-20-22-45)*
   * fixed - error in conversion code (only impacted new or cleaned installs)
-  * fixed - rule function name()
+  * fixed - rule function name( )
   * added - rules are now validated before being saved
-  * changed - item() is now id() - existing rules will just get damaged and stop working until you edit and change them to use the new function name
-  * changed - itemtype() is now type() - existing rules will just get damaged and stop working until you edit and change them to use the new function name
-  * changed - itemsub() is now subtype() - existing rules will just get damaged and stop working until you edit and change them to use the new function name
+  * changed - item( ) is now id( ) - existing rules will just get damaged and stop working until you edit and change them to use the new function name
+  * changed - itemtype( ) is now type( ) - existing rules will just get damaged and stop working until you edit and change them to use the new function name
+  * changed - itemsub( ) is now subtype( ) - existing rules will just get damaged and stop working until you edit and change them to use the new function name
   * changed - rule description length increased from 20 to 80 characters
 
 *2.00 (18-JUN-2007) (beta-2007-JUN-18-21-15)*
@@ -723,17 +726,17 @@
 *2.00 (18-JUN-2007) (beta-2007-JUN-18-18-45)*
   * fixed - issue where disabled rules would become enabled after a reload
   * fixed - default categories were wrong because of the new tooltip code
-  * fixed - rule function soulbound()
-  * fixed - rule function tooltip()
-  * added - closetgnome linked to outfit()
+  * fixed - rule function soulbound( )
+  * fixed - rule function tooltip( )
+  * added - closetgnome linked to outfit( )
 
 *2.00 (17-JUN-2007) (beta-2007-JUN-17-20-45)*
-  * removed - bagnum(), slotnum() and container() rule functions - until i can sort out a way to make them usable (they slow everything down too much)
-  * fixed - rule function tooltip()
-  * fixed - rule function equip()
-  * added - rule function quality()
-  * added - rule function outfit()
-  * added - outfitter linked to outfit()
+  * removed - bagnum( ), slotnum( ) and container( ) rule functions - until i can sort out a way to make them usable (they slow everything down too much)
+  * fixed - rule function tooltip( )
+  * fixed - rule function equip( )
+  * added - rule function quality( )
+  * added - rule function outfit( )
+  * added - outfitter linked to outfit( )
   * added - option to enable/disable a rule
   * added - a rule will be flagged as damaged and no longer used if there is an error with it
   * changed - rule dialog box layout updated
@@ -741,10 +744,10 @@
 
 *2.00 (17-JUN-2007) (beta-2007-JUN-17-??-??)*
   * changed - debug menu, formatted the information the way it's required by the rules
-  * fixed - rule function item()
+  * fixed - rule function item( )
 
 *2.00 (16-JUN-2007) (beta-2007-JUN-16-12-30)*
-  * fixed - container() should now work properly in rules
+  * fixed - container( ) should now work properly in rules
   * fixed - german translation file
 
 *2.00 (16-JUN-2007) (beta-2007-JUN-16-00-30)*
