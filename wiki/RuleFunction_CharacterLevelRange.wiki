@@ -1,3 +1,5 @@
+#summary Rule Function > Character Level Range
+
 = clr( arg1, arg2 ) =
 
 Checks if an item can be equipped by a character arg1 levels below, or arg2 levels above your current level.
