@@ -1,4 +1,4 @@
-#summary Rule Function > Tooltip
+#summary Rule Functions > Tooltip
 
 = tooltip( arg1, ..., argN ) =
 
