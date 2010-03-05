@@ -1,23 +1,31 @@
+#summary Rule Function > Tooltip
+
 = tooltip( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments are contained within an items tooltip text
 
 == Alias ==
 
-tt()
+  * `tt`
 
 == Arguments ==
 
-  * arg1...N = string(s) to match
+  * arg1...N (string)
 
 == Remarks ==
-  * does not check within the item name
-  * only checks the basic WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one, also does not check tooltip text from created items (eg recipes) that is normally added on updates
-  * if no argument is passed will return false
-  * lua string patterns are usable, see [StringMatching string patterns]
+
+  * does not search within the item name, use `name( )` if required
+
+  * can only search the standard WoW item tooltip text, cannot search the enhanced text provided by other addons unless those addons modify all item tooltips and not just the game one, also does not check tooltip text from created items (eg recipes) that is normally added on updates
+
+  * Lua [StringMatching string patterns] are usable
 
 == Examples ==
 
-`tooltip( spell damage )`
+  * `tt( "spell damage" )`
 
-`tooltip( gain %d+ stamina )`
+  * `tt( "gain %d+ stamina" )`
+
+  * `tt( "right click to open" )`
+
+  * `type( "consumable" ) and tt( "battle elixir" )`
