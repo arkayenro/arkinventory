@@ -36,9 +36,11 @@ Click on the !ArkInventory location icon (top left), the click on Config
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Menu-Config.jpg
 
-Back to sorting.  Have a quick read through this [UserGuide_HowTo_Sorting How To > Sorting]
+Back to sorting.
 
-Now open the bag and see the difference
+Follow these instructions [UserGuide_HowTo_Sorting How To > Sorting]
+
+And now when we open the bag and see the difference the sorting makes
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Bag-Initial2.jpg
 
