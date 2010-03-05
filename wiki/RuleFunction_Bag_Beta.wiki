@@ -1,3 +1,5 @@
+#summary Rule Function > Bag
+
 = bag( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments match the bag number an item is in.
