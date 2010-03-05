@@ -42,7 +42,7 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_Soulbound Soulbound]
 
-  * [RuleFunction_Name_Beta Name]
+  * [RuleFunction_Name Name]
 
   * [RuleFunction_Id Id]
 
@@ -68,7 +68,7 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_Stacks Stacks]
 
-  * [RuleFunction_Bag_Beta Bag]
+  * [RuleFunction_Bag Bag]
 
   * [RuleFunction_Location_Beta Location]
 
