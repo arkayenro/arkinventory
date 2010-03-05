@@ -1,4 +1,5 @@
 #summary Rule Function > Overview
+#labels Featured
 
 = Rule Functions =
 
