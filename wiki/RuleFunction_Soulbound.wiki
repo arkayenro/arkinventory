@@ -1,3 +1,5 @@
+#summary Rule Function > Soulbound
+
 = soulbound( ) =
 
 Checks if an item is soulbound
