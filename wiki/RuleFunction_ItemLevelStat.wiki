@@ -1,4 +1,4 @@
-#summary Rule Function > Item Level (stat)
+#summary Rule Functions > Item Level (stat)
 
 = ilvl( min, max ) =
 
