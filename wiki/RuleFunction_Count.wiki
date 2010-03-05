@@ -1,0 +1,13 @@
+#summary Rule Functions > Count
+
+= count( arg ) =
+
+Checks if the number of items in a stack is greater than or equal to arg
+
+== Arguments ==
+
+  * arg (numeric)
+
+== Examples ==
+
+  * `count( 6 )`
