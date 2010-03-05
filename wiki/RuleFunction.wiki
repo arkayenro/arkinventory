@@ -59,9 +59,9 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_Quality Quality]
 
-  * [RuleFunction_InternalLevel Internal Level (ilvl)]
+  * [RuleFunction_ItemLevelStat Item Level (stat)]
 
-  * [RuleFunction_UseLevel Use Level]
+  * [RuleFunction_ItemLevelUse Item Level (use)]
 
   * [RuleFunction_Outfit Outfit]
 
