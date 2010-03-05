@@ -1,4 +1,4 @@
-#summary Rule Functions > Item Name
+#summary Rule Functions > Name
 
 = name( arg1, ..., argN ) =
 
