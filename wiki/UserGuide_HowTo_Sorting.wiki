@@ -41,3 +41,7 @@ Now we have our sort method created we need to tell the bag to use it as its def
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethod-Assign.jpg
 
  * Click on the Style dropdown and select the sort method we just created
+
+ * There is also the option for when you want items resorted.
+    * Tick `On Window Open` to sort your items only when the window is opened, new items added while the window is open will not get sorted.
+    * Tick `Instant` to sort your items instantly, as soon as you use an item (eg ammo, potion) or pick up an item the window will sort (note that this can be intensive and should only be used if you really need it)
