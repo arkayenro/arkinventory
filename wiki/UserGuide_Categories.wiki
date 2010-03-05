@@ -1,4 +1,4 @@
-#summary User Guide - Categories
+#summary User Guide > Categories
 
 = Categories =
 
