@@ -1,4 +1,4 @@
-#summary Rule Function > Equip Location
+#summary Rule Functions > Equip Location
 
 = equip( arg1, ..., argN ) =
 
