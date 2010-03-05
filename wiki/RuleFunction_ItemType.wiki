@@ -1,3 +1,5 @@
+#summary Rule Function > Item Type
+
 = type( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments matches an items type
