@@ -1,4 +1,4 @@
-#summary Rule Function > Location
+#summary Rule Functions > Location
 
 = location( arg1, ..., argN ) =
 
