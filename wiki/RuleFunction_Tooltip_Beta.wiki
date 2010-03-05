@@ -1,3 +1,5 @@
+#summary Rule Function > Tooltip
+
 = tooltip( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments are contained within an items tooltip text
