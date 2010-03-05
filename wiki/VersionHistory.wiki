@@ -1,4 +1,7 @@
 #labels Featured
+*3.02.36 (06-MAR-2010)*
+ * fixed - issue with outfit rule function when using closetgnome and itemrack
+ 
 *3.02.35 (05-MAR-2010)*
  * fixed - invalid code in options table for /rules/border/offset
  * fixed - dragging an item while the cursor is in target mode (blue glowing hand) would cause a blocked action warning.  dragging is now disabled while in target mode.
