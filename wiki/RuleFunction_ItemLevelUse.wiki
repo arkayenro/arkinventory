@@ -1,23 +1,27 @@
-#summary Rule Function > Item Level (use) Range
+#summary Rule Function > Item Level (use)
 
 = ireq( min, max ) =
 
 Checks if the level to use an item is equal to or between the min and max arguments
 
 == Alias ==
-`uselvl()`
+
+  * `uselvl`
 
 == Arguments ==
 
-  * min = minimum level to search for
-  * max = maximum level to search for
+  * min (numeric) = minimum level
+
+  * max (numeric) = maximum level
 
 == Remarks ==
+
   * the level can be found on the debug info menu for that item (or in the tooltip)
-  * when only the min argument is passed then the function checks for an exact level match 
+
+  * when only the min argument is passed then the function checks for an exact level match
 
 == Examples ==
 
-`ireq( 70 )`
+  * `ireq( 70 )`
 
-`ireq( 61-69 )`
+  * `ireq( 61-69 )`
