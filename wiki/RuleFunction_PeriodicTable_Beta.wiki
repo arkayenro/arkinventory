@@ -1,3 +1,5 @@
+#summary Rule Function > Periodic Table
+
 = periodictable( set1, ..., setN ) =
 
 Checks if an item is in any of the known !PeriodicTable sets
