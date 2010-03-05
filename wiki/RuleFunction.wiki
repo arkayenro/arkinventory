@@ -55,7 +55,7 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_PeriodicTable_Beta Periodic Table]
 
-  * [RuleFunction_Tooltip_Beta Tooltip]
+  * [RuleFunction_Tooltip Tooltip]
 
   * [RuleFunction_Quality Quality]
 
@@ -63,7 +63,7 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_UseLevel Use Level]
 
-  * [RuleFunction_Outfit_Beta Outfit]
+  * [RuleFunction_Outfit Outfit]
 
   * [RuleFunction_Count Count]
 
@@ -71,7 +71,7 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_Bag Bag]
 
-  * [RuleFunction_Location_Beta Location]
+  * [RuleFunction_Location Location]
 
   * [RuleFunction_CharacterLevelRange Character Level Range]
 
@@ -83,4 +83,4 @@ this would be quicker (although that particular function is pretty fast anyway),
 
 == Example Rules ==
 
-Some example rules can be found [ExampleRules here]
+Some example rules can be found [Rule_Example here]
