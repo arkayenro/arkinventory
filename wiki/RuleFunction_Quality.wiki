@@ -1,0 +1,43 @@
+#summary Rule Functions > Quality
+
+= quality( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments match an items quality
+
+== Alias ==
+
+ * `q`
+
+== Arguments ==
+
+ * arg1..N (numeric or string) = item quality
+
+== Remarks ==
+
+  * you can use either the numeric or text value as an argument
+
+  * text values must be in the clients language
+
+== Notes ==
+
+  * 0 or "Poor" = grey
+
+  * 1 or "Common" = white
+
+  * 2 or "Uncommon" = green
+
+  * 3 or "Rare" = blue
+
+  * 4 or "Epic" = purple
+
+  * 5 or "Legendary" = orange
+
+  * 6 or "Artifact" = red
+
+  * 7 or "Heirloom" = gold
+
+== Examples ==
+
+  * `q( "poor" )`
+
+  * `q( 5, 6 )`
