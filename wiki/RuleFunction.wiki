@@ -53,7 +53,7 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_EquipLocation Equip Location]
 
-  * [RuleFunction_PeriodicTable_Beta Periodic Table]
+  * [RuleFunction_PeriodicTable Periodic Table]
 
   * [RuleFunction_Tooltip Tooltip]
 
