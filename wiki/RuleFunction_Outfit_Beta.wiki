@@ -1,3 +1,5 @@
+#summary Rule Function > Outfit
+
 = outfit( set1, ..., setN ) =
 
 Matches items in sets from outfit mods, eg Outfitter, !ItemRack, Blizzard !EquipmentManager
