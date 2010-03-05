@@ -1,4 +1,4 @@
-#summary Rule Functions > Count
+#summary Rule Function > Item Count
 
 = count( arg ) =
 
