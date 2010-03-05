@@ -1,4 +1,4 @@
-#summary Rule Function > Character Level Range
+#summary Rule Functions > Character Level Range
 
 = clr( arg1, arg2 ) =
 
