@@ -1,4 +1,4 @@
-#summary Rule Function > Stacks
+#summary Rule Functions > Stacks
 
 = stacks( ) =
 
