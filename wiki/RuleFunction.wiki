@@ -83,4 +83,4 @@ this would be quicker (although that particular function is pretty fast anyway),
 
 == Example Rules ==
 
-Some example rules can be found [Rule_Example here]
+Some example rules can be found [Rule_Examples here]
