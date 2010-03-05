@@ -1,4 +1,4 @@
-#summary Rule Function > Soulbound
+#summary Rule Functions > Soulbound
 
 = soulbound( ) =
 
