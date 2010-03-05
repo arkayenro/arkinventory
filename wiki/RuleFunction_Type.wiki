@@ -1,3 +1,27 @@
 #summary Rule Functions > Type
 
-= to be done =
+= type( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments matches an items type
+
+== Alias ==
+
+  * `itemtype`
+
+== Arguments ==
+
+  * arg1...N = item type
+
+== Remarks ==
+
+  * arg must be in the clients language
+
+  * an items type can be found on the debug info menu for that item
+
+== Examples ==
+
+  * `type( "armor", "weapon" )`
+
+  * `type( "gem" )`
+
+  * `type( "recipe" )`
