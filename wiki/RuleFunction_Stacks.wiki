@@ -1,0 +1,13 @@
+#summary Rule Function > Item Stacks
+
+= stacks( ) =
+
+Checks if the item can stack
+
+== Arguments ==
+
+  * none
+
+== Examples ==
+
+  * `stacks( )`
