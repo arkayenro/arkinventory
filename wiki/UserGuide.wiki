@@ -12,6 +12,8 @@
 
 [UserGuide_HowTo_Sorting How to setup sorting]
 
+[UserGuide_HowTo_HideCategory How to hide or display all items in a category or rule]
+
 [UserGuide_HowTo_EraseData How to erase unwanted/old data]
 
 == Explanations ==
