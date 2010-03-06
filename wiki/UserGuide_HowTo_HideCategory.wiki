@@ -1,0 +1,19 @@
+#summary User Guide > How To > Hide or Display Categories
+
+= Hiding (or displaying) a system or custom category, or rule =
+
+When you assign a category to a bar its displayed by default.
+
+If you want to hide a category from normal view (they always display in edit mode) you need to set the category mode to hidden.
+
+  * Enter edit mode
+
+  * Click on the bar where the category is assigned
+
+  * Under `Categories assigned`, Mouse over the category type to bring up a list of categories.  You'll note that the categories will be coloured either green (display) or red (hide)
+
+  * Mouse over the category you want to change to bring up the next menu
+
+  * From that menu click on `Hide` to toggle the categories hidden status (it will tick or untick this option and change the colour of the category in the parent menu)
+
+  * Exit Edit mode and your category will now be either hidden or displayed depending on the choice you made.
