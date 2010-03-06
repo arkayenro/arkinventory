@@ -1,6 +1,6 @@
 #summary User Guide > How To > Hide or Display Categories
 
-= Hiding (or displaying) an internal or custom category, or rule =
+= Hiding (or displaying) all items in an internal or custom category, or a rule =
 
 When you assign a category to a bar its displayed by default.
 
