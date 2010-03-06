@@ -4,11 +4,11 @@
 
 Every item has two assignments, it's default and a user allocated assignment.
 
-The default assignment is based off basic item information, what professions you have and various other bits of info.  You cannot change this assignment.  It's effectively a best guess at where this item should be placed.  It's not always accurate as blizzard have some "errors" in category assignments and not everyone wants items categorised the same way.
+The default assignment is based off of basic item information, what professions you have and various other bits of info.  You cannot change this assignment.  It's effectively a best guess at where this item should be placed.  It's not always accurate as blizzard have some "errors" in their category assignments, there could be errors in my code, and not everyone wants items categorised the same way.
 
 The user allocated assignment is the one you give the item, either a custom category, an internal category, or a rule.  You can also remove this assignment (if applied) to revert the item back to it's default.
 
-Obviously an item can't be in two places at once so it can only have one category assigned to it.  This category an item gets is assigned from the following order;
+Obviously an item can't be in two places at once so it can only have one category assigned to it.  The category an item gets is assigned in the following order;
 
   * Check Custom Categories
   * then Check Internal Categories
