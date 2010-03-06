@@ -38,6 +38,10 @@ Checks if any of the supplied arguments match an items quality
 
 == Examples ==
 
-  * `q( "poor" )`
+{{{
+q( "poor" )
+}}}
 
-  * `q( 5, 6 )`
+{{{
+q( 5, 6 )
+}}}
