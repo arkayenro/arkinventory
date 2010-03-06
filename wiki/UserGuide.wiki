@@ -5,3 +5,14 @@
 = User Guide =
 
 [UserGuide_Options Configuration Options]
+
+[RuleFunction Rules]
+
+== How To's ==
+
+[UserGuide_HowTo_Sorting How to setup sorting]
+[UserGuide_HowTo_EraseData How to erase unwanted/old data]
+
+== Explanations ==
+
+[UserGuide_Explanation_CategoryAssignment How items get assigned their category]
