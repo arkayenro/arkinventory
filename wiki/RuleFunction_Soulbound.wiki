@@ -10,10 +10,14 @@ Checks if an item is soulbound
 
 == Arguments ==
 
-  * None - any arguments passed are ignored
+  * None
 
 == Examples ==
 
-  * `equip( ) and sb( ) and not outfit( )`
+{{{
+equip( ) and sb( ) and not outfit( )
+}}}
 
-  * `equip( ) and not sb( )`
+{{{
+equip( ) and not sb( )
+}}}
