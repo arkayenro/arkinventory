@@ -18,6 +18,10 @@ Checks if an item is in any of the known !PeriodicTable sets
 
 == Examples ==
 
-  * `pt( "Tradeskill.Mat.ByProfession.Alchemy", "Tradeskill.Mat.ByType.Mote", "Tradeskill.Mat.ByType.Primal", "Tradeskill.Tool.Alchemy" )`
+{{{
+pt( "Tradeskill.Mat.ByProfession.Alchemy", "Tradeskill.Mat.ByType.Mote", "Tradeskill.Mat.ByType.Primal", "Tradeskill.Tool.Alchemy" )
+}}}
 
-  * `type( "gem" ) or pt( "Tradeskill.Mat.ByType.Gem" )`
+{{{
+type( "gem" ) or pt( "Tradeskill.Mat.ByType.Gem" )
+}}}
