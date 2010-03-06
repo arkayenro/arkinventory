@@ -10,4 +10,6 @@ Checks if the number of items in a stack is greater than or equal to arg
 
 == Examples ==
 
-  * `count( 6 )`
+{{{
+count( 6 )
+}}}
