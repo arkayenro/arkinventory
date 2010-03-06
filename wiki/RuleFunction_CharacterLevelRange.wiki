@@ -19,6 +19,10 @@ Checks if an item can be equipped by a character arg1 levels below, or arg2 leve
 
 == Examples ==
 
-  * `clr( 2, 5 )`
+{{{
+clr( 2, 5 )
+}}}
 
-  * `clr( 5 )`
+{{{
+clr( 5 )
+}}}
