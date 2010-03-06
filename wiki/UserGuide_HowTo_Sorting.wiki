@@ -1,6 +1,6 @@
 #summary User Guide > How To > Sorting
 
-= Sorting =
+= How to setup sorting =
 
 Sorting in !ArkInventory is done via sort methods.  You can have as many or as few sort methods as you need to sort your items the way you want.
 
