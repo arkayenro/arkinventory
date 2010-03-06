@@ -14,7 +14,7 @@
 
 [UserGuide_HowTo_HideCategory How to hide or display all items in a category or rule]
 
-[UserGuide_HowTo_EraseData How to erase unwanted/old data]
+[UserGuide_HowTo_EraseData How to erase old or unwanted data]
 
 == Explanations ==
 
