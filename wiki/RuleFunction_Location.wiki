@@ -40,8 +40,15 @@ Allows for customising a rule so it only works for a specific location.
 
 == Examples ==
 
-  * `loc( "bag" )`
+{{{
+loc( "bag" )
+}}}
 
-  * `loc( "gear" )`
+{{{
+loc( "gear" )
+}}}
 
-  * `loc( "sac" )`  (french)
+french client:
+{{{
+loc( "sac" )
+}}}
