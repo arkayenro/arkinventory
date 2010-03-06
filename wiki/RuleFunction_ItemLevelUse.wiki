@@ -22,6 +22,10 @@ Checks if the level to use an item is equal to or between the min and max argume
 
 == Examples ==
 
-  * `ireq( 70 )`
+{{{
+ireq( 70 )
+}}}
 
-  * `ireq( 61-69 )`
+{{{
+ireq( 61, 69 )
+}}}
