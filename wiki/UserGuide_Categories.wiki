@@ -1,8 +1,6 @@
-#summary User Guide > Categories
+#summary User Guide > How To > Hide or Display Categories
 
-= Categories =
-
-== Hiding (or displaying) a system or custom category, or rule ==
+= Hiding (or displaying) a system or custom category, or rule =
 
 When you assign a category to a bar its displayed by default.
 
