@@ -1,6 +1,6 @@
 #summary User Guide > How To > Erase Data
 
-= User Guide: How To > Erase old/unwanted data =
+= How to erase old or unwanted data =
 
 to erase the data for a toon (bank in this case);
   * open the bank window
