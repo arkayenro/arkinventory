@@ -30,7 +30,7 @@ Most likely caused by the !FrameLevel bug, see above for solution.
 
 Try moving the window, if that doesn't help then it's most likely caused by the !FrameLevel bug, see above for solution.
 ----
-==How are items allocated?==
+==How are items allocated their category?==
 
 see [UserGuide_Explanation_CategoryAssignment User Guide > Explanations > Category Assignments]
 
