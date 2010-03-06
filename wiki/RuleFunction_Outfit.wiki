@@ -24,8 +24,14 @@ Matches items in sets from outfit mods, eg Outfitter, !ItemRack, Blizzard !Equip
 
 == Examples ==
 
-  * `outfit( "arcane resist" )`
+{{{
+outfit( "arcane resist" )
+}}}
 
-  * `outfit( "fishing" )`
+{{{
+outfit( "fishing" )
+}}}
 
-  * `outfit( )`
+{{{
+outfit( )
+}}}
