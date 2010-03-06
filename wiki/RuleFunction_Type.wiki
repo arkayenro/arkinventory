@@ -20,8 +20,14 @@ Checks if any of the supplied arguments matches an items type
 
 == Examples ==
 
-  * `type( "armor", "weapon" )`
+{{{
+type( "armor", "weapon" )
+}}}
 
-  * `type( "gem" )`
+{{{
+type( "gem" )
+}}}
 
-  * `type( "recipe" )`
+{{{
+type( "recipe" )
+}}}
