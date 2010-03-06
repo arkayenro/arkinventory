@@ -24,6 +24,10 @@ Checks if the iLevel of an item is equal to or between the min and max arguments
 
 == Examples ==
 
-  * `ilvl( 115 )`
+{{{
+ilvl( 115 )
+}}}
 
-  * `ilvl( 90, 100 )`
+{{{
+ilvl( 90, 100 )
+}}}
