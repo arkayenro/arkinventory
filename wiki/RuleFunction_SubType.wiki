@@ -16,6 +16,10 @@ Checks if any of the supplied arguments matches an items in-game subtype
 
 == Examples ==
 
-  * `type( "armor" ) and subtype( "leather" )`
+{{{
+type( "armor" ) and subtype( "leather" )
+}}}
 
-  * `type( "gem" ) and subtype( "yellow" )`
+{{{
+type( "gem" ) and subtype( "yellow" )
+}}}
