@@ -32,9 +32,7 @@ Try moving the window, if that doesn't help then it's most likely caused by the 
 ----
 ==How are items allocated?==
 
-Assigned to a Custom Category? > Assigned to a System Category? > Assigned to a Rule? > Default Category
-
-note you have to actually assign an item to a category, if you haven't specifically done that then it's going to be using the default.  so don't get confused and wonder why a rule is being applied before a system category - you have to assign the item to the system category, not rely on the default category.
+see [UserGuide_Explanation_CategoryAssignment User Guide > Explanations > Category Assignments]
 
 ----
 ==The first menu choice has gone off the screen so i can't click on the menu choice i want?==
