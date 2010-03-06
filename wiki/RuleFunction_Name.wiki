@@ -14,6 +14,10 @@ Checks if any of the supplied arguments are contained within the item's name
 
 == Examples ==
 
-  * `name( "elixir", "potion" )`
+{{{
+name( "elixir", "potion" )
+}}}
 
-  * `name( "scroll of" )`
+{{{
+name( "scroll of" )
+}}}
