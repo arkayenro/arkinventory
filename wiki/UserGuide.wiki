@@ -11,6 +11,7 @@
 == How To's ==
 
 [UserGuide_HowTo_Sorting How to setup sorting]
+
 [UserGuide_HowTo_EraseData How to erase unwanted/old data]
 
 == Explanations ==
