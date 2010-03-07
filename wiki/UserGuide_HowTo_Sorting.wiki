@@ -5,7 +5,9 @@
 Sorting in !ArkInventory is done via sort methods.  You can have as many or as few sort methods as you need to sort your items the way you want.
 
 To create a Sort Method;
+
  * Open the config window
+
  * Click on Sort Methods
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods.jpg
