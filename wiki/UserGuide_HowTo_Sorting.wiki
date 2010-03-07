@@ -10,7 +10,7 @@ To create a Sort Method;
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods.jpg
 
-Here you see the system default sort method of Bag/Slot, it's disabled so you cant change anything for this method.  Default sort methods all start with `(*)`
+Here you see the system default sort method of Bag/Slot, it's options are all disabled so don't worry, you cant change anything for this method.  Default sort methods all start with `(*)`
 
  * In the Add sort method entry field, enter a name for your sort method, we'll use *Standard*, and either press *Enter* or click on *Okay*, and you'll end up with a new sort method.
 
