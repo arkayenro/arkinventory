@@ -1,4 +1,9 @@
 #labels Featured
+*3.02.37 (09-MAR-2010)*
+  * fixed - issue with bank window showing red (unknown bag type) item borders for some slots
+  * added - bypass code with warnings (forced on) during bag scans for a potential bag size issue/bug - you can disable the warnings via the config options
+  * added - missing pets (curious wolvar pup, fortune coin, gryphon hatchling, wind rider cub)
+
 *3.02.36 (06-MAR-2010)*
  * fixed - issue with outfit rule function when using closetgnome and itemrack
  
