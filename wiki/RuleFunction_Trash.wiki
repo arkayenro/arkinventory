@@ -7,8 +7,8 @@
 Checks if an item is trash.
 
 If you have any of the following mods installed it will use their definitions of "trash";
-  * !SellJunk
-  * Scrap
+  * [http://wow.curse.com/downloads/wow-addons/details/sell-junk.aspx !SellJunk]
+  * [http://wow.curse.com/downloads/wow-addons/details/scrap.aspx Scrap]
 
 If you have none of the above mods installed then it will just check for poor quality items, in which case you'd be better of just using either the internal trash category or the [RuleFunction_Quality quality rule function] instead.
 
