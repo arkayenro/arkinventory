@@ -14,10 +14,6 @@ Matches items in sets from outfit mods, eg [http://wow.curse.com/downloads/wow-a
 
   * dynamically chooses depending on which outfit mod is active
 
-  * !ClosetGnome uses the Blizzard !EquipmentManager
-
-  * !ItemRack is currently functional using the 2.0 beta of !ItemRack
-
 == Issues ==
 
   * after changing the set an item belongs to in the outfit mod you may need to use the reload menu option in !ArkInventory to have it update to the new category
