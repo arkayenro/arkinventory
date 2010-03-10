@@ -10,7 +10,7 @@ If you have any of the following mods installed it will use their definitions of
   * !SellJunk
   * Scrap
 
-If you have none of the above mods installed then it will check for poor quality items.
+If you have none of the above mods installed then it will just check for poor quality items, in which case you'd be better of just using either the internal trash category or the [RuleFunction_Quality quality rule function] instead.
 
 == Arguments ==
 
