@@ -2,7 +2,7 @@
 
 = outfit( set1, ..., setN ) =
 
-Matches items in sets from outfit mods, eg Outfitter, !ItemRack, Blizzard !EquipmentManager
+Matches items in sets from outfit mods, eg [http://wow.curse.com/downloads/wow-addons/details/outfitter.aspx Outfitter], !ItemRack, or the standard Blizzard !EquipmentManager
 
 == Arguments ==
 
