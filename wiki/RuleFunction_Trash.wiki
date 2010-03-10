@@ -1,0 +1,21 @@
+#summary Rule Functions > Trash
+
+= trash( ) =
+
+Checks if an item is trash.
+
+If you have any of the following mods installed it will use their definitions of "trash";
+  * !SellJunk
+  * Scrap
+
+If you have none of the above mods installed then it will check for poor quality items.
+
+== Arguments ==
+
+  * None
+
+== Examples ==
+
+{{{
+trash( )
+}}}
