@@ -1,5 +1,7 @@
 #summary Rule Functions > Trash
 
+= not functional until 3.02.38 =
+
 = trash( ) =
 
 Checks if an item is trash.
