@@ -2,6 +2,14 @@
 = Frequently Asked Questions =
 
 ----
+==My rules arent working!!!==
+
+see [RuleFunction Rule Functions] and [Rule_Examples Example Rules]
+----
+==Sorting isn't working any more==
+
+see [UserGuide_HowTo_Sorting How To > Sorting]
+----
 ==Why are all the items are greyed out (actually whatever colour you've selected for your background)==
 
 There's a bug in the Blizzard !CreateFrame API that's causing the !FrameLevel for some of the elements to wrap around once they reach a certain level and they end up below the backgrounds level.
@@ -9,14 +17,6 @@ There's a bug in the Blizzard !CreateFrame API that's causing the !FrameLevel fo
 To fix it open the AI Configuration, on the System page (near the bottom) are a list of workarounds.  Find the !FrameLevel workaround and enable it.
 
 If you don't want to enable the fix (which is graphically intensive as it has to reset the !FrameLevel of all the AI elements every time they hit a certain level) you can reload the UI to see if that fixes it (it'll only be temporary though, it'll happen again)
-----
-==My rules arent working!!!==
-
-see [RuleFunction Rule Functions] and [Rule_Examples Example Rules]
-----
-==This new version has screwed up my sorting==
-
-see [UserGuide_HowTo_Sorting How To > Sorting]
 ----
 ==Why aren't tooltips showing up when I mouse over an item?==
 
