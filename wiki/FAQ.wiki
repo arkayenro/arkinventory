@@ -23,7 +23,7 @@ the default was changed to not show them because i added a user option to set th
 
 ----
 
-==Why are all the items are greyed out (actually whatever colour you've selected for your background)==
+==Why are all the items greyed out (actually whatever colour you've selected for your background)==
 
 There's a bug in the Blizzard !CreateFrame API that's causing the !FrameLevel for some of the elements to wrap around once they reach a certain level and they end up below the backgrounds level.
 
