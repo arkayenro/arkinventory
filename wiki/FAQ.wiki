@@ -19,7 +19,7 @@ see [UserGuide_HowTo_Sorting How To > Sorting]
 
 you just have to turn them back on in the options.
 
-the default was changed to not show them because i added a user option to set the amount of space they use, and it would have added all that space even if you had no labels.
+the default was changed to not show them because i added a user option to set the amount of space they use, and it would have added all that space even if you had no labels because the default was to show them.
 
 ----
 
