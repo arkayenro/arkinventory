@@ -22,7 +22,9 @@ Update timers
 
 How/when you want !ArkInventory to automatically open and close its windows
 
+== Sort Methods ==
 
+see [UserGuide_HowTo_Sorting User Guide > How To > Sorting]
 
 == Settings ==
 
@@ -32,28 +34,18 @@ see [UserGuide_Config_Settings User Guide > Configuration > Settings]
 
 see [UserGuide_Config_Controls User Guide > Configuration > Controls]
 
-== Sorting ==
-
-Sort methods are created here.
-
-Sort methods are various way in which to sort items assigned to bars.
-
-
 == Categories ==
 
 Create, Delete and Rename your Custom categories from here
-
 
 == Search ==
 
 Display options for the Search window
 
-
 == Rules ==
 
 Display options for the Rules window
 
-
 == Profiles ==
 
-Standard Ace profile options
+Standard Ace3 profile options
