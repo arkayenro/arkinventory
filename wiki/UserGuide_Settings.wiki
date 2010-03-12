@@ -1,3 +1,5 @@
 #summary User Guide > Settings
 
 = Settings =
+
+the settings tell AI how to display your items
