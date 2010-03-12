@@ -1,0 +1,9 @@
+#summary User Guide > Configuration > Settings
+
+= Settings =
+
+the settings tell !ArkInventory how you want your items laid out and displayed.
+
+They're sort of like mini profiles in that while there is a settings tab for each location, those settings are the "defaults", they don't have to be applied to that location.  It means you can have, for example, the Bad and Bank share the bag settings so that both those locations will display in the same way.
+
+You assign which settings a location uses in the [UserGuide_Config_Controls Controls] area.
