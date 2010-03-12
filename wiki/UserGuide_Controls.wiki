@@ -1,3 +1,0 @@
-#summary User Guide > Controls
-
-= Controls =
