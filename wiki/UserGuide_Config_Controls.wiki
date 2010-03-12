@@ -1,3 +1,35 @@
 #summary User Guide > Configuration > Controls
 
 = Controls =
+
+http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Config-Controls.jpg
+
+== Monitor ==
+
+Monitors for changes to this location.
+
+Some locations cannot have this option deselected.  They will always get scanned when an update event happens.
+
+== Save ==
+
+Saves this locations data, if this option is de-selected then, for example, if you leave the bank all bank data will be purged
+
+== Notify ==
+
+If enabled prints a notification message every time data is purged for this location
+
+== Override ==
+
+If enabled allows !ArkInventory to override the blizzard windows for this location
+
+== Anchor Point ==
+
+Defines which point of the window to anchor (keep in the same spot on screen)
+
+== Lock ==
+
+If enabled will lock the !ArkInventory window in place so it cannot be moved
+
+== Settings ==
+
+Assigns a setting for this location.  Settings are like mini profiles, each location has it's own default but you can change it here if, for example, you want to use the same settings as another location so they get displayed in the same way.
