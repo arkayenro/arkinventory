@@ -1,4 +1,9 @@
 #labels Featured
+*3.02.39 (14-MAR-2010)*
+ * fixed - issue with cooldowns casued by fix for previous issue
+ * added - "show" buttons to open the appropriate windows in the rules and search config options
+ * added - cooldown options under settings > items to allow for totally hiding cooldowns, and disabling new cooldowns while in combat (used to stop refreshes when the bag is open during combat. the GCDs from some spells/actions would end up causing too many refreshes and lagging)
+
 *3.02.38 (11-MAR-2010)*
  * fixed - issue with bank window not refreshing properly when you enter or leave the bank (caused by fix for another bank issue)
  * fixed - cooldowns will now display instantly when instant sorting is not enabled
