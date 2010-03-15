@@ -47,3 +47,17 @@ http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethod-Assi
  * There is also the option for when you want items resorted.
     * Tick `On Window Open` to sort your items when the window is opened, new items added while the window is open will not get sorted, you can either click on the Refresh icon to sort them or close close and re-open the window.
     * Tick `Instant` to sort your items instantly, as soon as you use an item (eg ammo, potion) or pick up an item the window will sort (note that this can be intensive and should only be used if you really need it)
+
+----
+
+That will have allowed you to setup the default sorting method used for the window.
+
+You can also over-ride the default method on a particular bar if you require.
+
+  * Enable `Edit Mode`
+
+  * Click on the bar number to bring up the menu for that bar
+
+  * Click on the current sort method and chose a new method from the next menu
+
+  * You can return to the default sort method at any time by coming back in here and clicking on the Default method
