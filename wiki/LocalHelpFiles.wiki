@@ -1,3 +1,4 @@
+#labels Featured
 = Local Help Files =
 
 Under Construction but should be usable
