@@ -1,5 +1,4 @@
 #summary User Guide > Configuration
-#labels Featured
 
 = Main =
 
