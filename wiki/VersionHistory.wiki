@@ -1,4 +1,16 @@
 #labels Featured
+*3.02.41 (08-APR-2010)*
+ * fixed - potential nil issue in location scan code
+
+*3.02.40 (08-APR-2010)*
+ * fixed - missing border from rule formula field and it will now be the full width of the window
+ * fixed - potential issue with first time use after an upgrade and creating a new rule/category/sort method
+ * fixed - issue with cooldown option using actual location and not the settings option for that location
+ * changed - some of the bag hooking code was causing issues for other mods
+ * added - trash rule now supports ReagentRestocker auto sell list
+ * added - normal and thin options for the title frame
+ * added - option to stop global cooldowns refreshing the window
+
 *3.02.39 (14-MAR-2010)*
  * fixed - issue with cooldowns casued by fix for previous issue
  * added - "show" buttons to open the appropriate windows in the rules and search config options
