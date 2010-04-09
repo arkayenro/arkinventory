@@ -1,4 +1,8 @@
 #labels Featured
+*3.02.42 (09-APR-2010)*
+  * fixed - config menu errors when accessed via main icon, slash command and ldb menu
+  * added - quest item "glows"
+
 *3.02.41 (08-APR-2010)*
  * fixed - potential nil issue in location scan code
 
