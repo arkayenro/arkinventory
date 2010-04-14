@@ -1,4 +1,10 @@
 #labels Featured
+*3.02.43 (14-APR-2010)*
+ * fixed - zhTW locale; riding
+ * fixed - issue with quest item glow not working for banked items
+ * fixed - issue with adding categories via the item menu
+ * fixed - issue with hooking 3rd party trash mods
+
 *3.02.42 (09-APR-2010)*
   * fixed - config menu errors when accessed via main icon, slash command and ldb menu
   * added - quest item "glows"
