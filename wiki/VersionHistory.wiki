@@ -1,5 +1,5 @@
 #labels Featured
-*3.02.45 (17-APR-2010)*
+*3.02.45 (18-APR-2010)*
  * updated - zhTW locale
  * fixed - config window
 
