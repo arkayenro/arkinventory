@@ -1,4 +1,8 @@
 #labels Featured
+*3.02.45 (17-APR-2010)*
+ * updated - zhTW locale
+ * fixed - config window
+
 *3.02.44 (17-APR-2010)*
  * fixed - slash commands would fail unless the config window had been previously opened
  * updated - mounts and pets
