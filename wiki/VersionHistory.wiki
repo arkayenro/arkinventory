@@ -1,4 +1,18 @@
 #labels Featured
+*3.02.47 (08-JUL-2010) BETA 23-15*
+ * changed - ldb currency object will now allow you to monitor an unlimited number of currencies (not linked to the 3 blizzard tracking choices)
+ * changed - internal mount data to handle water mounts and better handle combination land/air mounts
+ * changed - rules broken out into seperate addon (you can disable this addon to save some memory if you do not use rules at all) so custom rule fucntions can be created if required
+ * added - X-53 Touring Rocket (flying mount)
+ * added - slash commands /ai edit | rules | search - toggles their respective states/windows
+ * fixed - flying mounts being selected via LDB in wintergrasp when a battle has started (non english clients)
+ * fixed - border style offset values will now save properly
+ * fixed - several locale updates
+ 
+*3.02.46 (22-MAY-2010)*
+ * added - config option for bar name anchor points - automatic (default) | top | bottom
+ * fixed - mount: frosty flying carpet (was set as a land mount)
+
 *3.02.45 (18-APR-2010)*
  * updated - zhTW locale
  * fixed - config window
