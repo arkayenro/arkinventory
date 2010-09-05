@@ -1,4 +1,5 @@
 #labels Featured
+{{{
 *3.02.48 (05-SEP-2010) BETA 18-20-Cataclysm*
  * note - all item data will be cleared, you will need to log in to each toon to update its data
  * note - due to changes in the way tokens are being handled by blizzard you can no longer get item counts in tooltips for them off the character pane
@@ -1048,3 +1049,5 @@
   * there are no user configurable options as yet
   * items are sorted by empty slots first then by item name in order of stack size
   * unlimited number of bars (there are practical limits though before your screen becomes full)
+
+}}}
