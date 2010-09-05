@@ -1,4 +1,25 @@
 #labels Featured
+*3.02.48 (05-SEP-2010) BETA 18-20-Cataclysm*
+ * note - all item data will be cleared, you will need to log in to each toon to update its data
+ * note - due to changes in the way tokens are being handled by blizzard you can no longer get item counts in tooltips for them off the character pane
+ * note - ldb water mounts will not be summoned in vashj'ir when youre on the sea floor (youre not swimming), you must jump off to begin swimming for them to work properly.
+ * changed - remaining references to this replaced with self
+ * changed - internal rule variable name ArkInventoryRules.Item changed to ArkInventoryRules.Object (all custom rules will need to make the same change)
+ * changed - currency tracking ldb object name changed
+ * changed - pet and mount ldb objects now allows you to direclty select a pet or mount that requires a reagent to summon (you obviously still need the reagent to actually summon it)
+ * fixed - dk flying mount no longer set as a ground capable mount
+ * fixed - issue with location change and character switch buttons
+ * fxied - issue with item count not updating under certain circumstances (vault still has issues with inter-tab transfers, but that should be it)
+ * fixed - controls should no longer reset ( save / monitor )
+ * fixed - disabling the save option for guild bank will now wipe the data on leaving the vault
+ * fixed - icon heights for the tracking LDB objects (they will still shrink the more you have)
+ * fixed - item count code will now cache entries where you have none of that item (stops stuttering/lag when displaying tooltips)
+ * fixed - tooltips in search window will now update, eg comparison tooltips will appear
+ * added - item tracking ldb object (for tracking non currency items)
+ * added - slash command /ai track [ itemlink | item name | item id ], an invalid input will return a warning.  if using the item name you must have the item in your bags.
+ * added - keybindings for refresh and reload actions
+ * added - user config for tracking LDB object icon height workaround for wrath (not required and ignored for cataclysm)
+
 *3.02.47 (08-JUL-2010) BETA 23-15*
  * changed - ldb currency object will now allow you to monitor an unlimited number of currencies (not linked to the 3 blizzard tracking choices)
  * changed - internal mount data to handle water mounts and better handle combination land/air mounts
