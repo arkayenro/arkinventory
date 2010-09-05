@@ -26,7 +26,7 @@ right click menu: http://groups.google.com/group/wow-arkinventory/web/ArkInvento
 
 http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Pet.jpg
 
-== Ammo ==
+== Ammo (Cataclysm has no ammo, so this has been removed ) ==
 
 object: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Ammo.jpg
 
