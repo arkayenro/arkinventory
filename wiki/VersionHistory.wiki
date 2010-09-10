@@ -1,5 +1,19 @@
 #labels Featured
 {{{
+*3.02.49 (10-SEP-2010) BETA 23-30-Cataclysm*
+ * note - (cataclysm) LDB mount object icon wont update in real time unless you have one of each type of mount on an action bar (anywhere), summoning will work properly regardless.
+ * changed - dewdrop (menu) library customised to ace3/libstub and cataclysm (this/self issues)
+ * changed - you can now move categories the same way that you move bars (sort of like cut-n-paste)
+ * changed - LDB ammo object restored (for wrath only)
+ * changed - summon mount logic
+ * added - babble-zone and babble-inventory libraries (to simplify localisations)
+ * fixed - issue with token scanning code
+ * fixed - guild bank withdrawal amount wasnt updating correctly
+ * fixed - when you can repair from guild funds but not withdraw, the repair funds will now show with the withdraw button disabled
+ * fixed - money frames and tooltips now adhere to your colorblind setting
+ * fixed - ammo and bullet slots
+ * removed ace2 and acelibrary dependencies and libraries
+
 *3.02.48 (05-SEP-2010) BETA 18-20-Cataclysm*
  * note - all item data will be cleared, you will need to log in to each toon to update its data
  * note - due to changes in the way tokens are being handled by blizzard you can no longer get item counts in tooltips for them off the character pane
