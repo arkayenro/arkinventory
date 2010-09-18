@@ -1,5 +1,12 @@
 #labels Featured
 {{{
+*3.02.50 (18-SEP-2010) BETA 19-30-Cataclysm*
+ * changed - number of vault tabs expanded to 8
+ * changed - frameStrata set to HIGH to get above the default actionbars
+ * changed - ldb item tracking object will now count soul shards for cataclysm warlocks
+ * changed - ldb pet and mount objects rewritten.  existing choices have been erased.  you can now select multiple pets/mounts that you want summoned (randomly), not just one or all.  if using the keybinding then holding any modifer will force the use of a ground mount (for cataclysm users that want to use one in flyable locations)
+ * added - category for Consumable > Item Enhancement
+
 *3.02.49 (10-SEP-2010) BETA 23-30-Cataclysm*
  * note - (cataclysm) LDB mount object icon wont update in real time unless you have one of each type of mount on an action bar (anywhere), summoning will work properly regardless.
  * changed - dewdrop (menu) library customised to ace3/libstub and cataclysm (this/self issues)
