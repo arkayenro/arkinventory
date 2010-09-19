@@ -4,10 +4,10 @@
  * changed - number of vault tabs expanded to 8
  * changed - frameStrata set to HIGH to get above the default actionbars
  * changed - ldb item tracking object will now count soul shards for cataclysm warlocks
- * changed - ldb pet and mount objects rewritten.  existing choices have been erased.  you can now select multiple pets/mounts that you want summoned (randomly), not just one or all.  if using the keybinding then holding any modifer will force the use of a ground mount (for cataclysm users that want to use one in flyable locations)
+ * changed - ldb pet and mount objects rewritten.  existing choices have been erased.  you can now select multiple pets/mounts that you want summoned (randomly), not just one or all.  if using the keybinding then holding any modifier will force the use of a ground mount (for cataclysm users that want to use one in flyable locations)
  * changed - category for Skill > Riding moved to System > Mount
  * changed - category for System > Projectile (Bullet) and System > Projectile (Arrow) merged with System > Projectile
- * changed - item text translations (for categorisaion and menus) are now gathered from within the game, there are 10 attempts, 1 every 10 seconds, after which it will fail and you may have issues with items not being categorised and menus using placeholder text
+ * changed - item text translations (for categorisation and menus) are now gathered from within the game, there are 10 attempts, 1 every 10 seconds, after which it will fail and you may have issues with items not being categorised and menus using place-holder text
  * added - category for Consumable > Item Enhancement
 
 *3.02.49 (10-SEP-2010) BETA 23-30-Cataclysm*
