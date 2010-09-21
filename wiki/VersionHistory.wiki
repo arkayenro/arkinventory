@@ -1,5 +1,12 @@
 #labels Featured
 {{{
+*3.02.51 (21-SEP-2010) BETA 21-30-Cataclysm*
+ * fixed - issue with colorblind setting not being picked up properly
+ * fixed - issue with money text displaying zero silver when you only have copper
+ * fixed - issue with money text display "no sell value" when you have no money at all
+ * fixed - leftover debug code where profiles were constantly being upgraded to 4.xxxx
+ * added - config option to set the frameStrata level for all ArkInventory windows, default is set to MEDIUM
+ 
 *3.02.50 (18-SEP-2010) BETA 19-30-Cataclysm*
  * changed - number of vault tabs expanded to 8
  * changed - frameStrata set to HIGH to get above the default actionbars
