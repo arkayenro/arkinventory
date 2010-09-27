@@ -1,5 +1,19 @@
 #labels Featured
 {{{
+*3.02.52 (27-SEP-2010) BETA 23-30-Cataclysm*
+ * fixed - issue with auto dismount option not appearing unless you had random selected
+ * fixed - rule function id( ) should now work properly for pets and mounts
+ * fixed - rule function tooltip( ) should now work properly for pets and mounts
+ * fixed - ldb pet object wouldnt summon pets
+ * fixed - issue with tooltip item counts being erased and not recalculated when you moved items around in the guild bank
+ * changed - in edit mode you will now have an entire row added to make bar moves easier
+ * changed - windows can now be moved off screen if required
+ * changed - in edit mode the bar menu will now appear on any click (and not just a left click)
+ * added - pet: mini thor
+ * added - config > controls > reposition button to pull window back onto the screen (will end up in one of the screen corners depending on anchor)
+ * restored - the rest of the ldb ammo object functionality for wrath users
+ * note - the latest cataclysm beta has recategorised projectiles (ammo), quivers and soul bags - its going to cause some warnings and visual issues with category names
+
 *3.02.51 (21-SEP-2010) BETA 21-30-Cataclysm*
  * fixed - issue with colorblind setting not being picked up properly
  * fixed - issue with money text displaying zero silver when you only have copper
