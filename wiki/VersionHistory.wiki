@@ -1,5 +1,12 @@
 #labels Featured
 {{{
+*3.02.54 (12-OCT-2010) BETA 17-00-Cataclysm*
+ * fixed - item counts on tooltips for tokens
+ * fixed - backpack token display (cataclysm)
+ * fixed - editing rules
+ * updated - mounts and pets
+ * added - vendor price sorting as a system sort method
+
 *3.02.53 (01-OCT-2010) BETA 22-30-Cataclysm*
  * fixed - issue with vault logs not scrolling via mousewheel
  * fixed - issue with selecting token in ldb currency tracking object
