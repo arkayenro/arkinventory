@@ -1,5 +1,9 @@
 #labels Featured
 {{{
+*3.02.55 (13-OCT-2010)*
+ * fixed - outiftter outfit items should now recategorise properly when changed
+ * updated - toc to 40000
+
 *3.02.54 (12-OCT-2010) BETA 17-00-Cataclysm*
  * fixed - item counts on tooltips for tokens
  * fixed - backpack token display (cataclysm)
