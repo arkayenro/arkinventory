@@ -1,5 +1,10 @@
 #labels Featured
 {{{
+*3.02.56 (14-OCT-2010)*
+ * fixed - vault purchase frame is now hidden once you have 6 tabs. tabs 7 & 8 are unlocked via guild achievements and not actually purchased (at least as far as i know)
+ * changed - added failsafe code for when the translation code fails to stop (unable to test accurately as i cant get mine to break)
+ * changed - all translation attempts now use an internal tooltip as the gametooltip may have been altered by other mods
+
 *3.02.55 (13-OCT-2010)*
  * fixed - outiftter outfit items should now recategorise properly when changed
  * updated - toc to 40000
