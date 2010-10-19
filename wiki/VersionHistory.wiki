@@ -4,7 +4,7 @@
  * changed - mount code to work around a blizzard bug with IsFlyableArea( )
  * changed - default window width set to 14
  * changed - vault sorting order changed to make it look identical to blizzard interface.  best results with width set to 14, sort order set to bag / slot, bar and item anchors set to bottom right, and everything assigned to a single bar
- * changed - item and weapon enchantment categories replaced with item enchantment category
+ * changed - armor and weapon enchantment categories replaced with item enchantment category
  * fixed - config menu keybinding will now toggle the config window
  * fixed - erase data should finally erase all data, including gold
  * added - achievement link comparison (click on an achievement link, hover over the tooltip, press shift to bring up yours for comparison)
