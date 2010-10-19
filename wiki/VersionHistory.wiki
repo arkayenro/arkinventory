@@ -1,5 +1,18 @@
 #labels Featured
 {{{
+*3.02.57 (19-OCT-2010)*
+ * changed - mount code to work around a blizzard bug with IsFlyableArea( )
+ * changed - default window width set to 14
+ * changed - vault sorting order changed to make it look identical to blizzard interface.  best results with width set to 14, sort order set to bag / slot, bar and item anchors set to bottom right, and everything assigned to a single bar
+ * changed - item and weapon enchantment categories replaced with item enchantment category
+ * fixed - config menu keybinding will now toggle the config window
+ * fixed - erase data should finally erase all data, including gold
+ * added - achievement link comparison (click on an achievement link, hover over the tooltip, press shift to bring up yours for comparison)
+ * added - mount window main menu now includes the ldb mount menu so you can select which mounts you want summoned when you dont have an ldb display mod installed
+ * removed - ldb ammo object and related code
+ * removed - soulshard, projectile, bullet, arrow categories, bagtypes and empty slots
+ * note - all data has been erased, please login to each character to update its data
+
 *3.02.56 (14-OCT-2010)*
  * fixed - vault purchase frame is now hidden once you have 6 tabs. tabs 7 & 8 are unlocked via guild achievements and not actually purchased (at least as far as i know)
  * changed - added failsafe code for when the translation code fails to stop (unable to test accurately as i cant get mine to break)
