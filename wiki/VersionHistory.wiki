@@ -1,5 +1,10 @@
 #labels Featured
 {{{
+*3.02.58 (22-OCT-2010)*
+ * fixed - soul shards should reappear as an item tracking choice if you remove it and log on with a warlock
+ * fixed - inscription skill no longer uses the auction house category and uses the spell instead (to fix a german translation issue)
+ * changed - the new guild bank bag/slot sortmethod is now a separate system sort method and will need to be applied manually to the vault if required, the old bag/slot style has been reverted to its orginial style when used on the vault
+
 *3.02.57 (19-OCT-2010)*
  * changed - mount code to work around a blizzard bug with IsFlyableArea( )
  * changed - default window width set to 14
