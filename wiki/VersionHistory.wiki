@@ -1,5 +1,10 @@
 #labels Featured
 {{{
+*3.02.59 (25-OCT-2010)*
+ * fixed - mount data correction code issue with unknown mounts
+ * fixed - Icebound Frostbrood Vanquisher mount had wrong spell id
+ * fixed - tooltip comparison issue
+
 *3.02.58 (22-OCT-2010)*
  * fixed - soul shards should reappear as an item tracking choice if you remove it and log on with a warlock
  * fixed - inscription skill no longer uses the auction house category and uses the spell instead (to fix a german translation issue)
