@@ -1,5 +1,8 @@
 #labels Featured
 {{{
+*3.02.60 (25-OCT-2010)*
+ * fixed - issue with crash workaround code triggering incorrectly
+ 
 *3.02.59 (25-OCT-2010)*
  * fixed - mount data correction code issue with unknown mounts
  * fixed - Icebound Frostbrood Vanquisher mount had wrong spell id
