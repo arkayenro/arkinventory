@@ -1,5 +1,10 @@
 #labels Featured
 {{{
+*3.02.61 (26-OCT-2010)*
+ * fixed - issue with ArkObject not existing on tooltips
+ * fixed - issue with the dragable frame background not being the correct height when the search frame was visible
+ * fixed - anchors should now stay in the same place when scaling the window.  (some anchors may have ended up being reset to top right and you may have to use config > controls > reposition to bring the window back onto the screen)
+  
 *3.02.60 (25-OCT-2010)*
  * fixed - issue with crash workaround code triggering incorrectly
  
