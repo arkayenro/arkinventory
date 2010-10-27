@@ -1,5 +1,10 @@
 #labels Featured
 {{{
+*3.02.62 (26-OCT-2010)*
+ * fixed - cleaned up references to libraries (ace2, dewdrop) that were no longer being used
+ * fixed - embeds.xml will be commented out of the toc file for curse no-lib downloads so it doesnt try to load embedded libraries (which arent there for no-lib)
+ * fixed - anchor issue
+ 
 *3.02.61 (26-OCT-2010)*
  * fixed - issue with ArkObject not existing on tooltips
  * fixed - issue with the dragable frame background not being the correct height when the search frame was visible
