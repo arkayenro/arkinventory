@@ -1,5 +1,11 @@
 #labels Featured
 {{{
+*3.02.63 (28-OCT-2010)*
+ * changed - any frames that are partially out of the game window will be brought fully back into the game window on first viewing (use the slash command to manually fix this issue after the first viewing, can be disabled in the config)
+ * added - options to disable the translation status messages you get during load
+ * added - slash command to reposition all frames back into the game window, /ai reposition
+ * added - config option to disable reposition on first view (for those that want their bags left partially off screen)
+
 *3.02.62 (27-OCT-2010)*
  * fixed - cleaned up references to libraries (ace2, dewdrop) that were no longer being used
  * fixed - embeds.xml will be commented out of the toc file for curse no-lib downloads so it doesnt try to load embedded libraries (which arent there for no-lib)
