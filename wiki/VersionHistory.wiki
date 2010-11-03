@@ -1,5 +1,11 @@
 #labels Featured
 {{{
+*3.02.64 (04-NOV-2010)*
+ * fixed - cooldowns should now display properly when "on global cooldown" is enabled
+ * fixed - mount keybinding when used with a modifer should properly force an alterntive mount-type to be summoned, eg flying but you want ground.  swimming (at the surface) but you want flying
+ * changed - framelevel workaround warnings set to disabled by default, and the warnings will now print (they never appeared regardless of setting)
+ * reverted - crash code removed, it'll just crash now instead of trying to purge the corrupt data
+
 *3.02.63 (28-OCT-2010)*
  * changed - any frames that are partially out of the game window will be brought fully back into the game window on first viewing (use the slash command to manually fix this issue after the first viewing, can be disabled in the config)
  * added - options to disable the translation status messages you get during load
