@@ -2,7 +2,7 @@
 {{{
 *3.02.65 (08-NOV-2010) BETA*
  * fixed - mount and pet menus off the main menu for those windows (equivalent to the LDB menus)
- * added - auction house (may or may not work with more than 50 active auctions)
+* added - auction house (may or may not work with more than 50 active auctions), thanks to Gromurg of Sinstralis (FR) for some code and ideas
  
 *3.02.64 (04-NOV-2010)*
  * fixed - cooldowns should now display properly when "on global cooldown" is enabled
