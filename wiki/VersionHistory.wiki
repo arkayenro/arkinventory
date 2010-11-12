@@ -1,5 +1,12 @@
 #labels Featured
 {{{
+*3.02.68 (12-NOV-2010)*
+ * note - auction house data purged to clean up invalid data left over from expiry code
+ 
+*3.02.67 (11-NOV-2010) ALPHA*
+ * fixed - issue with auction expiry code
+ * fixed - issue with itemref tooltip
+
 *3.02.66 (10-NOV-2010)*
  * fixed - auction scanning
  * removed - library libbabble-zone
