@@ -1,5 +1,12 @@
 #labels Featured
 {{{
+*3.02.69 (22-NOV-2010)*
+ * fixed - issue with item count cache not being cleared after erasing data
+ * fixed - issue with pet cleanup code erasing all selected pets and returning it to full random
+ * fixed - potential issue with internal isflyable code when you have no flying only mount (ie only combination land and flying mounts)
+ * fixed - issue with companions being scanned too frequently due to event being triggered too often in populated places
+ * fixed - issue with scrap support in trash( ) rule function
+ 
 *3.02.68 (12-NOV-2010)*
  * note - auction house data purged to clean up invalid data left over from expiry code
  
