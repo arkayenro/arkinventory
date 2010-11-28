@@ -1,5 +1,9 @@
 #labels Featured
 {{{
+*3.02.70 (28-NOV-2010)*
+ * updated - zhTW locale
+ * changed - companion selection now allows you to ignore a companion so that it is never summoned via random
+
 *3.02.69 (22-NOV-2010)*
  * fixed - issue with item count cache not being cleared after erasing data
  * fixed - issue with pet cleanup code erasing all selected pets and returning it to full random
