@@ -1,5 +1,13 @@
 #labels Featured
 {{{
+*3.02.71 (03-DEC-2010)*
+ * fixed - pet and mount selection menus
+ * fixed - scanning issue where some locations were being unnecessarily scanned multiple times
+ * fixed - issue with internal locations for spellbook and tradeskills
+ * changed - default value for item age cutoff to 0
+ * changed - item age display cutoff is now set in minutes instead of hours
+ * changed - graphical space for search label increased so it fits other languages in
+
 *3.02.70 (28-NOV-2010)*
  * updated - zhTW locale
  * changed - companion selection now allows you to ignore a companion so that it is never summoned via random
