@@ -1,5 +1,9 @@
 #labels Featured
 {{{
+*3.02.72 (04-DEC-2010)*
+ * fixed - issue with item age display showing when past the cutoff
+ * fixed - issue with tracking shards for warlocks
+
 *3.02.71 (03-DEC-2010)*
  * fixed - pet and mount selection menus
  * fixed - scanning issue where some locations were being unnecessarily scanned multiple times
