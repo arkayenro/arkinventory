@@ -1,5 +1,14 @@
 #labels Featured
 {{{
+*3.02.74 (09-FEB-2011)*
+ * fixed - mount code changed to cater for removal of a wintergrasp timer api function
+ * fixed - code updated for auction house category changes (used for translations)
+
+*3.02.73 (26-JAN-2011)*
+ * workaround - fixed issue with bug where item hyperlinks are sometimes returned malformed so looks like the item has changed, when it hasnt
+ * fixed - issue with updated ace locale library
+ * added - tackle box
+ 
 *3.02.72 (04-DEC-2010)*
  * fixed - issue with item age display showing when past the cutoff
  * fixed - issue with tracking shards for warlocks
