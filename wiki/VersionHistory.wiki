@@ -1,5 +1,11 @@
 #labels Featured
 {{{
+*3.02.76 (10-FEB-2011)*
+ * fixed - unknown zone ( -1 / 5 ) error message
+ 
+*3.02.75 (10-FEB-2011)*
+ * fixed - mount code using the wintergrasp timer that i missed
+ 
 *3.02.74 (09-FEB-2011)*
  * fixed - mount code changed to cater for removal of a wintergrasp timer api function
  * fixed - code updated for auction house category changes (used for translations)
