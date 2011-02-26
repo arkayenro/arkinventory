@@ -1,0 +1,13 @@
+#summary User Guide > How To > Assign Category to an Item
+
+= How to assign a Category to an Item =
+
+open the location where the item exists
+
+enable edit mode
+
+click on the item to bring up the item information menu
+
+under assignable categories click on the appropriate type, then select the appropriate subtype you want the item assigned to
+
+disable edit mode
