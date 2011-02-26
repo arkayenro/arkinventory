@@ -1,5 +1,9 @@
 #labels Featured
 {{{
+*3.02.77 (26-FEB-2011)*
+ * changed - the map will no longer change to the current zone if opened and you change (sub)zones.  it will if you summon a mount.  when the map is open the ldb mount icon will no longer update as you change (sub)zones
+ * workaround - frame overlap lag spike issue should no longer happen
+ 
 *3.02.76 (10-FEB-2011)*
  * fixed - unknown zone ( -1 / 5 ) error message
  
