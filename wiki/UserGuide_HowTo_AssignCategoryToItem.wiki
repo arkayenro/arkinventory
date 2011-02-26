@@ -8,6 +8,6 @@ enable edit mode
 
 click on the item to bring up the item information menu
 
-under assignable categories click on the appropriate type, then select the appropriate subtype you want the item assigned to
+under assignable categories mouseover the appropriate type, in the flyout menu click on the appropriate subtype you want the item assigned to
 
 disable edit mode
