@@ -1,6 +1,6 @@
 #labels Featured
-{{{
-*3.02.79 (29-JUN-2011)*
+*3.02.80 (29-JUN-2011)*
+ * fixed - bug in erase code
  * changed - TOC updated to 4.2
  * added - bound to battle.net account now treated as soulbound
  * removed - keyring
