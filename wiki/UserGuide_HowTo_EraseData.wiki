@@ -6,8 +6,14 @@ to erase the data for a toon (bank in this case);
   * open the bank window
   * click on the Switch Character icon
   * mouse over the toon you wish to erase the data for
-  * click on either erase bag data or erase all data
 
-if you wish to erase data for a specific location you will need to open that specific locations window first.
+either
+  * click on erase location data to erase just this location
+
+or
+  * click on erase all data to erase everything for the selected toon/guild
+
+
+if you wish to just erase data for a specific location (eg the vault for an old guild) you will need to open that specific locations window first.
 
 you do not have to be logged into that particular toon to erase their data.  in most cases you want to do this for toons that no longer exist, or vaults you no longer have access to.
