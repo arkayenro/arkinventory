@@ -3,7 +3,11 @@
 = Views =
 
 Guild Bank (default)
+
 Money Log
+
 Item Log
+
+
 
 to swap between views right click on the tab and select the mode you want.
