@@ -1,4 +1,41 @@
 #labels Featured
+*3.03.00 (21-AUG-2012) BETA 08-21-11-00*
+ * changed - toc set to 50001
+ * changed - will not load on live servers
+ * fixed - caged battlepet items and offline tooltips
+ * removed (temporarily) - pets (theyre now account wide so i need to decide what to do with them)
+ * removed (temporarily) - mounts
+
+*3.02.95 (09-AUG-2012)*
+ * fixed - removed ranged slot for mop beta
+ * added - more checking of saved variables
+ 
+*3.02.94 (06-JUL-2012)*
+ * added - monk class
+ 
+*3.02.93 (04-JUL-2012)*
+ * fixed - issue when hooking other mods and clearing the item cache
+ 
+*3.02.92 (24-JUN-2012)*
+ * updated - item relocation will now clear the cached rule/category assignment for that item.  allows for custom rules to work better.
+
+*3.02.91 (02-MAY-2012)*
+ * updated - pets and mounts
+ * fixed - issue with rules window font application
+
+*3.02.90 (22-APR-2012)*
+ * fixed - tainted frames caused by opening AI for the first time, while in combat.  the first 50 slots of each bag are pre-loaded before entering the game world to ensure they are secure. this will use up more memory but guarantee that all slots are usable while in combat
+ * fixed - soulbound issue introduced in 3.02.89
+
+*3.02.89 (06-APR-2012)*
+ * fixed - another global variable taint issue
+ * fixed - you can no longer move bags around in the changer frame while in combat (caused an interface error and locked the bag in place)
+ * workaround - tainted frames caused by opening AI for the first time, while in combat.  tainted frames are tinted purple and unusable until you leave combat, at which point they are replaced with untainted frames
+ * restored - bag( ) rule function
+
+*3.02.88 (11-FEB-2012)*
+ * updated - pets and mounts
+
 *3.02.87 (24-DEC-2011)*
  * fixed - code issue where i left out a local and potentially tainted a secure global variable
 
