@@ -1,4 +1,10 @@
 #labels Featured
+*3.03.01 (29-AUG-2012)*
+ * changed - toc set to 50001
+ * added - battle pet category
+ * added - battle pet item and tooltip support
+ * removed - ability to summon pets (via window and ldb, will return in a later version)
+
 *3.03.00 (21-AUG-2012) BETA 08-21-11-00*
  * changed - toc set to 50001
  * changed - will not load on live servers
