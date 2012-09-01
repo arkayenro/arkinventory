@@ -1,4 +1,8 @@
 #labels Featured
+*3.03.02 (01-SEP-2012)*
+ * fixed - issue with herbalism skill translation
+ * fixed - issue with fishing skill translation
+
 *3.03.01 (29-AUG-2012)*
  * changed - toc set to 50001
  * added - battle pet category
