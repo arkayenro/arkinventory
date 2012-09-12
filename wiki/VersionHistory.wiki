@@ -1,4 +1,12 @@
 #labels Featured
+*3.03.03 (12-SEP-2012)*
+ * fixed - issue with profession scanning code
+ * fixed - issue where internal sort keys were always recalculated every bag opening
+ * fixed - issue when outfitter initialised after ai
+ * changed - some translations reverted to blizzard internal values
+ * changed - edit mode now ignores the tint unusable option
+ * changed - bag highlight now uses the searchoverlay layer, custom layer removed
+
 *3.03.02 (01-SEP-2012)*
  * fixed - issue with herbalism skill translation
  * fixed - issue with fishing skill translation
