@@ -1,4 +1,21 @@
 #labels Featured
+*3.03.08 (15-SEP-2012)*
+ * fixed - window drawing when in combat will draw slower but it will complete
+
+*3.03.07 (14-SEP-2012)*
+ * fixed - debug info for battlepets
+ * fixed - parts and materials categorised by your primary skills, then under trade goods
+ * fixed - keystones categorised under skill > archeology
+
+*3.03.06 (14-SEP-2012)*
+ * changed - default category; all trade goods reverted to trade goods category
+
+*3.03.05 (14-SEP-2012)*
+ * added - forge master and transmogrify npcs are now treated as merchants in regards to your auto open/close options
+ * fixed - issue with item quality not updating in bags
+ * fixed - issue where jewelcrafting didnt appear under the skill menu
+ * note - all bag data has been erased, please login to each character to update its data
+
 *3.03.04 (13-SEP-2012)*
  * fixed - error with profession scanning code
  * changed - default category assignment code
