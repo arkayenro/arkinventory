@@ -23,18 +23,18 @@ Actually the first thing you need to know is how to open the config screen, beca
  * Click on the *Addons* tab to show all addons that can be configured via this method
  * Find !ArkInventory in the list and click on that, its blizzard config screen should now be on the right hand side of the window
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Options-Main.jpg
+https://dl.dropbox.com/u/105603365/arkinventory/help/images/blizzard-config.jpg
 
  * click on the *Config* button to open the !ArkInventory config screen
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Options-Addon.jpg
+https://dl.dropbox.com/u/105603365/arkinventory/help/images/config-display.jpg
 
 
 Now thats all a bit long and tedious but there is a shorter way.
 
 Click on the !ArkInventory location icon (top left), the click on Config
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Menu-Config.jpg
+https://dl.dropbox.com/u/105603365/arkinventory/help/images/menu-config.jpg
 
 Back to sorting.
 
@@ -42,7 +42,7 @@ Follow these instructions [UserGuide_HowTo_Sorting How To > Sorting]
 
 And now when we open the bag and see the difference the sorting makes
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Bag-Initial2.jpg
+https://dl.dropbox.com/u/105603365/arkinventory/help/images/window-bag-initial2.jpg
 
 Thats the basics done.
 
@@ -53,6 +53,6 @@ There were other options you would have seen during this setup, your best bet is
 
 One thing you do need to know about if you want to go any further and that is how the settings options work.
 
-http://imageshack.us/a/img560/139/configcontrols.jpg
+https://dl.dropbox.com/u/105603365/arkinventory/help/images/config-controls.jpg
 
 You can see in this image that the bag controls are set to use the bag settings - all the location controls default to using their own settings, but they don't have to.  If you want your bank to use the same settings as your bag then you can just change the settings option for it to bag and it'll end up looking the same
