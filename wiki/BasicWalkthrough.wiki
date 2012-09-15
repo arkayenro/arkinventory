@@ -53,6 +53,6 @@ There were other options you would have seen during this setup, your best bet is
 
 One thing you do need to know about if you want to go any further and that is how the settings options work.
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Config-Controls.jpg
+http://imageshack.us/a/img560/139/configcontrols.jpg
 
 You can see in this image that the bag controls are set to use the bag settings - all the location controls default to using their own settings, but they don't have to.  If you want your bank to use the same settings as your bag then you can just change the settings option for it to bag and it'll end up looking the same
