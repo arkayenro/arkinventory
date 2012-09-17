@@ -10,7 +10,7 @@ To create a Sort Method;
 
  * Click on Sort Methods
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods.jpg
+http://ark.wwwsr3.supercp.com/help/images/config-sortmethod.jpg
 
 Here you see the system default sort method of Bag/Slot, it's options are all disabled so don't worry, you cant change anything for this method.  Default sort methods all start with `(*)`
 
@@ -18,17 +18,17 @@ Here you see the system default sort method of Bag/Slot, it's options are all di
 
  * Click on your new sort method
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods-UserDefined-New.jpg
+http://ark.wwwsr3.supercp.com/help/images/config-sortmethod-new1.jpg
 
 As you can see, all the options are in red, this means they aren't being used.  We need to enable them first and then we can put them in the order we want.
 
  * Tick the box for the options you want enabled, in my case that's rarity, category, equip location and name
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods-UserDefined-Setup1.jpg
+http://ark.wwwsr3.supercp.com/help/images/config-sortmethod-new2.jpg
 
  * Once they're enabled we can move them up and down via the buttons
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethods-UserDefined-Setup2.jpg
+http://ark.wwwsr3.supercp.com/help/images/config-sortmethod-new3.jpg
 
 Now we have our sort method created we need to tell the bag to use it as its default sorting, otherwise it's just going to stay the way it is.
 
@@ -40,7 +40,7 @@ Now we have our sort method created we need to tell the bag to use it as its def
 
  * Click on Sorting
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-SortMethod-Assign.jpg
+http://ark.wwwsr3.supercp.com/help/images/config-settings-window-sorting.jpg
 
  * Click on the Style dropdown and select the sort method we just created
 
