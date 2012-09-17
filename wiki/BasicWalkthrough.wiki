@@ -10,7 +10,7 @@ This is your basic walk-though, it's enough to get you going but not enough to s
 
 Out of the box your bags will look like this, one really big bag.
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Bag-Initial.jpg
+http://ark.wwwsr3.supercp.com/help/images/window-bag-initial1.jpg
 
 Not very helpful per se, so where to start.
 
@@ -23,7 +23,7 @@ Actually the first thing you need to know is how to open the config screen, beca
  * Click on the *Addons* tab to show all addons that can be configured via this method
  * Find !ArkInventory in the list and click on that, its blizzard config screen should now be on the right hand side of the window
 
-https://dl.dropbox.com/u/105603365/arkinventory/help/images/blizzard-config.jpg
+http://ark.wwwsr3.supercp.com/help/images/blizzard-config.jpg
 
  * click on the *Config* button to open the !ArkInventory config screen
 
@@ -34,7 +34,7 @@ Now thats all a bit long and tedious but there is a shorter way.
 
 Click on the !ArkInventory location icon (top left), the click on Config
 
-https://dl.dropbox.com/u/105603365/arkinventory/help/images/menu-config.jpg
+http://ark.wwwsr3.supercp.com/help/images/menu-config.jpg
 
 Back to sorting.
 
@@ -42,7 +42,7 @@ Follow these instructions [UserGuide_HowTo_Sorting How To > Sorting]
 
 And now when we open the bag and see the difference the sorting makes
 
-https://dl.dropbox.com/u/105603365/arkinventory/help/images/window-bag-initial2.jpg
+http://ark.wwwsr3.supercp.com/help/images/window-bag-initial2.jpg
 
 Thats the basics done.
 
@@ -53,6 +53,6 @@ There were other options you would have seen during this setup, your best bet is
 
 One thing you do need to know about if you want to go any further and that is how the settings options work.
 
-https://dl.dropbox.com/u/105603365/arkinventory/help/images/config-controls.jpg
+http://ark.wwwsr3.supercp.com/help/images/config-controls.jpg
 
 You can see in this image that the bag controls are set to use the bag settings - all the location controls default to using their own settings, but they don't have to.  If you want your bank to use the same settings as your bag then you can just change the settings option for it to bag and it'll end up looking the same
