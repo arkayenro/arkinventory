@@ -1,4 +1,4 @@
-#labels Featured
+#labels Deprecated
 = Local Help Files =
 
 Under Construction but should be usable
