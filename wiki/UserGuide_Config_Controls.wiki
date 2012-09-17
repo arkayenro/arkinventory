@@ -4,7 +4,7 @@
 
 Each tab across the top allows you to change the control options for each locations window
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-Config-Controls.jpg
+http://ark.wwwsr3.supercp.com/help/images/config-controls.jpg
 
 == Monitor ==
 
