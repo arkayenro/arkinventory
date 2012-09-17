@@ -8,38 +8,20 @@
 
 == Bags ==
 
-object: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Bags.jpg
+object: http://ark.wwwsr3.supercp.com/help/images/ldb-bag-long.jpg
 
 == Money ==
 
-object: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Money.jpg
+object: http://ark.wwwsr3.supercp.com/help/images/ldb-money-normal.jpg
 
-tooltip: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Money-Tooltip.jpg
+tooltip: http://ark.wwwsr3.supercp.com/help/images/ldb-money-tooltip.jpg
 
 == Currency ==
 
-no tracking: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Currency-None.jpg  tracking: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Currency-Selected.jpg
+no tracking: http://ark.wwwsr3.supercp.com/help/images/ldb-tracking-currency-none.jpg  tracking: http://ark.wwwsr3.supercp.com/help/images/ldb-tracking-currency-selected.jpg
 
-right click menu: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Currency-Menu.jpg
+right click menu: http://ark.wwwsr3.supercp.com/help/images/ldb-tracking-currency-menu.jpg
 
 == Pets & Mounts ==
 
-http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Pet.jpg
-
-== Ammo (Cataclysm has no ammo, so this has been removed ) ==
-
-object: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Ammo.jpg
-
-the icon will be the ammo's icon.  in the event you have no ammo the weapons icon will be used, in the event you have no ranged weapon equipped the empty ranged slot icon will be used.
-
-ranged weapons that don't require ammo, eg wands or thrown, will only display durability (where applicable)
-
-
-menu: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Ammo-Menu.jpg
-
-choose to include durability in the text or not
-
-
-out of ammo: http://groups.google.com/group/wow-arkinventory/web/ArkInventory-LDB-Ammo-Empty.jpg
-
-if item durability gets to 0 it will display broken in red as well
+http://ark.wwwsr3.supercp.com/help/images/ldb-mount-random-tooltip.jpg
