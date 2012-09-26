@@ -1,4 +1,15 @@
 #labels Featured
+*3.03.13 (27-SEP-2012)*
+ * fixed - issue with guild data not erasing gold value when erased
+ * fixed - possible issue with erase data function (might not be fixed as i couldnt duplicate the issue)
+ * changed - a guild bank now only has an option to erase all data
+ * note - all token data has been erased, again, the erase confirmation should appear in your chat window, please login to each character to update its data
+
+*3.03.12 (26-SEP-2012)*
+ * fixed - issue with cursor not showing sell icon
+ * changed - tooltip item counts, by default they now show only your own faction
+ * note - all token data has been erased, again, the erase confirmation should appear in your chat window, please login to each character to update its data
+
 *3.03.11 (26-SEP-2012)*
  * fixed - issue with clicking on gold amount in bag window
  * fixed - issue with rule caching
