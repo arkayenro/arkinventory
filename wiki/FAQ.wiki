@@ -1,6 +1,17 @@
 #labels Featured
 = Frequently Asked Questions =
 
+
+----
+
+==im getting an error about tokens and my bags dont open any more==
+
+if you are using 3.03.11-12 and are having issues about a token class not existing error please type this into your chat window and press enter
+
+`/run ArkInventory.EraseSavedData( nil, ArkInventory.Const.Location.Token )`
+
+the logout and login (or `/reload`) that should erase all token data and allow the mod to work 
+
 ----
 
 ==My rules arent working!!!==
