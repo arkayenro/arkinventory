@@ -10,7 +10,7 @@ if you are using 3.03.11-12 and are having issues about a token class not existi
 
 `/run ArkInventory.EraseSavedData( nil, ArkInventory.Const.Location.Token )`
 
-the logout and login (or `/reload`) that should erase all token data and allow the mod to work 
+then logout and login (or `/reload`) that should erase all your token data and allow the mod to work.
 
 ----
 
