@@ -6,7 +6,7 @@
 
 ==im getting an error about tokens and my bags dont open any more==
 
-if you are using 3.03.11-12 and are having issues about a token class not existing error please type this into your chat window and press enter
+if you are using 3.03.11-12 and are having issues about a token class not existing try upgrading to 3.03.13 first.  if the error still persists type the line below into your chat window and press enter
 
 `/run ArkInventory.EraseSavedData( nil, ArkInventory.Const.Location.Token )`
 
