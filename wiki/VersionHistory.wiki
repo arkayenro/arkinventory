@@ -1,4 +1,10 @@
 #labels Featured
+*3.03.14 (27-SEP-2012)*
+ * fixed - optional dependency link to libpetjournal for everyone
+ * fixed - x-embed dependency link to libpetjournal for curse no lib users
+ * fixed - idiot programmers really stupid mistake
+ * note - all data has been erased, again, sorry.  last time though.  please login to each character to update its data
+ 
 *3.03.13 (27-SEP-2012)*
  * fixed - issue with guild data not erasing gold value when erased
  * fixed - possible issue with erase data function (might not be fixed as i couldnt duplicate the issue)
