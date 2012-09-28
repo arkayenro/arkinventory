@@ -1,4 +1,9 @@
 #labels Featured
+*3.03.15 (28-SEP-2012)*
+ * added - config > settings > [location] > items > scale
+ * fixed - optional dependency link for libpetjournal
+ * fixed - x-embed dependency link for libpetjournal
+
 *3.03.14 (27-SEP-2012)*
  * fixed - optional dependency link to libpetjournal for everyone
  * fixed - x-embed dependency link to libpetjournal for curse no lib users
