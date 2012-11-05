@@ -1,4 +1,28 @@
 #labels Featured
+*3.03.16 (05-NOV-2012)*
+ * changed - pets are now stored under a virtual account user (so only one copy of pet data per realm is saved)
+ * changed - mounts are now stored under a virtual account user (so only one copy of mount data per realm is saved)
+ * note - rules do not currently work with battlepets or mounts
+ * added - for sorting purposes, itemlevel is pet level
+ * added - for sorting purposes, itemtype is pet family
+ * fixed - issue with caged battlepets in vaults, although the blizzard interface has the same bug as well which didnt help
+ * fixed - pet renames, level ups and favourite tags are now picked within 5 seconds
+ * fixed - issue with pet item counts not updating properly
+ * fixed - issue with random pet and mount summoning code (caused by translation delay)
+ * fixed - drag and drop of pets will now work onto action bars as well as battle pet slots
+ * added - item counts to mouseover tooltip for capturable and other players battlepets
+ * added - config option to disable the custom battlepet tooltip used to display itemcounts
+ * added - upon entering a pet battle the opponents pet details (hyperlinks) will be displayed to the chat window - can be disabled via config > mesages > battlepet > opponent
+ * fixed - when summoning a ground mount in a non flying area and you have none it will attempt to use a flying mount if you have one of those
+ * fixed - issue with zone restricted mounts
+ * fixed - issue with dismounting while in combat
+ * changed - mount capabilities are now retrieved from internal blizzard data, zone restrictions are still hand coded
+ * changed - ldb mount menus are now disabled if your skill isnt high enough
+ * note - the ability to ride a sea turtle when you have no riding skill and/or are less than level 20 is a blizzard bug (then again its no faster than walking so i doubt they care too much)
+ * fixed - issue with cursor not updating properly when an item is updated underneath it
+ * removed - shapeshift mount forms, i cant cast them from unsecure code anyway
+ * changed - vault actions moved from the tab icons to a new menu button in the changer window
+
 *3.03.15 (28-SEP-2012)*
  * added - config > settings > [location] > items > scale
  * fixed - optional dependency link for libpetjournal
