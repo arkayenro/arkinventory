@@ -1,4 +1,9 @@
 #labels Featured
+*3.03.17 (06-NOV-2012)*
+ * fixed - bug in item count code
+ * fixed - the virtual account will no longer appear in the ldb money object
+ * fixed - translation issue of german global constant being a different format to all other languages
+
 *3.03.16 (05-NOV-2012)*
  * changed - pets are now stored under a virtual account user (so only one copy of pet data per realm is saved)
  * changed - mounts are now stored under a virtual account user (so only one copy of mount data per realm is saved)
