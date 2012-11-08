@@ -1,4 +1,8 @@
 #labels Featured
+*3.03.18 (08-NOV-2012)*
+ * changed - guild money amounts will only update when at the guild now (should stop them from zero'ing)
+ * fixed - issue with void storage scanning
+
 *3.03.17 (06-NOV-2012)*
  * fixed - bug in item count code
  * fixed - the virtual account will no longer appear in the ldb money object
