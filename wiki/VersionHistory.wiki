@@ -1,4 +1,19 @@
 #labels Featured
+*3.03.19 (15-NOV-2012)*
+ * changed - the equipment category name is now sourced from blizzard text
+ * added - category: system > equippable items (account bound)
+ * added - rule function: accountbound | ab
+ * note - accountbound items are also considered soulbound so rule order will be important
+ * added - option to disable adding information to mouseover tooltips
+ * added - options to add source and description text to mouseover tooltips
+ * changed - battlepet mouseover tooltips should now work with unit frames
+ * changed - battlepet mouseover display format to show more detailed information about your matching uncaged battlepets
+ * changed - battlepet opponent text will now link your existing pets if the opponent quality is equal or higher
+ * added - rule function: pettype | ptype
+ * added - rule function: petiswild
+ * added - rule function: petcanbattle
+ * potentially fixed - locked journal issue when multiple accounts on a battle.net account are logged in at the same time
+
 *3.03.18 (08-NOV-2012)*
  * changed - guild money amounts will only update when at the guild now (should stop them from zero'ing)
  * fixed - issue with void storage scanning
