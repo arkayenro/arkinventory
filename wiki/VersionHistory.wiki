@@ -1,4 +1,7 @@
 #labels Featured
+*3.03.20 (16-NOV-2012)*
+ * fixed - code error
+
 *3.03.19 (15-NOV-2012)*
  * changed - the equipment category name is now sourced from blizzard text
  * added - category: system > equippable items (account bound)
