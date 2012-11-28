@@ -1,4 +1,11 @@
 #labels Featured
+*3.03.21 (28-NOV-2012)*
+ * changed - toc updated to 50100
+ * fixed - issue with item tracking object not updating
+ * fixed - issue with battlepet opponent detail output not linking all your pets
+ * fixed - issue with normaltexture going green
+ * added - new sort key - internal id (class:itemid:soulbound)
+
 *3.03.20 (16-NOV-2012)*
  * fixed - code error
 
