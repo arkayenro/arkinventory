@@ -1,4 +1,8 @@
 #labels Featured
+*3.03.22 (29-NOV-2012)*
+ * fixed - updated for pet api changes (petid is now a guid string, not a number)
+ * fixed - issue where pets and mounts submenus were showing up under the action menu
+
 *3.03.21 (28-NOV-2012)*
  * changed - toc updated to 50100
  * fixed - issue with item tracking object not updating
