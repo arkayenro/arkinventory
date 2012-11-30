@@ -1,4 +1,8 @@
 #labels Featured
+*3.03.23 (30-NOV-2012)*
+ * added - cooking slot / container support
+ * fixed - issue with normaltexture showing default item border
+
 *3.03.22 (29-NOV-2012)*
  * fixed - updated for pet api changes (petid is now a guid string, not a number)
  * fixed - issue where pets and mounts submenus were showing up under the action menu
