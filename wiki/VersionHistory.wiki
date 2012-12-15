@@ -1,4 +1,12 @@
 #labels Featured
+*3.03.24 (16-DEC-2012)*
+ * fixed - issue with disabling arkinventory and mouseover tooltips
+ * fixed - issue with scanning pets (for max pet level)
+ * changed - the equipable items category now only picks up items that have an actual equip location set
+ * added - display item levels on equippable items (disabled by default) via config > settings > location > items > item level
+ * added - tint unuseable will apply to battlepets in your bag when their level is above your maximum current pet level
+ * fixed - issue with ldb random mount code not checking users custom changes
+
 *3.03.23 (30-NOV-2012)*
  * added - cooking slot / container support
  * fixed - issue with normaltexture showing default item border
