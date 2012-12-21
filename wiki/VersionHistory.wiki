@@ -1,4 +1,8 @@
 #labels Featured
+*3.03.25 (21-DEC-2012)*
+ * added - config > controls > location > special (default = true) - treat the location window as special or not.  special windows are closed when the ESCAPE key is pressed
+ * fixed - nil issue with stock count
+
 *3.03.24 (16-DEC-2012)*
  * fixed - issue with disabling arkinventory and mouseover tooltips
  * fixed - issue with scanning pets (for max pet level)
