@@ -1,4 +1,18 @@
 #labels Featured
+*3.03.26 (06-MAR-2013)*
+ * changed - toc updated
+ * fixed - void storage item tooltips now include item counts
+ * fixed - issue with toc file for rules (addonloader)
+ * fixed - issue with toc file for example rule (addonloader)
+ * fixed - issue with empty bag tooltip text
+ * fixed - issue with mouseover tooltips not working for some of the newer battlepets (guid code needed an extra digit processed)
+ * fixed - issue with "can use" code not working correctly for some patterns/recipes (will now scan downwards until the first blank line then scan upwards until the first blank line)
+ * changed - battlepet scanning code
+ * updated - notification code for better battlepets (checks level 25 approximate health, power and speed now, not just rarity)
+ * changed - battlepet cage, release and rename static popups now use LibDialog so should not taint blizzards secure code
+ * changed - non wild battlepets now use their actual rarity colour for their border, tooltips and links remain the default colour (yellow)
+ * added - options to not display the restack messages
+
 *3.03.25 (21-DEC-2012)*
  * added - config > controls > location > special (default = true) - treat the location window as special or not.  special windows are closed when the ESCAPE key is pressed
  * fixed - nil issue with stock count
