@@ -1,4 +1,7 @@
 #labels Featured
+*3.03.27 (07-MAR-2013)*
+ * fixed - re-enabled threading in combat
+
 *3.03.26 (06-MAR-2013)*
  * changed - toc updated
  * fixed - void storage item tooltips now include item counts
