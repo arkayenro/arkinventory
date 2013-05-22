@@ -1,4 +1,13 @@
 #labels Featured
+*3.03.28 (22-MAY-2013)*
+ * changed - toc set to 50300
+ * changed - pet sorting (item type) now uses the type name and not the number
+ * changed - rule function pettype( ) now also accepts the (client localised) type name
+ * fixed - issue with debug info for non wild battle pets
+ * updated - companion item/critter data
+ * changed - LibDialog from curse download is now souced from pkgmeta file
+ * fixed - issue with outfit rules and change to EquipmentManager_UnpackLocation api function
+
 *3.03.27 (07-MAR-2013)*
  * fixed - re-enabled threading in combat
 
