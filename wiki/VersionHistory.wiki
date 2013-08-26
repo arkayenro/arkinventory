@@ -1,4 +1,12 @@
 #labels Featured
+*3.03.30 (26-AUG-2013)*
+ * changed - in combat threading
+ * added - config > display > bug fixes > incombat yielding - to allow for user customisation of the deliberate delays to building a bag when opening for the first time in combat
+ * fixed - displayed item level values should now include any item upgrade levels
+ * fixed - location frame will be displayed above all others when opened
+ * changed - restack will no longer start if you are in combat
+ * fixed - initial frame level for items to ensure they are on top of the bars
+
 *3.03.29 (10-AUG-2013)*
  * changed - pet scanning functions
 
