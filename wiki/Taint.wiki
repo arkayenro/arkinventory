@@ -1,0 +1,25 @@
+= Tainted =
+
+update this to hold detailed info on what to do when wow says ai has used some protected function, or tainted something.
+
+
+= Details =
+
+enable taint logging to max level
+
+restart wow
+
+play until you get the error
+
+quit wow
+
+check the taint.log and find the error
+
+work backwards to find where the taint started
+
+if you can find it then report it to the author of that mod
+if you cant figure it out submit the file in a ticket (dont expect a quick response because they arent fun reading)
+
+start wow
+
+ignore errors until the issue is fixed
