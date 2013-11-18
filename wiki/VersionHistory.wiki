@@ -1,4 +1,16 @@
 #labels Featured
+*3.03.32 (19-NOV-2013)*
+ * fixed - some techniques were showing as unuseable because their tooltips were formatted differently to patterns and recipes
+ * changed - tooltip item counts should use less cpu (less impact on framerate)
+ * fixed - removed the blue glow from the bar numbers in edit mode
+ * changed - (via keybinding only) druid bear/cat/travel/moonkin forms are now cancelled before attempting to mount (aquatic and flight forms are never cancelled as they are usually faster or same speed)
+ * changed - (via keybinding only) shaman and warlock non humanoid forms are now cancelled before attempting to mount
+ * fixed - timeless items (the "unopened" versions) are now be under the same category as the "opened" versions - equipable items (bind to account)
+
+*3.03.31 (11-AUG-2013)*
+ * changed - toc set to 50400
+ * fixed - at load time hide the new item texture blizzard added to items in this patch (will sort out if this can be used properly later)
+ 
 *3.03.30 (26-AUG-2013)*
  * changed - in combat threading
  * added - config > display > bug fixes > incombat yielding - to allow for user customisation of the deliberate delays to building a bag when opening for the first time in combat
