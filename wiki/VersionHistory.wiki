@@ -1,4 +1,8 @@
 #labels Featured
+*3.03.33 (19-MAR-2013)*
+ * fixed - mount availability code when zoning
+ * added - locales for itIT and ptBR
+
 *3.03.32 (19-NOV-2013)*
  * fixed - some techniques were showing as unuseable because their tooltips were formatted differently to patterns and recipes
  * changed - tooltip item counts should use less cpu (less impact on framerate)
