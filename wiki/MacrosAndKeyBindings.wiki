@@ -1,0 +1,22 @@
+#summary One-sentence summary of this page.
+
+= Macros =
+
+if you want to toggle a window via a macro you can use the following code;
+
+
+{{{/run ArkInventory.Frame_Main_Toggle( ArkInventory.Const.Location.xyz )}}}
+
+
+where {{{xyz}}} is one of; {{{Bag, Bank, Vault, Void, Mail, Wearing, Pet, Mount, Token}}} (case sensitive)
+
+
+you can always check the bindings.xml file for a list of all current locations
+
+
+
+
+
+= Keybindings =
+
+to be done
