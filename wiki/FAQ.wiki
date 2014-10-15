@@ -3,13 +3,14 @@
 
 
 ----
-==where is the deposit all reagents button?==
+==Where is the deposit all reagents button?==
 
-open the bank location, open the bag changer, right click on the last bag (thats the reagent tab), select deposit deposit all reagents.
+open the bank location, open the bag changer, right click on the last bag (thats the reagent tab), click on deposit all reagents.
 
 if you want that to happen every time you do a cleanup (restack) enable the deposit all reagents option under the cleanup area in that same menu.
 
-==im getting an error about tokens and my bags dont open any more==
+----
+==I'm getting an error about tokens and my bags dont open any more==
 
 if you are using 3.03.11-12 and are having issues about a token class not existing try upgrading to 3.03.13 first.  if the error still persists type the line below into your chat window and press enter
 
