@@ -1,4 +1,10 @@
 #labels Featured
+*3.04.08 (17-OCT-2014)*
+ * fixed - issue with vault restack code
+ * changed - restack will now combine into the lowest numbered slot (not the highest)
+ * added - config > display > cleanup option, disable to use old restack function (it will do the same sort of action as the blizzard cleanup just slower and doesnt move items into empty slots)
+ * removed - warnings about no usable mounts
+ 
 *3.04.07 (16-OCT-2014)*
  * erased - pet data
  * fixed - issue with battlepet tooltips
