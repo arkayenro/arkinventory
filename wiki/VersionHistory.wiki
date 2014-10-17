@@ -1,4 +1,95 @@
 #labels Featured
+*3.04.07 (16-OCT-2014)*
+ * erased - pet data
+ * fixed - issue with battlepet tooltips
+ * fixed - cage, release and rename battlepet menu options
+ * fixed - mount warning issue
+ * changed - yielding while in combat re-enabled (forgot to turn in back on)
+ * added - empty reagent bank category
+ 
+*3.04.06 (15-OCT-2014)*
+ * fixed - issue with ldb mount code
+ * fixed - typo in ldb pet tooltip code
+ * fixed - issue with sent mail tracking code
+ * fixed - issue with pet dismiss code
+ * fixed - issue with toybox scanning code not resetting the filters properly
+ 
+*3.04.05 (15-OCT-2014)*
+ * added - config > settings > location > items > empty slots > first only (hides all empty slots except the first of each type)
+ * fixed - battlepet tooltip issue with new creature guid format
+ * fixed - issue with pet/mount menus
+ * fixed - issue with LDB pet/mount code
+ * note - crafting using bank items has NOT been tested, item counts may not update.  Reagent Bank item counts will update.
+
+*3.04.04 (11-OCT-2014) BETA WARLORDS*
+ * changed - maximum bars per row increased from 16 to 40
+ * added - ability to assign the contents of a bag to a specific bar - this overrides the items category/rule assignments
+ * updated - battlepet data
+ * changed - battlepet menu. added another level in an attempt to shrink the height
+
+*3.04.03 (05-SEP-2014) BETA WARLORDS*
+ * added - mail sent/returned to another character is now tracked (recipient must be on the same account and must have logged in at least once with the mod loaded for it to track - timeout returns/deletions not yet coded)
+ * added - cleanup options to bag right click menu.  ignore (wont touch the bag contents) and deposit all reagents (enabling this automatically deposits reagents as part of the cleanup)
+
+*3.04.02 (24-AUG-2014) BETA WARLORDS*
+ * changed - required blizzard addons set to required in toc due to optional not fully loading them (specifically the pet/mount journal)
+ * fixed - (maybe) item quality for boosted items (the green that occasionally gets bumped to a blue)
+ * fixed - issue with ldb code loading before the mount journal so it wasnt seeing any mounts and removed all selected mounts due to them being non-existant
+ * changed - realm connections: added Shadowmoon to Blackwing Lair / Dethecus / Detheroc / Haomarush / Lethon
+ * changed - realm connections: added Burning Legion to Agamaggan / Archimonde / Jaedenar / The Underbog
+ 
+*3.04.01 (06-AUG-2014) BETA WARLORDS*
+ * fixed - mount code should work a lot better now
+ * fixed - mount menu options
+ * changed - option for using flying mounts as land mounts moved to the flying mounts menu
+ * added - manually coded mount types - if anything ends up on the custom tab then let me know the number, name and type of mount and i'll update it
+ * added - workaround for savedvariables issue
+ 
+*3.04.00 (31-JUL-2014) BETA WARLORDS*
+ * note - all item data has been erased.  please login to each character to update its data
+ * changed - toc set to 60000
+ * added - reagent bank - displayed as the last bank bag.  to purchase right click on the empty slot icon and select purchase (the cost is shown in the tooltip)
+ * added - you can now purchase a bank bag slot via the right click menu (the cost is shown in the tooltip)
+ * fixed - cosmetic issue when buying bank bag slots and the "buy" text staying there
+ * changed - the restack function now uses the internal bag cleanup function for the bank and bags (its much faster and has options which i havent included yet)
+ * added - second void storage tab is now scanned
+ * added - toybox location and category (you cannot click on the items but you can drag them onto an action bar)
+ * aded - new item glow
+ * added - realm connections: new Elune and Gilneas
+ * changed - realm connections: added Deathwing to Executus / Kalecgos / Shattered Halls
+ * note - pets and mounts are a bit weird at the moment, make sure the translations have completed before trying to do anything with them
+ * note - i cant tell what type of mount it is at the moment so youll need to set that up or you wont see any mounts - its in the config under LDB (yes i know i'll fix that later)
+ * note - there will be issues, its beta, be patient
+
+*3.03.36 (20-JUN-2014)*
+ * added - ability to select flying mounts as land mounts (mostly for those without the flying skill), disabled by default, accessed via the ldb menu or mount locations main menu
+ * added - cross realm support for item counts and money amounts
+ * changed - money tooltips now use the item tooltip options to determine which othr characters data is displayed
+ * fixed - cosmetic issue when buying bank bag slots and the "buy" text staying there (it now goes away after a refresh)
+ * fixed - issue where tooltip option for self only was based on character name and the change to displaying multiple realms meant characters with the same name would all display, its now based on character id
+ * fixed - issue where item counts were not being sorted alphabetically
+ 
+*3.03.35 (13-JUN-2014)*
+ * removed beta status
+
+*3.03.34 (07-JUN-2014) BETA 06-07-11-30*
+ * fixed - issue with money tooltip generating an error
+
+*3.03.34 (05-JUN-2014) BETA 06-05-21-00*
+ * note - all item data has been erased.  please login to each character to update its data
+ * fixed - added example rule module back in (was removed when directory was renamed)
+ * fixed - issue with clearing item counts when changing options
+ * added - config > display > tooltips > item counts > self highlight - prepends this text to the currently displayed characters name so its more obvious in the list (defaults to blank text, not added when self only is enabled)
+ * added - config > display > tooltips > item counts > realm only - limit item count results to the currently displayed realm
+ * changed - data storage layout
+ * changed - switch character option can switch to characters on other realms
+ * changed - maximum items per row increased from 40 to 60
+ * changed - config options moved to its own load on demand module
+ * changed - guild bank info now stored only when the vault is accessed (should help stop the vault money amount from coming back all the time)
+ * changed - money tooltip data based off the current locations realm (ldb tooltip is still based off the current players realm)
+ * changed - item count tooltip text is being cached. this means more memory usage but significantly less impact on framerate
+ * changed - item count tooltip data based off the current locations realm (tooltips from links are based off the current players realm)
+ 
 *3.03.33 (19-MAR-2013)*
  * fixed - mount availability code when zoning
  * added - locales for itIT and ptBR
