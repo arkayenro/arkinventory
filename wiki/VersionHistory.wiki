@@ -1,4 +1,8 @@
 #labels Featured
+*3.04.11 (22-OCT-2014)*
+ * changed - maximum container frame height increased to 2000
+ * changed - default height set to 2000
+
 *3.04.10 (22-OCT-2014)*
  * changed - all locations now have a maximum height for the container frame, it will scroll the items if there are too many to fit and shrink to fit if less
  * added - config > settings > window > height (default 400) sets the maximum height of the container frame before it scrolls
