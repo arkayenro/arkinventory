@@ -1,4 +1,19 @@
 #labels Featured
+*3.04.10 (22-OCT-2014)*
+ * changed - all locations now have a maximum height for the container frame, it will scroll the items if there are too many to fit and shrink to fit if less
+ * added - config > settings > window > height (default 400) sets the maximum height of the container frame before it scrolls
+ * changed - toybox scanning (should remove the taint)
+ * changed - mount scanning
+ * changed - if a bag type returns unknown during scanning it will be queued to be rescanned until its type is known (warnings are generated when this happens, they cannot be disabled)
+ * fixed - issue with ignore cleanup option for bank and backpack not being remembered
+ 
+*3.04.09 (20-OCT-2014)*
+ * fixed - item counts on battlepet tooltips
+ * fixed - mount favourite code
+ * fixed - mount macro
+ * fixed - issue with bank data going missing
+ * changed - config option for first empty is now a range from 0 to 5, 0 will show all empty slots, 1-5 will show that many empty slots (of each type)
+
 *3.04.08 (17-OCT-2014)*
  * fixed - issue with vault restack code
  * changed - restack will now combine into the lowest numbered slot (not the highest)
