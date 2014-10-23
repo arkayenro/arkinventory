@@ -1,4 +1,9 @@
 #labels Featured
+*3.04.12 (23-OCT-2014)*
+ * fixed - issue where it wasnt resetting the items back to the top when exiting edit mode after scrolling
+ * fixed - guild bank tab icons
+ * added - to cleanup menu; reverse cleanup and loot to leftmost (from blizzard interface options)
+
 *3.04.11 (22-OCT-2014)*
  * changed - maximum container frame height increased to 2000
  * changed - default height set to 2000
