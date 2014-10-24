@@ -1,4 +1,11 @@
 #labels Featured
+*3.04.13 (25-OCT-2014)*
+ * fixed - dropping an item on the reagent bank "bag" will now move it to the reagent bank
+ * added - to bag menu; assign to bag options (from blizzard bag options)
+ * added - connected realms; Argent Dawn / The Scryers
+ * added - connected realms; Malfurion / Trollbane
+ * added - connected realms; Shattered Hand to Coilfang / Dark Iron / Dalvengyr / Demon Soul
+
 *3.04.12 (23-OCT-2014)*
  * fixed - issue where it wasnt resetting the items back to the top when exiting edit mode after scrolling
  * fixed - guild bank tab icons
