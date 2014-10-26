@@ -1,4 +1,10 @@
 #labels Featured
+*3.04.14 (26-OCT-2014)*
+ * fixed - window can be moved again by dragging within the container frame
+ * fixed - issue with sometimes not removing data from previous scans causing the window to not be able to be drawn
+ * removed - soul shard tracking code (item will still be listed in the tracking until removed)
+ * fixed - issue with icons in menus
+
 *3.04.13 (25-OCT-2014)*
  * fixed - dropping an item on the reagent bank "bag" will now move it to the reagent bank
  * added - to bag menu; assign to bag options (from blizzard bag options)
