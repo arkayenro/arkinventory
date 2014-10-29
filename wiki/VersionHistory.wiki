@@ -1,6 +1,6 @@
 #labels Featured
 *3.04.15 (30-OCT-2014)*
- * changed - library layout changed (LibDialog, LibDataBroker, LibStub and CallbackHandler are now externals so if you use the nolib version please ensure you have those already installed)
+ * changed - library layout changed (!LibDialog, !LibDataBroker, !LibStub and !CallbackHandler are now externals so if you use the nolib version please ensure you have those already installed)
  * changed - pet scanning code
  * deleted - selected/ignored pets choices wiped (will revert to random) due to issue with list index value changing. using the global identifier value instead
  * fixed - issue with ldb and status frame showing an ERR or not updating the slot count
