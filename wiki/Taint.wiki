@@ -1,7 +1,10 @@
 = Taint and Protected Functions =
 
-what to do when wow says ai has used some protected function, or tainted something.
+!ArkInventory is an !Ace3 based mod and uses several of its shared libraries, as such !ArkInventory is tagged as the owner of those libraries because it loaded them first (mods are loaded in alphabetical order and its usually first)
 
+Because of this when another mod taints one of the globals that taint can spread through the shared libraries into every mod and eventually it will generate an error and blame !ArkInventory
+
+What you can do to diagnose which mod was the actual cause is listed below
 
 = Details =
 
@@ -33,3 +36,9 @@ what to do when wow says ai has used some protected function, or tainted somethi
 note: there is a more detailed level of taint logging (2), you may be asked to provide another (much more detailed taint log) after enabling that, if i cant figure out where its coming from in the basic taint log.
 
 please dont set it to 2 unless asked, i dont want to look through level 2 logs unless i absolutely have to.
+
+You can read the log yourself or you can create a ticket and attach the log to it.
+
+What you are looking for is the error at the end of the file, the variable that was tainted that caused the error, then go to the start of the file and see which mod actually tainted it first.  Sometimes it can be a chain of taint and it can take a bit of work to track it down but it can be done.
+
+The usual cause is UIDROPDOWN variables but occasionally an author will forget to make a variable local and instead they stomp on a global that blizzard has used and taint it.
