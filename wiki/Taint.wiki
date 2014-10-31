@@ -1,6 +1,6 @@
 = Taint and Protected Functions =
 
-!ArkInventory is an !Ace3 based mod and uses several of its shared libraries, as such !ArkInventory is tagged as the owner of those libraries because it loaded them first (mods are loaded in alphabetical order and its usually first)
+!ArkInventory is an Ace3 based mod and uses several of its shared libraries, as such !ArkInventory is tagged as the owner of those libraries because it loaded them first (mods are loaded in alphabetical order and its usually first)
 
 Because of this when another mod taints one of the globals that taint can spread through the shared libraries into every mod and eventually it will generate an error and blame !ArkInventory
 
