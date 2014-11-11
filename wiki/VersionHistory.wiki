@@ -1,4 +1,11 @@
 #labels Featured
+*3.04.16 (11-NOV-2014)*
+ * fixed - frame level issue causing items from the window underneath to be clickable/mouseoverable
+ * removed - old frame level workaround code (new code should stop it from happening anyway)
+ * removed - workaround code for savedvariables having weird decimal places
+ * changed - moved keybindings from Other to AddOns category in KeyBindings interface
+ * updated - locale zhCN
+
 *3.04.15 (30-OCT-2014)*
  * changed - library layout changed (!LibDialog, !LibDataBroker, !LibStub and !CallbackHandler are now externals so if you use the nolib version please ensure you have those already installed)
  * changed - pet scanning code
