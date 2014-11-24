@@ -32,3 +32,5 @@ add/remove items by typing `/ai track <link>`
 shift click on the pet icon to dismiss the current pet
 
 clicking on the mount icon will cycle between mount/dismount
+
+there are key bindings for both actions
