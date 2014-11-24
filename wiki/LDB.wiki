@@ -24,7 +24,7 @@ right click menu:
 
 == Item Tracking ==
 
-add/remove items by typing /ai track <link>
+add/remove items by typing `/ai track <link>`
 
 
 == Pets & Mounts ==
