@@ -8,23 +8,26 @@
 
 == Bags ==
 
-object: http://ark.wwwsr3.supercp.com/help/images/ldb-bag-long.jpg
+object: 
 
 == Money ==
 
-object: http://ark.wwwsr3.supercp.com/help/images/ldb-money-normal.jpg
+object: 
 
-tooltip: http://ark.wwwsr3.supercp.com/help/images/ldb-money-tooltip.jpg
+tooltip: 
 
-== Currency ==
+== Currency Tracking ==
 
-no tracking: http://ark.wwwsr3.supercp.com/help/images/ldb-tracking-currency-none.jpg  tracking: http://ark.wwwsr3.supercp.com/help/images/ldb-tracking-currency-selected.jpg
+no tracking: 
 
-right click menu: http://ark.wwwsr3.supercp.com/help/images/ldb-tracking-currency-menu.jpg
+right click menu: 
+
+== Item Tracking ==
+
+add/remove items by typing /ai track <link>
+
 
 == Pets & Mounts ==
-
-http://ark.wwwsr3.supercp.com/help/images/ldb-mount-random-tooltip.jpg
 
 shift click on the pet icon to dismiss the current pet
 
