@@ -25,3 +25,7 @@ right click menu: http://ark.wwwsr3.supercp.com/help/images/ldb-tracking-currenc
 == Pets & Mounts ==
 
 http://ark.wwwsr3.supercp.com/help/images/ldb-mount-random-tooltip.jpg
+
+shift click on the pet icon to dismiss the current pet
+
+clicking on the mount icon will cycle between mount/dismount
