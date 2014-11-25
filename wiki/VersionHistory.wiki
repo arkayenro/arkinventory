@@ -1,4 +1,10 @@
 #labels Featured
+*3.04.17 (25-NOV-2014)*
+ * added - libperiodictable libraries: !ClassSpell, !CurrencyItems, Gear, !GearSet, !InstanceLoot, !InstanceLootHeroic, !InstanceLootLFR, !TradeskillLevels, !TransmogSet
+ * updated - external libraries
+ * added - right click menu to cleanup icon to deposit all reagents
+ * changed - ldb item tracking counts now include items from the bank
+
 *3.04.16 (11-NOV-2014)*
  * fixed - frame level issue causing items from the window underneath to be clickable/mouseoverable
  * removed - old frame level workaround code (new code should stop it from happening anyway)
