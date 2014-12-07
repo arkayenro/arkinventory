@@ -5,7 +5,9 @@
 ----
 ==Where is the deposit all reagents button?==
 
-open the bank location, open the bag changer, right click on the last bag (thats the reagent tab), click on deposit all reagents.
+right click on the cleanup icon and select deposit all reagents
+
+(or) open the bank location, open the bag changer, right click on the last bag (thats the reagent tab), click on deposit all reagents.
 
 if you want that to happen every time you do a cleanup (restack) enable the deposit all reagents option under the cleanup area in that same menu.
 
