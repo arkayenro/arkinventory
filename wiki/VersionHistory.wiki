@@ -1,4 +1,9 @@
 #labels Featured
+*3.04.18 (21-DEC-2014)*
+ * fixed - item counts should now display on the tooltips for work order reagents and quest log items
+ * fixed - item age should display if enabled
+ * fixed - LDB actions menu
+
 *3.04.17 (25-NOV-2014)*
  * added - libperiodictable libraries: !ClassSpell, !CurrencyItems, Gear, !GearSet, !InstanceLoot, !InstanceLootHeroic, !InstanceLootLFR, !TradeskillLevels, !TransmogSet
  * updated - external libraries
