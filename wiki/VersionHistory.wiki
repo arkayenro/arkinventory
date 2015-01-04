@@ -1,4 +1,11 @@
 #labels Featured
+*3.04.19 (04-JAN-2015)*
+ * changed - minor adjustment to the cleanup/restack code
+ * fixed - item age now defaults to topleft.  if itemlevel is displayed, then itemage it is positioned to center instead
+ * fixed - issue with vault data for characters on different connected realms when in the same guild - you will have to manually erase any existing duplicated vault data
+ * fixed - issue with pet item counts sometimes not updating
+ * fixed - issue with pet scanning code sometimes not re-scanning when it should have
+
 *3.04.18 (21-DEC-2014)*
  * fixed - item counts should now display on the tooltips for work order reagents and quest log items
  * fixed - item age should display if enabled
