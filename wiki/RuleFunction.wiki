@@ -82,6 +82,8 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_Usable Usable]
 
+  * [RuleFunction_PetCanBattle PetCanBattle]
+
 == Example Rules ==
 
 Some example rules can be found [Rule_Examples here]
