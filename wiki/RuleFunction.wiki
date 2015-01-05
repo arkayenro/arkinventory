@@ -82,7 +82,8 @@ this would be quicker (although that particular function is pretty fast anyway),
 
   * [RuleFunction_Usable Usable]
 
-  * [RuleFunction_PetCanBattle PetCanBattle]
+  * [RuleFunction_PetType Pet Type]
+  * [RuleFunction_PetCanBattle Pet Can Battle]
 
 == Example Rules ==
 
