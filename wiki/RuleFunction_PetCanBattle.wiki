@@ -1,0 +1,15 @@
+#summary Rule Functions > PetCanBattle
+
+= petcanbattle( ) =
+
+Checks if a companion pet is a battle pet or not
+
+== Arguments ==
+
+  * None
+
+== Examples ==
+
+{{{
+petcanbattle( ) and sb( )
+}}}
