@@ -1,0 +1,25 @@
+#summary Rule Functions > PetType
+
+= type( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments matches a pets type
+
+== Alias ==
+
+  * `ptype`
+
+== Arguments ==
+
+  * arg1...N = pet type (string or number)
+
+== Remarks ==
+
+  * arg must be in the clients language
+
+  * a pets type can be found on the debug info menu for that pet
+
+== Examples ==
+
+{{{
+pettype( "humanoid", 9 )
+}}}
