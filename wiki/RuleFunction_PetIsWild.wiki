@@ -1,0 +1,15 @@
+#summary Rule Functions > PetIsWild
+
+= petiswild( ) =
+
+Checks if a companion pet is available in the wild or not (trappable)
+
+== Arguments ==
+
+  * None
+
+== Examples ==
+
+{{{
+petiswild( )
+}}}
