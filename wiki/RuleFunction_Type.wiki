@@ -10,7 +10,7 @@ Checks if any of the supplied arguments matches an items type
 
 == Arguments ==
 
-  * arg1...N = item type
+  * arg1...N = item type (string or number)
 
 == Remarks ==
 
