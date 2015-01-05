@@ -1,6 +1,6 @@
 #summary Rule Functions > PetType
 
-= type( arg1, ..., argN ) =
+= pettype( arg1, ..., argN ) =
 
 Checks if any of the supplied arguments matches a pets type
 
