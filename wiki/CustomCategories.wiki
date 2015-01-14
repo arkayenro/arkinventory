@@ -5,6 +5,6 @@ tbd
 
 (short version)
 
-A custom category is very basic, it matches against the Item ID, all variants are ignored.
+A custom category is very basic, it matches against the Item ID only.
 
 ie; Suffixes, Dungeon / Raid modes and Bonus allocations don't matter for custom category assignment, it just matches on the base item.
