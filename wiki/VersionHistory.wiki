@@ -7,7 +7,7 @@
  * updated - pet tooltips and code
  * changed - cosmetic issue with pet and mount totals in the status bar, they will now always show the total count (the option to swap between used/empty is ignored)
  * changed - translations (mostly around pet text)
- * fixed - issue with LibDataBroker not having a TOC file so cant be loaded as standalone.  moved it back to being an included library
+ * fixed - issue with !LibDataBroker not having a TOC file so cant be loaded as standalone.  moved it back to being an included library
 
 *3.04.19 (04-JAN-2015)*
  * changed - minor adjustment to the cleanup/restack code
