@@ -10,7 +10,7 @@ Checks if any of the supplied arguments matches a mounts type
 
 == Arguments ==
 
-  * arg1...N = pet type (character, case insensitive)
+  * arg1...N = mount type (single character, case insensitive)
 
 == Remarks ==
 
