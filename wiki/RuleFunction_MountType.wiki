@@ -1,0 +1,27 @@
+#summary Rule Functions > MountType
+
+= mounttype( arg1, ..., argN ) =
+
+Checks if any of the supplied arguments matches a mounts type
+
+== Alias ==
+
+  * `mtype`
+
+== Arguments ==
+
+  * arg1...N = pet type (character, case insensitive)
+
+== Remarks ==
+
+  * "L" = land
+  * "A" = flying
+  * "S" = water surface
+  * "U" = underwater
+  * "X" = ignored/unknown
+
+== Examples ==
+
+{{{
+mounttype( "a", "L" )
+}}}
