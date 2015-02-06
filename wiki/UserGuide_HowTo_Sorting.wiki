@@ -4,6 +4,9 @@
 
 Sorting in !ArkInventory is done via sort methods.  You can have as many or as few sort methods as you need to sort your items the way you want.
 
+Note: Sorting is a little bit odd in that it is based around the visual appearance of items in the bar, so Ascending and Descending end up visually correct but are logically inverted based off the item anchor point (so it can be slightly confusing).  Just play around with the sort order until you get it the way you want and dont get hung up on their names.
+
+
 To create a Sort Method;
 
  * Open the config window
