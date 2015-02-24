@@ -18,12 +18,11 @@
  * fixed - issue with new item glow showing in offline locations
  * fixed - issue with offline items still fading when the option was disabled
 
-
 *3.04.20 (14-JAN-2015)*
  * added - new items category
  * added - config > settings > location > items > new items
  * added - right click menu off refresh icon for new item reset
- * added - pet breed information is now displayed on the custom tooltips when the Battle Pet !BreedID addon is installed
+ * added - pet breed information is now displayed on the custom tooltips when the Battle Pet BreedID addon is installed
  * updated - pet tooltips and code
  * changed - cosmetic issue with pet and mount totals in the status bar, they will now always show the total count (the option to swap between used/empty is ignored)
  * changed - translations (mostly around pet text)
