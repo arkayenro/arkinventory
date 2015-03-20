@@ -1,4 +1,4 @@
-# arkinventory
-Automatically exported from code.google.com/p/arkinventory
+# ArkInventory
+A World of Warcraft Inventory mod
 
-will sort this out later
+exported from GoogleCode so will need to sort this out later
