@@ -1,3 +1,0 @@
-#summary Rule Functions > Usable
-
-= to be done =
