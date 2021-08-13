@@ -1,5 +1,5 @@
 # ArkInventory
-A World of Warcraft Inventory mod for both Retail and Classic
+A World of Warcraft Inventory mod for Retail, Burning Crusade, and Classic
 
 Mostly for the [wiki](https://github.com/arkayenro/arkinventory/wiki) and the [issue tracking](https://github.com/arkayenro/arkinventory/issues)
 
