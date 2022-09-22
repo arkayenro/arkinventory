@@ -51,7 +51,7 @@ You can also over-ride the default category by creating a rule that matches eith
 
 <br>
 
-See ChangeHistory.md and VersionHistory.txt for further details
+See ChangeHistory.md and VersionHistory.md for further details
 
 <br>
 
