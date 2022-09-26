@@ -1,4 +1,9 @@
-# 3.10.00 Alpha 2 (xx-xxx-2022)
+# 3.10.00 Alpha 3 (xx-xxx-2022)
+ - fixed - issue with several tradeskill based tooltips
+ - added - (dragonflight) item counts on recipe output item
+ - added - (dragonflight) item counts on recipe reagent items
+ 
+# 3.10.00 Alpha 2 (24-SEP-2022)
  - fixed - (classic) issue where the return data from setting the tooltip included a species value which made the item appear to be a battlepet
  - changed - client detection and checking code to support pre-patch
  - added - (dragonflight) category: class evoker
