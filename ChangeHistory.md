@@ -2,6 +2,7 @@
  - fixed - issues with multiple functions that reference the project id to hide data that shouldnt exist.  wrath getting a new project id sort of broke them so that check has been removed and you may see old character data appear in item counts, gold, search, and when switching to another character.  you can manually delete the old data from the switch character menus, or in the config.
  - fixed - https://github.com/arkayenro/arkinventory/issues/1602 - removed internal debug output
  - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1603 - outfit( ) rule function when using the blizzard equipment manager
+ - note - the ace3 libraries were updated and the config can now be opened in dragonflight now
 
 # 3.10.00 Alpha 5 (28-SEP-2022)
  - fixed - frame name mouseover tooltip (only applies to shortened names)
@@ -46,6 +47,5 @@
  - fix tradeskill scanning in dragonflight
  - double check all categories show/hide for the right clients
  - confirm things havent broken in classic, wrath, or shadowlands
- - config wont load in prepatch (ace libraries not updated? yet)
  - restack disable - maybe change this to require a modifier key instead of a straight disable?  might be easier to shift/alt/ctrl click on it than turning it on/off and its not like youll accidentally do it (which is why the disable was added)
  
