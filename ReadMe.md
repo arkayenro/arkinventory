@@ -66,7 +66,7 @@ it seems quite a few people are somehow getting the NoLib variant from their dow
 
 While auto-destroy remains blocked, From 30960 onwards you can setup a Key Binding to manually sell and destroy your items.  Note that blizzard require one keypress per item deletion, so if you have multiple items that need to be deleted you will need to press the Key Binding multiple times.  A message will be output if you have remaining items that can still be deleted.
 
-### :warning: Ensure you make backup copies of your saved variables file
+### :warning: Ensure you have backup copies of your saved variables file
 
 Sometimes you cannot revert back to a previous version without a backup, especially alpha or beta versions, so before upgrading please make sure you have made a backup of your saved variables file
 
