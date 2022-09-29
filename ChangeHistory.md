@@ -23,7 +23,7 @@
  - added - (dragonflight) category: class evoker
  - fixed - issue where the reagent bank wasnt being scanned when away from the bank (bank and bank bags cant be scanned away from the bank, so its partially helpful)
  - changed - restack action menu consolidated into a single layer
- - added - option to disable restack (someone asked for it)
+ - added - option to disable restack
  
 # 3.10.00 Alpha 1 (22-SEP-2022)
  - fixed - (wrath) category: class death knight unhidden
@@ -38,8 +38,8 @@
  - fixed - (dragonflight) issue with bank and reagent bank tooltips
  
 # known issues
- - BankFrame no longer opens via the BANKFRAME_OPENED event so i cannot unregister it to stop it from opening and it will always open.  hiding the bank interface in any way closes the bank.  i havent found a way around this yet.
- - reagentbank slots are no longer readable in dragonflight unless the bank is open
+ - (Dragonflight) BankFrame no longer opens via the BANKFRAME_OPENED event so i cannot unregister that to stop it from opening and it will always open.  Hiding the bank interface in any way closes the bank completely (which closes my window).  i havent found a way around this yet.
+ - (Dragonflight) reagentbank slots are no longer readable unless the bank is open
  
 # to do
  - check issue with outfit rule and equipment manager (in wrath? its always been weird)
@@ -47,3 +47,5 @@
  - double check all categories show/hide for the right clients
  - confirm things havent broken in classic, wrath, or shadowlands
  - config wont load in prepatch (ace libraries not updated? yet)
+ - restack disable - maybe change this to require a modifier key instead of a straight disable?  might be easier to shift/alt/ctrl click on it than turning it on/off and its not like youll accidentally do it (which is why the disable was added)
+ 
