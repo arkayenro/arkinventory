@@ -1,8 +1,10 @@
-# 3.10.00 Alpha 6 (28-SEP-2022)
+# 3.10.00 Alpha 7 (xx-xxx-2022)
+
+# 3.10.00 Alpha 6 (30-SEP-2022)
  - fixed - issues with multiple functions that reference the project id to hide data that shouldnt exist.  wrath getting a new project id sort of broke them so that check has been removed and you may see old character data appear in item counts, gold, search, and when switching to another character.  you can manually delete the old data from the switch character menus, or in the config.
  - fixed - https://github.com/arkayenro/arkinventory/issues/1602 - removed internal debug output
- - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1603 - outfit( ) rule function when using the blizzard equipment manager
- - note - the ace3 libraries were updated and the config can now be opened in dragonflight now
+ - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1593 - outfit( ) rule function when using the blizzard equipment manager
+ - note - the ace3 libraries were updated and the config can be opened in dragonflight now
 
 # 3.10.00 Alpha 5 (28-SEP-2022)
  - fixed - frame name mouseover tooltip (only applies to shortened names)
@@ -27,8 +29,8 @@
  - added - option to disable restack
  
 # 3.10.00 Alpha 1 (22-SEP-2022)
- - fixed - (wrath) category: class death knight unhidden
- - fixed - (wrath) category: skill inscription unhidden
+ - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1594 - category: class death knight unhidden
+ - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1595 - category: skill inscription unhidden
  - fixed - client detection code to support pre-patch
  - changed - multiple categories have had their client states updated (if a category is missing or showing when it shouldnt, let me know via a ticket)
  - added - support for 10.0 PTR prepatch - there will be issues, please log a ticket for them
@@ -43,8 +45,6 @@
  - (Dragonflight) reagentbank slots are no longer readable unless the bank is open
  
 # to do
- - check issue with outfit rule and equipment manager (in wrath? its always been weird)
- - fix tradeskill scanning in dragonflight
  - double check all categories show/hide for the right clients
  - confirm things havent broken in classic, wrath, or shadowlands
  - restack disable - maybe change this to require a modifier key instead of a straight disable?  might be easier to shift/alt/ctrl click on it than turning it on/off and its not like youll accidentally do it (which is why the disable was added)
