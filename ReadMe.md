@@ -68,10 +68,12 @@ While auto-destroy remains blocked, From 30960 onwards you can setup a Key Bind
 
 ### :warning: Ensure you make backup copies of your saved variables file
 
-Sometimes you cannot revert back to a previous version without a backup, especially alpha or beta versions, so before upgrading please make sure you have made a backup of your saved variable file
+Sometimes you cannot revert back to a previous version without a backup, especially alpha or beta versions, so before upgrading please make sure you have made a backup of your saved variables file
 
-Your saved variable file is normally located at `...\World of Warcraft\_client_\WTF\Account\yourwowaccountname\SavedVariables\ArkInventory.lua`
+Your saved variables file is normally located at `...\World of Warcraft\_client_\WTF\Account\yourwowaccountname\SavedVariables\ArkInventory.lua`
 
-It is your responsibility to ensure you have adequate backups of your saved variables file.  You dont have to do them frequently, just after you've made major changes to your config is probably fine for most people, but you should get into the habit of making backups because when it does corrupt you wont have to reconfigure everything from scratch.  if you have your download client set to automatically download alpha/beta versions you should definitely have backups.
+It is your responsibility to ensure you have adequate backups of your saved variables file.  You dont have to do them frequently, just after you've made major changes to your config is probably fine for most people, but you should get into the habit of making backups because when it does corrupt you wont have to reconfigure everything from scratch.
 
-A simple way to back up the saved variable file is to just do a copy and paste then rename the new file (using the version number of ArkInventory or the date is a good idea), eg ArkInventory-30900.lua, or ArkInventory-20191228.lua
+If you have your download client set to automatically download alpha/beta versions you should definitely have backups.
+
+A simple way to back up the saved variables file is to just do a copy and paste then rename the new file (using the version number of ArkInventory or the date is a good idea), eg ArkInventory-30900.lua, or ArkInventory-20191228.lua
