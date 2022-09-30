@@ -1,4 +1,10 @@
 # 3.10.00 Alpha 7 (xx-xxx-2022)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1604 - client detection issue that caused some categories to not show
+ - changed - https://github.com/arkayenro/arkinventory/issues/1605 - outfit( ) rule function will now check using all supported outfit mods as well as the equipment manager, and not just the first one that is enabled.
+ - added - (dragonflight) support for C_Container
+ - fixed - some non battlepet items were triggering the generation of a battlepet tooltip
+ - fixed - cooldowns on wearing items
+ - fixed - frame levels werent getting reset so the background ended up above the items and blocked mouse input (again)
 
 # 3.10.00 Alpha 6 (30-SEP-2022)
  - fixed - issues with multiple functions that reference the project id to hide data that shouldnt exist.  wrath getting a new project id sort of broke them so that check has been removed and you may see old character data appear in item counts, gold, search, and when switching to another character.  you can manually delete the old data from the switch character menus, or in the config.
@@ -21,7 +27,6 @@
  - no longer available
  
 # 3.10.00 Alpha 2 (24-SEP-2022)
- - fixed - (classic) issue where the return data from setting the tooltip included a species value which made the item appear to be a battlepet
  - changed - client detection and checking code to support pre-patch
  - added - (dragonflight) category: class evoker
  - fixed - issue where the reagent bank wasnt being scanned when away from the bank (bank and bank bags cant be scanned away from the bank, so its partially helpful)
@@ -31,7 +36,7 @@
 # 3.10.00 Alpha 1 (22-SEP-2022)
  - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1594 - category: class death knight unhidden
  - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1595 - category: skill inscription unhidden
- - fixed - client detection code to support pre-patch
+ - changed - client detection code to support pre-patch
  - changed - multiple categories have had their client states updated (if a category is missing or showing when it shouldnt, let me know via a ticket)
  - added - support for 10.0 PTR prepatch - there will be issues, please log a ticket for them
  - fixed - (dragonflight) money frame elements
