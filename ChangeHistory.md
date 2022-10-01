@@ -1,10 +1,10 @@
-# 3.10.00 Alpha 7 (xx-xxx-2022)
+# 3.10.00 Alpha 7 (01-OCT-2022)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1604 - client detection issue that caused some categories to not show
  - changed - https://github.com/arkayenro/arkinventory/issues/1605 - outfit( ) rule function will now check using all supported outfit mods as well as the equipment manager, and not just the first one that is enabled.
  - added - (dragonflight) support for C_Container
- - fixed - some non battlepet items were triggering the generation of a battlepet tooltip
+ - fixed - some non battlepet items were incorrectly causing a battlepet tooltip to be generated
  - fixed - cooldowns on wearing items
- - fixed - frame levels werent getting reset so the background ended up above the items and blocked mouse input (again)
+ - fixed - frame levels werent getting reset properly so the background would occasionally end up above the items and block mouse input
 
 # 3.10.00 Alpha 6 (30-SEP-2022)
  - fixed - issues with multiple functions that reference the project id to hide data that shouldnt exist.  wrath getting a new project id sort of broke them so that check has been removed and you may see old character data appear in item counts, gold, search, and when switching to another character.  you can manually delete the old data from the switch character menus, or in the config.
@@ -46,8 +46,9 @@
  - fixed - (dragonflight) issue with bank and reagent bank tooltips
  
 # known issues
- - (Dragonflight) BankFrame no longer opens via the BANKFRAME_OPENED event so i cannot unregister that to stop it from opening and it will always open.  Hiding the bank interface in any way closes the bank completely (which closes my window).  i havent found a way around this yet.
+ - (Dragonflight) BankFrame no longer opens via the BANKFRAME_OPENED event so i cannot stop it from opening.  Hiding the bank interface in any way closes the bank completely (which closes my window).  i havent found a way around this yet.
  - (Dragonflight) reagentbank slots are no longer readable unless the bank is open
+ - (Dragonflight) restack doesnt work in the bank
  
 # to do
  - double check all categories show/hide for the right clients
