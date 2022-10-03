@@ -1,5 +1,6 @@
 # 3.10.00 Alpha 9 (xx-OCT-2022)
-
+ - working copy
+ 
 # 3.10.00 Alpha 8 (03-OCT-2022)
  - fixed - (dragonflight) blizzard bank should now hide when you open the bank
  - fixed - (dragonflight) blizzard guildbank should now hide when you open the guildbank
