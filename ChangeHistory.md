@@ -2,8 +2,8 @@
  - working copy
  
 # 3.10.00 Alpha 8 (03-OCT-2022)
- - fixed - (dragonflight) blizzard bank should now hide when you open the bank
- - fixed - (dragonflight) blizzard guildbank should now hide when you open the guildbank
+ - fixed - (dragonflight) the default ui bank frame should no longer open when you open the bank
+ - fixed - (dragonflight) the default ui guild bank frame should no longer open when you open the guild bank
  - changed - money frame click has gone back to the single generic money popup, not the individual gold/silver/copper ones
  - fixed - issue with tradeskill scanning (nil key values)
  
