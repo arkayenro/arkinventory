@@ -1,5 +1,11 @@
-# 3.10.00 Alpha 9 (xx-OCT-2022)
- - working copy
+# 3.10.00 Alpha 9 (05-OCT-2022)
+ - added - config > settings > item > status icons / overlays > junk > size
+ - added - config > settings > item > status icons / overlays > upgrade > size
+ - added - config > settings > item > status icons / overlays > corruption > size
+ - added - config > settings > item > status icons / overlays > quest > anchor
+ - added - config > settings > item > status icons / overlays > quest > size
+ - fixed - issue with quest icon not always showing when it should
+ - fixed - issue with cross client tradeskill scanning
  
 # 3.10.00 Alpha 8 (03-OCT-2022)
  - fixed - (dragonflight) the default ui bank frame should no longer open when you open the bank
@@ -18,9 +24,6 @@
  - added - conduit item overlay - can be disabled via config > settings > item > status icons / overlays > conduit
  - added - professional quality item overlay - can be disabled, the position or size changed, via config > settings > item > status icons / overlays > profession quality
  - added - profession quality as a new sort method key
- - added - config > settings > item > status icons / overlays > junk > size
- - added - config > settings > item > status icons / overlays > upgrade > size
- - added - config > settings > item > status icons / overlays > corruption > size
  - changed - default sort methods updated to include profession quality
  - changed - reagent bank and reagent bags share the same slot type
  - added - (dragonflight) restack now supports the reagent bag
