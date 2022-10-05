@@ -5,7 +5,7 @@
  - added - config > settings > item > status icons / overlays > quest > anchor
  - added - config > settings > item > status icons / overlays > quest > size
  - fixed - issue with quest icon not always showing when it should
- - fixed - issue with cross client tradeskill scanning
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1609 - issue with cross client tradeskill scanning
  
 # 3.10.00 Alpha 8 (03-OCT-2022)
  - fixed - (dragonflight) the default ui bank frame should no longer open when you open the bank
