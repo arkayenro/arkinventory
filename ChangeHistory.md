@@ -1,3 +1,13 @@
+# 3.10.00 Alpha 10 (08-OCT-2022)
+ - added - a one off (per enable) warning message if your profile is using a blueprint that no longer exists
+ - fixed - cursor not getting reset when leaving an item
+ - fixed - dressup cursor should no longer show when in edit mode
+ - fixed - new item glow not getting reset when entering an item
+ - added - if you use Peddler, junk items are now identified via it, and not via ArkInventory
+ - fixed - (dragonflight) C_TradeSkillUI.OpenTradeSkill is now a protected function so onload scans can no longer be performed and will be skipped if enabled
+ - fixed - other issues with tradeskill scanning
+ - added - config > settings > window > scroll bar
+
 # 3.10.00 Alpha 9 (05-OCT-2022)
  - added - config > settings > item > status icons / overlays > junk > size
  - added - config > settings > item > status icons / overlays > upgrade > size
@@ -69,6 +79,7 @@
 # known issues
  - (Dragonflight) reagentbank slots are no longer readable unless the bank is open
  - (Dragonflight) theres a weird issue where you randomly get an addon blocked due to resume( )
+ - recipes on vendors are showing item counts for the items they create, not the recipe
  
 # to do
  - double check all categories show/hide for the right clients
