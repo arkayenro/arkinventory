@@ -1,7 +1,12 @@
+# 3.10.00 Alpha 11 (09-OCT-2022)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1615 - summon mount secure action button / keybind
+ - added - config > settings > item > status icons / overlays > profession quality - options for displaying as a number, and setting colour
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1507 - profession based set requirement failures should no longer be seen as not being unable to wear the actual item
+  
 # 3.10.00 Alpha 10 (08-OCT-2022)
  - added - a one off (per enable) warning message if your profile is using a blueprint that no longer exists
  - fixed - cursor not getting reset when leaving an item
- - fixed - dressup cursor should no longer show when in edit mode
+ - fixed - the normal action cursors should no longer show when in edit mode
  - fixed - (dragonflight) new item glow not getting reset when entering an item
  - added - if you use Peddler, junk items are now identified via it, and not via ArkInventory
  - fixed - (dragonflight) C_TradeSkillUI.OpenTradeSkill is now a protected function so onload scans can no longer be performed and will be skipped if enabled
