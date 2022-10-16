@@ -1,3 +1,6 @@
+# 3.10.00 Alpha 12 (16-OCT-2022)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1616 - bag types and some category names are missing/invalid.  swapped to Enum.xxxxx due to deprection of all LE_ITEM_zzzzz globals which are used to find bag types and category names
+ 
 # 3.10.00 Alpha 11 (09-OCT-2022)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1615 - summon mount secure action button / keybind
  - added - config > settings > item > status icons / overlays > profession quality - options for displaying as a number, and setting colour
@@ -29,6 +32,7 @@
  - fixed - issue with tradeskill scanning (nil key values)
  
 # 3.10.00 Alpha 7 (02-OCT-2022)
+ - changed - (retail) toc updated to 100002
  - fixed - https://github.com/arkayenro/arkinventory/issues/1604 - client detection issue that caused some categories to not show
  - changed - https://github.com/arkayenro/arkinventory/issues/1605 - outfit( ) rule function will now check using all supported outfit mods as well as the equipment manager, and not just the first one that is enabled.
  - changed - various cross client functions for dragonflight
@@ -50,6 +54,7 @@
  - note - the ace3 libraries were updated and the config can be opened in dragonflight now
 
 # 3.10.00 Alpha 5 (28-SEP-2022)
+ - changed - (retail) toc updated to 100000
  - fixed - frame name mouseover tooltip (only applies to shortened names)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1599 - renamed xml element for bar names
  - fixed - https://github.com/arkayenro/arkinventory/issues/1600 - tradeskill scanning
@@ -85,6 +90,8 @@
  - (Dragonflight) reagentbank slots are no longer readable unless the bank is open
  - (Dragonflight) theres a weird issue where you randomly get an addon blocked due to resume( )
  - recipes on vendors are showing item counts for the items they create, not the recipe
+ - (Dragonflight) currency tokens on the backback no longer have a fixed amount and will keep going until you run out of space.  as such i cannot mirror that and will need to work out something else.
+ - Enum.ItemConsumableSubclass is missing the Flask entry and everything after has moved down a value which screws up the category names (have hardcoded a workaround in for the moment)
  
 # to do
  - double check all categories show/hide for the right clients

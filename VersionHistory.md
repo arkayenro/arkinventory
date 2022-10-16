@@ -1,6 +1,6 @@
 ﻿# 3.09.68 (08-SEP-2022)
  - fixed - issue with WOW_PROJECT_ID getting a new client value for wrath (WOW_PROJECT_WRATH_CLASSIC)
- - fixed - #1575 - issue with toybox filters not being restored to their original values after a scan
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1575 - issue with toybox filters not being restored to their original values after a scan
  - changed - (Retail) toc updated to 90207
  - updated - recategorised some items
  - added - wrath toc file
@@ -13,7 +13,7 @@
  - changed - (Retail) toc updated to 90205
 
 # 3.09.66 (18-MAR-2022)
- - fixed - mythic keystone data never being ready causing sort to continually run
+ - fixed - mythic keystone data never being ready causing constant resorting
  - updated - recategorised some items
 
 # 3.09.65 (16-MAR-2022)
@@ -348,6 +348,7 @@
  - changed - reputation location icon changed to one that works in classic as well
  
 # 3.09.33 (30-AUG-2020)* [broken in retail - deleted]
+
 # 3.09.32 (29-AUG-2020)* [broken in classic - deleted]
  
 # 3.09.31 (11-AUG-2020)
