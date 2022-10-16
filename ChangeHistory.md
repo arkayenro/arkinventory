@@ -1,5 +1,9 @@
+# 3.10.00 Alpha 13 (16-OCT-2022)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1616 - bag types and some category names are missing/invalid.  swapped to Enum.xxxxx due to removal of all LE_ITEM_zzzzz globals, which are used to find bag types and category names, from the latest beta
+ - fixed - removed debug output
+
 # 3.10.00 Alpha 12 (16-OCT-2022)
- - fixed - https://github.com/arkayenro/arkinventory/issues/1616 - bag types and some category names are missing/invalid.  swapped to Enum.xxxxx due to deprection of all LE_ITEM_zzzzz globals which are used to find bag types and category names
+ - no longer available
  
 # 3.10.00 Alpha 11 (09-OCT-2022)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1615 - summon mount secure action button / keybind
