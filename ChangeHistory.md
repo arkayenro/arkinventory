@@ -1,3 +1,7 @@
+# 3.10.00 Alpha 14 (19-OCT-2022)
+ - fixed - bag type and slot count issues due to blizzard changing the API
+ - fixed - removed xml OnTooltipAddMoney from ArkScanTooltipTemplate (appears to have been deprecated)
+ 
 # 3.10.00 Alpha 13 (16-OCT-2022)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1616 - bag types and some category names are missing/invalid.  swapped to Enum.xxxxx due to removal of all LE_ITEM_zzzzz globals, which are used to find bag types and category names, from the latest beta
  - fixed - removed debug output
