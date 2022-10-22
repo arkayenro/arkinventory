@@ -1,3 +1,6 @@
+# 3.10.00 Alpha 15 (22-OCT-2022)
+ - added - more debug output to help diagnose the lag/fps/ui disappearing issue
+ 
 # 3.10.00 Alpha 14 (19-OCT-2022)
  - fixed - bag type and slot count issues due to blizzard changing the API
  - fixed - removed xml OnTooltipAddMoney from ArkScanTooltipTemplate (appears to have been deprecated)
