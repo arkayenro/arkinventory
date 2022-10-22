@@ -1,3 +1,7 @@
+# 3.10.00 Alpha 16 (22-OCT-2022)
+ - added - more debug output to help diagnose the lag/fps/ui disappearing issue
+ - fixed - wearing location should now update on trinket/ring changes
+
 # 3.10.00 Alpha 15 (22-OCT-2022)
  - added - more debug output to help diagnose the lag/fps/ui disappearing issue
  
