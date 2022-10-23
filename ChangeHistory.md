@@ -1,3 +1,6 @@
+# 3.10.00 Alpha 17 (23-OCT-2022)
+ - changed - quiver and ammo bag slots will no longer update while in combat
+ 
 # 3.10.00 Alpha 16 (22-OCT-2022)
  - added - more debug output to help diagnose the lag/fps/ui disappearing issue
  - fixed - wearing location should now update on trinket/ring changes
