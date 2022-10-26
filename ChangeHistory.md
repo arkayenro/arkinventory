@@ -1,30 +1,19 @@
-# 3.10.00 Alpha 17 (23-OCT-2022)
- - changed - quiver and ammo bag slots will no longer update while in combat
- 
-# 3.10.00 Alpha 16 (22-OCT-2022)
- - added - more debug output to help diagnose the lag/fps/ui disappearing issue
+# 3.10.01 (26-OCT-2022)
+ - changed - wearing location will no longer update while in combat
+ - changed - quiver and ammo bag slots will no longer update while in combat (hunters may still have issues with ammo in normal bags)
+ - fixed - alignment of the quest border texture
+ - fixed - alignment of the new item glow texture
+ - fixed - money display position in status window
+ - fixed - backpack tokens should now align properly when the empty text or money frames are not enabled
  - fixed - wearing location should now update on trinket/ring changes
-
-# 3.10.00 Alpha 15 (22-OCT-2022)
- - added - more debug output to help diagnose the lag/fps/ui disappearing issue
- 
-# 3.10.00 Alpha 14 (19-OCT-2022)
+ - changed - the status bar will now increase/decrease in height to match the selected font size
+ - changed - backpack tokens are now centered and will grow to fit the amount of available space - if there are too many tokens to fit within the space they will move to the next line down
  - fixed - bag type and slot count issues due to blizzard changing the API
  - fixed - removed xml OnTooltipAddMoney from ArkScanTooltipTemplate (appears to have been deprecated)
- 
-# 3.10.00 Alpha 13 (16-OCT-2022)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1616 - bag types and some category names are missing/invalid.  swapped to Enum.xxxxx due to removal of all LE_ITEM_zzzzz globals, which are used to find bag types and category names, from the latest beta
- - fixed - removed debug output
-
-# 3.10.00 Alpha 12 (16-OCT-2022)
- - no longer available
- 
-# 3.10.00 Alpha 11 (09-OCT-2022)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1615 - summon mount secure action button / keybind
  - added - config > settings > item > status icons / overlays > profession quality - options for displaying as a number, and setting colour
  - fixed - https://github.com/arkayenro/arkinventory/issues/1507 - profession based set requirement failures should no longer be seen as not being unable to wear the actual item
-  
-# 3.10.00 Alpha 10 (08-OCT-2022)
  - added - a one off (per enable) warning message if your profile is using a blueprint that no longer exists
  - fixed - cursor not getting reset when leaving an item
  - fixed - the normal action cursors should no longer show when in edit mode
@@ -33,8 +22,6 @@
  - fixed - (dragonflight) C_TradeSkillUI.OpenTradeSkill is now a protected function so onload scans can no longer be performed and will be skipped if enabled
  - fixed - other issues with tradeskill scanning
  - added - https://github.com/arkayenro/arkinventory/issues/1547 - config > settings > window > scroll bar
-
-# 3.10.00 Alpha 9 (05-OCT-2022)
  - added - config > settings > item > status icons / overlays > junk > size
  - added - config > settings > item > status icons / overlays > upgrade > size
  - added - config > settings > item > status icons / overlays > corruption > size
@@ -42,14 +29,10 @@
  - added - config > settings > item > status icons / overlays > quest > size
  - fixed - issue with quest icon not always showing when it should
  - fixed - https://github.com/arkayenro/arkinventory/issues/1609 - issue with cross client tradeskill scanning
- 
-# 3.10.00 Alpha 8 (03-OCT-2022)
  - fixed - (dragonflight) the default ui bank frame should no longer open when you open the bank
  - fixed - (dragonflight) the default ui guild bank frame should no longer open when you open the guild bank
  - changed - money frame click has gone back to the single generic money popup, not the individual gold/silver/copper ones
  - fixed - issue with tradeskill scanning (nil key values)
- 
-# 3.10.00 Alpha 7 (02-OCT-2022)
  - changed - (retail) toc updated to 100002
  - fixed - https://github.com/arkayenro/arkinventory/issues/1604 - client detection issue that caused some categories to not show
  - changed - https://github.com/arkayenro/arkinventory/issues/1605 - outfit( ) rule function will now check using all supported outfit mods as well as the equipment manager, and not just the first one that is enabled.
@@ -64,36 +47,22 @@
  - changed - default sort methods updated to include profession quality
  - changed - reagent bank and reagent bags share the same slot type
  - added - (dragonflight) restack now supports the reagent bag
-
-# 3.10.00 Alpha 6 (30-SEP-2022)
  - fixed - issues with multiple functions that reference the project id to hide data that shouldnt exist.  wrath getting a new project id sort of broke them so that check has been removed and you may see old character data appear in item counts, gold, search, and when switching to another character.  you can manually delete the old data from the switch character menus, or in the config.
  - fixed - https://github.com/arkayenro/arkinventory/issues/1602 - removed internal debug output
  - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1593 - outfit( ) rule function when using the blizzard equipment manager
- - note - the ace3 libraries were updated and the config can be opened in dragonflight now
-
-# 3.10.00 Alpha 5 (28-SEP-2022)
  - changed - (retail) toc updated to 100000
  - fixed - frame name mouseover tooltip (only applies to shortened names)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1599 - renamed xml element for bar names
  - fixed - https://github.com/arkayenro/arkinventory/issues/1600 - tradeskill scanning
- 
-# 3.10.00 Alpha 4 (26-SEP-2022)
  - fixed - issue with several tradeskill based tooltips
  - fixed - https://github.com/arkayenro/arkinventory/issues/1597 - currency based tooltips
  - added - (dragonflight) item counts on recipe output item
  - added - (dragonflight) item counts on recipe reagent items
-
-# 3.10.00 Alpha 3 (26-SEP-2022)
- - no longer available
- 
-# 3.10.00 Alpha 2 (24-SEP-2022)
  - changed - client detection and checking code to support pre-patch
  - added - (dragonflight) category: class evoker
  - fixed - issue where the reagent bank wasnt being scanned when away from the bank (bank and bank bags cant be scanned away from the bank, so its partially helpful)
  - changed - restack action menu consolidated into a single layer
  - added - option to disable restack
- 
-# 3.10.00 Alpha 1 (22-SEP-2022)
  - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1594 - category: class death knight unhidden
  - fixed - (wrath) https://github.com/arkayenro/arkinventory/issues/1595 - category: skill inscription unhidden
  - changed - client detection code to support pre-patch
@@ -108,11 +77,12 @@
  - (Dragonflight) reagentbank slots are no longer readable unless the bank is open
  - (Dragonflight) theres a weird issue where you randomly get an addon blocked due to resume( )
  - recipes on vendors are showing item counts for the items they create, not the recipe
- - (Dragonflight) currency tokens on the backback no longer have a fixed amount and will keep going until you run out of space.  as such i cannot mirror that and will need to work out something else.
+ - (Dragonflight) currency tokens on the backback no longer have a fixed amount and will keep going until you run out of space, they can get messy
  - Enum.ItemConsumableSubclass is missing the Flask entry and everything after has moved down a value which screws up the category names (have hardcoded a workaround in for the moment)
  
 # to do
  - double check all categories show/hide for the right clients
  - confirm things havent broken in classic, wrath, or shadowlands
  - restack disable - maybe change this to require a modifier key instead of a straight disable?  might be easier to shift/alt/ctrl click on it than turning it on/off and its not like youll accidentally do it (which is why the disable was added)
+ - backpack tokens to scroll when max width reached on second line
  
