@@ -1,3 +1,6 @@
+# 3.10.01 Alpha 2 (27-OCT-2022)
+ - changed - object data that cannot be retrieved after 10 attempts is marked as dead (should stop constant requests for unknown items)
+ 
 # 3.10.01 Alpha 1 (27-OCT-2022)
  - fixed - constant attempts to scan the mailbox if you had a battlepet in there
  - fixed - (dragonflight) guild bank frame open/close now triggered off the player interaction function - blizzard removed the events)
