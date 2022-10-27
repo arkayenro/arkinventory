@@ -1,10 +1,6 @@
-# 3.10.01 Alpha 3 (27-OCT-2022)
+# 3.10.02 (27-OCT-2022)
  - fixed - upgrade icon should now display if using pawn
- 
-# 3.10.01 Alpha 2 (27-OCT-2022)
  - changed - object data that cannot be retrieved after 10 attempts is marked as dead (should stop constant requests for unknown items)
- 
-# 3.10.01 Alpha 1 (27-OCT-2022)
  - fixed - constant attempts to scan the mailbox if you had a battlepet in there
  - fixed - (dragonflight) guild bank frame open/close now triggered off the player interaction function - blizzard removed the events)
  - changed - (dragonflight) bank frame open/close now triggered off the player interaction function instead of the events
@@ -22,6 +18,7 @@
  - recipes on vendors are showing item counts for the items they create, not the recipe
  - (dragonflight) currency tokens on the backback no longer have a fixed amount and will keep going until you run out of space, they can get messy
  - Enum.ItemConsumableSubclass is missing the Flask entry and everything after has moved down a value which screws up the category names (have hardcoded a workaround in for the moment)
+ - items with an active cooldown dont allow comparison tooltips to generate
  
 # to do
  - double check all categories show/hide for the right clients
