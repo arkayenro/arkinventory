@@ -1,3 +1,6 @@
+# 3.10.01 Alpha 3 (xx-OCT-2022)
+ - fixed - upgrade icon should now display if using pawn
+ 
 # 3.10.01 Alpha 2 (27-OCT-2022)
  - changed - object data that cannot be retrieved after 10 attempts is marked as dead (should stop constant requests for unknown items)
  
