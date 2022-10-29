@@ -1,3 +1,8 @@
+# 3.10.02 Alpha 3 (29-OCT-2022)
+ - fixed - (regression) restack code
+ - fixed - (regression) removed some debug output
+ - fixed - ArkInventory.API.BlizzardBagIdToInternalId
+
 # 3.10.02 Alpha 2 (29-OCT-2022)
  - fixed - (wrath/classic) the first bank bag was being treated like a reagent bag
  - fixed - some of the restack ignore bag options were being ignored due to a code issue
