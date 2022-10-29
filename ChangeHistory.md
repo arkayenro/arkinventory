@@ -1,17 +1,9 @@
-# 3.10.02 Alpha 3 (29-OCT-2022)
- - fixed - (regression) restack code
- - fixed - (regression) removed some debug output
+# 3.10.03 (29-OCT-2022)
  - fixed - ArkInventory.API.BlizzardBagIdToInternalId
-
-# 3.10.02 Alpha 2 (29-OCT-2022)
  - fixed - (wrath/classic) the first bank bag was being treated like a reagent bag
  - fixed - some of the restack ignore bag options were being ignored due to a code issue
- - updated - xml for ArkScanTooltipTemplate, OnTooltipAddMoney and OnTooltipCleared removed and are now cleared in OnLoad if they exist (deprecated in beta).  this should fix the lag issues.
- 
-# 3.10.02 Alpha 1 (28-OCT-2022)
+ - updated - xml for ArkScanTooltipTemplate, OnTooltipAddMoney (deprecated in beta) and OnTooltipCleared removed and are now cleared in OnLoad if they exist.  this should fix the lag issues.
  - fixed - https://github.com/arkayenro/arkinventory/issues/1634 (dragonflight) usable rule function and tinting.  tooltips are using a new red color
- - added - more thread debug output
- - removed - (temporarily) the wearing location will no longer be scanned
  
 # known issues
  - (dragonflight) reagentbank slots are no longer readable unless the bank is open
