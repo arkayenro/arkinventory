@@ -1,4 +1,18 @@
-﻿# 3.10.01 (26-OCT-2022)
+﻿# 3.10.02 (27-OCT-2022)
+ - fixed - upgrade icon should now display if using pawn
+ - changed - object data that cannot be retrieved after 10 attempts is marked as dead (should stop constant requests for unknown items)
+ - fixed - constant attempts to scan the mailbox if you had a battlepet in there
+ - fixed - (dragonflight) guild bank frame open/close now triggered off the player interaction function - blizzard removed the events)
+ - changed - (dragonflight) bank frame open/close now triggered off the player interaction function instead of the events
+ - changed - (dragonflight) mailbox frame open/close now triggered off the player interaction function instead of the events
+ - changed - (dragonflight) auction frame open/close now triggered off the player interaction function instead of the events
+ - changed - (dragonflight) void storage frame open/close now triggered off the player interaction function instead of the events
+ - changed - (dragonflight) player trade frame open/close now triggered off the player interaction function instead of the events
+ - changed - (dragonflight) transmog frame open/close now triggered off the player interaction function instead of the events
+ - changed - (dragonflight) merchant/vendor frame open/close now triggered off the player interaction function instead of the events
+ - updated - categorised some items
+ 
+# 3.10.01 (26-OCT-2022)
  - changed - wearing location will no longer update while in combat
  - changed - quiver and ammo bag slots will no longer update while in combat (hunters may still have issues with ammo in normal bags)
  - fixed - alignment of the quest border texture
