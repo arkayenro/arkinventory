@@ -1,4 +1,11 @@
-﻿# 3.10.02 (27-OCT-2022)
+﻿# 3.10.03 (29-OCT-2022)
+ - fixed - ArkInventory.API.BlizzardBagIdToInternalId
+ - fixed - (wrath/classic) the first bank bag was being treated like a reagent bag
+ - fixed - some of the restack ignore bag options were being ignored due to a code issue
+ - updated - xml for ArkScanTooltipTemplate, OnTooltipAddMoney (deprecated in beta) and OnTooltipCleared removed and are now cleared in OnLoad if they exist.  this should fix the lag issues.
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1634 (dragonflight) usable rule function and tinting.  tooltips are using a new red color
+ 
+# 3.10.02 (27-OCT-2022)
  - fixed - upgrade icon should now display if using pawn
  - changed - object data that cannot be retrieved after 10 attempts is marked as dead (should stop constant requests for unknown items)
  - fixed - constant attempts to scan the mailbox if you had a battlepet in there
