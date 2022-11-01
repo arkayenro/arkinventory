@@ -1,7 +1,17 @@
-# 3.10.03 Alpha 1 (xx-OCT-2022)
+# 3.10.03 Alpha 4 (01-NOV-2022)
+ - fixed - junk check code for peddler
+ - fixed - `wearble( )` and `unwearble( )`
+ 
+# 3.10.03 Alpha 3 (31-OCT-2022)
+ - no longer available
+
+# 3.10.03 Alpha 2 (30-OCT-2022)
  - added - rule function `wearable( )`
  - added - rule function `unwearable( )`
  
+# 3.10.03 Alpha 1 (30-OCT-2022)
+ - no longer available
+
 # known issues
  - (dragonflight) reagentbank slots are no longer readable unless the bank is open
  - (dragonflight) theres a weird issue where you randomly get an addon blocked due to resume( )
@@ -15,4 +25,4 @@
  - confirm things havent broken in classic, wrath, or shadowlands
  - restack disable - maybe change this to require a modifier key instead of a straight disable?  might be easier to shift/alt/ctrl click on it than turning it on/off and its not like youll accidentally do it (which is why the disable was added)
  - backpack tokens to scroll when max width reached on second line
- 
+
