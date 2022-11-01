@@ -1,6 +1,6 @@
 # 3.10.03 Alpha 4 (01-NOV-2022)
  - fixed - junk check code for peddler
- - fixed - `wearble( )` and `unwearble( )`
+ - fixed - rule functions `wearable( )` and `unwearble( )`
  
 # 3.10.03 Alpha 3 (31-OCT-2022)
  - no longer available
