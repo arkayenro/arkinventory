@@ -1,3 +1,8 @@
+# 3.10.03 Alpha 5 (03-NOV-2022)
+ - fixed - tooltip text in edit mode for re-assignment to the default category
+ - workaround - added a config > advanced > workarounds > player interaction option to disable overriding the PlayerInteractionFrameManager.  The down side is that the default Bank and Vault frames will also open, but there should be no taint any more.
+ - changed - BAG_UPDATE timer reduced from 0.5 to 0.3 seconds
+ 
 # 3.10.03 Alpha 4 (01-NOV-2022)
  - fixed - junk check code for peddler
  - fixed - rule functions `wearable( )` and `unwearble( )`
