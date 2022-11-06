@@ -1,3 +1,7 @@
+# 3.10.04 Alpha 10 (07-NOV-2022)
+ - fixed - the one off (per enable) warning message if your profile is using a blueprint that no longer exists should now only trigger on valid locations for your game client
+ - updated - blueprint options in the config will now show if the currently selected option has been deleted instead of showing the default, so that you can see it and change it more easily
+ 
 # 3.10.04 Alpha 9 (06-NOV-2022)
  - fixed - issues with uploads to wago
  - fixed - quest border and bang should now display (if enabled) for items that start a quest
