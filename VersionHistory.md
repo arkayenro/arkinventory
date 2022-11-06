@@ -1,4 +1,11 @@
-﻿# 3.10.03 (29-OCT-2022)
+﻿# 3.10.04 (04-NOV-2022)
+ - added - rule function `wearable( )`
+ - added - rule function `unwearable( )`
+ - fixed - tooltip text in edit mode for re-assignment to the default category
+ - changed - BAG_UPDATE timer reduced from 0.5 to 0.3 seconds
+ - workaround - added a config > advanced > workarounds > player interaction option to disable overriding the PlayerInteractionFrameManager.  The down side is that the default Bank and Vault frames will also open, but there should be no taint any more.
+
+# 3.10.03 (29-OCT-2022)
  - fixed - ArkInventory.API.BlizzardBagIdToInternalId
  - fixed - (wrath/classic) the first bank bag was being treated like a reagent bag
  - fixed - some of the restack ignore bag options were being ignored due to a code issue
