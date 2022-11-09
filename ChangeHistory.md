@@ -1,3 +1,9 @@
+# 3.10.04 Alpha 11 (09-NOV-2022)
+ - changed - categoryset internal data structure
+ - added - one action can be assigned to each category/rule in a categoryset.  actions can be set to disabled, automatic, or manual
+ - changed - auto sell (junk) renamed to vendor and made an action
+ - changed - when at a vendor right clicking on a "no sell price" item that has a junk icon will now delete it.  the config > general > junk > delete option must be enabled for this to work.
+ 
 # 3.10.04 Alpha 10 (07-NOV-2022)
  - fixed - the one off (per enable) warning message if your profile is using a blueprint that no longer exists should now only trigger on valid locations for your game client
  - updated - blueprint options in the config will now show if the currently selected option has been deleted instead of showing the default, so that you can see it and change it more easily
@@ -25,3 +31,8 @@
  - confirm things havent broken in classic, wrath, or shadowlands
  - restack disable - maybe change this to require a modifier key instead of a straight disable?  might be easier to shift/alt/ctrl click on it than turning it on/off and its not like youll accidentally do it (which is why the disable was added)
  - backpack tokens to scroll when max width reached on second line
+ - extend the categoryset actions to individual items for additional granular control.
+ - add action; mail (send items in that category to a specified character)
+ - add action; bank (move from bank to bag)
+ - add action; bag (move from bag to bank)
+ 
