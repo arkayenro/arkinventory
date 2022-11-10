@@ -1,3 +1,8 @@
+# 3.10.04 Alpha 12 (10-NOV-2022)
+ - added - zone restrictions for mounts so they dont get called when in the wrong zone
+ - fixed - (ptr/beta) caged battlepets, and battlepet tooltips showing when they shouldnt
+ - updated - pets and mounts to 10.0.0
+ 
 # 3.10.04 Alpha 11 (09-NOV-2022)
  - changed - categoryset internal data structure
  - added - one action can be assigned to each category/rule in a categoryset.  actions can be set to disabled, automatic, or manual
