@@ -22,13 +22,15 @@ You can also over-ride the default category by creating a rule that matches eith
 - unlimited number of bars (there are practical limits though before your screen becomes full)
 - sort each bar differently if required
 - user configurable bars per row
+- sell junk items automatically or manually (delete available via a keybinding or right clicking when at a vendor)
+- random pet and mount summons.  can also assign a group of them to select from
 
 <br>
 
 **Key Bindings:**
 - Press ESCAPE to bring up the blizzard menu
 - click on Key Bindings
-- scroll down to ArkInventory
+- scroll down to AddOns > ArkInventory
 - bind the keys you want to use
 
 ---
@@ -45,7 +47,7 @@ You can also over-ride the default category by creating a rule that matches eith
 
 <br>
 
-:memo: If you are having an issue the first step is to disable all other mods and just test ArkInventory by itself
+:memo: If you are having an issue the first step is to disable all other mods and test with only ArkInventory loaded
 
 :memo: If the issue is still there, please [check for an existing issue](https://github.com/arkayenro/arkinventory/issues) and create a new issue if required.
 

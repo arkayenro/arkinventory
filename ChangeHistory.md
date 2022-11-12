@@ -1,3 +1,17 @@
+# 3.10.04 Alpha 15 (13-NOV-2022)
+ - fixed - rule functions `wearable` and `unwearable` now have an option to ignore player level requirements
+ - fixed - item cooldown number should now display properly
+ - fixed - BAG_UPDATE_COOLDOWN no longer provides a bag id, and no other events are available to trigger cooldowns, so it may cause a refresh (not redraw) every second
+ - added - mail send added as a category action. you can select from any character you already have in arkinventory, or you can manually enter anything else. there are currently no options and a lot of debug output for it at the moment just to make sure its doing what its meant to
+ - changed - the junk sell keybinding has been renamed to manual action, and it runs all of the manual actions depending on where you are at the time.
+
+# 3.10.04 Alpha 14 (xx-NOV-2022)
+ - no longer available
+ 
+# 3.10.04 Alpha 13 (11-NOV-2022)
+ - fixed - various caged battlepet (and tooltip) issues in the vault, inbox, inventory (bank bag 0)
+ - note - (ptr/beta) stack size for a lot of older items has increased to 1000, please restack/cleanup to gain more free slots
+ 
 # 3.10.04 Alpha 12 (10-NOV-2022)
  - added - zone restrictions for mounts so they dont get called when in the wrong zone
  - fixed - (ptr/beta) caged battlepets, and battlepet tooltips showing when they shouldnt
