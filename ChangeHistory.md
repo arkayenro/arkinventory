@@ -1,7 +1,14 @@
+# 3.10.04 Alpha 16 (13-NOV-2022)
+ - workaround - added a cooldown object directly into the item template being used as it appears to not exist on the very first few item objecxts created from it.
+ - fixed - item cooldown numbers should display properly (if you have it enabled at the blizzard level)
+ - added - config option to show numbers on the cooldown (it just lets you toggle the blizzard global cvar which is stored by the game, not by this mod)
+ - updated - profile import and export to handle the new categoryset structure.  old exports will not work for the moment
+ - changed - action data is removed from both profile exports and imports to ensure that people dont end up vendoring or mailing things off to players without them knowing
+ 
 # 3.10.04 Alpha 15 (13-NOV-2022)
  - fixed - rule functions `wearable` and `unwearable` now have an option to ignore player level requirements
  - fixed - item cooldown number should now display properly
- - fixed - BAG_UPDATE_COOLDOWN no longer provides a bag id, and no other events are available to trigger cooldowns, so it may cause a refresh (not redraw) every second
+ - fixed - BAG_UPDATE_COOLDOWN no longer provides a bag id, and no other events (that arent as prolific) are available to trigger cooldowns, so it may cause a refresh (not redraw) every second
  - added - mail send added as a category action. you can select from any character you already have in arkinventory, or you can manually enter anything else. there are currently no options and a lot of debug output for it at the moment just to make sure its doing what its meant to
  - changed - the junk sell keybinding has been renamed to manual action, and it runs all of the manual actions depending on where you are at the time.
 
@@ -44,6 +51,8 @@
  - (dragonflight) currency tokens on the backback no longer have a fixed amount and will keep going until you run out of space, they can get messy
  - Enum.ItemConsumableSubclass is missing the Flask entry and everything after has moved down a value which screws up the category names (have hardcoded a workaround in for the moment)
  - items with an active cooldown dont allow comparison tooltips to generate
+ - (wrath) the cooldown number wont display for the first couple of slots (ive seen up to six so far) in the backpack but the rest are fine.
+ - all of the cooldown events ACTIONBAR_UPDATE_COOLDOWN, BAG_UPDATE_COOLDOWN, PET_BAR_UPDATE_COOLDOWN, SPELL_UPDATE_COOLDOWN, appear to trigger off other players as well, but do not provide any indication when the event was triggered by you or them, so cooldowns will trigger window refreshes fairly constantly when you are around large numbers of players (it has been limited to one per second for this reason)
  
 # to do
  - double check all categories show/hide for the right clients
