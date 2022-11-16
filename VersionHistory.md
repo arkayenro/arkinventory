@@ -1,4 +1,4 @@
-﻿# 3.10.04 (04-NOV-2022)
+﻿# 3.10.05 (04-NOV-2022)
  - added - rule function `wearable( )`
  - added - rule function `unwearable( )`
  - fixed - tooltip text in edit mode for re-assignment to the default category
@@ -61,7 +61,6 @@
  - fixed - (dragonflight) the default ui guild bank frame should no longer open when you open the guild bank
  - changed - money frame click has gone back to the single generic money popup, not the individual gold/silver/copper ones
  - fixed - issue with tradeskill scanning (nil key values)
- - changed - (retail) toc updated to 100002
  - fixed - https://github.com/arkayenro/arkinventory/issues/1604 - client detection issue that caused some categories to not show
  - changed - https://github.com/arkayenro/arkinventory/issues/1605 - outfit( ) rule function will now check using all supported outfit mods as well as the equipment manager, and not just the first one that is enabled.
  - changed - various cross client functions for dragonflight
