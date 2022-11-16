@@ -1,4 +1,31 @@
-﻿# 3.10.05 (04-NOV-2022)
+﻿# 3.10.05 (16-NOV-2022)
+ - changed - (retail) toc updated to 100002
+ - fixed - issue with bucket events that get renamed
+ - fixed - map ids for some old zone mounts
+ - added - zone restrictions for mounts so they dont get called when in the wrong zone
+ - updated - pets and mounts to 10.0.0
+ - fixed - item cooldown numbers should display properly (if you have it enabled at the blizzard level)
+ - added - config option to show numbers on the cooldown (it just lets you toggle the blizzard global cvar which is stored by the game, not by this mod)
+ - added - (workaround) a cooldown object has been directly included in the item template as it appears to not get added to the first few item objects that are created from it.
+ - changed - categoryset internal data structure
+ - added - one action can be assigned to each category/rule in a categoryset.  actions can be set to disabled, automatic, or manual
+ - changed - auto sell (junk) renamed to vendor and made an action
+ - changed - the junk sell keybinding has been renamed to manual action, and it runs all of the manual actions depending on where you are at the time.
+ - added - mail send added as a category action. you can select from any character you already have in arkinventory, or you can manually enter anything else. there are currently no options and a lot of debug output for it at the moment just to make sure its doing what its meant to
+ - changed - when at a vendor right clicking on a "no sell price" item that has a junk icon will now delete it.  the config > general > junk > delete option must be enabled for this to work.
+ - fixed - issue with external junk addons
+ - updated - profile import and export to handle the new categoryset structure.  old exports will not work for the moment
+ - changed - action data is removed from both profile exports and imports to ensure that people dont end up vendoring or mailing things off to players without them knowing
+ - fixed - BAG_UPDATE_COOLDOWN no longer provides a bag id, and no other events (that arent as prolific) are available to trigger cooldowns, so it may cause a refresh (not redraw) every second
+ - fixed - the one off (per enable) warning message if your profile is using a blueprint that no longer exists should now only trigger on valid locations for your game client
+ - updated - blueprint options in the config will now show if the currently selected option has been deleted instead of showing the default, so that you can see it and change it more easily
+ - fixed - issues with uploads to wago
+ - fixed - quest border and bang should now display (if enabled) for items that start a quest
+ - removed - workaround for taint from interactionframe.  was actually taint from the keybindings
+ - fixed - (mostly) various caged battlepet (and tooltip) issues in the vault, inbox, inventory (bank bag 0).  battlepets in the vault will show a pet cage for the time being until i can work out a way to get at that data.
+ - note - the stack size for a lot of older items has increased to 1000, please restack/cleanup to gain more free slots
+
+# 3.10.04 (04-NOV-2022)
  - added - rule function `wearable( )`
  - added - rule function `unwearable( )`
  - fixed - tooltip text in edit mode for re-assignment to the default category
