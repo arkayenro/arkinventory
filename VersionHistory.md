@@ -1,4 +1,7 @@
-﻿# 3.10.05 (16-NOV-2022)
+﻿# 3.10.06 (19-NOV-2022)
+ - no longer available
+ 
+# 3.10.05 (16-NOV-2022)
  - changed - (retail) toc updated to 100002
  - fixed - issue with bucket events that get renamed
  - fixed - map ids for some old zone mounts
@@ -36,7 +39,7 @@
  - fixed - ArkInventory.API.BlizzardBagIdToInternalId
  - fixed - (wrath/classic) the first bank bag was being treated like a reagent bag
  - fixed - some of the restack ignore bag options were being ignored due to a code issue
- - updated - xml for ArkScanTooltipTemplate, OnTooltipAddMoney (deprecated in beta) and OnTooltipCleared removed and are now cleared in OnLoad if they exist.  this should fix the lag issues.
+ - fixed - xml for ArkScanTooltipTemplate, OnTooltipAddMoney (deprecated in beta) and OnTooltipCleared removed and are now cleared in OnLoad if they exist.  this should fix the lag issues.
  - fixed - https://github.com/arkayenro/arkinventory/issues/1634 (dragonflight) usable rule function and tinting.  tooltips are using a new red color
  
 # 3.10.02 (27-OCT-2022)
