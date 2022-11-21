@@ -1,4 +1,18 @@
-﻿# 3.10.06 (19-NOV-2022)
+﻿# 3.10.07 (19-NOV-2022)
+ - fixed - issue with pressing ESCAPE to close windows (like the map) and getting blocked when in combat
+ - added - category name as a new sort method key.  only applies to custom categories and rules.  system categories will sort by id as they have no name.
+ - added - mail action options - config > general > actions > mail
+ - fixed - keybindings are back in their own section and should not cause any taint.
+ - fixed - empty reagent bank slots should be in the correct category again
+ - fixed - should no longer generate a second frame open causing issues for other mods (like tsm) at the auction house
+ - updated - config > settings > designs > items > cooldown > on window open.  cooldowns will no longer automatically show.  you will need to enable this option and then they will update when you close/open the window.  triggering off the cooldown events generated too much lag especially in large crowds
+ - fixed - issue with mailbox scanning
+ - fixed - battlepet tooltips showing during scanning
+ - fixed - battlepets in the vault
+ - fixed - opening the config before the mount data was ready
+ - fixed - config not opening from 3.10.06
+
+# 3.10.06 (19-NOV-2022)
  - no longer available
  
 # 3.10.05 (16-NOV-2022)
