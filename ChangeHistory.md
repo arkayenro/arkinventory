@@ -1,3 +1,8 @@
+# 3.10.07 Alpha 4 (22-NOV-2022)
+ - added - preloading item info from the bag and bank to make their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
+ - added - preloading the bag and bank windows so their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
+ - changed - the rules module no longer triggers full window rebuilds on enable (mucks up the preload)
+ 
 # 3.10.07 Alpha 3 (21-NOV-2022)
  - removed - event UNIT_INVENTORY_CHANGED
  - changed - added yielding to every scan to alleviate any potential sources of lag
