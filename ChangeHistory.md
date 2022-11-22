@@ -1,7 +1,12 @@
+# 3.10.07 Alpha 5 (22-NOV-2022)
+ - removed - PLAYER_AVG_ITEM_LEVEL_UPDATE event
+ - removed - forced window refreshes from rescans
+
 # 3.10.07 Alpha 4 (22-NOV-2022)
  - added - preloading item info from the bag and bank to make their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
  - added - preloading the bag and bank windows so their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
  - changed - the rules module no longer triggers full window rebuilds on enable (mucks up the preload)
+ - removed - PLAYER_INTERACTION_MANAGER_FRAME_SHOW and PLAYER_INTERACTION_MANAGER_FRAME_HIDE events
  
 # 3.10.07 Alpha 3 (21-NOV-2022)
  - removed - event UNIT_INVENTORY_CHANGED
