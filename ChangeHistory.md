@@ -1,29 +1,22 @@
-# 3.10.07 Alpha 5 (22-NOV-2022)
+# 3.10.08 (24-NOV-2022)
+ - fixed - issue with rule functions wearble/unwearble and cloaks
+ - restored - config > actions (was accidentally hidden)
+ - fixed - issue with config transmog secondary option hiding the wrong sub options
+ - restored - xml for ArkScanTooltipTemplate, OnTooltipAddMoney and OnTooltipCleared re-added both as several hundred individual MoneyFrames were being added to the scan tooltip just on entering the world.  this was the probable cause for the lag and ui crashes.
  - removed - PLAYER_AVG_ITEM_LEVEL_UPDATE event
- - removed - forced window refreshes from rescans
-
-# 3.10.07 Alpha 4 (22-NOV-2022)
+ - removed - rescans should no longger trigger a full window refresh (they already update the items)
  - added - preloading item info from the bag and bank to make their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
  - added - preloading the bag and bank windows so their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
  - changed - the rules module no longer triggers full window rebuilds on enable (mucks up the preload)
  - removed - PLAYER_INTERACTION_MANAGER_FRAME_SHOW and PLAYER_INTERACTION_MANAGER_FRAME_HIDE events
- 
-# 3.10.07 Alpha 3 (21-NOV-2022)
  - removed - event UNIT_INVENTORY_CHANGED
  - changed - added yielding to every scan to alleviate any potential sources of lag
  - changed - added extra yielding to the window draw functions
  - changed - enforced a 25ms yield timer
- - fixed - (classic/wrath) issue with the position of the override icon
- 
-# 3.10.07 Alpha 2 (20-NOV-2022)
  - fixed - edit mode item menu for empty slots should now show the type of slot, not "retrieving item data"
  - added - icons on the bag, combined bag, bank, and guild bank, frames to swap to ArkInventory control
- - added - location sub menu to switch back to blizzard control.
+ - added - location sub menu to switch window back to blizzard control.
  - fixed - issue with the conduit overlay when it had no quality set
- - in progress - allowing a category to have multiple actions assigned.  please dont use it if it happens to be visible for the moment or you could potentially lose the data
-
-# 3.10.07 Alpha 1 (xx-NOV-2022)
- - no longer available
  
  
 # known issues
