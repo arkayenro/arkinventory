@@ -1,4 +1,4 @@
-# 3.10.08 (24-NOV-2022)
+# 3.10.09 (24-NOV-2022)
  - fixed - issue with rule functions wearble/unwearble and cloaks
  - restored - config > actions (was accidentally hidden)
  - fixed - issue with config transmog secondary option hiding the wrong sub options

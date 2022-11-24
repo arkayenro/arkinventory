@@ -1,4 +1,7 @@
-﻿# 3.10.07 (19-NOV-2022)
+﻿# 3.10.08 (24-NOV-2022)
+ - no longer available
+ 
+# 3.10.07 (19-NOV-2022)
  - fixed - issue with pressing ESCAPE to close windows (like the map) and getting blocked when in combat
  - added - category name as a new sort method key.  only applies to custom categories and rules.  system categories will sort by id as they have no name.
  - added - mail action options - config > general > actions > mail
