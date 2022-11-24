@@ -1,4 +1,24 @@
-﻿# 3.10.08 (24-NOV-2022)
+﻿# 3.10.09 (24-NOV-2022)
+ - fixed - issue with rule functions wearble/unwearble and cloaks
+ - restored - config > actions (was accidentally hidden)
+ - fixed - issue with config transmog secondary option hiding the wrong sub options
+ - restored - xml for ArkScanTooltipTemplate, OnTooltipAddMoney and OnTooltipCleared re-added both as several hundred individual MoneyFrames were being added to the scan tooltip just on entering the world.  this was the probable cause for the lag and ui crashes.
+ - removed - PLAYER_AVG_ITEM_LEVEL_UPDATE event
+ - removed - rescans should no longger trigger a full window refresh (they already update the items)
+ - added - preloading item info from the bag and bank to make their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
+ - added - preloading the bag and bank windows so their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
+ - changed - the rules module no longer triggers full window rebuilds on enable (mucks up the preload)
+ - removed - PLAYER_INTERACTION_MANAGER_FRAME_SHOW and PLAYER_INTERACTION_MANAGER_FRAME_HIDE events
+ - removed - event UNIT_INVENTORY_CHANGED
+ - changed - added yielding to every scan to alleviate any potential sources of lag
+ - changed - added extra yielding to the window draw functions
+ - changed - enforced a 25ms yield timer
+ - fixed - edit mode item menu for empty slots should now show the type of slot, not "retrieving item data"
+ - added - icons on the bag, combined bag, bank, and guild bank, frames to swap to ArkInventory control
+ - added - location sub menu to switch window back to blizzard control.
+ - fixed - issue with the conduit overlay when it had no quality set
+ 
+# 3.10.08 (24-NOV-2022)
  - no longer available
  
 # 3.10.07 (19-NOV-2022)
