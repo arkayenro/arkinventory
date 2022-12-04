@@ -1,19 +1,6 @@
-# 3.10.11 (04-DEC-2022)
- - added - blueprint config option to main menu
- - fixed - removed some debug output
- - fixed - summon mount keybinding when travel form is enabled will now correctly summon a dragonriding mount when on the dragon isles
- - fixed - wrong item quality was being saved during scanning
- - changed - quality data is no longer saved and is retrieved when required instead
- - fixed - missing or changed blizzard events will no longer cause errors and will generate a warning instead
- - changed - right clicking on the LDB mount object now opens the mount config instead.  there were too many mounts for the menu system to be viable.
- - added - mount config option to main menu
- - added - dragonriding option in config and ldb object to swap the air/land mount selection when in the dragon isles.  disabled by default.  these are per character settings.
- - fixed - (wrath/classic) issue with tooltip unusable red text detection
- - fixed - issue with item cache clear code
- - fixed - dragonriding mounts in azure span
- - changed - the default has been changed to false for pre-loading the bag and bank data (it appears to be causing some weird issues)
- - updated - categorised some items
- 
+# 3.10.12 (05-DEC-2022)
+ - fixed - rule function quality( )
+ - fixed - upgrade code
  
 # known issues
  - (dragonflight) reagentbank slots are no longer readable unless the bank is open
