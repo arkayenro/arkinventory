@@ -1,24 +1,18 @@
-# 3.10.09 Alpha 4 (28-NOV-2022)
- - removed - debug output
- - fixed - equipment changed event processing for triggering profession tool updates
- - added - config > general > actions > mail > enable.  defaults to false
- - added - config > general > actions > mail > manual.  defaults to true
- - added - config > general > actions > vendor > enable.  defaults to false.
- - added - config > general > actions > vendor > manual.  defaults to true.
- 
-# 3.10.09 Alpha 3 (28-NOV-2022)
- - added - profession tool items are now scanned, and show up in item counts
- - fixed - issue with achievement tooltips being overwritten with the previous item tooltip
- - fixed - toybox filters are now restored correctly after scanning
- 
-# 3.10.09 Alpha 2 (27-NOV-2022)
- - changed - (dragonflight) scan tooltip functionality replaced with the new tooltip information functions
- - fixed - (dragonflight) ItemRefTooltip should no longer disappear when the item counts refresh
- 
-# 3.10.09 Alpha 1 (24-NOV-2022)
- - fixed - (classic/wrath) C_TooltipInfo issue
- - changed - QUEST events should no longer trigger a forced refresh and will instead only set the bag window to refresh at the next update.
- - fixed - right clicking on a no value junk item should now delete it when at a vendor/merchant
+# 3.10.11 (04-DEC-2022)
+ - added - blueprint config option to main menu
+ - fixed - removed some debug output
+ - fixed - summon mount keybinding when travel form is enabled will now correctly summon a dragonriding mount when on the dragon isles
+ - fixed - wrong item quality was being saved during scanning
+ - changed - quality data is no longer saved and is retrieved when required instead
+ - fixed - missing or changed blizzard events will no longer cause errors and will generate a warning instead
+ - changed - right clicking on the LDB mount object now opens the mount config instead.  there were too many mounts for the menu system to be viable.
+ - added - mount config option to main menu
+ - added - dragonriding option in config and ldb object to swap the air/land mount selection when in the dragon isles.  disabled by default.  these are per character settings.
+ - fixed - (wrath/classic) issue with tooltip unusable red text detection
+ - fixed - issue with item cache clear code
+ - fixed - dragonriding mounts in azure span
+ - changed - the default has been changed to false for pre-loading the bag and bank data (it appears to be causing some weird issues)
+ - updated - categorised some items
  
  
 # known issues
@@ -29,6 +23,7 @@
  - items with an active cooldown dont allow comparison tooltips to generate
  - cooldowns no longer start automatically.  you can close/open the bag to get them to show (if you enable that option).  all of the cooldown events ACTIONBAR_UPDATE_COOLDOWN, BAG_UPDATE_COOLDOWN, PET_BAR_UPDATE_COOLDOWN, SPELL_UPDATE_COOLDOWN, appear to trigger off other players as well, but do not provide any indication whether the event was triggered by you or them, so cooldowns will trigger window refreshes fairly constantly when you are around large numbers of players.  even limiting it to one update per second generated too much lag, especially in massive groups.
  - chat link for a battlepet in the guild bank will not send
+ - the first time you click on a hyperlink in chat it wont show the item counts
  
 # to do
  - double check all categories show/hide for the right clients

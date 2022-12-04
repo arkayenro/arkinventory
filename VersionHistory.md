@@ -1,4 +1,20 @@
-﻿# 3.10.09 (24-NOV-2022)
+﻿# 3.10.10 (30-NOV-2022)
+ - fixed - when on the dragon isles your land mount will be used by default, to use a dragonriding mount press the shift button and the summon mount keybinding
+ - changed - the arkinventory icons on the default bag/bank/vault frames will now re-enable arkinventory if you have disabled it
+ - added - config > general > actions > mail > enable.  defaults to false
+ - added - config > general > actions > mail > manual.  defaults to true
+ - added - config > general > actions > vendor > enable.  defaults to false
+ - added - config > general > actions > vendor > manual.  defaults to true.
+ - added - profession tool items are now scanned, and show up in item counts
+ - fixed - toybox filters are now restored correctly after scanning
+ - changed - (dragonflight) scan tooltip functionality replaced with the new tooltip information functions
+ - fixed - (dragonflight) ItemRefTooltip should no longer disappear when the item counts refresh
+ - fixed - (classic/wrath) C_TooltipInfo issue
+ - changed - QUEST events should no longer trigger a forced refresh and will instead only set the bag window to refresh at the next update.
+ - fixed - right clicking on a no value junk item should now delete it when at a vendor/merchant
+ - added - config > profiles > controls > location > pre-load.  pre loads item data and builds the window in the background for a faster first open.  bag and bank enabled by default.
+
+# 3.10.09 (24-NOV-2022)
  - fixed - issue with rule functions wearble/unwearble and cloaks
  - restored - config > actions (was accidentally hidden)
  - fixed - issue with config transmog secondary option hiding the wrong sub options
