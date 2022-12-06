@@ -1,6 +1,8 @@
-# 3.10.12 (05-DEC-2022)
- - fixed - rule function quality( )
- - fixed - upgrade code
+# 3.10.12 Alpha 1 (06-DEC-2022)
+ - fixed - battle pet quality borders
+ - fixed - (possibly) framelevel issue
+ - fixed - issue with GetContainerNumFreeSlots
+ 
  
 # known issues
  - (dragonflight) reagentbank slots are no longer readable unless the bank is open

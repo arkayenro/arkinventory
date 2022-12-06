@@ -1,4 +1,8 @@
-﻿# 3.10.11 (04-DEC-2022)
+﻿# 3.10.12 (05-DEC-2022)
+ - fixed - rule function quality( )
+ - fixed - upgrade code
+ 
+# 3.10.11 (04-DEC-2022)
  - added - blueprint config option to main menu
  - fixed - removed some debug output
  - fixed - summon mount keybinding when travel form is enabled will now correctly summon a dragonriding mount when on the dragon isles
