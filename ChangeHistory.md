@@ -1,3 +1,11 @@
+# 3.10.12 Alpha 2 (11-DEC-2022)
+ - workaround - acknowledged the reagent bag tutorial so its popup wont open - if its already open then you'll need another reload for it to go away.
+ - changed - global yieldafter lowered from 25 to 5
+ - updated - categorised some items
+
+# 3.10.12 Alpha 1 (06-DEC-2022)
+ - fixed - mount summon in the dragon isles with druid travel form enabled
+ 
 # 3.10.12 Alpha 1 (06-DEC-2022)
  - fixed - battle pet quality borders
  - fixed - (possibly) framelevel issue
