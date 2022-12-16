@@ -1,11 +1,18 @@
+# 3.10.12 Alpha 3 (16-DEC-2022)
+ - updated - CallBackHandler embedded library
+ - fixed - item counts getting added to some tooltips
+ - fixed - reputation standing text and values for the new factions
+ - updated - categorised some items
+ - updated - zone restrictions for dragonriding mounts
+ - changed - global yieldafter reverted from 5 to 25
+ - changed - currency update bucket timer default increased from 1 to 3 seconds
+ 
 # 3.10.12 Alpha 2 (11-DEC-2022)
+ - fixed - mount summon in the dragon isles with druid travel form enabled
  - workaround - acknowledged the reagent bag tutorial so its popup wont open - if its already open then you'll need another reload for it to go away.
  - changed - global yieldafter lowered from 25 to 5
  - updated - categorised some items
 
-# 3.10.12 Alpha 1 (06-DEC-2022)
- - fixed - mount summon in the dragon isles with druid travel form enabled
- 
 # 3.10.12 Alpha 1 (06-DEC-2022)
  - fixed - battle pet quality borders
  - fixed - (possibly) framelevel issue
