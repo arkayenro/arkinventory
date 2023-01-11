@@ -1,4 +1,28 @@
-﻿# 3.10.12 (05-DEC-2022)
+﻿# 3.10.13 (08-JAN-2023)
+ - changed - profession rank icons: using the internal icons
+ - changed - profession rank icons: size range adjusted
+ - fixed - quest bucket timer should now update the icons once the value is reached, and not wait for the next window refresh
+ - added - config > settings > designs > items > general > tint unwearble (default is disabled)
+ - changed - debug output now goes to its own window (the output text is copyable)
+ - moved - debug options are now under config > advanced > debug
+ - changed - the enable debug option will now persist though reloads
+ - added - keybinding for toggling the debug window.  you can also open it from the config.
+ - changed - dragonriding zone restrictions changed to check for spell usage as there were too many instanced zones you could use them in.  so long as blizzard sets the usability of the spell correctly its more reliable.
+ - added - "you are in the wrong zone" to acceptable red text to cater for shadowlands legendarys that are actually wearable/usable
+ - fixed - issues with some of the object correction data.  cosmetic, would have shown the wrong type/subtype text in the debug menu
+ - changed - the changer frame for the vault can no longer be hidden (as its the only way to change tabs) - it ignores the hide changer option from the profile
+ - updated - CallBackHandler embedded library
+ - fixed - item counts getting added to some tooltips
+ - fixed - reputation standing text and values for the new factions
+ - updated - categorised some items
+ - changed - currency update bucket timer default increased from 1 to 3 seconds
+ - fixed - mount summon in the dragon isles with druid travel form enabled
+ - workaround - acknowledged the reagent bag tutorial so its popup wont open - if its already open then you'll need another reload for it to go away.
+ - fixed - battle pet quality borders
+ - fixed - (possibly) framelevel issue
+ - fixed - issue with GetContainerNumFreeSlots
+
+# 3.10.12 (05-DEC-2022)
  - fixed - rule function quality( )
  - fixed - upgrade code
  
