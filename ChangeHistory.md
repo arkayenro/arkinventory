@@ -1,3 +1,9 @@
+# 3.10.13 Alpha 2 (19-JAN-2023)
+ - fixed - rule function `itemstat( )`
+ - fixed - (wrath) default bank and vault windows opening due to `PlayerInteractionFrameManager` being added to wrath
+ - changed - (wrath) toc updated to 30401
+ - added - rule function `itemstatactive( )`
+ 
 # 3.10.13 Alpha 1 (11-JAN-2023)
  - fixed - issue with grey item transmog detection
  
