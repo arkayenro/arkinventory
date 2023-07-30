@@ -1,4 +1,20 @@
-﻿# 3.10.13 (08-JAN-2023)
+﻿# 3.10.16 (08-MAY-2023)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1787 - issue handling a null tooltipinfo
+ - updated - categorised some items
+ - changed - (retail) toc updated to 100100
+
+# 3.10.15 (12-FEB-2023)
+ - changed - (retail) toc updated to 100007
+ - removed - event for WEAR_EQUIPMENT_SET
+ 
+# 3.10.14 (20-JAN-2023)
+ - fixed - rule function `itemstat( )`
+ - fixed - (wrath) default bank and vault windows opening due to `PlayerInteractionFrameManager` being added to wrath
+ - changed - (wrath) toc updated to 30401
+ - added - rule function `itemstatactive( )`
+ - fixed - issue with grey item transmog detection code
+
+# 3.10.13 (08-JAN-2023)
  - changed - profession rank icons: using the internal icons
  - changed - profession rank icons: size range adjusted
  - fixed - quest bucket timer should now update the icons once the value is reached, and not wait for the next window refresh
