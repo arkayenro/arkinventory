@@ -1,11 +1,5 @@
 ﻿# ArkInventory (for Retail, Classic, and Wrath)
 
-**Dragonflight Warning**
-
-The next set of Alpha builds are being updated for Dragonflight/PrePatch and as such may cause issues in Classic, Wrath, and Shadowlands.  If you notice anything wrong please [check for an existing issue](https://github.com/arkayenro/arkinventory/issues) and create a new issue if required so i can fix it.
-
----
-
 ArkInventory's display windows are built from "virtual bars", you assign categories to bars so that items in that category are displayed on the specific bars you want. There is no limit to the number of bars you can have inside a window but obviously you only have so much screen real estate before it becomes "too many".
 
 ArkInventory uses several methods to assign a default category to an item such as what professions you have, tooltip scanning, basic type/subtype and PeriodicTable. You then assign those categories to a virtual bar.
