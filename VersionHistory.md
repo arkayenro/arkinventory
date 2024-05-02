@@ -1,4 +1,104 @@
-﻿# 3.10.16 (08-MAY-2023)
+﻿# 3.10.28 (30-APR-2024)
+ - fixed - issue with pawn based item upgrade icon not displaying
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1879 - code updated to handle tooltips with empty info values
+ - fixed - issue with mount selection code where preferring normal flying mounts would fail down to ground mounts in zones where only dragonriding mounts are usable (primalist future) instead of selecting a dragonriding mount.  it should now select the other mount type when the preferred type is not usable in that zone
+ - fixed - issue with zone restricted mounts getting selected when not in that zone
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1857 - issue with currency headers not restoring to their original state after scanning
+ - fixed - ldb currency menu (unused) wasnt triggering a rescan on being changed
+ - fixed - ldb reputation menu (inactive) wasnt triggering a rescan on being changed
+ - fixed - ldb reputation menu (inactive) was enabled when it shouldnt be
+ - fixed - ldb reputation menu (at war) was enabled when it shouldnt be
+ - fixed - stock value for reputation items should now display properly
+ - fixed - stock value for container items should now display properly (INVTYPE_BAG is no longer assigned to them)
+ - fixed - issue with item level config options display not being applied properly
+ - fixed - issue with bag highlight
+ - fixed - typo on the LDB pet object
+ - changed - (cata beta) disabling void storage temporarily as it has not been implemented which is causing equipment manager outfit rules to not work properly.
+ - changed - broke apart the onenter and updatetooltip code for item frames to reduce resource usage
+ - changed - (classic) toc updated to 11502
+ - added - individual item charges will now display in the item level text, total will not
+ - added - rule function `category( )`
+ - updated - category for some items
+
+ - added - stack compression - only one stack of each item in each bar is displayed, all stacks of that item (from the same bar) are then shown in a popup bar when you enter the compressed item frame
+ - added - config > settings > designs > items > stack
+ - added - config > settings > designs > items > stack > identify
+ - moved - moved original stack limit settings to config > settings > designs > items > stack > identify
+ - note - only the bag and bank are currently enabled for compression
+ - note - instant sort is forced on by default when stack compression is active. you can disable it if youre ok with the mess between refreshes
+ - note - clicking on the compressed item will toggle the popup bar
+
+# 3.10.27 (20-MAR-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1871 - updated object code to handle any new INVTYPE values better
+
+# 3.10.26 (20-MAR-2024)
+ - changed - (retail) toc updated to 100206
+ - changed - (classic) toc updated to 11501
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1871 - issue with INVTYPE_NON_EQUIP_IGNORE
+
+# 3.10.25 (07-MAR-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1829 - issue with add fields in config pages accepting a dropped item but not being able to handle it, they will now ignore it unless it can be used (adding an item to a custom category)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1867 - menu library issue with ColorPickerFrame
+ - changed - the search window should now load a bit faster, and should update significantly faster
+ - changed - switch character menu layout to accomodate people with characters on lots of servers
+
+# 3.10.24 (30-JAN-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1855 - issue with TRADE_SKILL_ITEM_CRAFTED_RESULT event in non dragonflight clients
+ - added - holding the shift key down when opening the mailbox will stop any automatic send actions from being run
+ - updated - category for some items
+
+# 3.10.23 (20-JAN-2024)
+ - changed - (retail) toc updated to 100205
+ - fixed - should now ignore red text for old equip bonus
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1852 - issue with nil reputation cache
+ - fixed - expansion names/id should now properly display in the debug menu
+
+# 3.10.22 (31-DEC-2023)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1848 - issue with caged battlepets not getting the default tooltip when the custom tooltip is disabled
+ - fixed - issues with reputation data storage - all repuation data has been erased.  please login to each character to update its data
+ - fixed - reputation menu generation now creates entries for headers that have rep (eg valdrakken accord)
+ - updated - code for currency ldb object, and menu, generation
+ - updated - code for reputation tooltip, ldb object, and menu, generation
+
+# 3.10.21 (17-DEC-2023)
+ - updated - libperiodictable was updated to resolve an issue in wrath and classic
+
+# 3.10.20 (15-DEC-2023)
+ - updated - moved the automatic mail send action to the non bucket event so it runs just after the mailbox opens, not 2 seconds after
+ - updated - category for some items
+ - updated - (wrath) currency window should now work properly
+ - fixed - issue with mount selection in non dragonriding zones
+ - updated - (classic) toc updated to 11500
+ - workaround - added weakauras as an optional dependency to force it to load before arkinventory so it doesnt take an extra 1-3 seconds to load
+ - fixed - (classic) https://github.com/arkayenro/arkinventory/issues/1841 - added support for EngravingFrame, and auto open/close config options
+ - fixed - (wrath) enabled mount location for testing and forgot to remove it.
+
+# 3.10.19 (25-NOV-2023)
+ - changed - (retail) toc updated to 100200
+ - fixed - issue with dropdown for ldb reputation object (its seeing a reputation header with no name - so is the blizzard character reputation tab)
+ - workaround - https://github.com/arkayenro/arkinventory/issues/1833 - issue enabling another currency on the backpack (should now allow up to 10)
+ - changed - cosmetic items you already know will now be seen as junk
+ - updated - mountTypeID values for dragonriding mounts
+ - updated - mount code due to dragon isles and emerald dream now being marked as flyable
+ - changed - the dragonriding option in the mount config is now used to determine if you want dragonriding or normal mounts in dragonriding areas or not.
+ - changed - holding the CTRL key when using the mount summon macro, or clicking on the mount icon, allows you to use the other type of mount
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1832 - issue with tooltip code when its not meant to be processed
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1831 - issue with automatic mail send action
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1813 - currency will no longer be scanned while mounted (to help with dragonriding races).  will be scanned (up to) five seconds after dismounting (if there was an update while you were mounted)
+ - added - addon icons
+ - updated - category for some items
+
+# 3.10.18 (11-OCT-2023)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1822 - code issue with secure hooks when they dont exist in the game client
+
+# 3.10.17 (02-SEP-2023)
+ - changed - (retail) toc updated to 100105
+ - changed - (wrath) toc updated to 30402
+ - changed - (classic) toc updated to 11404
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1805 - code issue with HookOpenAllBags from GearManagerDialogPopup
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1814 - (classic) default bank windows opening due to `PlayerInteractionFrameManager` being added to classic
+
+# 3.10.16 (08-MAY-2023)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1787 - issue handling a null tooltipinfo
  - updated - categorised some items
  - changed - (retail) toc updated to 100100
@@ -245,16 +345,16 @@
 # 3.09.68 (08-SEP-2022)
  - fixed - issue with WOW_PROJECT_ID getting a new client value for wrath (WOW_PROJECT_WRATH_CLASSIC)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1575 - issue with toybox filters not being restored to their original values after a scan
- - changed - (Retail) toc updated to 90207
+ - changed - (retail) toc updated to 90207
  - updated - recategorised some items
  - added - wrath toc file
 
 # 3.09.67 (05-JUN-2022)
  - updated - recategorised some items
  - fixed - parts of the LDB object wouldnt always update on first load (waiting for currencies and rep to become ready)
- - changed - (TBC) toc updated to 20504
- - changed - (Classic) toc updated to 11403
- - changed - (Retail) toc updated to 90205
+ - changed - (tbc) toc updated to 20504
+ - changed - (classic) toc updated to 11403
+ - changed - (retail) toc updated to 90205
 
 # 3.09.66 (18-MAR-2022)
  - fixed - mythic keystone data never being ready causing constant resorting
@@ -273,11 +373,11 @@
 
 # 3.09.64 (23-FEB-2022)
  - fixed - issue with LibDialog-1.0 (temporarily until the author fixes it)
- - fixed - (TBC) issue with splitting stacks in the guild bank
+ - fixed - (tbc) issue with splitting stacks in the guild bank
  - added - wago project id
- - changed - (TBC) toc updated to 20503
- - changed - (Classic) toc updated to 11402
- - changed - (Retail) toc updated to 90200
+ - changed - (tbc) toc updated to 20503
+ - changed - (classic) toc updated to 11402
+ - changed - (retail) toc updated to 90200
  - changed - renamed mainline toc files because curse cant handle them and rejects the upload
  - note - contains new folder structure - do NOT upgrade while the game is running
 
@@ -1573,7 +1673,7 @@
  - fixed - embeds for no-lib download
  
 # 3.05.02 (25-JUN-2015)
- - toc updated to 60200
+ - changed - toc updated to 60200
  
 # 3.05.01 (xx-JUN-2015) Beta 4
  - fixed - restack code
@@ -2054,7 +2154,7 @@
  - fixed - menu library issue where menus were always expanding in size until they went off the screen
  
 # 3.02.84 (30-NOV-2011)
- - changed - TOC updated to 4.3
+ - changed - TOC updated to 40300
  - changed - void storage icon
  - fixed - void storage online/offline status
  - added - slash command `/ai summon pet`
@@ -2078,7 +2178,7 @@
 
 # 3.02.80 (29-JUN-2011)
  - fixed - bug in erase code
- - changed - TOC updated to 4.2
+ - changed - TOC updated to 40200
  - added - bound to battle.net account now treated as soulbound
  - removed - keyring
 
@@ -2087,7 +2187,7 @@
  
 # 3.02.78 (28-APR-2011)
  - workaround - Open All Bags keybinding calls ToggleAllBags, ToggleAllBags is now hooked and calls OpenAllBags instead
- - changed - TOC updated to 4.1
+ - changed - TOC updated to 40100
  - changed - OpenAllBags now works properly
 
 # 3.02.77 (26-FEB-2011)
