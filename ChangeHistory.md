@@ -1,3 +1,6 @@
+# 3.10.28 Alpha 3 (03-MAY-2024)
+ - added - cataclysm toc files 40400
+ 
 # 3.10.28 Alpha 2 (02-MAY-2024)
  - added - ability to disable the text for each bag type in the status bar - config > design > window > style > status > empty slot
  - added - ability to disable the text for each bag type in the ldb object text - right click > ldb > display
