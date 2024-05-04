@@ -1,5 +1,6 @@
-# 3.10.28 Alpha 5 (xx-MAY-2024)
- - 
+# 3.10.28 Alpha 5 (05-MAY-2024)
+ - changed - (cataclysm) enabled mounts location
+ - changed - (cataclysm) enabled toys location
 
 # 3.10.28 Alpha 4 (04-MAY-2024)
  - fixed - issue with packager not handling cataclysm toc files/values
