@@ -1,8 +1,12 @@
+# 3.10.28 Alpha 5 (xx-MAY-2024)
+ - 
+
 # 3.10.28 Alpha 4 (04-MAY-2024)
  - fixed - issue with packager not handling cataclysm toc files/values
+ - added - cataclysm toc files 40400
 
 # 3.10.28 Alpha 3 (03-MAY-2024)
- - added - cataclysm toc files 40400
+ - no longer available
  
 # 3.10.28 Alpha 2 (02-MAY-2024)
  - added - ability to disable the text for each bag type in the status bar - config > design > window > style > status > empty slot
