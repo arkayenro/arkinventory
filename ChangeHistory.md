@@ -1,3 +1,6 @@
+# 3.10.28 Alpha 4 (04-MAY-2024)
+ - fixed - issue with packager not handling cataclysm toc files/values
+
 # 3.10.28 Alpha 3 (03-MAY-2024)
  - added - cataclysm toc files 40400
  

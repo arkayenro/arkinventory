@@ -1,4 +1,4 @@
-﻿# ArkInventory (for Retail, Classic, and Wrath)
+﻿# ArkInventory (for Retail, Classic, and Cataclysm)
 
 ArkInventory's display windows are built from "virtual bars", you assign categories to bars so that items in that category are displayed on the specific bars you want. There is no limit to the number of bars you can have inside a window but obviously you only have so much screen real estate before it becomes "too many".
 
