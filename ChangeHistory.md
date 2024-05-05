@@ -1,21 +1,13 @@
-# 3.10.28 Alpha 5 (05-MAY-2024)
+# 3.10.29 (05-MAY-2024)
+ - fixed - issue with packager not handling cataclysm toc files/values
+ - fixed - issue with pawn based item upgrade icon displaying on non equipable items
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1880 - issue with CONTAINER_SLOTS in most non english languages using a conditional format, as well as being reversed, which breaks the matching and the value capture
  - changed - (cataclysm) enabled mounts location
  - changed - (cataclysm) enabled toys location
-
-# 3.10.28 Alpha 4 (04-MAY-2024)
- - fixed - issue with packager not handling cataclysm toc files/values
  - added - cataclysm toc files 40400
-
-# 3.10.28 Alpha 3 (03-MAY-2024)
- - no longer available
- 
-# 3.10.28 Alpha 2 (02-MAY-2024)
  - added - ability to disable the text for each bag type in the status bar - config > design > window > style > status > empty slot
  - added - ability to disable the text for each bag type in the ldb object text - right click > ldb > display
 
-# 3.10.28 Alpha 1 (01-MAY-2024)
- - fixed - issue with pawn based item upgrade icon displaying on non equipable items
- - fixed - https://github.com/arkayenro/arkinventory/issues/1880 - issue with CONTAINER_SLOTS in most non english languages using a conditional format, as well as being reversed, which breaks the matching and the value capture
 
 # known issues
  - some default frames (vendor/merchant at minimum) that would normally open via the PlayerInteractionFrameManager no longer open if you are in combat, you just get an addon error.  there is currently no workaround.
