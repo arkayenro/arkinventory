@@ -1,4 +1,14 @@
-﻿# 3.10.28 (30-APR-2024)
+﻿# 3.10.29 (05-MAY-2024)
+ - fixed - issue with packager not handling cataclysm toc files/values
+ - fixed - issue with pawn based item upgrade icon displaying on non equipable items
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1880 - issue with CONTAINER_SLOTS in most non english languages using a conditional format, as well as being reversed, which breaks the matching and the value capture
+ - changed - (cataclysm) enabled mounts location
+ - changed - (cataclysm) enabled toys location
+ - added - cataclysm toc files 40400
+ - added - ability to disable the text for each bag type in the status bar - config > design > window > style > status > empty slot
+ - added - ability to disable the text for each bag type in the ldb object text - right click > ldb > display
+
+# 3.10.28 (30-APR-2024)
  - fixed - issue with pawn based item upgrade icon not displaying
  - fixed - https://github.com/arkayenro/arkinventory/issues/1879 - code updated to handle tooltips with empty info values
  - fixed - issue with mount selection code where preferring normal flying mounts would fail down to ground mounts in zones where only dragonriding mounts are usable (primalist future) instead of selecting a dragonriding mount.  it should now select the other mount type when the preferred type is not usable in that zone
