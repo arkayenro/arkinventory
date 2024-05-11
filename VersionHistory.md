@@ -1,4 +1,13 @@
-﻿# 3.10.29 (05-MAY-2024)
+﻿# 3.10.30 (11-MAY-2024)
+ - fixed - issue with LibDialog (bumped version to 10 - source has not been updated yet)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1887 - issue with centered bar label text
+ - fixed - (cataclysm) issue with restack not using profession bags (it defaults to the reagent bank which doesnt exist yet)
+ - changed - (retail) toc updated to 100207
+ - updated - callbackhandler library
+ - updated - category for some items
+ - added - config options for stack compression to select whether to compress empty slots, non-stackable items, or stackable items
+
+# 3.10.29 (05-MAY-2024)
  - fixed - issue with packager not handling cataclysm toc files/values
  - fixed - issue with pawn based item upgrade icon displaying on non equipable items
  - fixed - https://github.com/arkayenro/arkinventory/issues/1880 - issue with CONTAINER_SLOTS in most non english languages using a conditional format, as well as being reversed, which breaks the matching and the value capture
