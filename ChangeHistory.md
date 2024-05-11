@@ -1,18 +1,13 @@
-# 3.10.29 Alpha 4 (xx-MAY-2024)
-
-# 3.10.29 Alpha 3 (10-MAY-2024)
- - added - config options for stack compression to select whether to compress empty slots, non-stackable items, or stackable items
+# 3.10.30 (11-MAY-2024)
  - fixed - issue with LibDialog (bumped version to 10 - source has not been updated yet)
- - updated - callbackhandler library
-
-# 3.10.29 Alpha 2 (09-MAY-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1887 - issue with centered bar label text
- 
-# 3.10.29 Alpha 1 (08-MAY-2024)
- - changed - (retail) toc updated to 100207
  - fixed - (cataclysm) issue with restack not using profession bags (it defaults to the reagent bank which doesnt exist yet)
+ - changed - (retail) toc updated to 100207
+ - updated - callbackhandler library
  - updated - category for some items
- 
+ - added - config options for stack compression to select whether to compress empty slots, non-stackable items, or stackable items
+
+
 
 # known issues
  - some default frames (vendor/merchant at minimum) that would normally open via the PlayerInteractionFrameManager no longer open if you are in combat, you just get an addon error.  there is currently no workaround.
