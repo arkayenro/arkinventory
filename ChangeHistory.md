@@ -1,7 +1,10 @@
+# 3.10.30 Alpha 2 (20-MAY-2024)
+ - fixed - (cataclysm) https://github.com/arkayenro/arkinventory/issues/1893 - issue getting the currency id from its link
+ 
 # 3.10.30 Alpha 1 (20-MAY-2024)
  - added - category system > openable
  - added - category consumable > professions - knowledge (it used to fall back into power systems (old))
- - added - (timerunning) config > general > actions > open - will automatically open any infinite treasure or bronze caches that you loot (disabled by default)
+ - added - (timerunning) config > general > actions > use - will automatically use (open) any infinite treasure or bronze caches that you loot (disabled by default)
  - updated - (timerunning) mailbox auto send has been disabled
 
 
