@@ -1,3 +1,7 @@
+# 3.10.30 Alpha 3 (22-MAY-2024)
+ - changed - currency scans will now only be skipped if youre in an actual dragon race, not just mounted.
+ - changed - all collection scanning will now be skipped during dragonriding races.  it will re-scan once the race is over (if needed).
+
 # 3.10.30 Alpha 2 (20-MAY-2024)
  - fixed - (cataclysm) https://github.com/arkayenro/arkinventory/issues/1893 - issue getting the currency id from its link
  
