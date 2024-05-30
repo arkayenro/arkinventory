@@ -1,3 +1,13 @@
+# 3.10.30 Alpha 5 (30-MAY-2024)
+ - removed - (cataclysm) keyring location
+
+# 3.10.30 Alpha 4 (29-MAY-2024)
+ - removed - config > actions > vendor > delete
+ - added - config > actions > delete (only applies to junk items that have no sell price)
+ - changed - delete no longer requires you to be at a vendor
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1894 - vendor/delete actions now exclude refundable items
+ - updated - category for some items
+ 
 # 3.10.30 Alpha 3 (22-MAY-2024)
  - changed - currency scans will now only be skipped if youre in an actual dragon race, not just mounted.
  - changed - all collection scanning will now be skipped during dragonriding races.  it will re-scan once the race is over (if needed).
