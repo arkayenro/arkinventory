@@ -1,25 +1,23 @@
-# 3.10.30 Alpha 5 (30-MAY-2024)
- - removed - (cataclysm) keyring location
-
-# 3.10.30 Alpha 4 (29-MAY-2024)
- - removed - config > actions > vendor > delete
- - added - config > actions > delete (only applies to junk items that have no sell price)
- - changed - delete no longer requires you to be at a vendor
+# 3.10.33 (07-JUN-2024)
+ - fixed - (cataclysm) issue with warning output
+ - fixed - issue with secure hook code
  - fixed - https://github.com/arkayenro/arkinventory/issues/1894 - vendor/delete actions now exclude refundable items
- - updated - category for some items
- 
-# 3.10.30 Alpha 3 (22-MAY-2024)
+ - fixed - (cataclysm) https://github.com/arkayenro/arkinventory/issues/1893 - issue getting the currency id from its link
+ - added - timerunning categories for gems and scrolls (threads and caches are under system > openable)
+ - changed - added some more safety checks around the action code
+ - added - config > actions > scrap (requires the scrap action to be applied to category).  will only fill up the slots until you run out of items to scrap, you have to click on the scrap button as that is protected
+ - note - see https://github.com/arkayenro/arkinventory/wiki/Actions for information on actions
+ - removed - (cataclysm) keyring location
+ - removed - config > actions > vendor > delete
+ - added - config > actions > delete (only applies to junk items that have no sell price - requires the vendor or delete action to be applied to category)
+ - changed - delete no longer requires you to be at a vendor
  - changed - currency scans will now only be skipped if youre in an actual dragon race, not just mounted.
  - changed - all collection scanning will now be skipped during dragonriding races.  it will re-scan once the race is over (if needed).
-
-# 3.10.30 Alpha 2 (20-MAY-2024)
- - fixed - (cataclysm) https://github.com/arkayenro/arkinventory/issues/1893 - issue getting the currency id from its link
- 
-# 3.10.30 Alpha 1 (20-MAY-2024)
  - added - category system > openable
  - added - category consumable > professions - knowledge (it used to fall back into power systems (old))
  - added - (timerunning) config > general > actions > use - will automatically use (open) any infinite treasure or bronze caches that you loot (disabled by default)
  - updated - (timerunning) mailbox auto send has been disabled
+ - updated - category for some items
 
 
 # known issues
