@@ -1,23 +1,28 @@
-# 3.10.33 (07-JUN-2024)
- - fixed - (cataclysm) issue with warning output
- - fixed - issue with secure hook code
- - fixed - https://github.com/arkayenro/arkinventory/issues/1894 - vendor/delete actions now exclude refundable items
- - fixed - (cataclysm) https://github.com/arkayenro/arkinventory/issues/1893 - issue getting the currency id from its link
- - added - timerunning categories for gems and scrolls (threads and caches are under system > openable)
- - changed - added some more safety checks around the action code
- - added - config > actions > scrap (requires the scrap action to be applied to category).  will only fill up the slots until you run out of items to scrap, you have to click on the scrap button as that is protected
- - note - see https://github.com/arkayenro/arkinventory/wiki/Actions for information on actions
- - removed - (cataclysm) keyring location
- - removed - config > actions > vendor > delete
- - added - config > actions > delete (only applies to junk items that have no sell price - requires the vendor or delete action to be applied to category)
- - changed - delete no longer requires you to be at a vendor
- - changed - currency scans will now only be skipped if youre in an actual dragon race, not just mounted.
- - changed - all collection scanning will now be skipped during dragonriding races.  it will re-scan once the race is over (if needed).
- - added - category system > openable
- - added - category consumable > professions - knowledge (it used to fall back into power systems (old))
- - added - (timerunning) config > general > actions > use - will automatically use (open) any infinite treasure or bronze caches that you loot (disabled by default)
- - updated - (timerunning) mailbox auto send has been disabled
- - updated - category for some items
+# 3.10.33 Alpha 5 (20-JUN-2024)
+ - added - https://github.com/arkayenro/arkinventory/issues/1901 - handle multiple ids when manually adding items to a custom category
+ - fixed - (regression) issue with mail action trying to add more than 12 items to a mail
+ - fixed - (retail) API change from C_Item.GetItemIcon to C_Item.GetItemIconByID
+ - fixed - issue with item data retrieval where if it couldnt find the item it would loop forever
+ 
+# 3.10.33 Alpha 4 (18-JUN-2024)
+ - fixed - issue with right click delete action ignoring all action config options
+ - fixed - issue with scrap action (it was seeing other players spell casts and trying to update too soon)
+ - changed - when not at a merchant deleting an item will now require a shift+right click for safety purposes
+ - changed - items used for pet/mount parts will now revert to their original category once you have learnt that pet/mount
+ - added - (timerunning) config > general > tooltips > transmog - adds state information for sets/items to the tooltip
+ - fixed - issue with mount cross reference data not getting loaded
+ - updated - cross reference data for mount and pet updated to 10.2.7
+ - added - (timerunning) LDB object for bronze tracking (uses the item count config options)
+ 
+# 3.10.33 Alpha 3 (08-JUN-2024)
+ - fixed - issues with some of the action code
+ - fixed - (war within) mount icons
+
+# 3.10.33 Alpha 2 (07-JUN-2024)
+ - added - (war within) basic compatibility (there will be issues)
+ 
+# 3.10.33 Alpha 1 (07-JUN-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1899 - issue with junk icon not getting displayed when using the scrap addon
 
 
 # known issues
