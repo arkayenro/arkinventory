@@ -1,8 +1,12 @@
-# 3.10.33 Alpha 6 (07-JUL-2024)
+# 3.10.33 Alpha 7 (07-JUL-2024)
+ - fixed - (regression) guild bank scanning
+ - fixed - (regression) account bank bags showing in non war within clients
+ 
+# 3.10.33 Alpha 6 (06-JUL-2024)
  - fixed - issue with switch character menu showing other realm menu when you only have characters on a single realm
  - added - timerunner identifier icon next to character names (will need to login to each timerunning character to update its status)
  - changed - (war within) C_Spell.IsSpellUsable( ) replaces IsUsableSpell( )
- - added - (war within) account bank access - account bank gold isnt supported yet
+ - added - (war within) account bank access - account bank gold is not supported yet
  - changed - (retail) toc updated to 110002
  - changed - bag changer slots will now only show the first purchasable slot instead of all of them.  no config option to disable this yet.
  - note - all saved data for the bag, bank, and reputation, has been erased.  please login to each character to update its data
