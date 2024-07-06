@@ -1,8 +1,17 @@
+# 3.10.33 Alpha 6 (07-JUL-2024)
+ - fixed - issue with switch character menu showing other realm menu when you only have characters on a single realm
+ - added - timerunner identifier icon next to character names (will need to login to each timerunning character to update its status)
+ - changed - (war within) C_Spell.IsSpellUsable( ) replaces IsUsableSpell( )
+ - added - (war within) account bank access - account bank gold isnt supported yet
+ - changed - (retail) toc updated to 110002
+ - changed - bag changer slots will now only show the first purchasable slot instead of all of them.  no config option to disable this yet.
+ - note - all saved data for the bag, bank, and reputation, has been erased.  please login to each character to update its data
+ 
 # 3.10.33 Alpha 5 (20-JUN-2024)
  - added - https://github.com/arkayenro/arkinventory/issues/1901 - handle multiple ids when manually adding items to a custom category
  - fixed - (regression) issue with mail action trying to add more than 12 items to a mail
  - fixed - (retail) API change from C_Item.GetItemIcon to C_Item.GetItemIconByID
- - fixed - issue with item data retrieval where if it couldnt find the item it would loop forever
+ - fixed - issue with item data retrieval where under specific circumstances if it couldnt find the item it would loop forever instead of tagging it as dead
  
 # 3.10.33 Alpha 4 (18-JUN-2024)
  - fixed - issue with right click delete action ignoring all action config options
@@ -19,7 +28,7 @@
  - fixed - (war within) mount icons
 
 # 3.10.33 Alpha 2 (07-JUN-2024)
- - added - (war within) basic compatibility (there will be issues)
+ - added - (war within) basic compatibility (there may be issues, lodge a ticket if you run into one)
  
 # 3.10.33 Alpha 1 (07-JUN-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1899 - issue with junk icon not getting displayed when using the scrap addon
