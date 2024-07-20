@@ -1,3 +1,10 @@
+# 3.10.33 Alpha 15 (20-JUL-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1917 - issue with displaying data from other characters
+
+# 3.10.33 Alpha 14 (18-JUL-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1917 - issue with switch character menu
+ - removed - leftover tooltip debug output
+ 
 # 3.10.33 Alpha 13 (14-JUL-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1916 - issue with profile import
 
