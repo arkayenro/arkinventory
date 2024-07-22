@@ -1,9 +1,9 @@
 # 3.10.33 Alpha 18 (22-JUL-2024)
  - removed - leftover debug output
- - fixed - issue with codex generation
+ - fixed - (maybe) https://github.com/arkayenro/arkinventory/issues/1920 - issue with codex generation
 
 # 3.10.33 Alpha 17 (21-JUL-2024)
- - fixed - https://github.com/arkayenro/arkinventory/issues/1920 - issue with codex generation
+ - fixed - (maybe) https://github.com/arkayenro/arkinventory/issues/1920 - issue with codex generation
 
 # 3.10.33 Alpha 16 (21-JUL-2024)
  - no longer available
