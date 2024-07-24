@@ -1,3 +1,9 @@
+# 3.10.33 Alpha 20 (24-JUL-2024)
+ - fixed - API changed from GetMouseFocus to GetMouseFoci
+ - fixed - caged battlepets and pet tooltips displaying while scanning
+ - fixed - bank window not opening when interacting with warband bank convergence (bank and reagent bank slots are currently visible but not usable)
+ - fixed - warbank being in use should now show the locked tooltip and not prompt you to buy the next slot
+ 
 # 3.10.33 Alpha 19 (23-JUL-2024)
  - fixed - (maybe) https://github.com/arkayenro/arkinventory/issues/1920 - issue with codex generation
 
