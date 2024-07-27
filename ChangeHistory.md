@@ -1,5 +1,7 @@
-﻿# 3.10.33 Alpha 26 (27-JUL-2024)
+﻿# 3.10.33 Alpha 26 (xx-JUL-2024)
  - fixed - issue with item counts not being properly reset when moving items in and out of the reagent bank and reagent bag
+ - fixed - issue with ItemCacheClear code
+ - fixed - issue with ItemCacheClear and GetObjectInfo code looping through each other
 
 # 3.10.33 Alpha 25 (27-JUL-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1937 - issue with right clicking on the reagent bank or an account bank slot in the changer window
