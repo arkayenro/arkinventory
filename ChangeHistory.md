@@ -1,3 +1,34 @@
+﻿# 3.10.33 Alpha 26 (27-JUL-2024)
+ - fixed - issue with item counts not being properly reset when moving items in and out of the reagent bank and reagent bag
+
+# 3.10.33 Alpha 25 (27-JUL-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1937 - issue with right clicking on the reagent bank or an account bank slot in the changer window
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1936 - issue with paint all code
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1936 - issue with edit mode bar dragging
+
+# 3.10.33 Alpha 24 (26-JUL-2024)
+ - fixed - issue with bag changer code
+ - fixed - issue with some empty slot border colours not getting applied
+ - fixed - issue with data erase code
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1931 - C_Spell.IsCurrentSpell replaces IsCurrentSpell
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1935 - potential issue with bag highlight code
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1936 - issue with mapping and storage code impacting rules (and other things)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1937 - bag and bank saved data is invalid after the fixes in alpha 22
+ - note - all saved bag data has been erased. please login to each character to update its data
+ - note - all saved bank data has been erased. please login to each character to update its data
+
+# 3.10.33 Alpha 23 (26-JUL-2024)
+ - no longer available
+
+# 3.10.33 Alpha 22 (26-JUL-2024)
+ - no longer available
+ 
+# 3.10.33 Alpha 21 (25-JUL-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1925 - issue with mailbox scanning
+ - fixed - issue with action code
+ - fixed - error output code
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1927 - issue with some tooltip generation
+ 
 # 3.10.33 Alpha 20 (24-JUL-2024)
  - fixed - API changed from GetMouseFocus to GetMouseFoci
  - fixed - caged battlepets and pet tooltips displaying while scanning
@@ -97,6 +128,8 @@
 
 
 # known issues
+ - restack has some issues, some of it works, some doesnt
+ 
  - some default frames (vendor/merchant at minimum) that would normally open via the PlayerInteractionFrameManager no longer open if you are in combat, you just get an addon error.  there is currently no workaround.
  - (dragonflight) reagentbank slots are no longer readable unless the bank is open
  - Enum.ItemConsumableSubclass is missing the Flask entry and everything after has moved down a value which screws up the category names (have hardcoded a workaround for the moment)
@@ -104,6 +137,9 @@
  - cooldowns no longer start automatically.  you can close/open the bag to get them to show (if you enable that option).  all of the cooldown events ACTIONBAR_UPDATE_COOLDOWN, BAG_UPDATE_COOLDOWN, PET_BAR_UPDATE_COOLDOWN, SPELL_UPDATE_COOLDOWN, appear to trigger off other players as well, but do not provide any indication whether the event was triggered by you or them, so cooldowns will trigger window refreshes fairly constantly when you are around large numbers of players.  even limiting it to one update per second generated too much lag, especially in massive groups.
  - chat link for a battlepet in the guild bank will not send
  - the first time you click on a hyperlink in chat it wont show the item counts
+ 
+ 
+ 
 
 # to do
  - double check all categories show/hide for the right clients
