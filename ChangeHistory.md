@@ -1,4 +1,7 @@
-﻿# 3.10.33 Alpha 27 (28-JUL-2024)
+﻿# 3.10.33 Alpha 28 (xx-JUL-2024)
+ - 
+ 
+# 3.10.33 Alpha 27 (28-JUL-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1939 - issue with trash( ) / junk( ) rule function
  - added - category: system > equipment (warbound until equipped)
  
