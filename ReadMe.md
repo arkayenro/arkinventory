@@ -62,15 +62,15 @@ See [VersionHistory.md](https://github.com/arkayenro/arkinventory/blob/master/Ve
 
 ### :boom: The NoLib variant
 
-it seems quite a few people are somehow getting the NoLib variant from their download client when they didn't specifically ask for it, instead of the full variant, and its causing issues as they don't have the required libraries installed separately.  Please ensure you are downloading the full.  if you see nolib in the filename then its the wrong variant, unless you are actually installing all of the required libraries separately as well.  If you have to you can manually download the full variant from [CurseForge](https://www.curseforge.com/wow/addons/ark-inventory), [WoWInterface](https://www.wowinterface.com/downloads/info6488-ArkInventory.html), or [Wago](https://addons.wago.io/addons/arkinventory).
+it seems quite a few people are somehow getting the NoLib variant from their download client when they didn't specifically ask for it, instead of the full variant, and its causing issues as they don't have the required libraries installed separately. Please ensure you are downloading the full. if you see nolib in the filename then its the wrong variant, unless you are actually installing all of the required libraries separately as well. If you have to you can manually download the full variant from [CurseForge](https://www.curseforge.com/wow/addons/ark-inventory), [WoWInterface](https://www.wowinterface.com/downloads/info6488-ArkInventory.html), or [Wago](https://addons.wago.io/addons/arkinventory).
 
 ### :boom: Junk Sell getting blocked
 
-While auto-destroy remains blocked, From 30960 onwards you can setup a Key Binding to manually sell and destroy your items.  Note that blizzard require one keypress per item deletion, so if you have multiple items that need to be deleted you will need to press the Key Binding multiple times.  A message will be output if you have remaining items that can still be deleted.
+While auto-destroy remains blocked, From 30960 onwards you can setup a Key Binding to manually sell and destroy your items. Note that blizzard require one keypress per item deletion, so if you have multiple items that need to be deleted you will need to press the Key Binding multiple times. A message will be output if you have remaining items that can still be deleted.
 
 ### :warning: Ensure you have backup copies of your saved variables file
 
-Sometimes you cannot revert back to a previous version without a backup, especially alpha or beta versions, so before upgrading please make sure you have made a backup of your saved variables file
+Sometimes you cannot revert back to a previous version without a backup, especially alpha or beta versions, so before upgrading please make sure you have made a backup of your saved variables file
 
 Your saved variables file is normally located at `...\World of Warcraft\_client_\WTF\Account\yourwowaccountname\SavedVariables\ArkInventory.lua`
 
@@ -79,3 +79,7 @@ It is your responsibility to ensure you have adequate backups of your saved vari
 If you have your download client set to automatically download alpha/beta versions you should definitely have backups.
 
 A simple way to back up the saved variables file is to just do a copy and paste then rename the new file (using the version number of ArkInventory or the date is a good idea), eg ArkInventory-30900.lua, or ArkInventory-20191228.lua
+
+---
+
+donation: https://www.paypal.com/donate/?hosted_button_id=ZSSD563YUEZ7L
