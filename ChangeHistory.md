@@ -1,5 +1,15 @@
-﻿# 3.10.33 Alpha 28 (xx-JUL-2024)
+﻿# 3.10.33 Alpha 29 (xx-AUG-2024)
  - 
+ 
+# 3.10.33 Alpha 28 (01-AUG-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1941 - issue with ensemble tooltips and a possible delay to the data being returned
+ - added - right clicking on a bag slot in the changer window at the bank will have a new option to isolte (only show) the bags that belong to the current panel (bank/reagent bank/account bank)
+ - note - if you only want to see a specific account bank tab you can use the existing isolate option off the same right click menu
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1946 - scroll bar anchor points adjusted to properly fit the container window
+ - added - support for account wide currencies
+ - note - all saved currency data has been erased. please login to each character to update its data
+ - added - support for account wide reputation
+ - note - all saved reputation data has been erased. please login to each character to update its data
  
 # 3.10.33 Alpha 27 (28-JUL-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1939 - issue with trash( ) / junk( ) rule function
