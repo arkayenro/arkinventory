@@ -1,9 +1,12 @@
-﻿# 3.10.33 Alpha 29 (xx-AUG-2024)
- - 
+﻿# 3.10.33 Alpha 29 (02-AUG-2024)
+ - changed - the bank window will now only show bank bags when first opened. click on the bag changer slots to show items from the reagent/account bank
+ - fixed - item context fading for bag items when you have the account or reagent bank open
+ - fixed - issue with some empty slot border colours not getting applied
+ - fixed - guild bank edit mode
  
 # 3.10.33 Alpha 28 (01-AUG-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1941 - issue with ensemble tooltips and a possible delay to the data being returned
- - added - right clicking on a bag slot in the changer window at the bank will have a new option to isolte (only show) the bags that belong to the current panel (bank/reagent bank/account bank)
+ - added - right clicking on a bag slot in the changer window at the bank will have a new option to isolate (only show) the bags that belong to the current panel (bank/reagent bank/account bank)
  - note - if you only want to see a specific account bank tab you can use the existing isolate option off the same right click menu
  - fixed - https://github.com/arkayenro/arkinventory/issues/1946 - scroll bar anchor points adjusted to properly fit the container window
  - added - support for account wide currencies
@@ -27,7 +30,6 @@
 
 # 3.10.33 Alpha 24 (26-JUL-2024)
  - fixed - issue with bag changer code
- - fixed - issue with some empty slot border colours not getting applied
  - fixed - issue with data erase code
  - fixed - https://github.com/arkayenro/arkinventory/issues/1931 - C_Spell.IsCurrentSpell replaces IsCurrentSpell
  - fixed - https://github.com/arkayenro/arkinventory/issues/1935 - potential issue with bag highlight code
