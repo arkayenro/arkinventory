@@ -1,6 +1,9 @@
-﻿# 3.10.33 Alpha 30 (03-AUG-2024)
+﻿# 3.10.33 Alpha 31 (xx-AUG-2024)
+
+# 3.10.33 Alpha 30 (03-AUG-2024)
  - disabled - context fading when at the guild bank as there seems to be a bug in the blizzard code and everything gets faded
  - fixed - all bags have had their display status reset to true
+ - changed - vault changed to use the generic changer and build code
 
 # 3.10.33 Alpha 29 (02-AUG-2024)
  - changed - the bank window will now only show bank bags when first opened. click on the bag changer slots to show items from the reagent/account bank
