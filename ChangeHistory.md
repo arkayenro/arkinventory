@@ -1,4 +1,7 @@
-﻿# 3.10.33 Alpha 31 (xx-AUG-2024)
+﻿# 3.10.33 Alpha 31 (04-AUG-2024)
+ - fixed - item counts for account locations will now include the location name
+ - restored - right click bag slot menu - display, isolate, display all.  these will now work automatically within the panels
+ - added - bank location right click bag slot menu - panel combination options to alter the way the different banks are displayed
 
 # 3.10.33 Alpha 30 (03-AUG-2024)
  - disabled - context fading when at the guild bank as there seems to be a bug in the blizzard code and everything gets faded
