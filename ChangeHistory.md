@@ -1,4 +1,16 @@
-﻿# 3.10.33 Alpha 31 (04-AUG-2024)
+﻿# 3.10.33 Alpha 34 (xx-AUG-2024)
+
+# 3.10.33 Alpha 33 (05-AUG-2024)
+ - fixed - issue with bag registration code.  bank bag 7 was getting registered in clients before wrath instead of clients after wrath
+
+# 3.10.33 Alpha 32 (04-AUG-2024)
+ - fixed - issue with item context fading when the bank or vault is not controlled
+ - added - bank location right click bag slot menu - include tradable reagents deposit option
+ - fixed - issue with panel layout in older clients where parts of the bank dont exist
+ - fixed - issue with Enum.BagIndex values being incorrect for the bank bags in older clients due to the reagent bag geting added in shadowlands (the values appear to be the same across all clients, and not client specific)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1958 - issue with vault update event code
+
+# 3.10.33 Alpha 31 (04-AUG-2024)
  - fixed - item counts for account locations will now include the location name
  - restored - right click bag slot menu - display, isolate, display all.  these will now work automatically within the panels
  - added - bank location right click bag slot menu - panel combination options to alter the way the different banks are displayed
