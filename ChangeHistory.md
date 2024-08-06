@@ -1,4 +1,9 @@
-﻿# 3.10.33 Alpha 34 (xx-AUG-2024)
+﻿# 3.10.33 Alpha 34 (06-AUG-2024)
+ - fixed - offline mode display
+ - changed - bank panel options moved from global to per character.  offline display will honor that characters setting but you can only change the settings for the current character.
+ - fixed - multiple issues with the bank slot right click menu
+ - added - account bank tab cleanup options to right click menu
+ - added - for the bank location the active destination for right click item moves from teh bag is now highlighted so its easier to see where things will end up
 
 # 3.10.33 Alpha 33 (05-AUG-2024)
  - fixed - issue with bag registration code.  bank bag 7 was getting registered in clients before wrath instead of clients after wrath
