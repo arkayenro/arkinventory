@@ -1,4 +1,11 @@
-﻿# 3.10.33 Alpha 34 (06-AUG-2024)
+﻿# 3.10.33 Alpha 35 (07-AUG-2024)
+ - changed - (classic) toc updated to 11503
+ - fixed - issue with some Enums (BagSlotFlags in this case) not existing or having different values across different clients
+ - changed - searching no longer hides the mismatched items and will now use the item context fading
+ - fixed - issue with vault when you had no access to any of the tabs
+ - fixed (beta) - issue with tooltip surfaceargs error
+ 
+# 3.10.33 Alpha 34 (06-AUG-2024)
  - fixed - offline mode display
  - changed - bank panel options moved from global to per character.  offline display will honor that characters setting but you can only change the settings for the current character.
  - fixed - multiple issues with the bank slot right click menu
