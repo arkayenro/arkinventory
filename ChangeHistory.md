@@ -1,10 +1,14 @@
-﻿# 3.10.33 Alpha 37 (08-AUG-2024)
+﻿# 3.10.33 Alpha 38 (10-AUG-2024)
+ - fixed - issue with item context fading not updating when you close the bank/vault
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1966
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1964 - issue with some rep items not being found via search
+
+# 3.10.33 Alpha 37 (08-AUG-2024)
  - fixed - issue with locked items not getting faded
  - fixed - bag changer code cleaned up
  - fixed - location scanning code cleaned up
  - fixed - the stack part of restack should now work at the bank.  the rest is still a work in progress
  - fixed - https://github.com/arkayenro/arkinventory/issues/1961 - the switch character menu was not displaying the "other" realms option when you had characters on two realms
- - fixed - issue with item context fading not updating when you close the bank/vault
  - fixed - issue with outfit rule (when using the equipment manager, when items are in the bank i think)
 
 # 3.10.33 Alpha 36 (07-AUG-2024)
