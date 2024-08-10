@@ -1,4 +1,10 @@
-﻿# 3.10.33 Alpha 38 (10-AUG-2024)
+﻿# 3.10.33 Alpha 39 (11-AUG-2024)
+ - removed - preclick and menu debug outbput
+ - fixed - (i think) restack at the bank
+ - changed - the account bank tabs have been excluded from restack for the moment
+ - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/1970 - binding state could revert to bind on equip
+
+# 3.10.33 Alpha 38 (10-AUG-2024)
  - fixed - issue with item context fading not updating when you close the bank/vault
  - fixed - https://github.com/arkayenro/arkinventory/issues/1966
  - fixed - https://github.com/arkayenro/arkinventory/issues/1964 - issue with some rep items not being found via search
