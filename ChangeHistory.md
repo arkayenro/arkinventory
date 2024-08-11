@@ -1,4 +1,4 @@
-﻿# 3.10.34 (12-AUG-2024)
+﻿# 3.11.00 (12-AUG-2024)
  - fixed - when changing the bank panel layout it should remain on the active bag/tab
  - fixed - when opening the bank it should remember which bag/tab you previously had open (current session only)
  - fixed - (i think) restack at the bank
