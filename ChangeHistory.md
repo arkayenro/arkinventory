@@ -1,8 +1,12 @@
-﻿# 3.10.33 Alpha 39 (11-AUG-2024)
- - removed - preclick and menu debug outbput
+﻿# 3.10.33 Alpha 40 (11-AUG-2024)
+ - fixed - when changing the bank panel layout it should remain on the active bag/tab
+ - fixed - when opening the bank it should remember which bag/tab you previously had open (current session only)
+
+# 3.10.33 Alpha 39 (11-AUG-2024)
+ - removed - preclick and menu debug output
  - fixed - (i think) restack at the bank
  - changed - the account bank tabs have been excluded from restack for the moment
- - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/1970 - binding state could revert to bind on equip
+ - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/1970 - binding state could not be scanned properly and would default to bind on equip
 
 # 3.10.33 Alpha 38 (10-AUG-2024)
  - fixed - issue with item context fading not updating when you close the bank/vault
