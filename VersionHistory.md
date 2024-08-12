@@ -1,4 +1,117 @@
-﻿# 3.10.33 (07-JUN-2024)
+﻿# 3.11.00 (12-AUG-2024)
+ - fixed - when changing the bank panel layout it should remain on the active bag/tab
+ - fixed - when opening the bank it should remember which bag/tab you previously had open (current session only)
+ - fixed - (i think) restack at the bank
+ - changed - the account bank tabs have been excluded from restack for the moment
+ - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/1970 - binding state could not be scanned properly and would default to bind on equip
+ - fixed - issue with item context fading not updating when you close the bank/vault
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1966
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1964 - issue with some rep items not being found via search
+ - fixed - issue with locked items not getting faded
+ - fixed - bag changer code cleaned up
+ - fixed - location scanning code cleaned up
+ - fixed - the stack part of restack should now work at the bank.  the rest is still a work in progress
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1961 - the switch character menu was not displaying the "other" realms option when you had characters on two realms
+ - fixed - issue with outfit rule (when using the equipment manager, when items are in the bank i think)
+ - changed - (classic) toc updated to 11503
+ - fixed - issue with some Enums (BagSlotFlags in this case) not existing or having different values across different clients
+ - changed - searching no longer hides the mismatched items and will now use the item context fading
+ - fixed - issue with vault when you had no access to any of the tabs
+ - fixed - (beta) issue with tooltip surfaceargs error
+ - fixed - offline mode display
+ - changed - bank panel options moved from global to per character.  offline display will honor that characters setting but you can only change the settings for the current character.
+ - fixed - multiple issues with the bank slot right click menu
+ - added - account bank tab cleanup options to right click menu
+ - added - for the bank location the active destination for right click item moves from teh bag is now highlighted so its easier to see where things will end up
+ - fixed - issue with bag registration code.  bank bag 7 was getting registered in clients before wrath instead of clients after wrath
+ - fixed - issue with item context fading when the bank or vault is not controlled
+ - added - bank location right click bag slot menu - include tradable reagents deposit option
+ - fixed - issue with panel layout in older clients where parts of the bank dont exist
+ - fixed - issue with Enum.BagIndex values being incorrect for the bank bags in older clients due to the reagent bag geting added in shadowlands (the values appear to be the same across all clients, and not client specific)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1958 - issue with vault update event code
+ - fixed - item counts for account locations will now include the location name
+ - restored - right click bag slot menu - display, isolate, display all.  these will now work automatically within the panels
+ - added - bank location right click bag slot menu - panel combination options to alter the way the different banks are displayed
+ - disabled - context fading when at the guild bank as there seems to be a bug in the blizzard code and everything gets faded
+ - fixed - all bags have had their display status reset to true
+ - changed - vault changed to use the generic changer and build code
+ - changed - the bank window will now only show bank bags when first opened. click on the bag changer slots to show items from the reagent/account bank
+ - fixed - item context fading for bag items when you have the account or reagent bank open
+ - fixed - issue with some empty slot border colours not getting applied
+ - fixed - guild bank edit mode
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1941 - issue with ensemble tooltips and a possible delay to the data being returned
+ - added - right clicking on a bag slot in the changer window at the bank will have a new option to isolate (only show) the bags that belong to the current panel (bank/reagent bank/account bank)
+ - note - if you only want to see a specific account bank tab you can use the existing isolate option off the same right click menu
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1946 - scroll bar anchor points adjusted to properly fit the container window
+ - added - support for account wide currencies
+ - added - support for account wide reputation
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1939 - issue with trash( ) / junk( ) rule function
+ - added - category: system > equipment (warbound until equipped)
+ - fixed - issue with item counts not being properly reset when moving items in and out of the reagent bank and reagent bag
+ - fixed - issue with ItemCacheClear code
+ - fixed - issue with ItemCacheClear and GetObjectInfo code looping through each other
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1937 - issue with right clicking on the reagent bank or an account bank slot in the changer window
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1936 - issue with paint all code
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1936 - issue with edit mode bar dragging
+ - fixed - issue with bag changer code
+ - fixed - issue with data erase code
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1931 - C_Spell.IsCurrentSpell replaces IsCurrentSpell
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1935 - potential issue with bag highlight code
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1936 - issue with mapping and storage code impacting rules (and other things)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1925 - issue with mailbox scanning
+ - fixed - issue with action code
+ - fixed - error output code
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1927 - issue with some tooltip generation
+ - fixed - API changed from GetMouseFocus to GetMouseFoci
+ - fixed - caged battlepets and pet tooltips displaying while scanning
+ - fixed - bank window not opening when interacting with warband bank convergence
+ - fixed - warbank being in use should now show the locked tooltip and not prompt you to buy the next slot
+ - fixed - (maybe) https://github.com/arkayenro/arkinventory/issues/1920 - issue with codex generation
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1917 - issue with displaying data from other characters
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1917 - issue with switch character menu
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1916 - issue with profile import
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1910 - issue with mailbox scanning
+ - fixed - item counts for recipes will now show correctly, not the count for the item they create
+ - removed - vault changer action button
+ - changed - the actions from the vault changer action button have been moved to a right click menu off the vault changer bag icons to be consistent with the other locations
+ - fixed - account bank and vault tab name and icon assignment
+ - fixed - issue with GetItemQualityColor being deprecated
+ - changed - the status bar will only display gold amounts in the the bag, vault, and bank windows, all other windows will no longer display a gold amount.
+ - added - warbank deposit and withdraw access is via the action button in the status bar
+ - changed - guild bank deposit and withdraw access is via the action button in the status bar
+ - changed - empty slot icon/background config option
+ - changed - (war within) the dragonriding/normal mount preference config option has been removed and is now determined by the skyriding/steady flight aura you have enabled at the time
+ - fixed - (cata) on the very first login after game launch there is keyring bag update even though it no longer exists.  this is now ignored instead of generating an error.
+ - fixed - (i think) https://github.com/arkayenro/arkinventory/issues/1910 - issue with API functions
+ - fixed - transmog events had the wrong expansion assigned to them so were trying to load in earlier clients
+ - fixed - issue with switch character menu showing other realm menu when you only have characters on a single realm
+ - added - timerunner identifier icon next to character names (will need to login to each timerunning character to update its status)
+ - changed - (war within) C_Spell.IsSpellUsable( ) replaces IsUsableSpell( )
+ - added - (war within) account bank access - account bank gold is not supported yet
+ - changed - (retail) toc updated to 110002
+ - changed - bag changer slots will now only show the first purchasable slot instead of all of them.  no config option to disable this yet.
+ - added - https://github.com/arkayenro/arkinventory/issues/1901 - handle multiple ids when manually adding items to a custom category
+ - fixed - (retail) API change from C_Item.GetItemIcon to C_Item.GetItemIconByID
+ - fixed - issue with item data retrieval where under specific circumstances if it couldnt find the item it would loop forever instead of tagging it as dead
+ - fixed - issue with right click delete action ignoring all action config options
+ - fixed - issue with scrap action (it was seeing other players spell casts and trying to update too soon)
+ - changed - when not at a merchant deleting an item will now require a shift+right click for safety purposes
+ - changed - items used for pet/mount parts will now revert to their original category once you have learnt that pet/mount
+ - added - (timerunning) config > general > tooltips > transmog - adds state information for sets/items to the tooltip
+ - fixed - issue with mount cross reference data not getting loaded
+ - updated - cross reference data for mount and pet updated to 10.2.7
+ - added - (timerunning) LDB object for bronze tracking (uses the item count config options)
+ - fixed - issues with some of the action code
+ - fixed - (war within) mount icons
+ - added - (war within) basic compatibility (there may be issues, lodge a ticket if you run into one)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1899 - issue with junk icon not getting displayed when using the scrap addon
+
+ - note - all saved bag data has been erased. please login to each character to update its data
+ - note - all saved bank data has been erased. please login to each character to update its data
+ - note - all saved reputation data has been erased. please login to each character to update its data
+ - note - all saved reputation data has been erased. please login to each character to update its data
+
+# 3.10.33 (07-JUN-2024)
  - fixed - (cataclysm) issue with warning output
  - fixed - issue with secure hook code
  - fixed - https://github.com/arkayenro/arkinventory/issues/1894 - vendor/delete actions now exclude refundable items
