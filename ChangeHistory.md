@@ -1,9 +1,15 @@
-﻿# 3.11.00 Alpha 2 (13-AUG-2024)
- - fixed - https://github.com/arkayenro/arkinventory/issues/1976 - search match fading when offline or with tinted uynusable/unwearable was too difficult to see the difference, have reverted to hiding the items that do not match instead
+﻿# 3.11.00 Alpha 4 (xx-AUG-2024)
+
+# 3.11.00 Alpha 3 (14-AUG-2024)
+ - fixed - restack should now work properly but may still have some issues
  - fixed - https://github.com/arkayenro/arkinventory/issues/1975 - default bank ui wasnt staying in sync on bank re-opens which altered the destination for right click item moves
+ 
+# 3.11.00 Alpha 2 (13-AUG-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1976 - search match fading when offline or with tinted unusable/unwearable was too difficult to see the difference, have reverted to hiding the items that do not match instead
 
 # 3.11.00 Alpha 1 (12-AUG-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/1974 - issue erasing data for locations that arent supported, eg currency in this case
+
 
 # known issues
  - account bank tabs are currently excluded from restack
