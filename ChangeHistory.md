@@ -1,4 +1,8 @@
-﻿# 3.11.00 Alpha 4 (xx-AUG-2024)
+﻿# 3.11.00 Alpha 4 (14-AUG-2024)
+ - fixed - added extra checks to handle the Scrap/SellJunk/ReagentRestocker/Peddler addons not loading properly
+ - added - guild bank should now re-open on the last tab you had open
+ - fixed - issue with SurfaceArgs and TooltipInfo differences across game clients
+ - fixed - the panel options from the right click menu should now only display if the game client has those locations
 
 # 3.11.00 Alpha 3 (14-AUG-2024)
  - fixed - restack should now work properly but may still have some issues
