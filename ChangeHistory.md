@@ -1,4 +1,11 @@
-﻿# 3.11.00 Alpha 4 (14-AUG-2024)
+﻿# 3.11.00 Alpha 5 (19-AUG-2024)
+ - fixed - issue with item stack size for some multi-unique items (eg some protoform synthesis items) not being reported correctly by blizzard.  this impacted restacking the account bank as it tried to create a stack with more items than you were allowed to have
+ - fixed - restack will no longer try to move any sized stack of a unique item into an empty slot
+ - changed - restack menu options moved to config
+ - changed - restack will now only run aginst bags within the same panel
+ - fixed - issues with vault restack
+ 
+# 3.11.00 Alpha 4 (14-AUG-2024)
  - fixed - added extra checks to handle the Scrap/SellJunk/ReagentRestocker/Peddler addons not loading properly
  - added - guild bank should now re-open on the last tab you had open
  - fixed - issue with SurfaceArgs and TooltipInfo differences across game clients
