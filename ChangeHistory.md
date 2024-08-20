@@ -1,4 +1,11 @@
-﻿# 3.11.00 Alpha 5 (19-AUG-2024)
+﻿# 3.11.00 Alpha 6 (20-AUG-2024)
+ - fixed - issue when clicking on the close button of the bank window would stop the main (escape) menu from displaying.  if you used escape to close the window it would be fine
+ - fixed - dream warden rep tokens should now link to the correct reputation
+ - fixed - account wide reputations should now show in reputation window
+ - fixed - account wide reputations should now show in tooltip item counts
+ - fixed - issue with reputation level text
+ 
+# 3.11.00 Alpha 5 (19-AUG-2024)
  - fixed - issue with item stack size for some multi-unique items (eg some protoform synthesis items) not being reported correctly by blizzard.  this impacted restacking the account bank as it tried to create a stack with more items than you were allowed to have
  - fixed - restack will no longer try to move any sized stack of a unique item into an empty slot
  - changed - restack menu options moved to config
