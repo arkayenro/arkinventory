@@ -1,9 +1,22 @@
-﻿# 3.11.00 Alpha 6 (20-AUG-2024)
- - fixed - issue when clicking on the close button of the bank window would stop the main (escape) menu from displaying.  if you used escape to close the window it would be fine
+﻿# 3.11.00 Alpha 8 (26-AUG-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1988 - issue with auction house scanning (i think)
+ - added - https://github.com/arkayenro/arkinventory/issues/1994 - keybinding for reputation
+ - updated - categories for some items
+
+# 3.11.00 Alpha 7 (23-AUG-2024)
+ - fixed - (regression) codex is nil error with cleanup code
+ - fixed - you can move (right click) multiple items from your bags to the accountbank without some of them just swapping positions
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1990 - issue with reputations that are also headers
+ - fixed - when using the warbank distance inhibitor the non account bank tabs should now be properly locked out
+ - fixed - issue with skyriding/steady flight check code due to new users not having either buff active (default is skyriding when neither buff is active)
+ - fixed - flying mount summon in khaz algar
+ 
+# 3.11.00 Alpha 6 (20-AUG-2024)
+ - fixed - (regression) issue when clicking on the close button of the bank window would stop the main (escape) menu from displaying.  if you used escape to close the window it would be fine
  - fixed - dream warden rep tokens should now link to the correct reputation
- - fixed - account wide reputations should now show in reputation window
+ - fixed - account wide reputations should now show in the reputation window
  - fixed - account wide reputations should now show in tooltip item counts
- - fixed - issue with reputation level text
+ - fixed - issue generating the reputation level text
  
 # 3.11.00 Alpha 5 (19-AUG-2024)
  - fixed - issue with item stack size for some multi-unique items (eg some protoform synthesis items) not being reported correctly by blizzard.  this impacted restacking the account bank as it tried to create a stack with more items than you were allowed to have
