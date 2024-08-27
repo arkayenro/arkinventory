@@ -1,4 +1,33 @@
-﻿# 3.11.00 (12-AUG-2024)
+﻿# 3.11.01 (27-AUG-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1988 - issue with auction house scanning (i think)
+ - added - https://github.com/arkayenro/arkinventory/issues/1994 - keybinding for reputation
+ - updated - categories for some items
+ - fixed - (regression) codex is nil error with cleanup code
+ - fixed - you can move (right click) multiple items from your bags to the accountbank without some of them just swapping positions
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1990 - issue with reputations that are also headers
+ - fixed - when using the warbank distance inhibitor the non account bank tabs should now be properly locked out
+ - fixed - issue with skyriding/steady flight check code due to new users not having either buff active (default is skyriding when neither buff is active)
+ - fixed - flying mount summon in khaz algar without pathfinder achievement
+ - fixed - (regression) issue when clicking on the close button of the bank window would stop the main (escape) menu from displaying.  if you used escape to close the window it would be fine
+ - fixed - dream warden rep tokens should now link to the correct reputation
+ - fixed - account wide reputations should now show in the reputation window
+ - fixed - account wide reputations should now show in tooltip item counts
+ - fixed - issue generating the reputation level text
+ - fixed - issue with item stack size for some multi-unique items (eg some protoform synthesis items) not being reported correctly by blizzard.  this impacted restacking the account bank as it tried to create a stack with more items than you were allowed to have
+ - fixed - restack will no longer try to move any sized stack of a unique item into an empty slot
+ - changed - restack menu options moved to config
+ - changed - restack will now only run aginst bags within the same panel
+ - fixed - issues with vault restack
+ - fixed - added extra checks to handle the Scrap/SellJunk/ReagentRestocker/Peddler addons not loading properly
+ - added - guild bank should now re-open on the last tab you had open
+ - fixed - issue with SurfaceArgs and TooltipInfo differences across game clients
+ - fixed - the panel options from the right click menu should now only display if the game client has those locations
+ - fixed - restack should now work properly but may still have some issues
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1975 - default bank ui wasnt staying in sync on bank re-opens which altered the destination for right click item moves
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1976 - search match fading when offline or with tinted unusable/unwearable was too difficult to see the difference, have reverted to hiding the items that do not match instead
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1974 - issue erasing data for locations that arent supported, eg currency in this case
+
+# 3.11.00 (12-AUG-2024)
  - fixed - when changing the bank panel layout it should remain on the active bag/tab
  - fixed - when opening the bank it should remember which bag/tab you previously had open (current session only)
  - fixed - (i think) restack at the bank
