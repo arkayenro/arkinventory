@@ -1,5 +1,8 @@
-﻿# 3.11.01 Alpha 2 (xx-AUG-2024)
+﻿# 3.11.01 Alpha 2 (30-AUG-2024)
  - changed - https://github.com/arkayenro/arkinventory/issues/1918 - restack - profession bags will now search for both crafting and reagent items
+ - added - flying mount config mode option to set which flight mode (all/steady/dynamic) a mount can be used with
+ - changed - flying mount selection is now based on the steady/dynamic aura you have active (if you dont have an aura the default is dynamic)
+ - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/1996 - ieeuse with auction house scanning in classic
  
 # 3.11.01 Alpha 1 (xx-xxx-xxxx)
  - never existed
