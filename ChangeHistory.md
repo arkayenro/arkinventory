@@ -1,17 +1,18 @@
-﻿# 3.11.01 Alpha 2 (30-AUG-2024)
+﻿# 3.11.02 Alpha 3 (02-AUG-2024)
+ - fixed - issue with flying mount summon code
+ - added - search bar will accept the expansion name (note - blizzard arent exactly accurate with what expansion an item belongs to)
+
+# 3.11.01 Alpha 2 (30-AUG-2024)
  - changed - https://github.com/arkayenro/arkinventory/issues/1918 - restack - profession bags will now search for both crafting and reagent items
  - added - flying mount config mode option to set which flight mode (all/steady/dynamic) a mount can be used with
  - changed - flying mount selection is now based on the steady/dynamic aura you have active (if you dont have an aura the default is dynamic)
- - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/1996 - ieeuse with auction house scanning in classic
+ - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/1996 - issue with auction house scanning in classic
  
 # 3.11.01 Alpha 1 (xx-xxx-xxxx)
  - never existed
 
 
 # known issues
- - account bank tabs are currently excluded from restack
- - interacting with the account bank convergence leaves the normal bank and reagent bank slots visible but not usable
- 
  - some default frames (vendor/merchant at minimum) that would normally open via the PlayerInteractionFrameManager no longer open if you are in combat, you just get an addon error.  there is currently no workaround.
  - (dragonflight) reagentbank slots are no longer readable unless the bank is open
  - Enum.ItemConsumableSubclass is missing the Flask entry and everything after has moved down a value which screws up the category names (have hardcoded a workaround for the moment)
