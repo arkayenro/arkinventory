@@ -1,5 +1,9 @@
-﻿# 3.11.02 Alpha 3 (02-AUG-2024)
- - fixed - issue with flying mount summon code
+﻿# 3.11.01 Alpha 4 (07-AUG-2024)
+ - fixed - (classic / season of discovery) itemrack and runes
+ - fixed - projectiles should now get restacked into quivers/ammo pouches
+
+# 3.11.01 Alpha 3 (02-AUG-2024)
+ - fixed - issue with (steady) flying mount summon code
  - added - search bar will accept the expansion name (note - blizzard arent exactly accurate with what expansion an item belongs to)
 
 # 3.11.01 Alpha 2 (30-AUG-2024)
