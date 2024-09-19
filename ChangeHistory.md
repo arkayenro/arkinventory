@@ -1,4 +1,11 @@
-﻿# 3.11.01 Alpha 4 (07-AUG-2024)
+﻿# 3.11.01 Alpha 6 (19-AUG-2024)
+ - fixed - (classic) issue with restacking
+ - updated - category for some items
+
+# 3.11.01 Alpha 5 (08-AUG-2024)
+ - fixed - issue with mount config options
+
+# 3.11.01 Alpha 4 (07-AUG-2024)
  - fixed - (classic / season of discovery) itemrack and runes
  - fixed - projectiles should now get restacked into quivers/ammo pouches
 
