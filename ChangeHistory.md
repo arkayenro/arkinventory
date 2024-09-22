@@ -1,4 +1,7 @@
-﻿# 3.11.01 Alpha 8 (22-AUG-2024)
+﻿# 3.11.01 Alpha 9 (23-AUG-2024)
+ - fixed - (classic) issue with missing blizzard enum.banktype table
+
+# 3.11.01 Alpha 8 (22-AUG-2024)
  - fixed - (regression) removed debug output
  - fixed - (regression) issue with accountbank cleanup
 
