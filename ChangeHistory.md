@@ -1,4 +1,13 @@
-﻿# 3.11.01 Alpha 6 (19-AUG-2024)
+﻿# 3.11.01 Alpha 8 (22-AUG-2024)
+ - fixed - (regression) removed debug output
+ - fixed - (regression) issue with accountbank cleanup
+
+# 3.11.01 Alpha 7 (22-AUG-2024)
+ - workaround - (classic sod) https://github.com/arkayenro/arkinventory/issues/2019 - blizzard bug in engraving API when item is in the main bank (the other bank bags are fine)
+ - fixed - issue with bank cleanup code
+ - fixed - issue with bank restack and deposit reagents option
+
+# 3.11.01 Alpha 6 (19-AUG-2024)
  - fixed - (classic) issue with restacking
  - updated - category for some items
 
