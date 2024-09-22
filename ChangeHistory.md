@@ -1,12 +1,15 @@
-﻿# 3.11.01 Alpha 9 (23-AUG-2024)
- - fixed - (classic) issue with missing blizzard enum.banktype table
+﻿# 3.11.01 Alpha 10 (23-AUG-2024)
+ - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/2021 - issue with restack ignoring reagent bag for consolidate step
+ 
+# 3.11.01 Alpha 9 (23-AUG-2024)
+ - fixed - (classic) https://github.com/arkayenro/arkinventory/issues/2020 - issue with missing blizzard enum.banktype table
 
 # 3.11.01 Alpha 8 (22-AUG-2024)
  - fixed - (regression) removed debug output
  - fixed - (regression) issue with accountbank cleanup
 
 # 3.11.01 Alpha 7 (22-AUG-2024)
- - workaround - (classic sod) https://github.com/arkayenro/arkinventory/issues/2019 - blizzard bug in engraving API when item is in the main bank (the other bank bags are fine)
+ - workaround - (classic sod) https://github.com/arkayenro/arkinventory/issues/2019 - blizzard bug in c_engraving API when item is in the main bank (the other bank bags are fine)
  - fixed - issue with bank cleanup code
  - fixed - issue with bank restack and deposit reagents option
 
