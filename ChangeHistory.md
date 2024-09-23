@@ -1,4 +1,6 @@
-﻿# 3.11.01 Alpha 10 (23-AUG-2024)
+﻿# 3.11.01 Alpha 11 (xx-AUG-2024)
+
+# 3.11.01 Alpha 10 (23-AUG-2024)
  - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/2021 - issue with restack ignoring reagent bag for consolidate step
  
 # 3.11.01 Alpha 9 (23-AUG-2024)
