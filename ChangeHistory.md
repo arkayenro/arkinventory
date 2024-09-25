@@ -1,43 +1,22 @@
-﻿# 3.11.01 Alpha 11 (xx-AUG-2024)
-
-# 3.11.01 Alpha 10 (23-AUG-2024)
+﻿# 3.11.02 (25-AUG-2024)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2022 - issue with items that can stack but have a higher unique value
  - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/2021 - issue with restack ignoring reagent bag for consolidate step
- 
-# 3.11.01 Alpha 9 (23-AUG-2024)
  - fixed - (classic) https://github.com/arkayenro/arkinventory/issues/2020 - issue with missing blizzard enum.banktype table
-
-# 3.11.01 Alpha 8 (22-AUG-2024)
- - fixed - (regression) removed debug output
  - fixed - (regression) issue with accountbank cleanup
-
-# 3.11.01 Alpha 7 (22-AUG-2024)
  - workaround - (classic sod) https://github.com/arkayenro/arkinventory/issues/2019 - blizzard bug in c_engraving API when item is in the main bank (the other bank bags are fine)
  - fixed - issue with bank cleanup code
  - fixed - issue with bank restack and deposit reagents option
-
-# 3.11.01 Alpha 6 (19-AUG-2024)
  - fixed - (classic) issue with restacking
  - updated - category for some items
-
-# 3.11.01 Alpha 5 (08-AUG-2024)
  - fixed - issue with mount config options
-
-# 3.11.01 Alpha 4 (07-AUG-2024)
  - fixed - (classic / season of discovery) itemrack and runes
  - fixed - projectiles should now get restacked into quivers/ammo pouches
-
-# 3.11.01 Alpha 3 (02-AUG-2024)
  - fixed - issue with (steady) flying mount summon code
  - added - search bar will accept the expansion name (note - blizzard arent exactly accurate with what expansion an item belongs to)
-
-# 3.11.01 Alpha 2 (30-AUG-2024)
  - changed - https://github.com/arkayenro/arkinventory/issues/1918 - restack - profession bags will now search for both crafting and reagent items
  - added - flying mount config mode option to set which flight mode (all/steady/dynamic) a mount can be used with
  - changed - flying mount selection is now based on the steady/dynamic aura you have active (if you dont have an aura the default is dynamic)
  - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/1996 - issue with auction house scanning in classic
- 
-# 3.11.01 Alpha 1 (xx-xxx-xxxx)
- - never existed
 
 
 # known issues
