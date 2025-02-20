@@ -1,4 +1,17 @@
-﻿# 3.11.02 (25-AUG-2024)
+﻿# 3.11.04 (20-FEB-2025)
+ - updated - toc (retail) updated to 11.0.7
+ - updated - toc (cataclysm) updated to 4.4.2
+ - updated - toc (classic) updated to 1.15.6
+ - updated - mount and pet data
+
+# 3.11.03 (26-OCT-2024)
+ - updated - toc (retail) updated to 11.0.5
+ - fixed - issue with restack consolidate
+ - workaround - https://github.com/arkayenro/arkinventory/issues/1864 - itemrack
+ - added - item menu option in edit mode to ignore an item for all restack purposes
+ - updated - category for some items
+
+# 3.11.02 (25-AUG-2024)
  - fixed - https://github.com/arkayenro/arkinventory/issues/2022 - issue with items that can stack but have a higher unique value
  - fixed - (regression) https://github.com/arkayenro/arkinventory/issues/2021 - issue with restack ignoring reagent bag for consolidate step
  - fixed - (classic) https://github.com/arkayenro/arkinventory/issues/2020 - issue with missing blizzard enum.banktype table
