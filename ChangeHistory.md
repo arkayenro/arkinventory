@@ -1,9 +1,8 @@
-﻿# 3.11.04 (20-FEB-2025)
- - updated - toc (retail) updated to 11.0.7
- - updated - toc (cataclysm) updated to 4.4.2
- - updated - toc (classic) updated to 1.15.6
- - updated - mount and pet data
- 
+﻿# 3.11.06 (03-MAY-2025)
+ - fixed - (classic) https://github.com/arkayenro/arkinventory/issues/2053 - issue with tooltips and C_Item.GetItemLearnTransmogSet
+ - updated - toc (retail) updated to 11.1.5
+ - updated - category for some items
+
 
 # known issues
  - some default frames (vendor/merchant at minimum) that would normally open via the PlayerInteractionFrameManager no longer open if you are in combat, you just get an addon error.  there is currently no workaround.
