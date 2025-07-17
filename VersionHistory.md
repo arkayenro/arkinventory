@@ -1,19 +1,29 @@
-﻿# 3.11.06 (03-MAY-2025)
+﻿# 3.11.07 (17-JUL-2025)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2052 - issue with battlepet rarity colour in output text
+ - fixed - issue with reputation renown level text
+ - updated - packager - can now handle pandaria toc files/values
+ - updated - category for some items
+ - updated - (retail) toc updated to 11.1.7
+ - added - (pandaria) toc file for 5.5.0
+ - removed - (pandaria) locations - void storage, mount equipment
+ - removed - (pandaria) events - PLAYER_TRADE_CURRENCY, LFG_BONUS_FACTION_ID_UPDATED, VOID_STORAGE_OPEN, VOID_STORAGE_CLOSE
+
+# 3.11.06 (03-MAY-2025)
  - fixed - (classic) https://github.com/arkayenro/arkinventory/issues/2053 - issue with tooltips and C_Item.GetItemLearnTransmogSet
- - updated - toc (retail) updated to 11.1.5
+ - updated - (retail) toc updated to 11.1.5
  - updated - category for some items
 
 # 3.11.05 (09-MAR-2025)
- - updated - toc (retail) updated to 11.1.0
- - updated - toc (cataclysm) updated to 4.4.2
- - updated - toc (classic) updated to 1.15.6
+ - updated - (retail) toc updated to 11.1.0
+ - updated - (cataclysm) toc updated to 4.4.2
+ - updated - (classic) toc updated to 1.15.6
  - updated - mount and pet data
 
 # 3.11.04 (20-FEB-2025)
  - no longer available (packager issues)
 
 # 3.11.03 (26-OCT-2024)
- - updated - toc (retail) updated to 11.0.5
+ - updated - (retail) toc updated to 11.0.5
  - fixed - issue with restack consolidate
  - workaround - https://github.com/arkayenro/arkinventory/issues/1864 - itemrack
  - added - item menu option in edit mode to ignore an item for all restack purposes
@@ -223,7 +233,7 @@
  - fixed - https://github.com/arkayenro/arkinventory/issues/1880 - issue with CONTAINER_SLOTS in most non english languages using a conditional format, as well as being reversed, which breaks the matching and the value capture
  - changed - (cataclysm) enabled mounts location
  - changed - (cataclysm) enabled toys location
- - added - cataclysm toc files 40400
+ - updated - (cataclysm) toc updated to 40400
  - added - ability to disable the text for each bag type in the status bar - config > design > window > style > status > empty slot
  - added - ability to disable the text for each bag type in the ldb object text - right click > ldb > display
 

@@ -1,7 +1,12 @@
-﻿# 3.11.06 (03-MAY-2025)
- - fixed - (classic) https://github.com/arkayenro/arkinventory/issues/2053 - issue with tooltips and C_Item.GetItemLearnTransmogSet
- - updated - toc (retail) updated to 11.1.5
+﻿# 3.11.07 (17-JUL-2025)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/2052 - issue with battlepet rarity colour in output text
+ - fixed - issue with reputation renown level text
+ - updated - packager - can now handle pandaria toc files/values
  - updated - category for some items
+ - updated - (retail) toc updated to 11.1.7
+ - added - (pandaria) toc file for 5.5.0
+ - removed - (pandaria) locations - void storage, mount equipment
+ - removed - (pandaria) events - PLAYER_TRADE_CURRENCY, LFG_BONUS_FACTION_ID_UPDATED, VOID_STORAGE_OPEN, VOID_STORAGE_CLOSE
 
 
 # known issues
