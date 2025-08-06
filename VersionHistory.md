@@ -1,4 +1,26 @@
-﻿# 3.11.07 (17-JUL-2025)
+﻿# 3.12.01 (06-AUG-2025)
+ - fixed - issue with ARKINV_TemplateCurrencyTracking xml OnLoad and OnEnter scripts
+ - fixed - issue with restack and it trying to move soulbound items into the account bank
+ - fixed - issue with scrollbar not resetting to the top when swapping between panels
+ - fixed - issue with 3rd level of the bar menu system not generating properly
+ - fixed - issue with timerunning menu option displaying when it shouldnt
+ - fixed - tab name, icon, and filter settings should now work properly
+ - changed - power system (type) categories changed to be dynamic based off the current expansion.  anything not from the current expansion will end up in the power system (old) category
+ - updated - category for some items
+ - updated - mount data to 11.1.7
+ - updated - pet data to 11.1.7
+ - updated - unuseable and unwearable item tinting options moved to their own tab in the config. added ignore options for item level and already known
+ - updated - some lolcalisations based off game constants
+ - updated - (retail) toc updated to 11.2.0
+ - added - (11.2) option to split the bank tabs up into their own panels, the same way as the warbank can be split up if needed.  the isolate/display options will remain but only work when the bank is combined into a single panel
+ - added - (classic) - workaround for the current invalid hyperlink format blizzard has set
+ - removed - (11.2) locations - reagent bank (internal), void storage
+ - removed - (11.2) events - PLAYERBANKBAGSLOTS_CHANGED, REAGENTBANK_PURCHASED, REAGENTBANK_UPDATE, PLAYERREAGENTBANKSLOTS_CHANGED
+ - note - (11.2) all saved bank data has been erased. please login to each character to update its data
+ - note - (11.2) all saved keyring data has been erased. please login to each character to update its data
+ - note - (11.2) all saved warbank data has been erased. please login to any character to update its data
+
+# 3.11.07 (17-JUL-2025)
  - fixed - https://github.com/arkayenro/arkinventory/issues/2052 - issue with battlepet rarity colour in output text
  - fixed - issue with reputation renown level text
  - updated - packager - can now handle pandaria toc files/values
