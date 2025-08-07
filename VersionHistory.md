@@ -16,9 +16,6 @@
  - added - (classic) - workaround for the current invalid hyperlink format blizzard has set
  - removed - (11.2) locations - reagent bank (internal), void storage
  - removed - (11.2) events - PLAYERBANKBAGSLOTS_CHANGED, REAGENTBANK_PURCHASED, REAGENTBANK_UPDATE, PLAYERREAGENTBANKSLOTS_CHANGED
- - note - (11.2) all saved bank data has been erased. please login to each character to update its data
- - note - (11.2) all saved keyring data has been erased. please login to each character to update its data
- - note - (11.2) all saved warbank data has been erased. please login to any character to update its data
 
 # 3.11.07 (17-JUL-2025)
  - fixed - https://github.com/arkayenro/arkinventory/issues/2052 - issue with battlepet rarity colour in output text

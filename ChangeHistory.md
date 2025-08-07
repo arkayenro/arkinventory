@@ -1,4 +1,12 @@
-﻿# 3.12.01 Alpha 2 (xx-AUG-2025)
+﻿# 3.12.01 Alpha 3 (07-AUG-2025)
+ - fixed - potential issue with bonusid handling from malformed hyperlinks
+ - fixed - (retail) issue with outfit rule function when using equipment manager
+
+# 3.12.01 Alpha 2 (07-AUG-2025)
+ - fixed - (retail) issue with warbank bag mapping - needs saved data to be removed
+ - note - (retail) all saved keyring data has been erased. please login to each character to update its data
+ - note - (retail) all saved bank data has been erased. please login to each character to update its data
+ - note - (retail) all saved warbank data has been erased. please login to any character to update its data
 
 # 3.12.01 Alpha 1 (06-AUG-2025)
  - fixed - tab name and icon should now update immediately after changing it
