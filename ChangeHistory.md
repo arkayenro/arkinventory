@@ -1,4 +1,8 @@
-﻿# 3.12.01 Alpha 3 (07-AUG-2025)
+﻿# 3.12.01 Alpha 4 (08-AUG-2025)
+ - fixed - (retail) issue with bank tabs opening as bags when AI does not override the bank
+ - fixed - (retail) issue with right clicking an item to move it to the account bank.  it should no longer end up in the normal bank if the selected tab is full, it should get moved to one of the other tabs (if they have space)
+
+# 3.12.01 Alpha 3 (07-AUG-2025)
  - fixed - potential issue with bonusid handling from malformed hyperlinks
  - fixed - (retail) issue with outfit rule function when using equipment manager
 
