@@ -1,4 +1,19 @@
-﻿# 3.12.01 (06-AUG-2025)
+﻿# 3.12.02 (10-AUG-2025)
+ - changed - xml broken up to remove errors in the non retail clients
+ - fixed - (retail) issue with right clicking an item to move it to the character or account bank.  it should no longer end up in the normal bank, or try to wear it.  if the selected tab is full it should get moved to one of the other tabs (if any of those have space).  the normal error messages should also come back.
+ - fixed - (retail) issue with bank tabs opening as bags when AI does not override the bank
+ - fixed - potential issue with bonusid handling from malformed hyperlinks
+ - fixed - (retail) issue with outfit rule function when using equipment manager
+ - fixed - (retail) issue with warbank bag mappings - needs saved data to be removed
+ - fixed - tab name and icon should now update in the changer window immediately after changing it
+ - fixed - (non retail clients) issue with items in bank (bag 0) slots not being able to generate tooltips
+ - fixed - (retail) issue with AccountBankPanel no longer existing
+
+ - note - (retail) all saved keyring data has been erased. please login to each character to update its data
+ - note - (retail) all saved bank data has been erased. please login to each character to update its data
+ - note - (retail) all saved warbank data has been erased. please login to any character to update its data
+
+# 3.12.01 (06-AUG-2025)
  - fixed - issue with ARKINV_TemplateCurrencyTracking xml OnLoad and OnEnter scripts
  - fixed - issue with restack and it trying to move soulbound items into the account bank
  - fixed - issue with scrollbar not resetting to the top when swapping between panels

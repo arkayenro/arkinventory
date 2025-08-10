@@ -1,27 +1,19 @@
-﻿# 3.12.01 Alpha 5 (09-AUG-2025)
+﻿# 3.12.02 (10-AUG-2025)
  - changed - xml broken up to remove errors in the non retail clients
- - fixed - (retail) issue with right clicking an item to move it to the character or account bank.  it should no longer end up in the normal bank, or try to wear it.  if the selected tab is full it should get moved to one of the other tabs (if any of those  have space).  the normal error messages should also come back.
-
-# 3.12.01 Alpha 4 (08-AUG-2025)
+ - fixed - (retail) issue with right clicking an item to move it to the character or account bank.  it should no longer end up in the normal bank, or try to wear it.  if the selected tab is full it should get moved to one of the other tabs (if any of those have space).  the normal error messages should also come back.
  - fixed - (retail) issue with bank tabs opening as bags when AI does not override the bank
-
-# 3.12.01 Alpha 3 (07-AUG-2025)
  - fixed - potential issue with bonusid handling from malformed hyperlinks
  - fixed - (retail) issue with outfit rule function when using equipment manager
+ - fixed - (retail) issue with warbank bag mappings - needs saved data to be removed
+ - fixed - tab name and icon should now update in the changer window immediately after changing it
+ - fixed - (non retail clients) issue with items in bank (bag 0) slots not being able to generate tooltips
+ - fixed - (retail) issue with AccountBankPanel no longer existing
 
-# 3.12.01 Alpha 2 (07-AUG-2025)
- - fixed - (retail) issue with warbank bag mapping - needs saved data to be removed
  - note - (retail) all saved keyring data has been erased. please login to each character to update its data
  - note - (retail) all saved bank data has been erased. please login to each character to update its data
  - note - (retail) all saved warbank data has been erased. please login to any character to update its data
 
-# 3.12.01 Alpha 1 (06-AUG-2025)
- - fixed - tab name and icon should now update immediately after changing it
- - fixed - (non retail clients) issue with items in bank slots not being able to generate tooltips
- - fixed - (retail) issue with AccountBankPanel no longer existing
-
 # known issues post 11.2
- - right clicking on a bag item in your bags will fail to move it to a character or account bank tab (internal bag error)
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
 
 # known issues
