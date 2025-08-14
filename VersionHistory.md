@@ -1,4 +1,10 @@
-﻿# 3.12.02 (10-AUG-2025)
+﻿# 3.12.03 (14-AUG-2025)
+ - added - config > profiles > bank > general > Reselect tabs - can remember which tab was last selected and will re-select it when the window is re-opened.  can be set to never, per session, or always.
+ - fixed - issues with drag-n-drop onto changer slots as well as moving items into the banks
+ - fixed - cleaned up the periodictable calls to ensure the item is valid.  if its not then its output to the debug window.
+ - fixed - (regression) issue with dropping bags on bagslots
+
+# 3.12.02 (10-AUG-2025)
  - changed - xml broken up to remove errors in the non retail clients
  - fixed - (retail) issue with right clicking an item to move it to the character or account bank.  it should no longer end up in the normal bank, or try to wear it.  if the selected tab is full it should get moved to one of the other tabs (if any of those have space).  the normal error messages should also come back.
  - fixed - (retail) issue with bank tabs opening as bags when AI does not override the bank

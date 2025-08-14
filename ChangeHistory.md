@@ -1,4 +1,6 @@
-﻿# 3.12.02 Alpha 1 (11-AUG-2025)
+﻿# 3.12.03 (14-AUG-2025)
+ - added - config > profiles > bank > general > Reselect tabs - can remember which tab was last selected and will re-select it when the window is re-opened.  can be set to never, per session, or always.
+ - fixed - issues with drag-n-drop onto changer slots as well as moving items into the banks
  - fixed - cleaned up the periodictable calls to ensure the item is valid.  if its not then its output to the debug window.
  - fixed - (regression) issue with dropping bags on bagslots
 
@@ -10,7 +12,7 @@
  - items with an active cooldown dont allow comparison tooltips to generate
  - cooldowns no longer start automatically.  you can close/open the bag to get them to show (if you enable that option).  all of the cooldown events ACTIONBAR_UPDATE_COOLDOWN, BAG_UPDATE_COOLDOWN, PET_BAR_UPDATE_COOLDOWN, SPELL_UPDATE_COOLDOWN, appear to trigger off other players as well, but do not provide any indication whether the event was triggered by you or them, so cooldowns will trigger window refreshes fairly constantly when you are around large numbers of players.  even limiting it to one update per second generated too much lag, especially in massive groups.
  - caged pets in the guild bank show up as caged pets, not the pet itself
-  - the first time you click on a hyperlink in chat it wont show the item counts
+ - the first time you click on a hyperlink in chat it wont show the item counts
 
 
 # to do
