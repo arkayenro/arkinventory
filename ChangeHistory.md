@@ -1,9 +1,7 @@
-﻿# 3.12.03 (14-AUG-2025)
- - added - config > profiles > bank > general > Reselect tabs - can remember which tab was last selected and will re-select it when the window is re-opened.  can be set to never, per session, or always.
- - fixed - issues with drag-n-drop onto changer slots as well as moving items into the banks
- - fixed - cleaned up the periodictable calls to ensure the item is valid.  if its not then its output to the debug window.
- - fixed - (regression) issue with dropping bags on bagslots
-
+﻿# 3.12.03 Alpha 1 (17-AUG-2025)
+ - deleted - all void storage data now that its no longer in game
+ - workaround - bug in bankpanel causing usecontaineritem to access banktype after the bank was closed generating an addon blocked error
+ 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
 
