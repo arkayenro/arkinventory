@@ -1,4 +1,11 @@
-﻿# 3.12.03 (14-AUG-2025)
+﻿# 3.12.04 (08-OCT-2025)
+ - fixed - (non retail) regression issue when dropping an item onto the bank bag
+ - fixed - (timerunning) issue with display code for timerunning characters
+ - updated - debug menu line for data ready with more information, eg retry count and dead state
+ - deleted - all void storage data now that its no longer in game
+ - workaround - bug in bankpanel causing usecontaineritem to access banktype after the bank was closed generating an addon blocked error
+
+# 3.12.03 (14-AUG-2025)
  - added - config > profiles > bank > general > Reselect tabs - can remember which tab was last selected and will re-select it when the window is re-opened.  can be set to never, per session, or always.
  - fixed - issues with drag-n-drop onto changer slots as well as moving items into the banks
  - fixed - cleaned up the periodictable calls to ensure the item is valid.  if its not then its output to the debug window.

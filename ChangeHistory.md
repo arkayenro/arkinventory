@@ -1,4 +1,7 @@
-﻿# 3.12.03 Alpha 1 (17-AUG-2025)
+﻿# 3.12.04 (08-OCT-2025)
+ - fixed - (non retail) regression issue when dropping an item onto the bank bag
+ - fixed - (timerunning) issue with display code for timerunning characters
+ - updated - debug menu line for data ready with more information, eg retry count and dead state
  - deleted - all void storage data now that its no longer in game
  - workaround - bug in bankpanel causing usecontaineritem to access banktype after the bank was closed generating an addon blocked error
  
