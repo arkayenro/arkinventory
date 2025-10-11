@@ -1,9 +1,9 @@
-﻿# 3.12.04 (08-OCT-2025)
- - fixed - (non retail) regression issue when dropping an item onto the bank bag
- - fixed - (timerunning) issue with display code for timerunning characters
- - updated - debug menu line for data ready with more information, eg retry count and dead state
- - deleted - all void storage data now that its no longer in game
- - workaround - bug in bankpanel causing usecontaineritem to access banktype after the bank was closed generating an addon blocked error
+﻿# 3.12.04 Alpha 1 (12-OCT-2025)
+ - updated - (retail) toc updated to 11.2.5
+ - updated - (pandaria) toc updated to 5.5.1
+ - updated - category for some items
+ - fixed - timerunning scrolls and openable categories should now be visible again
+ - added - rule function - `scrapable( )` - only works for items in your own bag
  
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
