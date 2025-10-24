@@ -1,9 +1,8 @@
-﻿# 3.12.04 Alpha 2 (19-OCT-2025)
- - updated - category for some items
-
-# 3.12.04 Alpha 1 (12-OCT-2025)
+﻿# 3.12.05 (24-OCT-2025)
+ - updated - (classic) toc updated to 1.15.8
  - updated - (retail) toc updated to 11.2.5
  - updated - (pandaria) toc updated to 5.5.1
+ - updated - category for some items
  - fixed - timerunning scrolls and openable categories should now be visible again
  - added - rule function - `scrapable( )` - only works for items in your own bag
  
