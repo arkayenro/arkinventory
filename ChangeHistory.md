@@ -1,10 +1,15 @@
-﻿# 3.12.05 (24-OCT-2025)
- - updated - (classic) toc updated to 1.15.8
- - updated - (retail) toc updated to 11.2.5
- - updated - (pandaria) toc updated to 5.5.1
+﻿# 3.12.05 Alpha 3 (18-NOV-2025)
+- removed - the ability to purchase character bank tabs as it is a protected function
+- removed - the ability to summon a toy from the toybox location as it is a protected function
+- removed - the ability to use a key from the keyring location as it is a protected function
+
+# 3.12.05 Alpha 2 (12-NOV-2025)
+ - added - basic support for the midnight beta
+ - removed - the ability to purchase account bank tabs as it is a protected function
+
+# 3.12.05 Alpha 1 (03-NOV-2025)
+ - fixed - issue with scrapable rule and empty slots (i think)
  - updated - category for some items
- - fixed - timerunning scrolls and openable categories should now be visible again
- - added - rule function - `scrapable( )` - only works for items in your own bag
  
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
