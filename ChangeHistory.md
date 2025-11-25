@@ -1,7 +1,12 @@
-﻿# 3.12.05 Alpha 3 (18-NOV-2025)
-- removed - the ability to purchase character bank tabs as it is a protected function
-- removed - the ability to summon a toy from the toybox location as it is a protected function
-- removed - the ability to use a key from the keyring location as it is a protected function
+﻿# 3.12.05 Alpha 4 (25-NOV-2025)
+ - updated - (midnight) toc updated to also include 12.0.0
+ - updated - (pandaria) toc updated to 5.5.2
+ - updated - category for some items
+
+# 3.12.05 Alpha 3 (18-NOV-2025)
+ - removed - the ability to purchase character bank tabs as it is a protected function
+ - removed - the ability to summon a toy from the toybox location as it is a protected function
+ - removed - the ability to use a key from the keyring location as it is a protected function
 
 # 3.12.05 Alpha 2 (12-NOV-2025)
  - added - basic support for the midnight beta
