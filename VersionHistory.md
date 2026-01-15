@@ -1,4 +1,18 @@
-﻿# 3.12.05 (24-OCT-2025)
+﻿# 3.12.06 (16-JAN-2026)
+ - added - basic support for the midnight beta
+ - added - category: system > housing
+ - updated - (midnight) toc updated to 12.0.1
+ - updated - (pandaria) toc updated to 5.5.3
+ - updated - (tbc) toc file added for 2.5.5
+ - updated - category for some items
+ - updated - packager code to handle multiple interface versions in a toc file
+ - removed - the ability to purchase character bank tabs as it is a protected function
+ - removed - the ability to summon a toy from the toybox location as it is a protected function
+ - removed - the ability to use a key from the keyring location as it is a protected function
+ - removed - the ability to purchase account bank tabs as it is a protected function
+ - fixed - issue with scrapable rule and empty slots (i think)
+
+# 3.12.05 (24-OCT-2025)
  - updated - (classic) toc updated to 1.15.8
  - updated - (retail) toc updated to 11.2.5
  - updated - (pandaria) toc updated to 5.5.1
