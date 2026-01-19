@@ -1,4 +1,12 @@
-﻿# 3.12.06 Alpha 1 (18-JAN-2026)
+﻿# 3.12.06 Alpha 2 (20-JAN-2026)
+ - fixed - config - general - auto open/close - hide options for unavailable locations
+ - fixed - config - general - restack - hide options for reagent bag in bcc
+ - fixed - config - general - tooltip - hide options for battlepet in bcc
+ - fixed - config - general - hide options for transmog in bcc
+ - fixed - (bcc) issue with transmog data showing on item tooltips
+ - fixed - issue with how the current expansion number was calculated, specifically for people that have not yet purchased the latest expansion
+ 
+# 3.12.06 Alpha 1 (18-JAN-2026)
  - updated - (bcc) enabled 7th bank slot
  
 # known issues post 11.2
