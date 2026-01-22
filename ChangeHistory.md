@@ -1,4 +1,8 @@
-﻿# 3.12.07 Alpha 1 (21-JAN-2026)
+﻿# 3.12.07 Alpha 2 (22-JAN-2026)
+ - fixed - issue with transmog data in tooltips
+ - fixed - issue with tooltips when the unit is "secret"
+ 
+# 3.12.07 Alpha 1 (21-JAN-2026)
  - fixed - issue with dewdrop library and item comparison tooltips
  - fixed - handle C_TransmogCollection.GetAppearanceSourceInfo returning a table of parameters instead of individual parameters
  
