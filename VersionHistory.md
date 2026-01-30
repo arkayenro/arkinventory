@@ -1,4 +1,11 @@
-﻿# 3.12.07 (21-JAN-2026)
+﻿# 3.12.08 (30-JAN-2026)
+ - fixed - issue with how transmog data was being displayed in tooltips
+ - fixed - issue with tooltips when the unit is a secret value
+ - fixed - issue with dewdrop library and item comparison tooltips
+ - fixed - handle C_TransmogCollection.GetAppearanceSourceInfo returning a table of parameters instead of individual parameters
+ - added - (midnight) workaround for money frames leaving behind secret values on tooltips.  replacing them with text instead
+
+# 3.12.07 (21-JAN-2026)
  - fixed - config - general - auto open/close - hide options for unavailable locations
  - fixed - config - general - restack - hide options for reagent bag in bcc
  - fixed - config - general - tooltip - hide options for battlepet in bcc

@@ -1,10 +1,9 @@
-﻿# 3.12.07 Alpha 2 (22-JAN-2026)
- - fixed - issue with transmog data in tooltips
- - fixed - issue with tooltips when the unit is "secret"
- 
-# 3.12.07 Alpha 1 (21-JAN-2026)
+﻿# 3.12.08 (30-JAN-2026)
+ - fixed - issue with how transmog data was being displayed in tooltips
+ - fixed - issue with tooltips when the unit is a secret value
  - fixed - issue with dewdrop library and item comparison tooltips
  - fixed - handle C_TransmogCollection.GetAppearanceSourceInfo returning a table of parameters instead of individual parameters
+ - added - (midnight) workaround for money frames leaving behind secret values on tooltips.  replacing them with text instead
  
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
