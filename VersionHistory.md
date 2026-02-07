@@ -3,7 +3,7 @@
  - fixed - issue with tooltips when the unit is a secret value
  - fixed - issue with dewdrop library and item comparison tooltips
  - fixed - handle C_TransmogCollection.GetAppearanceSourceInfo returning a table of parameters instead of individual parameters
- - added - (midnight) workaround for money frames leaving behind secret values on tooltips.  replacing them with text instead
+ - added - (midnight) workaround for money frames leaving behind secret values on tooltips.  replacing them with text instead.  note - this will auto disable with 12.0.1 as it appears to be working there
 
 # 3.12.07 (21-JAN-2026)
  - fixed - config - general - auto open/close - hide options for unavailable locations

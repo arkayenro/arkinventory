@@ -1,10 +1,9 @@
-﻿# 3.12.08 (30-JAN-2026)
- - fixed - issue with how transmog data was being displayed in tooltips
- - fixed - issue with tooltips when the unit is a secret value
- - fixed - issue with dewdrop library and item comparison tooltips
- - fixed - handle C_TransmogCollection.GetAppearanceSourceInfo returning a table of parameters instead of individual parameters
- - added - (midnight) workaround for money frames leaving behind secret values on tooltips.  replacing them with text instead
- 
+﻿# 3.12.08 Alpha 1 (08-FEB-2026)
+ - fixed - issue with cvar changes made in the game options (eg colorblind mode) not being recognised until after a reload
+ - changed - "use travel form" text in mount config/menu options replaced with "use class ability"
+ - added - evoker soar can now be used as a mount (outdoors only) by slecting "use class ability" in the mount config
+ - changed - if you have "use class ability" selected and the spell is unknown, or on cooldown, it will revert to using a mount
+
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
 
