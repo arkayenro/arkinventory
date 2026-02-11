@@ -1,5 +1,9 @@
-﻿# 3.12.08 Alpha 3 (10-FEB-2026)
- - fixed - issues with the scan and rule tooltips under certain circumstances generating normal tooltips instead of just using the tooltpinfo data triggering errors on load and battlepet tooltips to appear when you had a cacged battlepet in your bags
+﻿# 3.12.08 Alpha 4 (11-FEB-2026)
+ - updated - (retail) toc updated to 12.0.1
+ - tooltip code cleanup
+ 
+# 3.12.08 Alpha 3 (10-FEB-2026)
+ - fixed - issues with the scan and rule tooltips generating normal tooltips (which would trigger errors when the right conditions were met) instead of just using the available TooltipInfo data
  
 # 3.12.08 Alpha 2 (08-FEB-2026)
  - fixed - issues with class ability mount code for druids and evokers
