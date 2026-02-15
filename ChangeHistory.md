@@ -1,19 +1,12 @@
-﻿# 3.12.08 Alpha 4 (11-FEB-2026)
- - updated - (retail) toc updated to 12.0.1
- - tooltip code cleanup
- 
-# 3.12.08 Alpha 3 (10-FEB-2026)
+﻿# 3.12.09 (15-FEB-2026)
  - fixed - issues with the scan and rule tooltips generating normal tooltips (which would trigger errors when the right conditions were met) instead of just using the available TooltipInfo data
- 
-# 3.12.08 Alpha 2 (08-FEB-2026)
  - fixed - issues with class ability mount code for druids and evokers
  - fixed - issue with issecretvalue() only existing in retail
- 
-# 3.12.08 Alpha 1 (08-FEB-2026)
  - fixed - issue with cvar changes made in the game options (eg colorblind mode) not being recognised until after a reload
  - changed - "use travel form" text in mount config/menu options replaced with "use class ability"
  - added - evoker soar can now be used as a mount (outdoors only) by slecting "use class ability" in the mount config
  - changed - if you have "use class ability" selected and the spell is unknown, or on cooldown, it will revert to using a standard mount
+ - updated - (retail) toc updated to 12.0.1
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
