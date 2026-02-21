@@ -1,4 +1,4 @@
-﻿# 3.12.09 Alpha 1 (xx-FEB-2026)
+﻿# 3.12.09 Alpha 1 (23-FEB-2026)
  - fixed - issue accessing the bank in offline mode after using the warbank distance inhibitor where it would not display the character bank, only the account bank
  - fixed - issue with some factions showing as paragon instead of renown
  - fixed - issue with ldb reputation tracking menu tooltip displaying the encoded hyperlink instead of the faction info
