@@ -1,12 +1,8 @@
-﻿# 3.12.09 (15-FEB-2026)
- - fixed - issues with the scan and rule tooltips generating normal tooltips (which would trigger errors when the right conditions were met) instead of just using the available TooltipInfo data
- - fixed - issues with class ability mount code for druids and evokers
- - fixed - issue with issecretvalue() only existing in retail
- - fixed - issue with cvar changes made in the game options (eg colorblind mode) not being recognised until after a reload
- - changed - "use travel form" text in mount config/menu options replaced with "use class ability"
- - added - evoker soar can now be used as a mount (outdoors only) by slecting "use class ability" in the mount config
- - changed - if you have "use class ability" selected and the spell is unknown, or on cooldown, it will revert to using a standard mount
- - updated - (retail) toc updated to 12.0.1
+﻿# 3.12.09 Alpha 1 (xx-FEB-2026)
+ - fixed - issue accessing the bank in offline mode after using the warbank distance inhibitor where it would not display the character bank, only the account bank
+ - fixed - issue with some factions showing as paragon instead of renown
+ - fixed - issue with ldb reputation tracking menu tooltip displaying the encoded hyperlink instead of the faction info
+ - changed - when a location is locked its bags will no longer be scanned to preserve the saved data.  if you backup the savedvariables file, before its unlocked and you access that location again, you should have a list of all items that were in there before in the event blizard loses them.
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
