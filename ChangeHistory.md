@@ -1,4 +1,8 @@
-﻿# 3.12.09 Alpha 1 (23-FEB-2026)
+﻿# 3.12.09 Alpha 2 (24-FEB-2026)
+ - fixed - issue generating repuatation standing text
+ - fixed - issue with backpack (bag 0) data getting incorrectly erased when the bag location is not set to saved and you hearth/portal
+
+# 3.12.09 Alpha 1 (23-FEB-2026)
  - fixed - issue accessing the bank in offline mode after using the warbank distance inhibitor where it would not display the character bank, only the account bank
  - fixed - issue with some factions showing as paragon instead of renown
  - fixed - issue with ldb reputation tracking menu tooltip displaying the encoded hyperlink instead of the faction info
