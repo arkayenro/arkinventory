@@ -1,4 +1,8 @@
-﻿# 3.12.09 Alpha 2 (24-FEB-2026)
+﻿# 3.12.09 Alpha 3 (27-FEB-2026)
+ - fixed - issue with paragon standing text
+ - updated - category for some items
+
+# 3.12.09 Alpha 2 (24-FEB-2026)
  - fixed - issue generating repuatation standing text
  - fixed - issue with backpack (bag 0) data getting incorrectly erased when the bag location is not set to saved and you hearth/portal
 
