@@ -1,4 +1,9 @@
-﻿# 3.12.09 Alpha 3 (27-FEB-2026)
+﻿# 3.12.09 Alpha 4 (02-MAR-2026)
+ - fixed - issue with bankuisync causing the tab purchase popup to appear if you havent purchased any bank tabs/bags
+ - fixed - issue with current expansion level value
+ - updated - category for some items
+
+# 3.12.09 Alpha 3 (27-FEB-2026)
  - fixed - issue with paragon standing text
  - updated - category for some items
 
