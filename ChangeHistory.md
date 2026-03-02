@@ -1,4 +1,8 @@
-﻿# 3.12.09 Alpha 4 (02-MAR-2026)
+﻿# 3.12.09 Alpha 5 (02-MAR-2026)
+ - fixed - issue with item rack outfit function
+ - fixed - (regression) current expansion level value triggering errors on initial game load
+
+# 3.12.09 Alpha 4 (01-MAR-2026)
  - fixed - issue with bankuisync causing the tab purchase popup to appear if you havent purchased any bank tabs/bags
  - fixed - issue with current expansion level value
  - updated - category for some items
