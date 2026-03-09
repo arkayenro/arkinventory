@@ -1,4 +1,19 @@
-﻿# 3.12.09 (15-FEB-2026)
+﻿# 3.12.10 (09-MAR-2026)
+ - fixed - issue with profession quality icons for midnight reagents
+ - changed - default profession quality icon size from 30 to 20 due to new icons
+ - fixed - issue with item rack outfit function
+ - fixed - issue with bankuisync causing the tab purchase popup to appear if you havent purchased any bank tabs/bags
+ - fixed - issue with current expansion level value
+ - fixed - issue generating repuatation standing text
+ - fixed - issue with paragon standing text
+ - fixed - issue with backpack (bag 0) data getting incorrectly erased when the bag location is not set to saved and you hearth/portal
+ - fixed - issue accessing the bank in offline mode after using the warbank distance inhibitor where it would not display the character bank, only the account bank
+ - fixed - issue with some factions showing as paragon instead of renown
+ - fixed - issue with ldb reputation tracking menu tooltip displaying the encoded hyperlink instead of the faction info
+ - changed - when a location is locked its bags will no longer be scanned to preserve the saved data.  if you backup the savedvariables file, before its unlocked and you access that location again, you should have a list of all items that were in there before in the event blizard loses them.
+ - updated - category for some items
+
+# 3.12.09 (15-FEB-2026)
  - fixed - issues with the scan and rule tooltips generating normal tooltips (which would trigger errors when the right conditions were met) instead of just using the available TooltipInfo data
  - fixed - issues with class ability mount code for druids and evokers
  - fixed - issue with issecretvalue() only existing in retail

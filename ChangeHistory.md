@@ -1,28 +1,17 @@
-﻿# 3.12.09 Alpha 6 (03-MAR-2026)
-- fixed - (regression) issue with bankuisync not swapping between banks
-
-# 3.12.09 Alpha 5 (02-MAR-2026)
+﻿# 3.12.10 (09-MAR-2026)
+ - fixed - issue with profession quality icons for midnight reagents
+ - changed - default profession quality icon size from 30 to 20 due to new icons
  - fixed - issue with item rack outfit function
- - fixed - (regression) current expansion level value triggering errors on initial game load
-
-# 3.12.09 Alpha 4 (02-MAR-2026)
  - fixed - issue with bankuisync causing the tab purchase popup to appear if you havent purchased any bank tabs/bags
  - fixed - issue with current expansion level value
- - updated - category for some items
-
-# 3.12.09 Alpha 3 (27-FEB-2026)
- - fixed - issue with paragon standing text
- - updated - category for some items
-
-# 3.12.09 Alpha 2 (24-FEB-2026)
  - fixed - issue generating repuatation standing text
+ - fixed - issue with paragon standing text
  - fixed - issue with backpack (bag 0) data getting incorrectly erased when the bag location is not set to saved and you hearth/portal
-
-# 3.12.09 Alpha 1 (23-FEB-2026)
  - fixed - issue accessing the bank in offline mode after using the warbank distance inhibitor where it would not display the character bank, only the account bank
  - fixed - issue with some factions showing as paragon instead of renown
  - fixed - issue with ldb reputation tracking menu tooltip displaying the encoded hyperlink instead of the faction info
  - changed - when a location is locked its bags will no longer be scanned to preserve the saved data.  if you backup the savedvariables file, before its unlocked and you access that location again, you should have a list of all items that were in there before in the event blizard loses them.
+ - updated - category for some items
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
