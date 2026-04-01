@@ -1,4 +1,9 @@
-﻿# 3.12.10 (09-MAR-2026)
+﻿# 3.12.11 (01-APR-2026)
+ - fixed - issue with profession quality icons for crafting items
+ - fixed - issue with tooltip settext and secret values
+ - updated - category for some items
+
+# 3.12.10 (09-MAR-2026)
  - fixed - issue with profession quality icons for midnight reagents
  - changed - default profession quality icon size from 30 to 20 due to new icons
  - fixed - issue with item rack outfit function

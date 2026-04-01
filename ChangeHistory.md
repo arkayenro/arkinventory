@@ -1,6 +1,7 @@
-﻿# 3.12.10 Alpha 1 (11-MAR-2026)
- - fixed - issue with profession quality icons for creafting items
- - fixed - (potentially) issue with tooltip settext function and secret values
+﻿# 3.12.11 (01-APR-2026)
+ - fixed - issue with profession quality icons for crafting items
+ - fixed - issue with tooltip settext and secret values
+ - updated - category for some items
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
