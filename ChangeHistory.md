@@ -1,6 +1,6 @@
-﻿# 3.12.11 (01-APR-2026)
- - fixed - issue with profession quality icons for crafting items
- - fixed - issue with tooltip settext and secret values
+﻿# 3.12.11 Alpha 1 (19-APR-2026)
+ - fixed - issue with replacing bags when it requires accepting a bind prompt
+ - updated - (retail) toc to 12.0.5
  - updated - category for some items
 
 # known issues post 11.2
