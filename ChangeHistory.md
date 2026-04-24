@@ -1,7 +1,5 @@
-﻿# 3.12.12 (22-APR-2026)
- - fixed - issue with replacing bags when it requires accepting a bind prompt
- - updated - (retail) toc to 12.0.5
- - updated - category for some items
+﻿# 3.12.12 Alpha 1 (24-APR-2026)
+ - https://github.com/arkayenro/arkinventory/issues/2147 - issue with tooltip:GetUnit accessing secure values
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
