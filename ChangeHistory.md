@@ -1,5 +1,10 @@
-﻿# 3.12.16 Alpha 3 (22-AUG-2026)
- - workaround - (retail) issue with guild bank using IsVisible instead of IsShown
+﻿# 3.12.16 Alpha 4 (26-SEP-2026)
+ - changed - currency tracking - if a cap is reached the text will now be shown in red
+ - fixed - (classic) season/hardcore/forever is now included in the version text
+ - fixed - (classic) issue with forever using the retail api
+
+# 3.12.16 Alpha 3 (22-AUG-2026)
+ - workaround - (retail) issue with guild bank function using IsVisible instead of IsShown
  - updated - category for some items
 
 # 3.12.16 Alpha 2 (17-AUG-2026)
