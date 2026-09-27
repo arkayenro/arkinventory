@@ -1,6 +1,9 @@
-﻿# 3.12.16 Alpha 5 (27-SEP-2026)
- - added - (classic) toc file for 1.60.00
- - added - support for classic forever
+﻿# 3.12.16 Alpha 6 (27-SEP-2026)
+ - fixed - (forever) the bank location should now work properly
+
+# 3.12.16 Alpha 5 (27-SEP-2026)
+ - added - (forever) toc file for 1.60.00
+ - added - (forever) basic support
 
 # 3.12.16 Alpha 4 (26-SEP-2026)
  - changed - currency tracking - if a cap is reached the text will now be shown in red
