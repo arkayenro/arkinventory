@@ -1,4 +1,8 @@
-﻿# 3.12.16 Alpha 4 (26-SEP-2026)
+﻿# 3.12.16 Alpha 5 (27-SEP-2026)
+ - added - (classic) toc file for 1.60.00
+ - added - support for classic forever
+
+# 3.12.16 Alpha 4 (26-SEP-2026)
  - changed - currency tracking - if a cap is reached the text will now be shown in red
  - fixed - (classic) season/hardcore/forever is now included in the version text
  - fixed - (classic) issue with forever using the retail api
