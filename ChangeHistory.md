@@ -1,4 +1,13 @@
-﻿# 3.12.16 Alpha 6 (27-SEP-2026)
+﻿# 3.12.16 Alpha 8 (29-SEP-2026)
+ - updated - packager (supports forever)
+ - fixed - (forever) issues with bank tab purchase (secure action in forever, use same workaround as retail)
+ - fixed - (forever) issue with bank bags also opening as individual bag frames
+
+# 3.12.16 Alpha 7 (28-SEP-2026)
+ - updated - (forever) toc to 1.60.01
+ - fixed - (forever) mailbox issue with GetCoinIcon
+ 
+# 3.12.16 Alpha 6 (27-SEP-2026)
  - fixed - (forever) the bank location should now work properly
 
 # 3.12.16 Alpha 5 (27-SEP-2026)
