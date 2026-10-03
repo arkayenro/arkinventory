@@ -1,7 +1,14 @@
-﻿# 3.12.16 Alpha 8 (29-SEP-2026)
+﻿# 3.12.16 Alpha 9 (03-OCT-2026)
+ - fixed - (forever) issue with characters being unique across firstname+lastname, not name+realm
+ - fixed - (forever) issue with item count information being added to tooltips twice
+ - changed - internal saved data structure using the player guid instead of the name or realm
+ - note - account data has been erased. please login to any character and access the warbank to update its data
+
+# 3.12.16 Alpha 8 (29-SEP-2026)
  - updated - packager (supports forever)
- - fixed - (forever) issues with bank tab purchase (secure action in forever, use same workaround as retail)
- - fixed - (forever) issue with bank bags also opening as individual bag frames
+ - fixed - (forever) issue with bank tab purchase (secure action in forever, use same workaround as retail)
+ - fixed - (forever) issue with the default bank frame not showing large chunks of itself after closing and re-opening
+ - fixed - (forever) issue with default bank bags opening as individual bag frames
 
 # 3.12.16 Alpha 7 (28-SEP-2026)
  - updated - (forever) toc to 1.60.01
