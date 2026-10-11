@@ -1,7 +1,10 @@
-﻿# 3.12.16 Alpha 9 (03-OCT-2026)
+﻿# 3.12.16 Alpha 10 (11-OCT-2026)
+ - added - wrappers for all C_Bank functions due to potential conflict with forever
+
+# 3.12.16 Alpha 9 (03-OCT-2026)
  - fixed - (forever) issue with characters being unique across firstname+lastname, not name+realm
  - fixed - (forever) issue with item count information being added to tooltips twice
- - changed - internal saved data structure using the player guid instead of the name or realm
+ - changed - internal saved data structure is using the player guid instead of the name or realm
  - note - account data has been erased. please login to any character and access the warbank to update its data
 
 # 3.12.16 Alpha 8 (29-SEP-2026)
