@@ -1,4 +1,7 @@
-﻿# 3.12.16 Alpha 10 (11-OCT-2026)
+﻿# 3.12.16 Alpha 11 (12-OCT-2026)
+ - added - wrappers for some older classic bank functions
+
+# 3.12.16 Alpha 10 (11-OCT-2026)
  - added - wrappers for all C_Bank functions due to potential conflict with forever
 
 # 3.12.16 Alpha 9 (03-OCT-2026)
