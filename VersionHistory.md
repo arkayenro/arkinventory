@@ -1,4 +1,18 @@
-﻿# 3.12.16 (13-AUG-2026)
+﻿# 3.12.17 (17-OCT-2026)
+ - updated - (retail) toc to 12.1.5
+ - updated - (forever) toc to 1.60.01
+ - updated - packager (supports forever)
+ - updated - category for some items
+ - added - wrappers for some older classic bank functions
+ - added - wrappers for all C_Bank functions due to potential conflict with forever
+ - fixed - (forever) issue with characters being unique across firstname+lastname, not name+realm
+ - fixed - (forever) issue with item count information being added to tooltips twice
+ - fixed - (forever) mailbox issue with GetCoinIcon
+ - fixed - (classic) issues due to PlayerInteractionFrameManager being disabled/removed
+ - fixed - (classic) season/hardcore/forever is now included in the version text
+ - note - account data has been erased. please login to any character and access the warbank to update its data
+
+# 3.12.16 (13-AUG-2026)
  - updated - (retail) toc to 12.1.0
  - fixed - issues due to PlayerInteractionFrameManager being disabled/removed
 

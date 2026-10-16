@@ -1,46 +1,16 @@
-﻿# 3.12.16 Alpha 11 (12-OCT-2026)
+﻿# 3.12.17 (17-OCT-2026)
+ - updated - (retail) toc to 12.1.5
+ - updated - (forever) toc to 1.60.01
+ - updated - packager (supports forever)
+ - updated - category for some items
  - added - wrappers for some older classic bank functions
-
-# 3.12.16 Alpha 10 (11-OCT-2026)
  - added - wrappers for all C_Bank functions due to potential conflict with forever
-
-# 3.12.16 Alpha 9 (03-OCT-2026)
  - fixed - (forever) issue with characters being unique across firstname+lastname, not name+realm
  - fixed - (forever) issue with item count information being added to tooltips twice
- - changed - internal saved data structure is using the player guid instead of the name or realm
- - note - account data has been erased. please login to any character and access the warbank to update its data
-
-# 3.12.16 Alpha 8 (29-SEP-2026)
- - updated - packager (supports forever)
- - fixed - (forever) issue with bank tab purchase (secure action in forever, use same workaround as retail)
- - fixed - (forever) issue with the default bank frame not showing large chunks of itself after closing and re-opening
- - fixed - (forever) issue with default bank bags opening as individual bag frames
-
-# 3.12.16 Alpha 7 (28-SEP-2026)
- - updated - (forever) toc to 1.60.01
  - fixed - (forever) mailbox issue with GetCoinIcon
- 
-# 3.12.16 Alpha 6 (27-SEP-2026)
- - fixed - (forever) the bank location should now work properly
-
-# 3.12.16 Alpha 5 (27-SEP-2026)
- - added - (forever) toc file for 1.60.00
- - added - (forever) basic support
-
-# 3.12.16 Alpha 4 (26-SEP-2026)
- - changed - currency tracking - if a cap is reached the text will now be shown in red
- - fixed - (classic) season/hardcore/forever is now included in the version text
- - fixed - (classic) issue with forever using the retail api
-
-# 3.12.16 Alpha 3 (22-AUG-2026)
- - workaround - (retail) issue with guild bank function using IsVisible instead of IsShown
- - updated - category for some items
-
-# 3.12.16 Alpha 2 (17-AUG-2026)
- - workaround - guild bank not opening due to PlayerInteractionFrameManager being disabled/removed.  for the moment both the blizzard and arkinventory window will open/close together
-
-# 3.12.16 Alpha 1 (14-AUG-2026)
  - fixed - (classic) issues due to PlayerInteractionFrameManager being disabled/removed
+ - fixed - (classic) season/hardcore/forever is now included in the version text
+ - note - account data has been erased. please login to any character and access the warbank to update its data
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
