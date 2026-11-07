@@ -1,16 +1,9 @@
-﻿# 3.12.17 (17-OCT-2026)
- - updated - (retail) toc to 12.1.5
- - updated - (forever) toc to 1.60.01
- - updated - packager (supports forever)
- - updated - category for some items
- - added - wrappers for some older classic bank functions
- - added - wrappers for all C_Bank functions due to potential conflict with forever
- - fixed - (forever) issue with characters being unique across firstname+lastname, not name+realm
- - fixed - (forever) issue with item count information being added to tooltips twice
- - fixed - (forever) mailbox issue with GetCoinIcon
- - fixed - (classic) issues due to PlayerInteractionFrameManager being disabled/removed
- - fixed - (classic) season/hardcore/forever is now included in the version text
- - note - account data has been erased. please login to any character and access the warbank to update its data
+﻿# 3.12.17 Alpha 1 (07-NOV-2026)
+ - fixed - issue with paragon alerts not generating for renown factions
+ - fixed - issue with empty slot border colour config options
+ - fixed - (forever) issue with empty slot border colour when a non-generic reagent type bag is in the reagent bag slot
+ - fixed - (forever) issue with restack when a non-generic reagent type bag is in the reagent bag slot
+ - changed - LDB currency menu options are now coloured differently between only one of text or tooltip (blue), or both (green), so that its easier to see which ones have been partially enabled
 
 # known issues post 11.2
  - without reagent or profession bags in the bank a restack wont transfer new stacks of reageants or profession items - potential workaround will be to look for tabs that have been assigned 'reagents' and treat those the same way the reagent bank was previously
