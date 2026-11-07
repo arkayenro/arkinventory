@@ -1,4 +1,8 @@
-﻿# 3.12.17 Alpha 1 (07-NOV-2026)
+﻿# 3.12.17 Alpha 2 (08-NOV-2026)
+ - fixed - issue with shared media registration when the file does not exist
+ - fixed - (forever) issue with bank moneyframe
+ 
+# 3.12.17 Alpha 1 (07-NOV-2026)
  - fixed - issue with paragon alerts not generating for renown factions
  - fixed - issue with empty slot border colour config options
  - fixed - (forever) issue with empty slot border colour when a non-generic reagent type bag is in the reagent bag slot
