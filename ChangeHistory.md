@@ -1,4 +1,8 @@
-﻿# 3.12.17 Alpha 2 (08-NOV-2026)
+﻿# 3.12.17 Alpha 3 (21-NOV-2026)
+ - fixed - (forever) included guild bank workaround
+ - fixed - (forever) keyring location id
+
+# 3.12.17 Alpha 2 (08-NOV-2026)
  - fixed - issue with shared media registration when the file does not exist
  - fixed - (forever) issue with bank moneyframe
  
