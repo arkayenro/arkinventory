@@ -1,4 +1,10 @@
-﻿# 3.12.17 Alpha 3 (21-NOV-2026)
+﻿# 3.12.17 Alpha 4 (28-NOV-2026)
+ - fixed - (forever) issue with auction scanning
+ - fixed - (forever) game mode now used as realm name
+ - fixed - (forever) issue with initial bank bag
+ - fixed - issue with accounts data not refreshing in config options
+
+# 3.12.17 Alpha 3 (21-NOV-2026)
  - fixed - (forever) included guild bank workaround
  - fixed - (forever) keyring location id
 
